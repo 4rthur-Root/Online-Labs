@@ -1,73 +1,73 @@
 # Part 0 - Welcome
 
-> **Cours :** [DFIR Foundations and Techniques: Professional Skills and Readiness](https://bluecapesecurity.com/courses/dfir-foundations-techniques-readiness/)
-> **Plateforme :** Blue Cape Security
-> **Format :** ~8h de vidéo, gratuit
-> **Certif finale :** Certificate of Completion (8h créditées)
+> **Course:** [DFIR Foundations and Techniques: Professional Skills and Readiness](https://bluecapesecurity.com/courses/dfir-foundations-techniques-readiness/)
+> **Platform:** Blue Cape Security
+> **Format:** ~8 hours of video, free
+> **Final certificate:** Certificate of Completion (8 hours credited)
 
-## Contexte
+## Context
 
-Avant de rentrer dans le vif du sujet (Part 1 et Part 2), le cours pose le cadre : à qui il s'adresse, comment il est structuré, et ce qu'on peut en attendre concrètement.
+Before diving into the core content (Part 1 and Part 2), the course sets the stage by explaining its audience, structure, and practical expectations.
 
-![Vue d'ensemble du cours](screenshots/goal.png)
+![Course overview](screenshots/goal.png)
 
-Le cours est gratuit et se positionne comme une porte d'entrée vers l'écosystème payant de Blue Cape (le "HERO bundle"). Il cible large : étudiants en reconversion, analystes SOC en poste, et même des team leads qui veulent évaluer le niveau de leur équipe.
+The course is free and positioned as an entry point to Blue Cape’s paid ecosystem (the “HERO bundle”). It targets a broad audience: career changers, current SOC analysts, and even team leads who want to assess their team’s skill level.
 
-![Public visé](screenshots/purpose.png)
+![Target audience](screenshots/purpose.png)
 
-## Objectifs annoncés
+## Stated Objectives
 
-Le mot d'accueil du cours résume l'ambition en 4 points :
+The course introduction summarizes its goals in four points:
 
-- Construire une base solide sur les fondamentaux DFIR, les outils, et le paysage des menaces
-- Acquérir de l'expérience pratique sur les techniques de réponse à incident
-- Développer des compétences applicables à des cas réels
-- Évaluer son niveau via une assessment finale de ~70 questions
+- Build a strong foundation in DFIR fundamentals, tools, and the threat landscape
+- Gain practical experience with incident response techniques
+- Develop skills applicable to real-world cases
+- Assess your level with a final exam of approximately 70 questions
 
-![Message de bienvenue](screenshots/welcome.png)
+![Welcome message](screenshots/welcome.png)
 
-## Structure du cours
+## Course Structure
 
-Le cours se découpe en 3 parties :
+The course is divided into three parts:
 
-| Partie | Contenu | Durée |
+| Part | Content | Duration |
 |---|---|---|
-| **Part 1** – Jumpstart Your DFIR Journey | Threat landscape, concepts forensiques, outils essentiels | ~3h |
-| **Part 2** – Elevate Your DFIR Skills | Security Ops, Incident Response, **lab d'investigation complet** | ~5h + démos |
-| **Part 3** – Knowledge Assessment | ~70 questions à choix multiples | à son rythme |
+| **Part 1** – Jumpstart Your DFIR Journey | Threat landscape, forensic concepts, essential tools | ~3h |
+| **Part 2** – Elevate Your DFIR Skills | Security operations, incident response, **complete investigation lab** | ~5h + demos |
+| **Part 3** – Knowledge Assessment | ~70 multiple-choice questions | self-paced |
 
-![Détail Logistics, Labs and Assessment](screenshots/explanation.png)
+![Logistics, Labs and Assessment details](screenshots/explanation.png)
 
-Point clé pour la suite : le lab de la Part 2 repose sur un scénario de compromission réaliste — poste de travail Windows d'un utilisateur nommé **Alice**, avec triage disque, dump mémoire (+ pagefile.sys), et capture réseau (PCAP). Deux options sont proposées : monter son propre système forensique (ce que je ferai) ou payer un accès VM tout prêt (30 jours, $29).
+A key point for the next stage: the Part 2 lab is based on a realistic compromise scenario — a Windows workstation belonging to a user named **Alice**, including disk triage, memory dump (+ pagefile.sys), and network capture (PCAP). Two options are offered: build your own forensic environment (which I will do) or purchase access to a ready-made VM (30 days, $29).
 
-## Avant de commencer
+## Before Starting
 
-Une étape de "check-in" demande de préciser son rôle actuel (étudiant/reconversion, analyste, manager) — probablement pour adapter les contenus futurs du cours ou de la plateforme.
+A “check-in” step asks for your current role (student/career changer, analyst, manager) — likely to adapt the course content or platform recommendations.
 
 ![Quick check-in](screenshots/role.png)
 
-## Assessment finale — domaines couverts
+## Final Assessment — Covered Domains
 
-Pour anticiper ce qui compte vraiment dans ce cours, voici la répartition annoncée des ~70 questions de la Part 3 :
+To anticipate what matters most in this course, here is the announced distribution of the ~70 Part 3 questions:
 
-**Domaines à fort enjeu :**
-- Threat Intelligence et acteurs de la menace
-- Analyse réseau et trafic
-- Event Logs et journaux Windows
-- Outils et techniques forensiques
-- Analyse disque et mémoire
+**High-priority domains:**
+- Threat intelligence and threat actors
+- Network analysis and traffic
+- Event logs and Windows logging
+- Forensic tools and techniques
+- Disk and memory analysis
 
-**Domaines à enjeu plus léger :**
-- Processus de réponse à incident
-- Analyse de timeline
-- Phishing et ingénierie sociale
-- Threat Hunting
-- Sécurité d'entreprise
+**Lower-priority domains:**
+- Incident response process
+- Timeline analysis
+- Phishing and social engineering
+- Threat hunting
+- Enterprise security
 
-![Domaines de l'assessment](screenshots/DFIR-1.png)
+![Assessment domains](screenshots/DFIR-1.png)
 
-Ça donne une bonne boussole pour prioriser mes notes dans les Parts 1 et 2 : je vais accorder plus de profondeur aux domaines "heavy focus" (logs Windows, analyse mémoire/disque, threat intel) plutôt qu'aux domaines plus légers.
+This provides a helpful guide for prioritizing notes in Parts 1 and 2: I will focus more deeply on the high-priority domains (Windows logs, memory/disk analysis, threat intelligence) than on the lighter topics.
 
-## Prochaine étape
+## Next Step
 
 ➡️ [Part 1 - Jumpstart Your DFIR Journey](../Part-1-Jumpstart/)
