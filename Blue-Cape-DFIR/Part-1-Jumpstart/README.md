@@ -4,8 +4,7 @@ This folder contains the notes, reference materials, and visual assets for the f
 
 ## Folder structure
 
-- `Welcome to the first session.txt` - raw session notes from the webinar series
-- `README.md` - high-level summary and guidance for this module
+- `README.md` - summary and guidance for this module
 - `screenshots/` - slides and diagrams referenced throughout the course
 - `Exterro FTK Suite 8.2 - Installation Guide.pdf` - FTK installation reference
 - `Exterro FTK Suite 8.2 - Artifacts Guide.pdf` - FTK artifact extraction reference
@@ -83,25 +82,54 @@ Key points:
 
 ## Key visual assets
 
-This folder contains 36 screenshot files. The list below highlights the primary visuals referenced in this summary, with additional useful diagrams in `screenshots/`.
+This folder contains all screenshots used for Part 1. The list below includes the most relevant diagrams and the broader visual assets that support each major section.
 
-- `screenshots/attack-lifecycle.png` — ransomware and attacker lifecycle overview
-- `screenshots/incident-response-process.png` — incident response workflow and phases
-- `screenshots/forensic-process.png` — layered forensic analysis model
-- `screenshots/data-acquisition-options.png` — evidence collection choices for Windows and VMs
-- `screenshots/NTFS-data-examination.png` — NTFS artifacts and metadata extraction
-- `screenshots/FTK-example.png` — FTK tool demonstration and reporting
-- `screenshots/understand-threat-landscape.png` — threat landscape summary
-- `screenshots/data-breach.png` — data breach cost context
-- `screenshots/attack-infrastructure.png` — example attacker infrastructure
-- `screenshots/attack-post-exploitation.png` — post-exploitation behavior
-- `screenshots/forensic-workstation-goals.png` — forensic lab planning and goals
-- `screenshots/forensics-workstations-ready-vms.png` — ready-made forensic VM options
-- `screenshots/timesketch.png` — timeline analysis and collaboration
-- `screenshots/windows-sources.png` — Windows evidence source mapping
-- `screenshots/streamlined-forensic-analysis-workflow.png` — streamlined DFIR workflow
+### Threat landscape and attacker behavior
+- [attack-lifecycle.png](screenshots/attack-lifecycle.png) - ransomware and attacker lifecycle overview
+- [a-ransomware-lifecycle.png](screenshots/a-ransomware-lifecycle.png) - ransomware lifecycle example
+- [ransomware-attack-lifecycle.png](screenshots/ransomware-attack-lifecycle.png) - attack phases for ransomware cases
+- [attack-infrastructure.png](screenshots/attack-infrastructure.png) - attacker infrastructure example
+- [attack-post-exploitation.png](screenshots/attack-post-exploitation.png) - post-exploitation actions
+- [organized-crime-ransomware.png](screenshots/organized-crime-ransomware.png) - organized cybercrime and ransomware ecosystem
+- [understand-threat-landscape.png](screenshots/understand-threat-landscape.png) - threat landscape summary
+- [data-breach.png](screenshots/data-breach.png) - data breach cost context
+- [understanding-ressources.png](screenshots/understanding-ressources.png) - resources to understand threat context
 
-## Recommended resources
+### Incident response and forensic process
+- [incident-response-process.png](screenshots/incident-response-process.png) - incident response workflow and phases
+- [process-analysis.png](screenshots/process-analysis.png) - process analysis concepts
+- [forensic-process.png](screenshots/forensic-process.png) - layered forensic analysis model
+- [streamlined-forensic-analysis-workflow.png](screenshots/streamlined-forensic-analysis-workflow.png) - streamlined DFIR workflow
+- [streamlined-forensic-analysis-workflow-diagram.png](screenshots/streamlined-forensic-analysis-workflow-diagram.png) - workflow diagram
+- [forensic-resource.png](screenshots/forensic-resource.png) - key forensic resource types
+- [incident-response-personas.png](screenshots/incident-response-personas.png) - incident response roles
+- [dfir-most-challenging-area.png](screenshots/dfir-most-challenging-area.png) - common DFIR challenge areas
+- [entrprise-dfir-domains.png](screenshots/entrprise-dfir-domains.png) - enterprise DFIR domains
+
+### Windows, data sources, and evidence collection
+- [data-acquisition-options.png](screenshots/data-acquisition-options.png) - evidence collection choices for Windows and VMs
+- [data-acquisition-virtual-machines.png](screenshots/data-acquisition-virtual-machines.png) - acquisition options for virtual machines
+- [windows-sources.png](screenshots/windows-sources.png) - Windows evidence source mapping
+- [data-sources.png](screenshots/data-sources.png) - general forensic data sources
+- [hard-drive-data-examination.png](screenshots/hard-drive-data-examination.png) - hard drive data examination
+- [MFT-data-examination.png](screenshots/MFT-data-examination.png) - MFT data examination
+- [NTFS-data-examination.png](screenshots/NTFS-data-examination.png) - NTFS artifacts and metadata extraction
+- [resource-understand-timestamp-windows.png](screenshots/resource-understand-timestamp-windows.png) - Windows timestamp analysis
+- [csv-file-sort.png](screenshots/csv-file-sort.png) - example CSV export and sorting
+
+### Tools and environment
+- [FTK-example.png](screenshots/FTK-example.png) - FTK tool demonstration and reporting
+- [FTK-file-example-informations.png](screenshots/FTK-file-example-informations.png) - FTK file metadata example
+- [autopsy.png](screenshots/autopsy.png) - Autopsy forensic GUI
+- [an-example-of-cape.png](screenshots/an-example-of-cape.png) - CAPE/KAPE artifact collection example
+- [forensic-workstation-goals.png](screenshots/forensic-workstation-goals.png) - forensic lab planning and goals
+- [forensics-workstations-ready-vms.png](screenshots/forensics-workstations-ready-vms.png) - ready-made forensic workstation VMs
+- [free-forensic-tools.png](screenshots/free-forensic-tools.png) - free forensic tool options
+- [hands-on-analysis.png](screenshots/hands-on-analysis.png) - practical DFIR analysis focus
+- [timesketch.png](screenshots/timesketch.png) - timeline analysis and collaboration
+- [session_learn.png](screenshots/session_learn.png) - session learning outcomes
+
+## Key resources
 
 - IBM data breach report: https://www.ibm.com/reports/data-breach
 - NIST Cybersecurity Framework and incident response guidance: https://www.nist.gov/cyberframework
@@ -114,10 +142,4 @@ This folder contains 36 screenshot files. The list below highlights the primary 
 - Velociraptor docs: https://docs.velociraptor.app/
 - NTFS artifact cheat sheet: https://github.com/bluecapesecurity/PWF
 
-## How to use this folder
-
-- Start with `Welcome to the first session.txt` to review the raw notes from the course.
-- Use `screenshots/` to view the slide visuals and reinforce key concepts.
-- Open the provided PDF guides for deeper reference on FTK and NIST process details.
-- Use this `README.md` as the structured summary and learning roadmap for Part 1.
 
