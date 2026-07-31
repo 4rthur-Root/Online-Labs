@@ -1,0 +1,88 @@
+Part 1 is composed of three parts
+=======       Understanding the threat landscape       ========
+
+Welcome to the first session of your DFIR journey!
+In this foundational lesson, we introduce you to the dynamic world of Digital Forensics and Incident Response. You’ll explore the evolving threat landscape, learn about the different types of threat actors, and understand how their tactics—ranging from phishing and compromised credentials to ransomware and lateral movement—shape today’s cybersecurity challenges.
+
+This session sets the stage for a deeper dive into DFIR. If you’re new to the field or looking to refresh your core skills, you’ll leave with a clear understanding of the threats we face and the fundamental processes needed to combat them.
+
+After the introduction he talked us about the threats actors and their motivations in the field and the cost of data breach from IBM report 2024 but you can see the 2026 one here https://www.ibm.com/reports/data-breach, fill the information form and download it which i did not do, cause i didnt want to but you can see an evidence of the 2024 one here .
+continuing the theory , he takled about attack lifecycle and  initial access vecto from the same IBM report .
+After that here comes the real thing , DFIR starting with incident response process from the NIST framework who is a voluntary, flexible set of guidelines published by the U.S. National Institute of Standards and Technology to help organizations manage and reduce cybersecurity risks actually in its 2.0 version https://www.nist.gov/cyberframework (i downloaded the PDF) focusing on forensic process(4 layers) .
+
+Now comes a case study: Ransomware attack
+- Explanation of a organized cybercrime from therecord.media 
+- Lifecycle of the attack
+- an example of infrastructure from cobaltstrike.com/blog/infrastructure-for-ongoing-red-team-operations
+- Post-exploitation (mandiant.com/ressources/blog/defining-cobalt-strike-components)
+
+All these were meant to have an atacker mindset , the way they think and operate .
+
+After that he talked about the skills in DFIR for each level .
+
+=====       Cyber threats and Important Forensic Concepts      =======
+Welcome to Session Two of the Jumpstart Your DFIR Journey webinar series.
+In this session, we move beyond the basics and dive into the technical side of digital forensics and incident response. Building on last week’s introduction to the threat landscape, we explore in depth the specific cyber threats you’ll face, including the tactics used in ransomware attacks, phishing, and business email compromise, and how these threats map to frameworks like the MITRE ATT&CK matrix.
+
+This session is designed to provide you with a more technical understanding of the threat vectors and forensic methods essential for effective DFIR. If you’re looking to strengthen your investigative skills or prepare for real-world incident response, you’ll find practical guidance and actionable insights throughout this lesson.
+
+We started discussing about cyber threats and their mapping to the MITRE ATT&CK framework with an example of a ransomware.
+
+We moved on to forensic and reviewing the "forensic analysis process" we talked about in the last section .
+we learned the options of data collection especially windows' one, and choose what to take depends on the case, either for real machines or VMs.
+NTFS has incredible data examination features such as $UsnJrnl $LogFile , $MFT 
+
+We are continuing with a Forensic analysis case where he used a windows 10 machine to demonstrate how to make a forensic , using the FTK imager . It was just a warm up rather than a very sophisticated investigation but still it took me through use cases of FTK , like export files like MFT in csv file and all other things .
+
+An example of the command he ran , C:\Tools\EZTools\net6\MFTECmd.exe -f $MFT --csv for output in csv (the path depends on where you intalled MFT)
+of with --de flag for info about a particular file . For a documentation , here is the 8.1 version one https://d1kpmuwb7gvu1i.cloudfront.net/8.x/8.1.0/1/Exterro%20FTK%208.1%20-%20User%20Guide.pdf (886 pages btw)
+Note: even a deleted file is not gone on the MFT.
+For the infos we have standard info , created on , modified last access etc 
+two file name , the force for dos and the other for the actual file name on windows and data  of the file . In the example we had a flag saying non resident file meaning its content is not in the MFT but somewhere else or it has been divided .
+ 
+Ressources 
+FTK Imager: Tool for disk and memory image acquisition: https://accessdata.com/product-download/ftk-imager-version-4-2
+Eric Zimmerman’s Utilities: Collection of parsers for Windows artifacts: https://ericzimmerman.github.io/
+
+Mitre Matrix : https://attack.mitre.org/
+
+cheat sheet for parsing NTFS artifacts: https://github.com/bluecapesecurity/PWF (this one here looks like a very documented ressource for this section)
+
+
+
+=====       Essential Tools and Applications for DFIR Environments      =====
+
+Welcome to the final session of the Jumpstart Your DFIR Journey series!
+In this session, we shift our focus from understanding threats and forensic fundamentals to putting theory into practice. Today’s lesson is all about the tools and environments that empower you to perform effective digital forensic investigations.
+
+This session is designed to give you the practical know-how to build, optimize, and automate your DFIR analysis process. Whether you’re a student, an in-house analyst, or a seasoned professional, you’ll leave today with actionable insights and a clear roadmap to enhance your investigative capabilities.
+
+We start about some talks but important things comes.
+Building a forensic workstation starts with the process of the forensic analysis Data acquisition -> Data processing -> memory analysis -> disk analysis -> Log analysis -> malware analysis -> Timeline analysis -> reporting .
+In order to setup the lab we need to know our goals and purpose , that will help us decide . There are also free ready VMs or tools further at https://bluecapesecurity.com/build-your-forensic-workstation/. 
+Now we are going to see a demo of two tools , KAPE and Autopsy
+Kape is accessible in the terminal and has a gui. What is interesting is data collection where you can point to a source and extract the artifacts you want and once extracted you can apply parsers available.
+Autopsy also helps to gain a lot of infos .
+
+Entrprise DFIR Tools
+in entrprise SOC visibility triad is SIEM , EDR, NDR
+DFIR tools , we have CyberTriage , Binalyze , Velociraptor(free)
+Advanced solutions: for a stramlined forensic analysis workflow we have 
+- remote data acquisition with tools like EDR or Velociraptor
+- automated data proceesing with plaso log2Timeline
+- Data population and analysis with timesketch where the analyst works.
+We even have Plaso.
+log2Timeline let's parse a disk image , apply a lot of parsers and output into a storage file . 
+
+Timesketch also an incredible tool .(AWS has an automated forensic orchestrator ec2 resource).
+
+Resources
+FTK Imager & CAPE: For forensic data acquisition and automated artifact extraction https://accessdata.com/product-download/ftk-imager-version-4-2
+Autopsy: Free open-source digital forensics suite https://www.sleuthkit.org/autopsy/
+TimeSketch: Open source forensic timeline analysis tool https://www.timesketch.org/
+Velociraptor: Tool for remote forensic data collection and endpoint investigation
+Velociraptor Documentation https://docs.velociraptor.app/
+Step-by-step guide to build your forensic workstation
+https://bluecapesecurity.com/build-your-forensic-workstation/
+
+
