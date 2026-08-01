@@ -1,6 +1,6 @@
-# Lab Setup for the DFIR Ubuntu Workstation
+# Lab Setup for the DFIR Workstation
 
-This folder contains a small, self-contained workflow to build and run a Ubuntu-based DFIR workstation with Vagrant and libvirt.
+This folder contains a small, self-contained workflow to build and run an Ubuntu-based DFIR workstation with Vagrant and libvirt.
 
 ## What this setup does
 
@@ -11,11 +11,11 @@ The workflow helps you:
 - register that box with Vagrant
 - start a VM defined by the included Vagrant configuration
 
-It is intended for a local lab environment and is especially useful for DFIR-style workstation testing.
+It is intended for the local lab environment for the hands on part of the certification.
 
 ## Files in this folder
 
-- `install_tools.sh` – installs Vagrant, Packer, libvirt, and related packages on Fedora
+- `install_tools.sh` – installs Vagrant, Packer, libvirt, and related packages on the host
 - `box.sh` – builds the Ubuntu box with Packer and adds it to Vagrant if needed
 - `ubuntu-dfir.pkr.hcl` – the Packer template used to build the base box
 - `Vagrantfile` – the Vagrant machine definition for the lab VM
@@ -25,7 +25,7 @@ It is intended for a local lab environment and is especially useful for DFIR-sty
 
 Before starting, make sure your host machine satisfies the following:
 
-- A Fedora-based Linux host is assumed
+- A Fedora/RHEL, Debian/Ubuntu, or other Linux host is assumed
 - CPU virtualization support must be available and enabled in BIOS/UEFI
 - You must have sudo privileges
 - You should have enough free disk space for the VM image and packages
@@ -64,13 +64,15 @@ From this folder, run:
 make install-tools
 ```
 
-This runs `install_tools.sh`, which installs:
+This runs `install_tools.sh`, which auto-detects the available package manager and installs:
 
 - libvirt
 - qemu/KVM components
 - Packer
 - Vagrant
 - the Vagrant libvirt plugin dependencies
+
+The script supports common package managers such as `dnf`, `yum`, `apt`, `zypper`, and `pacman`. On Debian/Ubuntu-based systems it also prepares the necessary package sources for HashiCorp tools.
 
 If the script asks you to reconnect or restart your shell, do that before continuing.
 

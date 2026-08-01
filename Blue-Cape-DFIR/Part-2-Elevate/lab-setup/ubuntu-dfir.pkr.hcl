@@ -14,7 +14,7 @@ variable "ubuntu_version" {
 
 source "libvirt-iso" "ubuntu-dfir-base" {
   iso_url      = "https://releases.ubuntu.com/${var.ubuntu_version}/ubuntu-${var.ubuntu_version}-live-server-amd64.iso"
-  iso_checksum = "sha256:YOUR_OFFICIAL_SHA256_HERE"
+  iso_checksum = "sha256:3a4c9877b483ab46d7c3fbe165a0db275e1ae3cfe56a5657e5a47c2f99a99d1e"
   disk_size    = 15360
   memory       = 2048
   cpus         = 2
