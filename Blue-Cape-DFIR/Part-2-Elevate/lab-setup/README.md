@@ -79,7 +79,7 @@ If the script asks you to reconnect or restart your shell, do that before contin
 
 ### 2. Build the Ubuntu base box
 
-Before building, edit `ubuntu-dfir.pkr.hcl` and replace everything that needs to , like mentioned above.
+Before building, verify `ubuntu-dfir.pkr.hcl` has the correct `iso_url` and `iso_checksum` for your Ubuntu 24.04 ISO. The file also uses the local `user-data` and `meta-data` cloud-init files for unattended install.
 
 Then run:
 
@@ -99,6 +99,7 @@ If you prefer, you can also run:
 ```bash
 bash box.sh
 ```
+It should take around 25 minutes to complete.
 
 ### 3. Start the Vagrant VM
 
@@ -185,5 +186,15 @@ Common causes include:
 The box script is designed to skip re-adding a box that is already present in Vagrant.
 
 ## Notes
+### Autoinstall prompt
 
+- **Symptom:** during the unattended install you may see a prompt asking "Continue autoinstall?" which requires typing `yes` to proceed.
+
+- **Why:** some installer behaviors (refresh checks or interactive sections) can trigger a confirmation prompt in the installer UI.
+
+- **What we changed:** the included `user-data` now sets `interactive-sections: []`, disables `refresh-installer` updates, and sets `reporting.builtin.type: none` to avoid interactive prompts.
+
+- **If you still see a prompt:** open `user-data` and remove any `interactive-sections` entries or set `refresh-installer.update: false` as needed. Re-run `make build-ubuntu-box`. (line 4-9)
+
+This change keeps the install fully unattended by default.
 This setup is intentionally simple and focused on getting a functional local lab environment running quickly. It is a good starting point, but production or long-term lab deployments may need stricter automation, better provisioning, and more hardened VM settings.

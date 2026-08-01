@@ -1,6 +1,12 @@
 #cloud-config
 autoinstall:
   version: 1
+  interactive-sections: []
+  refresh-installer:
+    update: false
+  reporting:
+    builtin:
+      type: none
   apt:
     preserve_sources_list: true
     primary:
@@ -16,7 +22,7 @@ autoinstall:
   identity:
     hostname: ubuntu-dfir
     username: vagrant
-    password: "$6$rounds=4000$vagrant$vagrant" # Mot de passe 'vagrant' haché en SHA512
+    password: "$6$TU9W2qQ9i4FECJKG$z1IffiA1hA9HpiDAfEV/FAJ42Lf0rsjsmsK5jZEDB4HLpXPM7RNkDcuiuggs7JaVCrvzwbJqRBp/OAEV45irE/"
     realname: Vagrant User
   timezone: Europe/Paris
   storage:
@@ -31,5 +37,3 @@ autoinstall:
     - "sed -i 's/^#*PermitRootLogin.*/PermitRootLogin yes/' /target/etc/ssh/sshd_config"
     - "sed -i 's/^#*PasswordAuthentication.*/PasswordAuthentication yes/' /target/etc/ssh/sshd_config"
     - "chown root:root /target/etc/ssh/sshd_config"
-  user-data:
-    hostname: ubuntu-dfir

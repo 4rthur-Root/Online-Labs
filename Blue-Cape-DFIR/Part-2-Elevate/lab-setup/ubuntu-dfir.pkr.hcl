@@ -26,27 +26,30 @@ source "qemu" "ubuntu-dfir" {
   vm_name           = "ubuntu-dfir"
   disk_size         = "20G" 
   format            = "qcow2"
-  headless          = true
+  headless          = false # For debugging, set to true for headless operation
   accelerator       = "kvm"
   memory            = 2048
   cpu_model         = "host"
   cores             = 2
   net_device        = "virtio-net"
   disk_interface    = "virtio"
-  boot_wait         = "5s"
+  boot_wait         = "30s"
+  boot_key_interval = "250ms"
+  boot_keygroup_interval = "500ms"
   
   # Boot command to automate the installation process using cloud-init
   # The boot command sequence is designed to navigate the boot menu and initiate the autoinstallation process.
   boot_command = [
-    "<esc><wait>",
-    "e<wait>",
-    "<down><down><down><end><wait>",
-    "<bs><bs><bs><bs><wait>",
-    "autoinstall ds=nocloud-net;s=http://{{ .HTTPIP }}:{{ .HTTPPort }}/ <enter><wait>",
-    "boot<enter>"
+    "<esc><wait10>",
+    "<esc><wait10>",
+    "e<wait10>",
+    "<end><wait10>",
+    " autoinstall ds=nocloud-net;s=cdrom:/<enter><wait20>",
+    "<f10><wait20>"
   ]
   
-  http_directory = "."
+  cd_files = ["user-data", "meta-data"]
+  cd_label = "cidata"
   ssh_username   = "vagrant"
   ssh_password   = "vagrant"
   ssh_timeout    = "60m"
