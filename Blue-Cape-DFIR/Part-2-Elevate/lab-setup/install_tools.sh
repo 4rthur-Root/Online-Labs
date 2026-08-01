@@ -322,7 +322,7 @@ fi
 # Final verification
 echo ""
 echo "========================================"
-echo "          Final Verifications"
+echo "          Final Verifications ..."
 echo "========================================"
 if command -v vagrant >/dev/null 2>&1; then
   echo "Vagrant      : $(vagrant --version)"

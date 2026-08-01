@@ -6,7 +6,7 @@ This folder contains a small, self-contained workflow to build and run an Ubuntu
 
 The workflow helps you:
 
-- install the host dependencies needed for Vagrant/libvirt on Fedora
+- install the host dependencies needed for Vagrant/libvirt on your host system
 - build a custom Ubuntu base box with Packer
 - register that box with Vagrant
 - start a VM defined by the included Vagrant configuration
@@ -28,14 +28,14 @@ Before starting, make sure your host machine satisfies the following:
 - A Fedora/RHEL, Debian/Ubuntu, or other Linux host is assumed
 - CPU virtualization support must be available and enabled in BIOS/UEFI
 - You must have sudo privileges
-- You should have enough free disk space for the VM image and packages
-- A working libvirt/KVM setup is required
+- You should have enough free disk space for the VM image and packages ~ 200 Gb free (and SSD)
+- You should also have already installed the ubuntu VM iso as this script does not do it and consider change iso_url variable in [Ubuntu-ISO-URL](./ubuntu-dfir.pkr.hcl) (line 16)
 
 ### Recommended host requirements
 
-- 8+ GB RAM recommended
+- 16+ GB RAM recommended
 - 4+ CPU cores recommended
-- At least 50+ GB free disk space
+- At least 250+ GB free disk space
 
 ## Important considerations before you start
 
@@ -43,7 +43,7 @@ Before starting, make sure your host machine satisfies the following:
    - If your VM is not able to start guests, check that VT-x/AMD-V is enabled in BIOS/UEFI.
 
 2. The Packer ISO checksum must be updated
-   - The template currently contains a placeholder checksum.
+   - The actual one is for my ubuntu 24 , it should not be different but to be sure run `sha256 iso_name` and replace the result in [ISO-CHECKSUM](./ubuntu-dfir.pkr.hcl) (line 17)
    - You must replace it with the official SHA-256 for the Ubuntu ISO before building.
 
 3. You may need to reboot after installing libvirt-related packages
@@ -78,7 +78,7 @@ If the script asks you to reconnect or restart your shell, do that before contin
 
 ### 2. Build the Ubuntu base box
 
-Before building, edit `ubuntu-dfir.pkr.hcl` and replace the placeholder ISO checksum.
+Before building, edit `ubuntu-dfir.pkr.hcl` and replace everything that needs to , like mentioned above.
 
 Then run:
 
@@ -107,7 +107,22 @@ Once the box exists, start the lab VM with:
 make up
 ```
 
-This uses the Vagrantfile and starts the machine with the libvirt provider.
+This uses the Vagrantfile and starts the machine with the libvirt provider. It also installs these tools on the VM.
+
+- xfce for desktop support
+- wireshark
+- tshark
+- python3
+- python3-pip
+- python3-venv
+- git
+- curl
+- unzip 
+- p7zip-full
+- sleuthkit
+- autopsy
+
+The other tools will be installed later and are documented further in this README file.
 
 ### 4. Optional: provision the machine
 
@@ -137,19 +152,12 @@ To remove the locally registered box:
 make clean
 ```
 
-## Quick reference
-
-Use these commands most often:
-
+## Reference
+Run 
 ```bash
-make help
-make install-tools
-make build-ubuntu-box
-make up
-make down
-make destroy
 make clean
 ```
+To have all the options.
 
 ## Troubleshooting
 
