@@ -155,7 +155,7 @@ make clean
 ## Reference
 Run 
 ```bash
-make clean
+make help
 ```
 To have all the options.
 
