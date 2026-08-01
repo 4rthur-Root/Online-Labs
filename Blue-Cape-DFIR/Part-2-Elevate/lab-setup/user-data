@@ -1,0 +1,35 @@
+#cloud-config
+autoinstall:
+  version: 1
+  apt:
+    preserve_sources_list: true
+    primary:
+      - arches: [amd64]
+        uri: http://archive.ubuntu.com/ubuntu
+  source:
+    id: "ubuntu-server"
+  ssh:
+    allow-pw: true
+    authorized-keys:
+      - https://raw.githubusercontent.com/hashicorp/vagrant/main/keys/vagrant.pub
+    install-server: true
+  identity:
+    hostname: ubuntu-dfir
+    username: vagrant
+    password: "$6$rounds=4000$vagrant$vagrant" # Mot de passe 'vagrant' haché en SHA512
+    realname: Vagrant User
+  timezone: Europe/Paris
+  storage:
+    layout:
+      name: lvm
+  packages: [] # On installe les outils plus tard via Vagrantfile pour garder la box propre
+  late-commands:
+    # Configuration sudo
+    - "echo 'vagrant ALL=(ALL) NOPASSWD:ALL' > /target/etc/sudoers.d/vagrant"
+    - "chmod 440 /target/etc/sudoers.d/vagrant"
+    # Configuration SSH pour accepter le mot de passe (nécessaire pour le login initial)
+    - "sed -i 's/^#*PermitRootLogin.*/PermitRootLogin yes/' /target/etc/ssh/sshd_config"
+    - "sed -i 's/^#*PasswordAuthentication.*/PasswordAuthentication yes/' /target/etc/ssh/sshd_config"
+    - "chown root:root /target/etc/ssh/sshd_config"
+  user-data:
+    hostname: ubuntu-dfir

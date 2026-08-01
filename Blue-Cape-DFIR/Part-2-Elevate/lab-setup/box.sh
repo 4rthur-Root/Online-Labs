@@ -5,7 +5,7 @@ set -euo pipefail
 SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 BOX_NAME="dfir-ubuntu-base"
 PACKER_TEMPLATE="ubuntu-dfir.pkr.hcl"
-PACKAGE_PATH="output-vagrant/package.box"
+PACKAGE_PATH="dfir-ubuntu-base.box"
 
 fail() {
   echo "[ERROR] $*" >&2

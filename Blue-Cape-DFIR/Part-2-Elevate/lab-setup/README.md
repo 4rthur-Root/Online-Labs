@@ -18,6 +18,7 @@ It is intended for the local lab environment for the hands on part of the certif
 - `install_tools.sh` – installs Vagrant, Packer, libvirt, and related packages on the host
 - `box.sh` – builds the Ubuntu box with Packer and adds it to Vagrant if needed
 - `ubuntu-dfir.pkr.hcl` – the Packer template used to build the base box
+- `user-data` and `meta-data` – cloud-init files used by the Packer build for Ubuntu autoinstall
 - `Vagrantfile` – the Vagrant machine definition for the lab VM
 - `Makefile` – convenience targets for the full workflow
 
@@ -29,7 +30,7 @@ Before starting, make sure your host machine satisfies the following:
 - CPU virtualization support must be available and enabled in BIOS/UEFI
 - You must have sudo privileges
 - You should have enough free disk space for the VM image and packages ~ 200 Gb free (and SSD)
-- You should also have already installed the ubuntu VM iso as this script does not do it and consider change iso_url variable in [Ubuntu-ISO-URL](./ubuntu-dfir.pkr.hcl) (line 16)
+- You should also have already installed the ubuntu iso as this script does not do it and consider change iso_url variable in [Ubuntu-ISO-URL](./ubuntu-dfir.pkr.hcl) (line 16)
 
 ### Recommended host requirements
 
