@@ -20,23 +20,23 @@ variable "iso_checksum" {
 }
 
 source "qemu" "ubuntu-dfir" {
-  iso_url           = var.iso_url
-  iso_checksum      = var.iso_checksum
-  output_directory  = "output-ubuntu-server"
-  vm_name           = "ubuntu-dfir"
-  disk_size         = "20G" 
-  format            = "qcow2"
-  headless          = false # For debugging, set to true for headless operation
-  accelerator       = "kvm"
-  memory            = 2048
-  cpu_model         = "host"
-  cores             = 2
-  net_device        = "virtio-net"
-  disk_interface    = "virtio"
-  boot_wait         = "30s"
-  boot_key_interval = "250ms"
+  iso_url                = var.iso_url
+  iso_checksum           = var.iso_checksum
+  output_directory       = "output-ubuntu-server"
+  vm_name                = "ubuntu-dfir"
+  disk_size              = "20G"
+  format                 = "qcow2"
+  headless               = false # For debugging, set to true for headless operation
+  accelerator            = "kvm"
+  memory                 = 2048
+  cpu_model              = "host"
+  cores                  = 2
+  net_device             = "virtio-net"
+  disk_interface         = "virtio"
+  boot_wait              = "30s"
+  boot_key_interval      = "250ms"
   boot_keygroup_interval = "500ms"
-  
+
   # Boot command to automate the installation process using cloud-init
   # The boot command sequence is designed to navigate the boot menu and initiate the autoinstallation process.
   boot_command = [
@@ -47,12 +47,12 @@ source "qemu" "ubuntu-dfir" {
     " autoinstall ds=nocloud-net;s=cdrom:/<enter><wait20>",
     "<f10><wait20>"
   ]
-  
-  cd_files = ["user-data", "meta-data"]
-  cd_label = "cidata"
-  ssh_username   = "vagrant"
-  ssh_password   = "vagrant"
-  ssh_timeout    = "60m"
+
+  cd_files         = ["user-data", "meta-data"]
+  cd_label         = "cidata"
+  ssh_username     = "vagrant"
+  ssh_password     = "vagrant"
+  ssh_timeout      = "60m"
   shutdown_command = "echo 'vagrant' | sudo -S shutdown -P now"
 }
 
@@ -67,6 +67,8 @@ build {
       "sudo apt-get update",
       "sudo apt-get install -y qemu-guest-agent cloud-init",
       "sudo systemctl enable qemu-guest-agent",
+      "sudo printf 'network:\\n  version: 2\\n  ethernets:\\n    all-eth:\\n      match:\\n        name: \\\"en*\\\"\\n      dhcp4: true\\n' > /etc/netplan/50-cloud-init.yaml",
+      "sudo netplan apply",
       "sudo apt-get clean",
       "sudo apt-get autoremove --purge -y",
       "sudo rm -rf /var/cache/apt/archives/*",
@@ -77,7 +79,7 @@ build {
   }
 
   post-processor "vagrant" {
-    output = "dfir-ubuntu-base.box"
+    output            = "dfir-ubuntu-base.box"
     compression_level = 9
   }
 }
