@@ -71,6 +71,17 @@ Vagrant.configure("2") do |config|
     apt-get install -y dotnet-runtime-6.0 || snap install dotnet-runtime-60
 
     mkdir -p /opt/EZTools
+
+    # Grow the root LVM to use the full virtual disk (machine_virtual_size).
+    # machine_virtual_size only inflates the raw disk; the guest's partition
+    # table, LVM and filesystem keep their small box size until resized here.
+    apt-get install -y cloud-guest-utils
+    growpart /dev/vda 3 || true
+    partx -u /dev/vda || true
+    pvresize /dev/vda3 || true
+    lvextend -l +100%FREE /dev/ubuntu-vg/ubuntu-lv || true
+    resize2fs /dev/mapper/ubuntu--vg-ubuntu--lv || true
+
     echo "Provisioning complete. Reboot recommended for desktop environment."
   SHELL
 

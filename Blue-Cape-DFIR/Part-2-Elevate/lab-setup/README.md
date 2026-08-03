@@ -208,6 +208,24 @@ Common causes include:
   sudo hostnamectl set-hostname "Ubuntu-dfir" && sudo sed -i "s/ubuntu-dfir/Ubuntu-dfir/" /etc/hosts
   ```
 
+### The disk reports far less than the ~150 GB virtual size
+
+- **Symptom:** `make up` succeeds, but `df -h /` shows a root of only ~10 GB even though `lv.machine_virtual_size = 150` is set. `lsblk` shows `vda` = 150G but `vda3` (and the LVM `ubuntu-lv`) are still ~18 GB / ~10 GB.
+- **Why:** `machine_virtual_size` only inflates the **raw virtual disk** capacity to 150 GB. It does **not** resize the guest's partition table, LVM, or filesystem. The extra ~131 GB is simply unpartitioned/unallocated space.
+- **What the Vagrantfile already does:** it auto-grows everything at provision time (`growpart` + `pvresize` + `lvextend` + `resize2fs`, see the `Vagrantfile`). Fresh VMs provisioned with `vagrant up --provision` get the full disk automatically.
+- **Manual fix on a running VM** (partition is in use, done online):
+
+  ```bash
+  sudo apt-get install -y cloud-guest-utils        # provides growpart
+  sudo growpart /dev/vda 3                          # grow partition 3 to the 150G disk
+  sudo partx -u /dev/vda                            # reload the partition table in the kernel
+  sudo pvresize /dev/vda3                           # extend the LVM physical volume
+  sudo lvextend -l +100%FREE /dev/ubuntu-vg/ubuntu-lv   # extend the root LV to the whole VG
+  sudo resize2fs /dev/mapper/ubuntu--vg-ubuntu--lv      # grow the ext4 filesystem
+  df -h /                                           # should now show ~150G
+  ```
+  Note the device-mapper path uses double hyphens: `/dev/mapper/ubuntu--vg-ubuntu--lv`, not a single one. If `resize2fs` returns "No such file or directory", that is the cause.
+
 ### Box already exists
 
 The box script is designed to skip re-adding a box that is already present in Vagrant.
