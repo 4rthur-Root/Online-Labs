@@ -123,8 +123,10 @@ This uses the Vagrantfile and starts the machine with the libvirt provider. It a
 - p7zip-full
 - sleuthkit
 - autopsy
+- volatility3 (memory analysis, `vol`)
+- plaso / log2timeline (timeline creation)
 
-The other tools will be installed later and are documented further in this README file.
+The other tools (Docker, TimeSketch, Eric Zimmerman's Tools, Splunk) are installed separately — see [Installing the remaining DFIR tools](#installing-the-remaining-dfir-tools).
 
 ### 4. Optional: provision the machine
 
@@ -160,6 +162,42 @@ Run
 make help
 ```
 To have all the options.
+
+Now that the virtual machine is completely set and running, you can export all the files to be analyzed to it by running
+```bash
+make copy
+```
+or directly 
+```bash
+rsync -avz --partial -e "ssh -i .vagrant/machines/default/libvirt/private_key -o StrictHostKeyChecking=no" ../Downloads/ vagrant@192.168.121.123:/home/vagrant/DFIR/
+```
+
+## Installing the remaining DFIR tools
+
+Most analysis tools are already provisioned by the `Vagrantfile` (Wireshark/tshark, Volatility3, log2timeline/psort). The heavier tools are installed on demand with:
+
+```bash
+make tools
+```
+
+This uploads the scripts from `Tools/` to the VM and runs `install_vm_tools.sh`, which installs, in order:
+
+1. **Docker CE + Docker Compose** — official repository for Ubuntu: https://docs.docker.com/engine/install/ubuntu/
+2. **TimeSketch** — deployed with the official script: https://timesketch.org/guides/admin/install/ — wait for the web container to become healthy (image pulls can take a few minutes), then browse to http://192.168.121.123
+3. **Eric Zimmerman's Tools** (.NET 9 builds, from https://ericzimmermanstools.com) into `/opt/EZTools` — PECmd, AmcacheParser, AppCompatCacheParser, SrumECmd, SumECmd, MFTECmd, RECmd, EvtxECmd, RBCmd, LECmd, SQLECmd, bstrings. Run them like `/opt/EZTools/PECmd/PECmd -f <file>`
+4. **Splunk** is intentionally **not** scripted (licenses and download URLs change too often). Install it manually on the VM:
+
+   ```bash
+   cd /tmp
+   wget "https://download.splunk.com/products/splunk/releases/<VERSION>/linux/splunk-<VERSION>-<HASH>-linux-amd64.tgz"
+   sudo tar -C /opt -xzf splunk-*.tgz
+   sudo /opt/splunk/bin/splunk start --accept-license --answer-yes --seed-passwd '<YourAdminPassword>'
+   ```
+   Then open http://192.168.121.123:8000, log in as `admin`, and import `Splunk_logs_export.csv` as shown in the course.
+
+**Velociraptor** (threat hunting) is skipped: the course states hunts are not available for download.
+
+Note: these tools live in the VM's writable overlay, not in the base box. After a `vagrant destroy` + `vagrant up --provision`, re-run `make tools` to recreate them.
 
 ## Troubleshooting
 
