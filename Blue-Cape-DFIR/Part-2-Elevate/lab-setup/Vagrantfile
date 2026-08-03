@@ -3,7 +3,7 @@
 
 Vagrant.configure("2") do |config|
   config.vm.box = "dfir-ubuntu-base"
-  config.vm.hostname = "dfir-workstation"
+  config.vm.hostname = "Ubuntu-dfir"
   config.vm.boot_timeout = 600
   config.ssh.username = "vagrant"
   config.ssh.insert_key = true
@@ -25,9 +25,23 @@ Vagrant.configure("2") do |config|
     apt-get update
     apt-get upgrade -y
 
-    # Minimal desktop environment for GUI tools (Wireshark, Autopsy, browser)
-    apt-get install -y --no-install-recommends \
-      xfce4 xfce4-goodies lightdm spice-vdagent
+    # Minimal desktop environment for GUI tools (Wireshark, Autopsy, browser).
+    # xserver-xorg must be present, otherwise lightdm logs
+    # "Can't launch X server X not found in path" and no GUI appears.
+    # lightdm-gtk-greeter is also mandatory: without a greeter lightdm fails.
+    apt-get install -y \
+      xfce4 xfce4-goodies \
+      lightdm lightdm-gtk-greeter \
+      xserver-xorg xserver-xorg-video-qxl \
+      spice-vdagent
+
+    # Boot to the graphical target and auto-login the vagrant user into Xfce,
+    # so the desktop appears on the SPICE console without any manual login.
+    systemctl set-default graphical.target
+    mkdir -p /etc/lightdm/lightdm.conf.d
+    printf '[Seat:*]\nautologin-user=vagrant\nautologin-user-timeout=0\n' \
+      > /etc/lightdm/lightdm.conf.d/50-autologin.conf
+    systemctl enable lightdm
 
     # Core forensic / analysis tools
     apt-get install -y \\

@@ -181,6 +181,33 @@ Common causes include:
 - the box was not registered correctly
 - the machine image path is missing or invalid
 
+### The Xfce desktop (GUI) does not appear
+
+- **Symptom:** the VM boots to a text console, there is no graphical login, and `sudo systemctl status lightdm` shows lightdm as `failed`.
+- **Most likely cause:** the X server is missing. The lightdm log at `/var/log/lightdm/lightdm.log` shows `XServer 0: Can't launch X server X -core, not found in path`. A bare `xfce4` install does not pull in `xserver-xorg`. A second, equally common cause is a missing greeter: lightdm was installed with `--no-install-recommends`, so `lightdm-gtk-greeter` was never installed.
+- **Applying the fix on a running VM (no rebuild):**
+
+  ```bash
+  vagrant ssh -c "sudo apt-get update -qq \
+    && sudo apt-get install -y xserver-xorg xserver-xorg-video-qxl lightdm-gtk-greeter \
+    && sudo mkdir -p /etc/lightdm/lightdm.conf.d \
+    && printf '[Seat:*]\nautologin-user=vagrant\nautologin-user-timeout=0\n' \
+       | sudo tee /etc/lightdm/lightdm.conf.d/50-autologin.conf \
+    && sudo systemctl set-default graphical.target \
+    && sudo systemctl enable --now lightdm"
+  ```
+
+  Then open the VM's graphical console via SPICE (virt-manager -> Open), not SSH: the Xfce desktop should appear automatically after auto-login.
+- **Note:** the Vagrantfile already provisions all of the above, so freshly created VMs (`vagrant up --provision`) get a working auto-login desktop directly.
+
+### The VM hostname
+
+- The VM hostname is controlled by `config.vm.hostname` in the `Vagrantfile`. To rename the machine on a running VM:
+
+  ```bash
+  sudo hostnamectl set-hostname "Ubuntu-dfir" && sudo sed -i "s/ubuntu-dfir/Ubuntu-dfir/" /etc/hosts
+  ```
+
 ### Box already exists
 
 The box script is designed to skip re-adding a box that is already present in Vagrant.
