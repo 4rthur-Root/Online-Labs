@@ -7,3 +7,5 @@ Splunk_logs_export.csv
 Part2.txt
 traffic.pcapng
 Triage/
+*.box
+.vagrant/
