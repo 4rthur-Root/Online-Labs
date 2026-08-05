@@ -187,13 +187,6 @@ This uploads the scripts from `Tools/` to the VM and runs `install_vm_tools.sh`,
 3. **Eric Zimmerman's Tools** (.NET 9 builds, from https://ericzimmermanstools.com) into `/opt/EZTools` - PECmd, AmcacheParser, AppCompatCacheParser, SrumECmd, SumECmd, MFTECmd, RECmd, EvtxECmd, RBCmd, LECmd, SQLECmd, bstrings. Run them like `/opt/EZTools/PECmd/PECmd -f <file>`
 4. **Splunk** is intentionally **not** scripted (licenses and download URLs change too often). Install it manually on the VM. You can follow the installation guide [SPLUNK.md](Tools/SPLUNK.md) .
 
-   ```bash
-   cd /tmp
-   wget "https://download.splunk.com/products/splunk/releases/<VERSION>/linux/splunk-<VERSION>-<HASH>-linux-amd64.tgz"
-   sudo tar -C /opt -xzf splunk-*.tgz
-   sudo /opt/splunk/bin/splunk start --accept-license --answer-yes --seed-passwd '<YourAdminPassword>'
-   ```
-   Then open http://192.168.121.123:8000, log in as `admin`, and import `Splunk_logs_export.csv` .
 
 **Velociraptor** (threat hunting) is skipped: the course states hunts are not available for download.
 
