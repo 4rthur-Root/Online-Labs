@@ -1,0 +1,430 @@
+"type"	"pid"	"line"	"id"	"user"	"host"	"term"	"exit"	"session"	"sec"	"usec"	"addr"
+"544366925"	"807417376"	"6:18:01 ip-172-31-35-28 CRON[111"	"9]: "	"pam_unix(cron:session): session "	"opened for user confluence(uid=998) by (uid=0)
+Mar  6 06:18:01 ip-172-31-35-28 CRON[1118]: pam_unix(cron:session): session opened for user confluence(uid=998) by (uid=0)
+Mar  6 06:18:01 ip-172-31-35-28 CRON[1117]: pam_unix(cron:session): session opened for"	"29984"	"25971"	"1868767346"	"2032/06/05 08:53:02"	"1701015141"	"40.117.105.100"
+"762341664"	"758265649"	"31-35-28 CRON[1118]: pam_unix(cr"	"on:s"	"ession): session closed for user"	" confluence
+Mar  6 06:18:01 ip-172-31-35-28 CRON[1119]: pam_unix(cron:session): session closed for user confluence
+Mar  6 06:18:01 ip-172-31-35-28 CRON[1117]: pam_unix(cron:session): session closed for user confluence
+Mar  6 06:19:01 ip-172-31-35-28 CRON[1"	"13875"	"23862"	"1634738234"	"2028/09/21 21:51:41"	"1663596649"	"114.111.110.58"
+"1868767346"	"1970038382"	"ence(uid=998) by (uid=0)
+Mar  6 "	"06:1"	"9:01 ip-172-31-35-28 CRON[1367]:"	" pam_unix(cron:session): session opened for user confluence(uid=998) by (uid=0)
+Mar  6 06:19:01 ip-172-31-35-28 CRON[1366]: pam_unix(cron:session): session closed for user confluence
+Mar  6 06:19:01 ip-172-31-35-28 CRON[1367]: pam_unix(cron:session): sessi"	"28271"	"25376"	"1702063980"	"2029/03/23 12:39:00"	"1937055858"	"101.114.32.99"
+"758199085"	"841823539"	"8 sshd[1465]: AuthorizedKeysComm"	"and "	"/usr/share/ec2-instance-connect/"	"eic_run_authorized_keys root SHA256:4vycLsDMzI+hyb9OP3wd18zIpyTqJmRq/QIZaLNrg8A failed, status 22
+Mar  6 06:19:54 ip-172-31-35-28 sshd[1465]: Accepted password for root from 203.101.190.9 port 42825 ssh2
+Mar  6 06:19:54 ip-172-31-35-28 sshd[1465]: pam_unix"	"29480"	"26739"	"1702050404"	"2029/03/26 01:10:11"	"540682606"	"115.101.115.115"
+"673216866"	"1029990773"	"0)
+Mar  6 06:19:54 ip-172-31-35-"	"28 s"	"ystemd-logind[411]: New session "	"6 of user root.
+Mar  6 06:19:54 ip-172-31-35-28 systemd: pam_unix(systemd-user:session): session opened for user root(uid=0) by (uid=0)
+Mar  6 06:20:01 ip-172-31-35-28 CRON[1599]: pam_unix(cron:session): session opened for user confluence(uid=998) by (uid="	"10544"	"19722"	"538997345"	"1998/10/23 06:20:38"	"976237114"	"48.49.32.105"
+"678979950"	"1852797539"	":session): session opened for us"	"er c"	"onfluence(uid=998) by (uid=0)
+Ma"	"r  6 06:20:01 ip-172-31-35-28 CRON[1599]: pam_unix(cron:session): session closed for user confluence
+Mar  6 06:20:01 ip-172-31-35-28 CRON[1600]: pam_unix(cron:session): session closed for user confluence
+Mar  6 06:21:01 ip-172-31-35-28 CRON[1628]: pam_unix"	"25384"	"28530"	"1702050414"	"2029/03/26 01:10:11"	"540682606"	"115.101.115.115"
+"960324713"	"539572281"	"by (uid=0)
+Mar  6 06:21:01 ip-17"	"2-31"	"-35-28 CRON[1629]: pam_unix(cron"	":session): session opened for user confluence(uid=998) by (uid=0)
+Mar  6 06:21:01 ip-172-31-35-28 CRON[1629]: pam_unix(cron:session): session closed for user confluence
+Mar  6 06:21:01 ip-172-31-35-28 CRON[1628]: pam_unix(cron:session): session closed for "	"29557"	"29285"	"1852793632"	"2023/12/10 07:44:38"	"174416750"	"77.97.114.32"
+"892744027"	"540695856"	"pam_unix(cron:session): session "	"open"	"ed for user confluence(uid=998) "	"by (uid=0)
+Mar  6 06:22:01 ip-172-31-35-28 CRON[1649]: pam_unix(cron:session): session opened for user confluence(uid=998) by (uid=0)
+Mar  6 06:22:01 ip-172-31-35-28 CRON[1649]: pam_unix(cron:session): session closed for user confluence
+Mar  6 06:22:01 ip-"	"14129"	"11570"	"858599731"	"1999/11/17 04:21:09"	"1330791200"	"78.91.49.54"
+"1852795251"	"1869374240"	"sed for user confluence
+Mar  6 0"	"6:23"	":01 ip-172-31-35-28 CRON[2183]: "	"pam_unix(cron:session): session opened for user confluence(uid=998) by (uid=0)
+Mar  6 06:23:01 ip-172-31-35-28 CRON[2184]: pam_unix(cron:session): session opened for user confluence(uid=998) by (uid=0)
+Mar  6 06:23:01 ip-172-31-35-28 CRON[2183]: pam_unix(c"	"28530"	"14958"	"1936942451"	"1992/01/11 04:15:37"	"1702043706"	"115.115.105.111"
+"540418080"	"842675760"	"3:01 ip-172-31-35-28 CRON[2184]:"	" pam"	"_unix(cron:session): session clo"	"sed for user confluence
+Mar  6 06:24:01 ip-172-31-35-28 CRON[2199]: pam_unix(cron:session): session opened for user confluence(uid=998) by (uid=0)
+Mar  6 06:24:01 ip-172-31-35-28 CRON[2198]: pam_unix(cron:session): session opened for user confluence(uid=99"	"10552"	"25120"	"1965564025"	"1995/08/25 05:49:29"	"1632438825"	"114.32.32.54"
+"1564031281"	"1634738234"	"m_unix(cron:session): session cl"	"osed"	" for user confluence
+Mar  6 06:2"	"4:01 ip-172-31-35-28 CRON[2198]: pam_unix(cron:session): session closed for user confluence
+Mar  6 06:25:01 ip-172-31-35-28 CRON[2218]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Mar  6 06:25:01 ip-172-31-35-28 CRON[2220]: pam_u"	"26990"	"10360"	"1852797539"	"2031/05/08 17:41:14"	"1852795251"	"41.58.32.115"
+"1769285733"	"960052580"	"8) by (uid=0)
+Mar  6 06:25:01 ip"	"-172"	"-31-35-28 CRON[2219]: pam_unix(c"	"ron:session): session opened for user root(uid=0) by (uid=0)
+Mar  6 06:25:01 ip-172-31-35-28 CRON[2221]: pam_unix(cron:session): session opened for user confluence(uid=998) by (uid=0)
+Mar  6 06:25:01 ip-172-31-35-28 CRON[2220]: pam_unix(cron:session): sess"	"28521"	"8302"	"1936682083"	"2024/04/18 00:08:05"	"1965060719"	"115.101.114.32"
+"825437490"	"758461229"	"28 CRON[2221]: pam_unix(cron:ses"	"sion"	"): session closed for user confl"	"uence
+Mar  6 06:25:01 ip-172-31-35-28 CRON[2219]: pam_unix(cron:session): session closed for user root
+Mar  6 06:25:01 ip-172-31-35-28 CRON[2218]: pam_unix(cron:session): session closed for user root
+Mar  6 06:26:01 ip-172-31-35-28 CRON[2246]: pam_unix(cro"	"14958"	"25971"	"1869181811"	"1987/02/18 21:36:46"	"1936942451"	"105.111.110.32"
+"539572281"	"673216866"	"uid=0)
+Mar  6 06:26:01 ip-172-31"	"-35-"	"28 CRON[2245]: pam_unix(cron:ses"	"sion): session opened for user confluence(uid=998) by (uid=0)
+Mar  6 06:26:01 ip-172-31-35-28 CRON[2246]: pam_unix(cron:session): session closed for user confluence
+Mar  6 06:26:01 ip-172-31-35-28 CRON[2245]: pam_unix(cron:session): session closed for user"	"25376"	"28271"	"1702194278"	"1975/07/12 17:05:50"	"544366925"	"32.54.32.48"
+"540695865"	"1601003888"	"unix(cron:session): session open"	"ed f"	"or user confluence(uid=998) by ("	"uid=0)
+Mar  6 06:27:01 ip-172-31-35-28 CRON[2258]: pam_unix(cron:session): session opened for user confluence(uid=998) by (uid=0)
+Mar  6 06:27:01 ip-172-31-35-28 CRON[2258]: pam_unix(cron:session): session closed for user confluence
+Mar  6 06:27:01 ip-172-"	"12595"	"13101"	"942812469"	"2012/03/03 16:13:20"	"842160974"	"53.57.93.58"
+"1869374240"	"543450483"	"for user confluence
+Mar  6 06:28"	":01 "	"ip-172-31-35-28 CRON[2273]: pam_"	"unix(cron:session): session opened for user confluence(uid=998) by (uid=0)
+Mar  6 06:28:01 ip-172-31-35-28 CRON[2272]: pam_unix(cron:session): session opened for user confluence(uid=998) by (uid=0)
+Mar  6 06:28:01 ip-172-31-35-28 CRON[2273]: pam_unix(cron:"	"25971"	"29555"	"695103337"	"2023/12/08 13:55:06"	"1869181811"	"110.32.99.108"
+"842675760"	"825244216"	" ip-172-31-35-28 CRON[2272]: pam"	"_uni"	"x(cron:session): session closed "	"for user confluence
+Mar  6 06:29:01 ip-172-31-35-28 CRON[2285]: pam_unix(cron:session): session opened for user confluence(uid=998) by (uid=0)
+Mar  6 06:29:01 ip-172-31-35-28 CRON[2286]: pam_unix(cron:session): session opened for user confluence(uid=998) b"	"8313"	"29992"	"809329769"	"2021/09/23 23:13:45"	"908075122"	"32.48.54.58"
+"1634738234"	"1853185901"	"ix(cron:session): session closed"	" for"	" user confluence
+Mar  6 06:29:01"	" ip-172-31-35-28 CRON[2286]: pam_unix(cron:session): session closed for user confluence
+Mar  6 06:30:01 ip-172-31-35-28 CRON[2298]: pam_unix(cron:session): session opened for user confluence(uid=998) by (uid=0)
+Mar  6 06:30:01 ip-172-31-35-28 CRON[2299]: p"	"28001"	"30047"	"678979950"	"2028/09/17 09:58:59"	"1936028474"	"115.105.111.110"
+"1668179317"	"1769285733"	"d=998) by (uid=0)
+Mar  6 06:30:0"	"1 ip"	"-172-31-35-28 CRON[2298]: pam_un"	"ix(cron:session): session closed for user confluence
+Mar  6 06:30:01 ip-172-31-35-28 CRON[2299]: pam_unix(cron:session): session closed for user confluence
+Mar  6 06:31:01 ip-172-31-35-28 CRON[2314]: pam_unix(cron:session): session opened for user confluen"	"25955"	"29992"	"960324713"	"1987/02/06 01:11:21"	"673216866"	"117.105.100.61"
+"1126185010"	"1531858770"	"2313]: pam_unix(cron:session): s"	"essi"	"on opened for user confluence(ui"	"d=998) by (uid=0)
+Mar  6 06:31:01 ip-172-31-35-28 CRON[2314]: pam_unix(cron:session): session closed for user confluence
+Mar  6 06:31:01 ip-172-31-35-28 CRON[2313]: pam_unix(cron:session): session closed for user confluence
+Mar  6 06:31:31 ip-172-31-35-28 "	"29555"	"25704"	"842216027"	"1987/02/19 01:17:41"	"1635151433"	"108.105.100.32"
+"859190304"	"1292513336"	"ar  6 06:31:31 ip-172-31-35-28 s"	"shd["	"2325]: Received disconnect from "	"65.2.161.68 port 46380:11: Bye Bye [preauth]
+Mar  6 06:31:31 ip-172-31-35-28 sshd[2325]: Disconnected from invalid user admin 65.2.161.68 port 46380 [preauth]
+Mar  6 06:31:31 ip-172-31-35-28 sshd[620]: error: beginning MaxStartups throttling
+Mar  6 06:31:3"	"8241"	"28777"	"842477869"	"1994/01/10 10:51:25"	"841823539"	"56.32.115.115"
+"911941741"	"775040565"	"161.68]:46482 on [172.31.35.28]:"	"22 p"	"ast MaxStartups
+Mar  6 06:31:31 "	"ip-172-31-35-28 sshd[2327]: Invalid user admin from 65.2.161.68 port 46392
+Mar  6 06:31:31 ip-172-31-35-28 sshd[2327]: pam_unix(sshd:auth): check pass; user unknown
+Mar  6 06:31:31 ip-172-31-35-28 sshd[2327]: pam_unix(sshd:auth): authentication failure; lo"	"28263"	"28001"	"1965047141"	"1995/08/25 05:49:29"	"1769301280"	"100.61.48.32"
+"1632438816"	"908075122"	" 06:31:31 ip-172-31-35-28 sshd[2"	"332]"	": Invalid user admin from 65.2.1"	"61.68 port 46444
+Mar  6 06:31:31 ip-172-31-35-28 sshd[2331]: Invalid user admin from 65.2.161.68 port 46436
+Mar  6 06:31:31 ip-172-31-35-28 sshd[2332]: pam_unix(sshd:auth): check pass; user unknown
+Mar  6 06:31:31 ip-172-31-35-28 sshd[2332]: pam_unix(sshd:"	"30049"	"26740"	"1629501993"	"2023/11/30 11:39:33"	"1667855470"	"97.116.105.111"
+"2037675040"	"1752396605"	" ruser= rhost=65.2.161.68 
+Mar  "	"6 06"	":31:31 ip-172-31-35-28 sshd[2331"	"]: pam_unix(sshd:auth): check pass; user unknown
+Mar  6 06:31:31 ip-172-31-35-28 sshd[2331]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=65.2.161.68 
+Mar  6 06:31:31 ip-172-31-35-28 sshd[2330]: Invalid user admin"	"26144"	"28530"	"892739693"	"1996/02/23 21:31:26"	"908996918"	"56.32.112.111"
+"858599731"	"942812469"	" sshd[2337]: Invalid user admin "	"from"	" 65.2.161.68 port 46498
+Mar  6 0"	"6:31:31 ip-172-31-35-28 sshd[2328]: Invalid user admin from 65.2.161.68 port 46390
+Mar  6 06:31:31 ip-172-31-35-28 sshd[2335]: Invalid user admin from 65.2.161.68 port 46460
+Mar  6 06:31:31 ip-172-31-35-28 sshd[2337]: pam_unix(sshd:auth): check pass; user "	"28277"	"28267"	"175011695"	"1987/04/02 13:02:05"	"807417376"	"54.58.51.49"
+"1601003888"	"2020175477"	"(sshd:auth): authentication fail"	"ure;"	" logname= uid=0 euid=0 tty=ssh r"	"user= rhost=65.2.161.68 
+Mar  6 06:31:31 ip-172-31-35-28 sshd[2335]: pam_unix(sshd:auth): check pass; user unknown
+Mar  6 06:31:31 ip-172-31-35-28 sshd[2335]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=65.2.161."	"14390"	"2592"	"544366925"	"1995/08/03 02:36:16"	"825440822"	"58.51.49.32"
+"543451500"	"1919251317"	" admin from 65.2.161.68 port 464"	"54
+M"	"ar  6 06:31:31 ip-172-31-35-28 s"	"shd[2329]: Invalid user admin from 65.2.161.68 port 46414
+Mar  6 06:31:31 ip-172-31-35-28 sshd[2338]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=65.2.161.68  user=backup
+Mar  6 06:31:31 ip-172-31-35-28 sshd[2330"	"14941"	"28704"	"1969188193"	"1991/07/08 13:32:30"	"1684566899"	"58.97.117.116"
+"540418080"	"859452976"	"1:31 ip-172-31-35-28 sshd[2334]:"	" pam"	"_unix(sshd:auth): check pass; us"	"er unknown
+Mar  6 06:31:31 ip-172-31-35-28 sshd[2334]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=65.2.161.68 
+Mar  6 06:31:31 ip-172-31-35-28 sshd[2336]: pam_unix(sshd:auth): authentication failure; logname= ui"	"15716"	"8240"	"1684632933"	"2031/09/27 09:09:17"	"1933408628"	"115.104.32.114"
+"1886743395"	"1918979338"	"  6 06:31:31 ip-172-31-35-28 ssh"	"d[23"	"30]: pam_unix(sshd:auth): authen"	"tication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=65.2.161.68 
+Mar  6 06:31:31 ip-172-31-35-28 sshd[2328]: pam_unix(sshd:auth): check pass; user unknown
+Mar  6 06:31:31 ip-172-31-35-28 sshd[2328]: pam_unix(sshd:auth): authentication failure; log"	"24942"	"25965"	"1769283645"	"1987/02/11 08:59:16"	"1684632933"	"61.48.32.116"
+"1918979338"	"540418080"	"06:31:31 ip-172-31-35-28 sshd[23"	"33]:"	" Invalid user admin from 65.2.16"	"1.68 port 46452
+Mar  6 06:31:31 ip-172-31-35-28 sshd[2329]: pam_unix(sshd:auth): check pass; user unknown
+Mar  6 06:31:31 ip-172-31-35-28 sshd[2329]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=65.2.161.68 
+Mar  "	"8246"	"13872"	"976302906"	"2025/11/21 09:30:27"	"925969776"	"50.45.51.49"
+"1953849658"	"540682600"	"check pass; user unknown
+Mar  6 "	"06:3"	"1:31 ip-172-31-35-28 sshd[2333]:"	" pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=65.2.161.68 
+Mar  6 06:31:31 ip-172-31-35-28 sshd[2352]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=65.2.161.68  user=back"	"28789"	"19722"	"538997345"	"1998/10/23 06:20:38"	"976302906"	"51.49.32.105"
+"678979950"	"1684566899"	":auth): authentication failure; "	"logn"	"ame= uid=0 euid=0 tty=ssh ruser="	" rhost=65.2.161.68  user=backup
+Mar  6 06:31:31 ip-172-31-35-28 sshd[2355]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=65.2.161.68  user=backup
+Mar  6 06:31:32 ip-172-31-35-28 sshd[2357]: pam_unix(sshd:auth): au"	"26740"	"28261"	"1633905012"	"2028/09/17 09:20:52"	"1767990816"	"108.117.114.101"
+"1702065522"	"1914715506"	"host=65.2.161.68  user=backup
+Ma"	"r  6"	" 06:31:33 ip-172-31-35-28 sshd[2"	"327]: Failed password for invalid user admin from 65.2.161.68 port 46392 ssh2
+Mar  6 06:31:33 ip-172-31-35-28 sshd[2331]: Failed password for invalid user admin from 65.2.161.68 port 46436 ssh2
+Mar  6 06:31:33 ip-172-31-35-28 sshd[2332]: Failed password fo"	"8306"	"28265"	"1768710518"	"2031/05/20 15:04:04"	"1629516389"	"100.109.105.110"
+"1632438834"	"908075122"	" 06:31:33 ip-172-31-35-28 sshd[2"	"335]"	": Failed password for invalid us"	"er admin from 65.2.161.68 port 46460 ssh2
+Mar  6 06:31:33 ip-172-31-35-28 sshd[2337]: Failed password for invalid user admin from 65.2.161.68 port 46498 ssh2
+Mar  6 06:31:33 ip-172-31-35-28 sshd[2334]: Failed password for invalid user admin from 65.2.161.6"	"8248"	"28528"	"874542194"	"1997/10/03 18:06:46"	"1752396576"	"50.10.77.97"
+"844850280"	"1563964211"	": Failed password for backup fro"	"m 65"	".2.161.68 port 46512 ssh2
+Mar  6"	" 06:31:33 ip-172-31-35-28 sshd[2336]: Failed password for backup from 65.2.161.68 port 46468 ssh2
+Mar  6 06:31:33 ip-172-31-35-28 sshd[2330]: Failed password for invalid user admin from 65.2.161.68 port 46422 ssh2
+Mar  6 06:31:33 ip-172-31-35-28 sshd[2328]"	"8250"	"24902"	"1684368489"	"2031/05/05 16:38:56"	"1919907699"	"100.32.102.111"
+"908996918"	"1869619256"	"rt 46390 ssh2
+Mar  6 06:31:33 ip"	"-172"	"-31-35-28 sshd[2329]: Failed pas"	"sword for invalid user admin from 65.2.161.68 port 46414 ssh2
+Mar  6 06:31:33 ip-172-31-35-28 sshd[2333]: Failed password for invalid user admin from 65.2.161.68 port 46452 ssh2
+Mar  6 06:31:34 ip-172-31-35-28 sshd[2352]: Failed password for backup from 65"	"12846"	"12590"	"908996918"	"2029/03/31 02:40:56"	"874542194"	"54.53.54.56"
+"841823539"	"1936924728"	"hd[2351]: Failed password for ba"	"ckup"	" from 65.2.161.68 port 46538 ssh"	"2
+Mar  6 06:31:34 ip-172-31-35-28 sshd[2355]: Failed password for backup from 65.2.161.68 port 46576 ssh2
+Mar  6 06:31:34 ip-172-31-35-28 sshd[2357]: Failed password for backup from 65.2.161.68 port 46582 ssh2
+Mar  6 06:31:35 ip-172-31-35-28 sshd[2327]: Re"	"25955"	"30313"	"1679844453"	"2029/03/21 11:56:25"	"1667591790"	"116.32.102.114"
+"2034376805"	"1885020261"	"reauth]
+Mar  6 06:31:35 ip-172-3"	"1-35"	"-28 sshd[2327]: Disconnected fro"	"m invalid user admin 65.2.161.68 port 46392 [preauth]
+Mar  6 06:31:35 ip-172-31-35-28 sshd[2332]: Received disconnect from 65.2.161.68 port 46444:11: Bye Bye [preauth]
+Mar  6 06:31:35 ip-172-31-35-28 sshd[2332]: Disconnected from invalid user admin 65.2.16"	"11825"	"14390"	"1919905824"	"1998/10/26 07:10:44"	"540292148"	"91.112.114.101"
+"841823539"	"1936924728"	"hd[2331]: Received disconnect fr"	"om 6"	"5.2.161.68 port 46436:11: Bye By"	"e [preauth]
+Mar  6 06:31:35 ip-172-31-35-28 sshd[2331]: Disconnected from invalid user admin 65.2.161.68 port 46436 [preauth]
+Mar  6 06:31:35 ip-172-31-35-28 sshd[2337]: Received disconnect from 65.2.161.68 port 46498:11: Bye Bye [preauth]
+Mar  6 06:31:35 "	"28777"	"12589"	"858599991"	"1998/04/14 09:32:33"	"540553773"	"115.115.104.100"
+"1937055844"	"1629516389"	"dmin 65.2.161.68 port 46498 [pre"	"auth"	"]
+Mar  6 06:31:35 ip-172-31-35-2"	"8 sshd[2328]: Received disconnect from 65.2.161.68 port 46390:11: Bye Bye [preauth]
+Mar  6 06:31:35 ip-172-31-35-28 sshd[2328]: Disconnected from invalid user admin 65.2.161.68 port 46390 [preauth]
+Mar  6 06:31:35 ip-172-31-35-28 sshd[2330]: Received disco"	"28270"	"25445"	"1919295604"	"1998/10/11 08:33:51"	"775040565"	"49.54.49.46"
+"173893748"	"544366925"	" 6 06:31:35 ip-172-31-35-28 sshd"	"[233"	"0]: Disconnected from invalid us"	"er admin 65.2.161.68 port 46422 [preauth]
+Mar  6 06:31:35 ip-172-31-35-28 sshd[2334]: Received disconnect from 65.2.161.68 port 46454:11: Bye Bye [preauth]
+Mar  6 06:31:35 ip-172-31-35-28 sshd[2334]: Disconnected from invalid user admin 65.2.161.68 port 46"	"13620"	"8244"	"1701998683"	"2025/07/14 03:11:29"	"1632438877"	"114.32.32.54"
+"1563767603"	"1699881018"	"ceived disconnect from 65.2.161."	"68 p"	"ort 46460:11: Bye Bye [preauth]
+"	"Mar  6 06:31:35 ip-172-31-35-28 sshd[2335]: Disconnected from invalid user admin 65.2.161.68 port 46460 [preauth]
+Mar  6 06:31:35 ip-172-31-35-28 sshd[2329]: Received disconnect from 65.2.161.68 port 46414:11: Bye Bye [preauth]
+Mar  6 06:31:35 ip-172-31-35"	"12845"	"8248"	"1684566899"	"1996/09/08 20:53:47"	"540695865"	"68.105.115.99"
+"775239200"	"909192754"	"1.68 port 46414 [preauth]
+Mar  6"	" 06:"	"31:35 ip-172-31-35-28 sshd[2333]"	": Received disconnect from 65.2.161.68 port 46452:11: Bye Bye [preauth]
+Mar  6 06:31:35 ip-172-31-35-28 sshd[2333]: Disconnected from invalid user admin 65.2.161.68 port 46452 [preauth]
+Mar  6 06:31:35 ip-172-31-35-28 sshd[2359]: Invalid user server_adm fr"	"28015"	"13856"	"775040565"	"1994/07/23 15:24:33"	"1881159734"	"111.114.116.32"
+"841823539"	"1936924728"	"hd[2359]: pam_unix(sshd:auth): c"	"heck"	" pass; user unknown
+Mar  6 06:31"	":35 ip-172-31-35-28 sshd[2359]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=65.2.161.68 
+Mar  6 06:31:35 ip-172-31-35-28 sshd[2361]: Invalid user server_adm from 65.2.161.68 port 46614
+Mar  6 06:31:35 ip-172-31-3"	"11573"	"14386"	"1752396576"	"1997/03/21 09:56:52"	"979185974"	"32.112.97.109"
+"1965060709"	"1869507438"	"wn
+Mar  6 06:31:35 ip-172-31-35-"	"28 s"	"shd[2361]: pam_unix(sshd:auth): "	"authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=65.2.161.68 
+Mar  6 06:31:35 ip-172-31-35-28 sshd[2368]: Invalid user server_adm from 65.2.161.68 port 46676
+Mar  6 06:31:35 ip-172-31-35-28 sshd[2368]: pam_unix(sshd:auth): check pass; use"	"8306"	"28277"	"2003791467"	"2021/09/23 23:14:54"	"908075122"	"32.48.54.58"
+"1634738234"	"1853185901"	"ix(sshd:auth): authentication fa"	"ilur"	"e; logname= uid=0 euid=0 tty=ssh"	" ruser= rhost=65.2.161.68 
+Mar  6 06:31:35 ip-172-31-35-28 sshd[2369]: Invalid user server_adm from 65.2.161.68 port 46682
+Mar  6 06:31:35 ip-172-31-35-28 sshd[2366]: Invalid user server_adm from 65.2.161.68 port 46648
+Mar  6 06:31:35 ip-172-31-35-28 sshd["	"13106"	"13622"	"1226848861"	"2027/08/15 10:43:58"	"1965057129"	"115.101.114.32"
+"909521952"	"1292514356"	"ar  6 06:31:35 ip-172-31-35-28 s"	"shd["	"2364]: Invalid user server_adm f"	"rom 65.2.161.68 port 46632
+Mar  6 06:31:35 ip-172-31-35-28 sshd[2369]: pam_unix(sshd:auth): check pass; user unknown
+Mar  6 06:31:35 ip-172-31-35-28 sshd[2369]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=65.2.16"	"11825"	"14390"	"1632438816"	"1998/10/11 03:05:22"	"976629792"	"51.49.58.51"
+"1768710518"	"1937055844"	"er server_adm from 65.2.161.68 p"	"ort "	"46664
+Mar  6 06:31:35 ip-172-31-"	"35-28 sshd[2365]: pam_unix(sshd:auth): check pass; user unknown
+Mar  6 06:31:35 ip-172-31-35-28 sshd[2365]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=65.2.161.68 
+Mar  6 06:31:35 ip-172-31-35-28 sshd[2366]: pam"	"30047"	"26990"	"1936926840"	"2021/09/09 19:45:44"	"694711413"	"58.32.99.104"
+"976302906"	"1763718451"	"p-172-31-35-28 sshd[2363]: Inval"	"id u"	"ser server_adm from 65.2.161.68 "	"port 46620
+Mar  6 06:31:35 ip-172-31-35-28 sshd[2366]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=65.2.161.68 
+Mar  6 06:31:35 ip-172-31-35-28 sshd[2364]: pam_unix(sshd:auth): check pass; user unknown
+Mar  6 06:"	"12595"	"13114"	"1885937717"	"1996/09/11 21:37:49"	"758199085"	"51.53.45.50"
+"1629501993"	"1701344373"	"ntication failure; logname= uid="	"0 eu"	"id=0 tty=ssh ruser= rhost=65.2.1"	"61.68 
+Mar  6 06:31:35 ip-172-31-35-28 sshd[2367]: pam_unix(sshd:auth): check pass; user unknown
+Mar  6 06:31:35 ip-172-31-35-28 sshd[2367]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=65.2.161.68 
+Mar  6 06:31:3"	"8245"	"28777"	"842477869"	"1994/01/10 10:51:25"	"841823539"	"56.32.115.115"
+"1801676136"	"1935765536"	"s; user unknown
+Mar  6 06:31:35 "	"ip-1"	"72-31-35-28 sshd[2363]: pam_unix"	"(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=65.2.161.68 
+Mar  6 06:31:35 ip-172-31-35-28 sshd[2377]: Invalid user server_adm from 65.2.161.68 port 46684
+Mar  6 06:31:35 ip-172-31-35-28 sshd[2377]: pam_unix(sshd:auth): ch"	"25445"	"8299"	"1936941424"	"2031/05/20 15:03:23"	"1965060709"	"110.107.110.111"
+"1931491378"	"1533306995"	"2377]: pam_unix(sshd:auth): auth"	"enti"	"cation failure; logname= uid=0 e"	"uid=0 tty=ssh ruser= rhost=65.2.161.68 
+Mar  6 06:31:36 ip-172-31-35-28 sshd[2338]: Received disconnect from 65.2.161.68 port 46512:11: Bye Bye [preauth]
+Mar  6 06:31:36 ip-172-31-35-28 sshd[2338]: Disconnected from authenticating user backup 65.2.161.68 p"	"29295"	"8308"	"825570868"	"2029/09/25 08:43:30"	"1969317234"	"116.104.93.10"
+"1684566899"	"858993243"	"6]: Received disconnect from 65."	"2.16"	"1.68 port 46468:11: Bye Bye [pre"	"auth]
+Mar  6 06:31:36 ip-172-31-35-28 sshd[2336]: Disconnected from authenticating user backup 65.2.161.68 port 46468 [preauth]
+Mar  6 06:31:36 ip-172-31-35-28 sshd[2379]: Invalid user server_adm from 65.2.161.68 port 46698
+Mar  6 06:31:36 ip-172-31-35-28 "	"29555"	"25704"	"926102107"	"1987/02/19 01:17:45"	"1601003888"	"117.110.105.120"
+"2003791467"	"1632438894"	"r  6 06:31:36 ip-172-31-35-28 ss"	"hd[2"	"379]: pam_unix(sshd:auth): authe"	"ntication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=65.2.161.68 
+Mar  6 06:31:36 ip-172-31-35-28 sshd[2380]: Invalid user server_adm from 65.2.161.68 port 46710
+Mar  6 06:31:36 ip-172-31-35-28 sshd[2380]: pam_unix(sshd:auth): check pass; user unk"	"28526"	"28279"	"1918979338"	"1987/02/15 20:08:00"	"859452976"	"49.58.51.54"
+"1768846687"	"1936926840"	"hd:auth): authentication failure"	"; lo"	"gname= uid=0 euid=0 tty=ssh ruse"	"r= rhost=65.2.161.68 
+Mar  6 06:31:36 ip-172-31-35-28 sshd[2352]: Received disconnect from 65.2.161.68 port 46568:11: Bye Bye [preauth]
+Mar  6 06:31:36 ip-172-31-35-28 sshd[2352]: Disconnected from authenticating user backup 65.2.161.68 port 46568 [preauth"	"2653"	"24909"	"908075122"	"2000/12/12 14:03:12"	"859451699"	"54.32.105.112"
+"1679844453"	"1868788585"	"nnect from 65.2.161.68 port 4653"	"8:11"	": Bye Bye [preauth]
+Mar  6 06:31"	":36 ip-172-31-35-28 sshd[2351]: Disconnected from authenticating user backup 65.2.161.68 port 46538 [preauth]
+Mar  6 06:31:36 ip-172-31-35-28 sshd[2383]: Invalid user svc_account from 65.2.161.68 port 46722
+Mar  6 06:31:36 ip-172-31-35-28 sshd[2383]: pam_u"	"26990"	"10360"	"1684566899"	"2031/12/01 00:00:58"	"540682600"	"99.104.101.99"
+"909326897"	"762341664"	"172-31-35-28 sshd[2383]: pam_uni"	"x(ss"	"hd:auth): authentication failure"	"; logname= uid=0 euid=0 tty=ssh ruser= rhost=65.2.161.68 
+Mar  6 06:31:36 ip-172-31-35-28 sshd[2384]: Invalid user svc_account from 65.2.161.68 port 46732
+Mar  6 06:31:36 ip-172-31-35-28 sshd[2384]: pam_unix(sshd:auth): check pass; user unknown
+Mar  6 06:3"	"14897"	"13875"	"762341664"	"1994/01/11 05:20:49"	"858599731"	"53.45.50.56"
+"1969299514"	"1852139636"	"tication failure; logname= uid=0"	" eui"	"d=0 tty=ssh ruser= rhost=65.2.16"	"1.68 
+Mar  6 06:31:36 ip-172-31-35-28 sshd[2355]: Received disconnect from 65.2.161.68 port 46576:11: Bye Bye [preauth]
+Mar  6 06:31:36 ip-172-31-35-28 sshd[2355]: Disconnected from authenticating user backup 65.2.161.68 port 46576 [preauth]
+Mar  6 06:31:3"	"8246"	"28777"	"842477869"	"1994/01/10 10:51:25"	"841823539"	"56.32.115.115"
+"1886743395"	"1869768224"	"m 65.2.161.68 port 46582 ssh2
+Ma"	"r  6"	" 06:31:36 ip-172-31-35-28 sshd[2"	"387]: Invalid user svc_account from 65.2.161.68 port 46742
+Mar  6 06:31:36 ip-172-31-35-28 sshd[2387]: pam_unix(sshd:auth): check pass; user unknown
+Mar  6 06:31:36 ip-172-31-35-28 sshd[2387]: pam_unix(sshd:auth): authentication failure; logname= uid=0 eui"	"15716"	"8240"	"1031369844"	"1987/03/26 00:16:51"	"1702065522"	"114.61.32.114"
+"1885937718"	"842477869"	"-31-35-28 sshd[2357]: Received d"	"isco"	"nnect from 65.2.161.68 port 4658"	"2:11: Bye Bye [preauth]
+Mar  6 06:31:36 ip-172-31-35-28 sshd[2357]: Disconnected from authenticating user backup 65.2.161.68 port 46582 [preauth]
+Mar  6 06:31:36 ip-172-31-35-28 sshd[2357]: PAM 1 more authentication failure; logname= uid=0 euid=0 tty=ssh r"	"29557"	"29285"	"1752309821"	"2002/09/03 08:31:43"	"841889078"	"46.49.54.49"
+"762341664"	"758265649"	"31-35-28 sshd[2389]: Invalid use"	"r sv"	"c_account from 65.2.161.68 port "	"46744
+Mar  6 06:31:36 ip-172-31-35-28 sshd[2389]: pam_unix(sshd:auth): check pass; user unknown
+Mar  6 06:31:36 ip-172-31-35-28 sshd[2389]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=65.2.161.68 
+Mar  6 06:31:37"	"26912"	"11632"	"758265649"	"1997/03/17 11:55:31"	"942812469"	"32.115.115.104"
+"1684630625"	"1702065440"	"r server_adm from 65.2.161.68 po"	"rt 4"	"6596 ssh2
+Mar  6 06:31:37 ip-172"	"-31-35-28 sshd[2361]: Failed password for invalid user server_adm from 65.2.161.68 port 46614 ssh2
+Mar  6 06:31:37 ip-172-31-35-28 sshd[2368]: Failed password for invalid user server_adm from 65.2.161.68 port 46676 ssh2
+Mar  6 06:31:37 ip-172-31-35-28 sshd"	"12891"	"13619"	"540695865"	"2023/11/26 15:33:38"	"1684371049"	"32.100.105.115"
+"976632117"	"540684593"	"Bye Bye [preauth]
+Mar  6 06:31:3"	"7 ip"	"-172-31-35-28 sshd[2359]: Discon"	"nected from invalid user server_adm 65.2.161.68 port 46596 [preauth]
+Mar  6 06:31:37 ip-172-31-35-28 sshd[2369]: Failed password for invalid user server_adm from 65.2.161.68 port 46682 ssh2
+Mar  6 06:31:37 ip-172-31-35-28 sshd[2365]: Failed password for in"	"24950"	"26988"	"1937055844"	"2031/03/17 09:31:17"	"1702261349"	"114.95.97.100"
+"1292513896"	"538997345"	"6 06:31:37 ip-172-31-35-28 sshd["	"2366"	"]: Failed password for invalid u"	"ser server_adm from 65.2.161.68 port 46648 ssh2
+Mar  6 06:31:37 ip-172-31-35-28 sshd[2364]: Failed password for invalid user server_adm from 65.2.161.68 port 46632 ssh2
+Mar  6 06:31:37 ip-172-31-35-28 sshd[2367]: Failed password for invalid user server_adm"	"26144"	"28530"	"892739693"	"1996/02/23 21:31:26"	"908996918"	"56.32.112.111"
+"842477869"	"758199085"	"35-28 sshd[2363]: Failed passwor"	"d fo"	"r invalid user server_adm from 6"	"5.2.161.68 port 46620 ssh2
+Mar  6 06:31:37 ip-172-31-35-28 sshd[2361]: Received disconnect from 65.2.161.68 port 46614:11: Bye Bye [preauth]
+Mar  6 06:31:37 ip-172-31-35-28 sshd[2361]: Disconnected from invalid user server_adm 65.2.161.68 port 46614 [preau"	"26740"	"2653"	"544366925"	"1995/08/03 02:36:16"	"825440822"	"58.51.55.32"
+"1684371049"	"1936286752"	"connect from 65.2.161.68 port 46"	"676:"	"11: Bye Bye [preauth]
+Mar  6 06:"	"31:37 ip-172-31-35-28 sshd[2368]: Disconnected from invalid user server_adm 65.2.161.68 port 46676 [preauth]
+Mar  6 06:31:37 ip-172-31-35-28 sshd[2391]: Invalid user svc_account from 65.2.161.68 port 46750
+Mar  6 06:31:37 ip-172-31-35-28 sshd[2391]: pam_un"	"30825"	"29480"	"979658867"	"2025/07/14 03:11:29"	"1663056425"	"104.101.99.107"
+"540488506"	"825061481"	"72-31-35-28 sshd[2391]: pam_unix"	"(ssh"	"d:auth): authentication failure;"	" logname= uid=0 euid=0 tty=ssh ruser= rhost=65.2.161.68 
+Mar  6 06:31:37 ip-172-31-35-28 sshd[2364]: Received disconnect from 65.2.161.68 port 46632:11: Bye Bye [preauth]
+Mar  6 06:31:37 ip-172-31-35-28 sshd[2364]: Disconnected from invalid user server_adm"	"13856"	"11829"	"909192754"	"1999/11/20 05:14:25"	"1919905824"	"116.32.52.54"
+"842477869"	"758199085"	"35-28 sshd[2369]: Received disco"	"nnec"	"t from 65.2.161.68 port 46682:11"	": Bye Bye [preauth]
+Mar  6 06:31:37 ip-172-31-35-28 sshd[2369]: Disconnected from invalid user server_adm 65.2.161.68 port 46682 [preauth]
+Mar  6 06:31:37 ip-172-31-35-28 sshd[2366]: Received disconnect from 65.2.161.68 port 46648:11: Bye Bye [preauth]
+Mar"	"8224"	"8246"	"859452976"	"1999/05/07 19:08:33"	"762341664"	"49.55.50.45"
+"1919295588"	"1763732847"	"nvalid user server_adm 65.2.161."	"68 p"	"ort 46648 [preauth]
+Mar  6 06:31"	":37 ip-172-31-35-28 sshd[2365]: Received disconnect from 65.2.161.68 port 46644:11: Bye Bye [preauth]
+Mar  6 06:31:37 ip-172-31-35-28 sshd[2365]: Disconnected from invalid user server_adm 65.2.161.68 port 46644 [preauth]
+Mar  6 06:31:37 ip-172-31-35-28 ssh"	"23396"	"13106"	"979186486"	"2022/11/04 17:55:44"	"1702259045"	"100.32.100.105"
+"808597046"	"976302394"	" Bye Bye [preauth]
+Mar  6 06:31:"	"37 i"	"p-172-31-35-28 sshd[2363]: Disco"	"nnected from invalid user server_adm 65.2.161.68 port 46620 [preauth]
+Mar  6 06:31:37 ip-172-31-35-28 sshd[2367]: Received disconnect from 65.2.161.68 port 46664:11: Bye Bye [preauth]
+Mar  6 06:31:37 ip-172-31-35-28 sshd[2367]: Disconnected from invalid us"	"29285"	"29472"	"1702261349"	"2023/05/14 22:23:46"	"892739693"	"46.50.46.49"
+"909123638"	"976302906"	"37 ip-172-31-35-28 sshd[2393]: I"	"nval"	"id user svc_account from 65.2.16"	"1.68 port 46774
+Mar  6 06:31:37 ip-172-31-35-28 sshd[2393]: pam_unix(sshd:auth): check pass; user unknown
+Mar  6 06:31:37 ip-172-31-35-28 sshd[2393]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=65.2.161.68 
+Mar  "	"8246"	"13872"	"976302906"	"2025/11/21 09:56:03"	"925969776"	"50.45.51.49"
+"1713398898"	"1763734127"	"nvalid user server_adm from 65.2"	".161"	".68 port 46684 ssh2
+Mar  6 06:31"	":37 ip-172-31-35-28 sshd[2394]: Invalid user svc_account from 65.2.161.68 port 46786
+Mar  6 06:31:37 ip-172-31-35-28 sshd[2394]: pam_unix(sshd:auth): check pass; user unknown
+Mar  6 06:31:37 ip-172-31-35-28 sshd[2394]: pam_unix(sshd:auth): authentication f"	"26977"	"30060"	"540763506"	"2028/09/11 08:08:12"	"1030057313"	"32.117.105.100"
+"775040565"	"774977073"	"68 
+Mar  6 06:31:37 ip-172-31-35"	"-28 "	"sshd[2397]: Invalid user svc_acc"	"ount from 65.2.161.68 port 46814
+Mar  6 06:31:37 ip-172-31-35-28 sshd[2398]: Invalid user svc_account from 65.2.161.68 port 46840
+Mar  6 06:31:37 ip-172-31-35-28 sshd[2397]: pam_unix(sshd:auth): check pass; user unknown
+Mar  6 06:31:37 ip-172-31-35-28 sshd"	"12891"	"14643"	"540695863"	"2020/09/25 03:18:08"	"2020175477"	"40.115.115.104"
+"1735355424"	"1701667182"	"= uid=0 euid=0 tty=ssh ruser= rh"	"ost="	"65.2.161.68 
+Mar  6 06:31:37 ip-"	"172-31-35-28 sshd[2396]: Invalid user svc_account from 65.2.161.68 port 46800
+Mar  6 06:31:37 ip-172-31-35-28 sshd[2398]: pam_unix(sshd:auth): check pass; user unknown
+Mar  6 06:31:37 ip-172-31-35-28 sshd[2398]: pam_unix(sshd:auth): authentication failure;"	"27680"	"26479"	"1701667182"	"2026/01/24 19:40:45"	"540032356"	"101.117.105.100"
+"540554798"	"1918979338"	"  6 06:31:37 ip-172-31-35-28 ssh"	"d[24"	"00]: Invalid user svc_account fr"	"om 65.2.161.68 port 46854
+Mar  6 06:31:37 ip-172-31-35-28 sshd[2396]: pam_unix(sshd:auth): check pass; user unknown
+Mar  6 06:31:37 ip-172-31-35-28 sshd[2396]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=65.2.161"	"13870"	"8248"	"1918979338"	"1987/02/15 20:08:00"	"859452976"	"49.58.51.55"
+"1768846687"	"1936926840"	"hd:auth): check pass; user unkno"	"wn
+M"	"ar  6 06:31:37 ip-172-31-35-28 s"	"shd[2400]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=65.2.161.68 
+Mar  6 06:31:37 ip-172-31-35-28 sshd[2377]: Received disconnect from 65.2.161.68 port 46684:11: Bye Bye [preauth]
+Mar  6 06:31:37 ip-172-31-35-2"	"8248"	"29555"	"844850280"	"2019/07/23 16:34:59"	"1766072378"	"115.99.111.110"
+"544040033"	"841889078"	".161.68 port 46684 [preauth]
+Mar"	"  6 "	"06:31:37 ip-172-31-35-28 sshd[23"	"99]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=65.2.161.68  user=root
+Mar  6 06:31:37 ip-172-31-35-28 sshd[2407]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=65.2.161"	"13870"	"8248"	"1702065440"	"2029/04/01 17:10:10"	"1292530799"	"97.114.32.32"
+"959460402"	"1881160285"	"am_unix(sshd:auth): authenticati"	"on f"	"ailure; logname= uid=0 euid=0 tt"	"y=ssh ruser= rhost=65.2.161.68  user=root
+Mar  6 06:31:38 ip-172-31-35-28 sshd[2379]: Failed password for invalid user server_adm from 65.2.161.68 port 46698 ssh2
+Mar  6 06:31:38 ip-172-31-35-28 sshd[2380]: Failed password for invalid user server_adm from "	"13622"	"12846"	"825635118"	"1987/02/17 10:06:38"	"1953656688"	"32.52.54.55"
+"892546353"	"540553773"	"sshd[2383]: Failed password for "	"inva"	"lid user svc_account from 65.2.1"	"61.68 port 46722 ssh2
+Mar  6 06:31:38 ip-172-31-35-28 sshd[2384]: Failed password for invalid user svc_account from 65.2.161.68 port 46732 ssh2
+Mar  6 06:31:38 ip-172-31-35-28 sshd[2387]: Failed password for invalid user svc_account from 65.2.161.68 port 4"	"14134"	"12852"	"1752396576"	"2021/09/23 23:13:54"	"908075122"	"32.48.54.58"
+"1631985722"	"1684368489"	" password for invalid user svc_a"	"ccou"	"nt from 65.2.161.68 port 46744 s"	"sh2
+Mar  6 06:31:39 ip-172-31-35-28 sshd[2391]: Failed password for invalid user svc_account from 65.2.161.68 port 46750 ssh2
+Mar  6 06:31:39 ip-172-31-35-28 sshd[2393]: Failed password for invalid user svc_account from 65.2.161.68 port 46774 ssh2
+Mar  6 0"	"14902"	"12595"	"540619578"	"1996/02/23 07:44:41"	"858599991"	"49.45.51.53"
+"544370534"	"1635151465"	"lid user svc_account from 65.2.1"	"61.6"	"8 port 46786 ssh2
+Mar  6 06:31:3"	"9 ip-172-31-35-28 sshd[2397]: Failed password for invalid user svc_account from 65.2.161.68 port 46814 ssh2
+Mar  6 06:31:39 ip-172-31-35-28 sshd[2398]: Failed password for invalid user svc_account from 65.2.161.68 port 46840 ssh2
+Mar  6 06:31:39 ip-172-31-"	"13619"	"12845"	"1936924728"	"1996/10/09 08:38:00"	"1563834675"	"58.32.70.97"
+"1633641334"	"1970234211"	"nt from 65.2.161.68 port 46800 s"	"sh2
+"	"Mar  6 06:31:39 ip-172-31-35-28 "	"sshd[2400]: Failed password for invalid user svc_account from 65.2.161.68 port 46854 ssh2
+Mar  6 06:31:39 ip-172-31-35-28 sshd[2399]: Failed password for root from 65.2.161.68 port 46852 ssh2
+Mar  6 06:31:39 ip-172-31-35-28 sshd[2407]: Failed password for "	"28530"	"29807"	"1869768224"	"1998/04/16 15:14:53"	"825111086"	"54.49.46.54"
+"1885937721"	"842477869"	"-31-35-28 sshd[2383]: Received d"	"isco"	"nnect from 65.2.161.68 port 4672"	"2:11: Bye Bye [preauth]
+Mar  6 06:31:39 ip-172-31-35-28 sshd[2383]: Disconnected from invalid user svc_account 65.2.161.68 port 46722 [preauth]
+Mar  6 06:31:39 ip-172-31-35-28 sshd[2384]: Received disconnect from 65.2.161.68 port 46732:11: Bye Bye [preauth"	"2653"	"24909"	"908075122"	"2000/12/12 14:03:12"	"859451699"	"57.32.105.112"
+"1952671086"	"1713398885"	"rom invalid user svc_account 65."	"2.16"	"1.68 port 46732 [preauth]
+Mar  6"	" 06:31:39 ip-172-31-35-28 sshd[2409]: Failed password for root from 65.2.161.68 port 46890 ssh2
+Mar  6 06:31:40 ip-172-31-35-28 sshd[2411]: Accepted password for root from 65.2.161.68 port 34782 ssh2
+Mar  6 06:31:40 ip-172-31-35-28 sshd[2411]: pam_unix(ssh"	"14948"	"25971"	"1869181811"	"1987/02/18 21:36:46"	"1936942451"	"105.111.110.32"
+"1029990773"	"1292511536"	"ar  6 06:31:40 ip-172-31-35-28 s"	"yste"	"md-logind[411]: New session 34 o"	"f user root.
+Mar  6 06:31:40 ip-172-31-35-28 sshd[2379]: Received disconnect from 65.2.161.68 port 46698:11: Bye Bye [preauth]
+Mar  6 06:31:40 ip-172-31-35-28 sshd[2379]: Disconnected from invalid user server_adm 65.2.161.68 port 46698 [preauth]
+Mar  6 06:"	"12595"	"13370"	"1885937712"	"1996/09/11 21:37:49"	"758199085"	"51.53.45.50"
+"1919295604"	"908094831"	"5.2.161.68 port 46710:11: Bye By"	"e [p"	"reauth]
+Mar  6 06:31:40 ip-172-3"	"1-35-28 sshd[2380]: Disconnected from invalid user server_adm 65.2.161.68 port 46710 [preauth]
+Mar  6 06:31:40 ip-172-31-35-28 sshd[2387]: Connection closed by invalid user svc_account 65.2.161.68 port 46742 [preauth]
+Mar  6 06:31:40 ip-172-31-35-28 sshd[2"	"12852"	"23859"	"1634738234"	"2028/09/21 21:51:41"	"1932032105"	"115.104.100.58"
+"1634625391"	"540894573"	"uid=0 euid=0 tty=ssh ruser= rhos"	"t=65"	".2.161.68  user=backup
+Mar  6 06"	":31:40 ip-172-31-35-28 sshd[2424]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=65.2.161.68  user=backup
+Mar  6 06:31:40 ip-172-31-35-28 sshd[2389]: Connection closed by invalid user svc_account 65.2.161.68 port 4"	"14134"	"13364"	"1919965984"	"2031/12/01 00:01:41"	"1292524904"	"97.114.32.32"
+"825832242"	"1126185565"	"onnection closed by invalid user"	" svc"	"_account 65.2.161.68 port 46750 "	"[preauth]
+Mar  6 06:31:40 ip-172-31-35-28 sshd[2411]: Received disconnect from 65.2.161.68 port 34782:11: Bye Bye
+Mar  6 06:31:40 ip-172-31-35-28 sshd[2411]: Disconnected from user root 65.2.161.68 port 34782
+Mar  6 06:31:40 ip-172-31-35-28 sshd[2411]: pam"	"30047"	"26990"	"1936926840"	"2031/04/06 01:50:32"	"1769173861"	"111.110.41.58"
+"908075122"	"976629792"	"31:40 ip-172-31-35-28 systemd-lo"	"gind"	"[411]: Session 34 logged out. Wa"	"iting for processes to exit.
+Mar  6 06:31:40 ip-172-31-35-28 systemd-logind[411]: Removed session 34.
+Mar  6 06:31:40 ip-172-31-35-28 sshd[2393]: Connection closed by invalid user svc_account 65.2.161.68 port 46774 [preauth]
+Mar  6 06:31:40 ip-172-31-35-28"	"29472"	"26739"	"858938212"	"2001/01/11 04:19:05"	"1852785440"	"110.101.99.116"
+"1970234211"	"908096622"	"5.2.161.68 port 46786 [preauth]
+"	"Mar "	" 6 06:31:40 ip-172-31-35-28 sshd"	"[2397]: Connection closed by invalid user svc_account 65.2.161.68 port 46814 [preauth]
+Mar  6 06:31:40 ip-172-31-35-28 sshd[2398]: Connection closed by invalid user svc_account 65.2.161.68 port 46840 [preauth]
+Mar  6 06:31:40 ip-172-31-35-28 sshd[2396]: Co"	"28270"	"25445"	"1852795252"	"2029/03/28 06:37:20"	"543450483"	"98.121.32.105"
+"540554798"	"1953656688"	" 46800 [preauth]
+Mar  6 06:31:40"	" ip-"	"172-31-35-28 sshd[2400]: Connect"	"ion closed by invalid user svc_account 65.2.161.68 port 46854 [preauth]
+Mar  6 06:31:41 ip-172-31-35-28 sshd[2399]: Failed password for root from 65.2.161.68 port 46852 ssh2
+Mar  6 06:31:41 ip-172-31-35-28 sshd[2407]: Failed password for root from 65.2.161"	"13870"	"8248"	"1953656688"	"1999/11/20 05:39:44"	"1931490871"	"115.104.50.10"
+"1684566899"	"808727131"	"9]: Failed password for root fro"	"m 65"	".2.161.68 port 46890 ssh2
+Mar  6"	" 06:31:41 ip-172-31-35-28 sshd[2399]: Connection closed by authenticating user root 65.2.161.68 port 46852 [preauth]
+Mar  6 06:31:41 ip-172-31-35-28 sshd[2399]: PAM 1 more authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=65.2.161.68  user"	"29245"	"28527"	"1632438900"	"1998/10/11 03:05:22"	"976629792"	"51.49.58.52"
+"1667591790"	"1852795252"	" closed by authenticating user r"	"oot "	"65.2.161.68 port 46876 [preauth]"	"
+Mar  6 06:31:41 ip-172-31-35-28 sshd[2407]: PAM 1 more authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=65.2.161.68  user=root
+Mar  6 06:31:42 ip-172-31-35-28 sshd[2409]: Connection closed by authenticating user root 65.2.161.68 port 468"	"12345"	"23328"	"1634038384"	"2019/08/30 00:57:25"	"1918979338"	"32.32.54.32"
+"979188016"	"1296125984"	" 1 more authentication failure; "	"logn"	"ame= uid=0 euid=0 tty=ssh ruser="	" rhost=65.2.161.68  user=root
+Mar  6 06:31:42 ip-172-31-35-28 sshd[2423]: Failed password for backup from 65.2.161.68 port 34834 ssh2
+Mar  6 06:31:42 ip-172-31-35-28 sshd[2424]: Failed password for backup from 65.2.161.68 port 34856 ssh2
+Mar  6 06:31:44 ip"	"12589"	"12855"	"758199085"	"1996/09/04 07:52:19"	"1936924728"	"104.100.91.50"
+"1667855470"	"1852404833"	"g user backup 65.2.161.68 port 3"	"4834"	" [preauth]
+Mar  6 06:31:44 ip-17"	"2-31-35-28 sshd[2424]: Connection closed by authenticating user backup 65.2.161.68 port 34856 [preauth]
+Mar  6 06:32:01 ip-172-31-35-28 CRON[2477]: pam_unix(cron:session): session opened for user confluence(uid=998) by (uid=0)
+Mar  6 06:32:01 ip-172-31-35-"	"14386"	"17184"	"1531858770"	"1998/10/28 15:11:46"	"1881160285"	"97.109.95.117"
+"1868963940"	"1937055858"	"er confluence(uid=998) by (uid=0"	")
+Ma"	"r  6 06:32:01 ip-172-31-35-28 CR"	"ON[2476]: pam_unix(cron:session): session closed for user confluence
+Mar  6 06:32:01 ip-172-31-35-28 CRON[2477]: pam_unix(cron:session): session closed for user confluence
+Mar  6 06:32:39 ip-172-31-35-28 sshd[620]: exited MaxStartups throttling after 00:01"	"12346"	"11320"	"540095008"	"2028/09/16 15:33:55"	"1769235301"	"111.110.115.32"
+"892546353"	"540553773"	"sshd[2491]: Accepted password fo"	"r ro"	"ot from 65.2.161.68 port 53184 s"	"sh2
+Mar  6 06:32:44 ip-172-31-35-28 sshd[2491]: pam_unix(sshd:session): session opened for user root(uid=0) by (uid=0)
+Mar  6 06:32:44 ip-172-31-35-28 systemd-logind[411]: New session 37 of user root.
+Mar  6 06:33:01 ip-172-31-35-28 CRON[2561]: pam_unix(cr"	"28271"	"29498"	"1769173861"	"2000/12/02 21:49:35"	"1936028448"	"115.105.111.110"
+"691550521"	"544825888"	"(uid=0)
+Mar  6 06:33:01 ip-172-3"	"1-35"	"-28 CRON[2562]: pam_unix(cron:se"	"ssion): session opened for user confluence(uid=998) by (uid=0)
+Mar  6 06:33:01 ip-172-31-35-28 CRON[2561]: pam_unix(cron:session): session closed for user confluence
+Mar  6 06:33:01 ip-172-31-35-28 CRON[2562]: pam_unix(cron:session): session closed for use"	"8306"	"28515"	"1970038382"	"2023/11/26 16:12:21"	"1918979338"	"32.32.54.32"
+"979186743"	"1835102240"	"_unix(cron:session): session ope"	"ned "	"for user confluence(uid=998) by "	"(uid=0)
+Mar  6 06:34:01 ip-172-31-35-28 CRON[2575]: pam_unix(cron:session): session opened for user confluence(uid=998) by (uid=0)
+Mar  6 06:34:01 ip-172-31-35-28 CRON[2575]: pam_unix(cron:session): session closed for user confluence
+Mar  6 06:34:01 ip-172"	"13101"	"11569"	"841823539"	"2013/09/25 17:41:12"	"844844623"	"53.55.52.93"
+"1818435694"	"1684370287"	" for user confluence
+Mar  6 06:3"	"4:18"	" ip-172-31-35-28 groupadd[2586]:"	" group added to /etc/group: name=cyberjunkie, GID=1002
+Mar  6 06:34:18 ip-172-31-35-28 groupadd[2586]: group added to /etc/gshadow: name=cyberjunkie
+Mar  6 06:34:18 ip-172-31-35-28 groupadd[2586]: new group: name=cyberjunkie, GID=1002
+Mar  6 06:34:18 ip-17"	"11570"	"12595"	"758461229"	"2032/04/08 14:03:30"	"1634887027"	"100.100.91.50"
+"1230315564"	"808533316"	"02, GID=1002, home=/home/cyberju"	"nkie"	", shell=/bin/bash, from=/dev/pts"	"/1
+Mar  6 06:34:26 ip-172-31-35-28 passwd[2603]: pam_unix(passwd:chauthtok): password changed for cyberjunkie
+Mar  6 06:34:31 ip-172-31-35-28 chfn[2605]: changed user 'cyberjunkie' information
+Mar  6 06:35:01 ip-172-31-35-28 CRON[2614]: pam_unix(cron:sessi"	"28271"	"14889"	"1936028448"	"2028/09/17 09:20:51"	"1701867296"	"110.101.100.32"
+"544366925"	"807417376"	"6:35:01 ip-172-31-35-28 CRON[261"	"6]: "	"pam_unix(cron:session): session "	"opened for user confluence(uid=998) by (uid=0)
+Mar  6 06:35:01 ip-172-31-35-28 CRON[2615]: pam_unix(cron:session): session opened for user confluence(uid=998) by (uid=0)
+Mar  6 06:35:01 ip-172-31-35-28 CRON[2614]: pam_unix(cron:session): session closed for"	"29984"	"25971"	"1869750386"	"2010/12/16 20:19:59"	"538997345"	"54.32.48.54"
+"1881160285"	"1969188193"	"nix(cron:session): session close"	"d fo"	"r user confluence
+Mar  6 06:35:0"	"1 ip-172-31-35-28 CRON[2615]: pam_unix(cron:session): session closed for user confluence
+Mar  6 06:35:15 ip-172-31-35-28 usermod[2628]: add 'cyberjunkie' to group 'sudo'
+Mar  6 06:35:15 ip-172-31-35-28 usermod[2628]: add 'cyberjunkie' to shadow group 'sudo"	"2599"	"24909"	"908075122"	"2000/12/12 14:03:12"	"809121331"	"49.32.105.112"
+"1663596649"	"980316018"	"session): session opened for use"	"r co"	"nfluence(uid=998) by (uid=0)
+Mar"	"  6 06:36:01 ip-172-31-35-28 CRON[2641]: pam_unix(cron:session): session opened for user confluence(uid=998) by (uid=0)
+Mar  6 06:36:01 ip-172-31-35-28 CRON[2641]: pam_unix(cron:session): session closed for user confluence
+Mar  6 06:36:01 ip-172-31-35-28 C"	"20306"	"23374"	"808728114"	"2029/08/11 16:31:25"	"1969188193"	"110.105.120.40"
+"1937055858"	"1663070821"	"onfluence
+Mar  6 06:37:01 ip-172"	"-31-"	"35-28 CRON[2654]: pam_unix(cron:"	"session): session opened for user confluence(uid=998) by (uid=0)
+Mar  6 06:37:01 ip-172-31-35-28 CRON[2653]: pam_unix(cron:session): session opened for user confluence(uid=998) by (uid=0)
+Mar  6 06:37:01 ip-172-31-35-28 CRON[2654]: pam_unix(cron:session): "	"25971"	"29555"	"544108393"	"2031/05/16 07:14:43"	"1713398885"	"111.114.32.117"
+"925969776"	"825437490"	"-35-28 CRON[2653]: pam_unix(cron"	":ses"	"sion): session closed for user c"	"onfluence
+Mar  6 06:37:24 ip-172-31-35-28 sshd[2491]: Received disconnect from 65.2.161.68 port 53184:11: disconnected by user
+Mar  6 06:37:24 ip-172-31-35-28 sshd[2491]: Disconnected from user root 65.2.161.68 port 53184
+Mar  6 06:37:24 ip-172-31-35-28 ss"	"25704"	"12891"	"1563506996"	"2021/10/20 13:57:14"	"1853185901"	"105.120.40.115"
+"1702065440"	"1869750386"	"ot
+Mar  6 06:37:24 ip-172-31-35-"	"28 s"	"ystemd-logind[411]: Session 37 l"	"ogged out. Waiting for processes to exit.
+Mar  6 06:37:24 ip-172-31-35-28 systemd-logind[411]: Removed session 37.
+Mar  6 06:37:34 ip-172-31-35-28 sshd[2667]: Accepted password for cyberjunkie from 65.2.161.68 port 43260 ssh2
+Mar  6 06:37:34 ip-172-31-35-2"	"8248"	"29555"	"844850280"	"2019/07/23 16:30:46"	"1634738234"	"109.95.117.110"
+"1919903264"	"1702065440"	"r cyberjunkie(uid=1002) by (uid="	"0)
+M"	"ar  6 06:37:34 ip-172-31-35-28 s"	"ystemd-logind[411]: New session 49 of user cyberjunkie.
+Mar  6 06:37:34 ip-172-31-35-28 systemd: pam_unix(systemd-user:session): session opened for user cyberjunkie(uid=1002) by (uid=0)
+Mar  6 06:37:57 ip-172-31-35-28 sudo: cyberjunkie : TTY=pts/1 ; PWD=/h"	"28015"	"12133"	"1700952419"	"2028/09/21 22:38:42"	"543517035"	"59.32.85.83"
+"795047013"	"1684105331"	"ow
+Mar  6 06:37:57 ip-172-31-35-"	"28 s"	"udo: pam_unix(sudo:session): ses"	"sion opened for user root(uid=0) by cyberjunkie(uid=1002)
+Mar  6 06:37:57 ip-172-31-35-28 sudo: pam_unix(sudo:session): session closed for user root
+Mar  6 06:38:01 ip-172-31-35-28 CRON[2751]: pam_unix(cron:session): session opened for user confluence(uid="	"14649"	"10552"	"544825888"	"2023/05/21 01:34:32"	"170471485"	"77.97.114.32"
+"892809819"	"540695856"	"pam_unix(cron:session): session "	"open"	"ed for user confluence(uid=998) "	"by (uid=0)
+Mar  6 06:38:01 ip-172-31-35-28 CRON[2750]: pam_unix(cron:session): session closed for user confluence
+Mar  6 06:38:01 ip-172-31-35-28 CRON[2751]: pam_unix(cron:session): session closed for user confluence
+Mar  6 06:39:01 ip-172-31-35-28 CRON[27"	"13622"	"14941"	"1835102240"	"2026/01/19 18:18:07"	"1919101048"	"111.110.58.115"
+"1852793632"	"1702194278"	"nce(uid=998) by (uid=0)
+Mar  6 0"	"6:39"	":01 ip-172-31-35-28 CRON[2764]: "	"pam_unix(cron:session): session opened for user confluence(uid=998) by (uid=0)
+Mar  6 06:39:01 ip-172-31-35-28 CRON[2765]: pam_unix(cron:session): session closed for user confluence
+Mar  6 06:39:01 ip-172-31-35-28 CRON[2764]: pam_unix(cron:session): sessio"	"8302"	"27747"	"1684370287"	"2030/11/03 02:27:44"	"1702065440"	"114.32.99.111"
+"858599731"	"942812469"	" sudo: cyberjunkie : TTY=pts/1 ;"	" PWD"	"=/home/cyberjunkie ; USER=root ;"	" COMMAND=/usr/bin/curl https://raw.githubusercontent.com/montysecurity/linper/main/linper.sh
+Mar  6 06:39:38 ip-172-31-35-28 sudo: pam_unix(sudo:session): session opened for user root(uid=0) by cyberjunkie(uid=1002)
+Mar  6 06:39:39 ip-172-31-35-28 sudo: pa"	"24429"	"28277"	"1932032105"	"2001/01/24 23:25:41"	"1936942451"	"105.111.110.41"
+"538997345"	"909123638"	":40:01 ip-172-31-35-28 CRON[2783"	"]: p"	"am_unix(cron:session): session o"	"pened for user confluence(uid=998) by (uid=0)
+Mar  6 06:40:01 ip-172-31-35-28 CRON[2784]: pam_unix(cron:session): session opened for user confluence(uid=998) by (uid=0)
+Mar  6 06:40:01 ip-172-31-35-28 CRON[2783]: pam_unix(cron:session): session closed for "	"29557"	"29285"	"1852793632"	"2023/12/10 07:44:38"	"174416750"	"77.97.114.32"
+"943141467"	"540695860"	"pam_unix(cron:session): session "	"clos"	"ed for user confluence
+Mar  6 06"	":41:01 ip-172-31-35-28 CRON[2796]: pam_unix(cron:session): session opened for user confluence(uid=998) by (uid=0)
+Mar  6 06:41:01 ip-172-31-35-28 CRON[2797]: pam_unix(cron:session): session opened for user confluence(uid=998) by (uid=0)
+Mar  6 06:41:01 ip-"	"14129"	"11570"	"858599731"	"1999/11/17 04:21:09"	"1330791200"	"78.91.50.55"
