@@ -1,0 +1,83 @@
+TreeDepth,PID,Process,Args
+0,4,System,-
+0,68,Registry,-
+0,296,smss.exe,-
+0,404,csrss.exe,"%SystemRoot%\\system32\\csrss.exe ObjectDirectory=\\Windows SharedSection=1024,20480,768 Windows=On SubSystemType=Windows ServerDll=basesrv,1 ServerDll=winsrv:UserServerDllInitialization,3 ServerDll=sxssrv,4 ProfileControl=Off MaxRequestThreads=16"
+0,480,csrss.exe,"%SystemRoot%\\system32\\csrss.exe ObjectDirectory=\\Windows SharedSection=1024,20480,768 Windows=On SubSystemType=Windows ServerDll=basesrv,1 ServerDll=winsrv:UserServerDllInitialization,3 ServerDll=sxssrv,4 ProfileControl=Off MaxRequestThreads=16"
+0,496,wininit.exe,-
+0,536,winlogon.exe,winlogon.exe
+0,600,services.exe,C:\\Windows\\system32\\services.exe
+0,608,lsass.exe,C:\\Windows\\system32\\lsass.exe
+0,704,svchost.exe,C:\\Windows\\system32\\svchost.exe -k DcomLaunch -p
+0,724,fontdrvhost.ex,"""fontdrvhost.exe"""
+0,732,fontdrvhost.ex,-
+0,796,svchost.exe,C:\\Windows\\system32\\svchost.exe -k RPCSS -p
+0,884,dwm.exe,"""dwm.exe"""
+0,1008,svchost.exe,C:\\Windows\\System32\\svchost.exe -k termsvcs
+0,1020,svchost.exe,C:\\Windows\\system32\\svchost.exe -k LocalServiceNoNetwork -p
+0,348,svchost.exe,C:\\Windows\\System32\\svchost.exe -k LocalServiceNetworkRestricted -p
+0,320,svchost.exe,C:\\Windows\\system32\\svchost.exe -k LocalService -p
+0,428,svchost.exe,C:\\Windows\\system32\\svchost.exe -k LocalService
+0,792,svchost.exe,C:\\Windows\\System32\\svchost.exe -k LocalSystemNetworkRestricted -p
+0,972,svchost.exe,C:\\Windows\\system32\\svchost.exe -k NetworkService -p
+0,1172,svchost.exe,C:\\Windows\\system32\\svchost.exe -k ICService -p
+0,1204,svchost.exe,C:\\Windows\\system32\\svchost.exe -k LocalServiceNoNetworkFirewall -p
+0,1344,svchost.exe,C:\\Windows\\system32\\svchost.exe -k netsvcs -p
+0,1568,svchost.exe,C:\\Windows\\system32\\svchost.exe -k LocalServiceNetworkRestricted -p
+0,1588,VSSVC.exe,C:\\Windows\\system32\\vssvc.exe
+0,1692,svchost.exe,-
+0,1288,spoolsv.exe,C:\\Windows\\System32\\spoolsv.exe
+0,1872,svchost.exe,C:\\Windows\\System32\\svchost.exe -k utcsvc -p
+0,2092,svchost.exe,C:\\Windows\\System32\\svchost.exe -k smbsvcs
+0,2116,splunkd.exe,"""C:\\Program Files\\SplunkUniversalForwarder\\bin\\splunkd.exe"" service"
+0,2144,wlms.exe,C:\\Windows\\system32\\wlms\\wlms.exe
+0,2152,Sysmon64.exe,C:\\Windows\\Sysmon64.exe
+0,2276,sppsvc.exe,C:\\Windows\\system32\\sppsvc.exe
+0,2524,unsecapp.exe,C:\\Windows\\system32\\wbem\\unsecapp.exe -Embedding
+0,2656,conhost.exe,-
+0,2820,SppExtComObj.E,-
+0,2896,svchost.exe,C:\\Windows\\system32\\svchost.exe -k LocalServiceAndNoImpersonation -p
+0,1320,msdtc.exe,-
+0,356,svchost.exe,C:\\Windows\\system32\\svchost.exe -k wusvcs -p
+0,272,svchost.exe,C:\\Windows\\system32\\svchost.exe -k appmodel -p
+0,2772,sihost.exe,sihost.exe
+0,1516,svchost.exe,C:\\Windows\\system32\\svchost.exe -k UnistackSvcGroup
+0,1956,taskhostw.exe,taskhostw.exe {222A245B-E637-4AE9-A93F-A59CA119A75E}
+0,1672,ctfmon.exe,"""ctfmon.exe"""
+0,1356,userinit.exe,-
+0,2788,explorer.exe,C:\\Windows\\Explorer.EXE
+0,3264,ShellExperienc,-
+0,3388,SearchUI.exe,-
+0,3444,RuntimeBroker.,C:\\Windows\\System32\\RuntimeBroker.exe -Embedding
+0,3544,RuntimeBroker.,C:\\Windows\\System32\\RuntimeBroker.exe -Embedding
+0,3856,RuntimeBroker.,C:\\Windows\\System32\\RuntimeBroker.exe -Embedding
+0,3564,firefox.exe,-
+0,4588,firefox.exe,"""C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe"""
+0,3508,firefox.exe,"""C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe"" -contentproc --channel=1740 -parentBuildID 20240606181944 -prefsHandle 1656 -prefMapHandle 1312 -prefsLen 26176 -prefMapSize 251350 -appDir ""C:\\Program Files (x86)\\Mozilla Firefox\\browser"" - {c2d84bd5-f9ae-40f3-a50f-3428d953e879} 4588 ""\\\\.\\pipe\\gecko-crash-server-pipe.4588"" gpu"
+0,3800,firefox.exe,"""C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe"" -contentproc --channel=2104 -parentBuildID 20240606181944 -prefsHandle 2096 -prefMapHandle 2092 -prefsLen 26176 -prefMapSize 251350 -win32kLockedDown -appDir ""C:\\Program Files (x86)\\Mozilla Firefox\\browser"" - {7143a08f-cfb8-4565-a5f5-288dfadfbf58} 4588 ""\\\\.\\pipe\\gecko-crash-server-pipe.4588"" socket"
+0,4020,firefox.exe,"""C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe"" -contentproc --channel=3064 -childID 2 -isForBrowser -prefsHandle 3080 -prefMapHandle 2896 -prefsLen 26740 -prefMapSize 251350 -jsInitHandle 1320 -jsInitLen 234488 -parentBuildID 20240606181944 -win32kLockedDown -appDir ""C:\\Program Files (x86)\\Mozilla Firefox\\browser"" - {6e98140c-d244-4a8a-8a02-9c03f2cb5c13} 4588 ""\\\\.\\pipe\\gecko-crash-server-pipe.4588"" tab"
+0,1404,firefox.exe,"""C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe"" -contentproc --channel=4252 -childID 4 -isForBrowser -prefsHandle 4244 -prefMapHandle 4240 -prefsLen 27806 -prefMapSize 251350 -jsInitHandle 1320 -jsInitLen 234488 -parentBuildID 20240606181944 -win32kLockedDown -appDir ""C:\\Program Files (x86)\\Mozilla Firefox\\browser"" - {6c090209-3082-4ef5-a327-01ed87d3c887} 4588 ""\\\\.\\pipe\\gecko-crash-server-pipe.4588"" tab"
+0,3952,firefox.exe,"""C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe"" -contentproc --channel=3960 -parentBuildID 20240606181944 -sandboxingKind 0 -prefsHandle 4156 -prefMapHandle 3448 -prefsLen 32786 -prefMapSize 251350 -win32kLockedDown -appDir ""C:\\Program Files (x86)\\Mozilla Firefox\\browser"" - {39fbcb47-4195-42d0-8363-6eef9881f96e} 4588 ""\\\\.\\pipe\\gecko-crash-server-pipe.4588"" utility"
+0,3372,firefox.exe,"""C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe"" -contentproc --channel=5440 -parentBuildID 20240606181944 -prefsHandle 5420 -prefMapHandle 5412 -prefsLen 32840 -prefMapSize 251350 -appDir ""C:\\Program Files (x86)\\Mozilla Firefox\\browser"" - {a830fda3-3328-45fa-be7b-61a7c3f67190} 4588 ""\\\\.\\pipe\\gecko-crash-server-pipe.4588"" rdd"
+0,4668,firefox.exe,"""C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe"" -contentproc --channel=5636 -childID 5 -isForBrowser -prefsHandle 5136 -prefMapHandle 5628 -prefsLen 28669 -prefMapSize 251350 -jsInitHandle 1320 -jsInitLen 234488 -parentBuildID 20240606181944 -win32kLockedDown -appDir ""C:\\Program Files (x86)\\Mozilla Firefox\\browser"" - {2ed79622-a491-4659-b324-147999dd645b} 4588 ""\\\\.\\pipe\\gecko-crash-server-pipe.4588"" tab"
+0,4936,firefox.exe,"""C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe"" -contentproc --channel=5832 -childID 6 -isForBrowser -prefsHandle 5840 -prefMapHandle 5844 -prefsLen 29018 -prefMapSize 251350 -jsInitHandle 1320 -jsInitLen 234488 -parentBuildID 20240606181944 -win32kLockedDown -appDir ""C:\\Program Files (x86)\\Mozilla Firefox\\browser"" - {bb861d47-4809-4708-8407-00ba34de4e15} 4588 ""\\\\.\\pipe\\gecko-crash-server-pipe.4588"" tab"
+0,4788,firefox.exe,"""C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe"" -contentproc --channel=6020 -childID 7 -isForBrowser -prefsHandle 6028 -prefMapHandle 6032 -prefsLen 29018 -prefMapSize 251350 -jsInitHandle 1320 -jsInitLen 234488 -parentBuildID 20240606181944 -win32kLockedDown -appDir ""C:\\Program Files (x86)\\Mozilla Firefox\\browser"" - {3b184622-85e3-4709-972f-b330690d0c3c} 4588 ""\\\\.\\pipe\\gecko-crash-server-pipe.4588"" tab"
+0,5084,updater.exe,-
+0,1084,firefox.exe,"""C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe"" -contentproc --channel=2804 -childID 8 -isForBrowser -prefsHandle 5108 -prefMapHandle 4380 -prefsLen 33491 -prefMapSize 251350 -jsInitHandle 1320 -jsInitLen 234488 -parentBuildID 20240606181944 -win32kLockedDown -appDir ""C:\\Program Files (x86)\\Mozilla Firefox\\browser"" - {22b5408a-0404-4132-8f3c-c3a054c29d8a} 4588 ""\\\\.\\pipe\\gecko-crash-server-pipe.4588"" tab"
+0,4952,firefox.exe,"""C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe"" -contentproc --channel=3996 -childID 9 -isForBrowser -prefsHandle 4996 -prefMapHandle 3296 -prefsLen 33570 -prefMapSize 251350 -jsInitHandle 1320 -jsInitLen 234488 -parentBuildID 20240606181944 -win32kLockedDown -appDir ""C:\\Program Files (x86)\\Mozilla Firefox\\browser"" - {0c981e14-f2ee-4464-887c-3ed91d77a70d} 4588 ""\\\\.\\pipe\\gecko-crash-server-pipe.4588"" tab"
+0,4768,firefox.exe,"""C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe"" -contentproc --channel=2932 -childID 10 -isForBrowser -prefsHandle 6684 -prefMapHandle 6728 -prefsLen 33570 -prefMapSize 251350 -jsInitHandle 1320 -jsInitLen 234488 -parentBuildID 20240606181944 -win32kLockedDown -appDir ""C:\\Program Files (x86)\\Mozilla Firefox\\browser"" - {e2654c81-b6c2-40cd-9f06-ed33002e9db3} 4588 ""\\\\.\\pipe\\gecko-crash-server-pipe.4588"" tab"
+0,424,firefox.exe,"""C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe"" -contentproc --channel=6872 -childID 11 -isForBrowser -prefsHandle 6880 -prefMapHandle 6884 -prefsLen 33570 -prefMapSize 251350 -jsInitHandle 1320 -jsInitLen 234488 -parentBuildID 20240606181944 -win32kLockedDown -appDir ""C:\\Program Files (x86)\\Mozilla Firefox\\browser"" - {c2f98f44-799a-48b9-8fb7-ef7a36740178} 4588 ""\\\\.\\pipe\\gecko-crash-server-pipe.4588"" tab"
+0,856,firefox.exe,"""C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe"" -contentproc --channel=7696 -childID 13 -isForBrowser -prefsHandle 7688 -prefMapHandle 7680 -prefsLen 33570 -prefMapSize 251350 -jsInitHandle 1320 -jsInitLen 234488 -parentBuildID 20240606181944 -win32kLockedDown -appDir ""C:\\Program Files (x86)\\Mozilla Firefox\\browser"" - {5d7509ba-2868-4122-8310-9b3077a3261b} 4588 ""\\\\.\\pipe\\gecko-crash-server-pipe.4588"" tab"
+0,2160,firefox.exe,"""C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe"" -contentproc --channel=7816 -childID 14 -isForBrowser -prefsHandle 7592 -prefMapHandle 7624 -prefsLen 33570 -prefMapSize 251350 -jsInitHandle 1320 -jsInitLen 234488 -parentBuildID 20240606181944 -win32kLockedDown -appDir ""C:\\Program Files (x86)\\Mozilla Firefox\\browser"" - {07c7fa9a-c6ef-4a86-b161-d8bd56dd2b71} 4588 ""\\\\.\\pipe\\gecko-crash-server-pipe.4588"" tab"
+0,4596,firefox.exe,"""C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe"" -contentproc --channel=6388 -childID 16 -isForBrowser -prefsHandle 8088 -prefMapHandle 3636 -prefsLen 33626 -prefMapSize 251350 -jsInitHandle 1320 -jsInitLen 234488 -parentBuildID 20240606181944 -win32kLockedDown -appDir ""C:\\Program Files (x86)\\Mozilla Firefox\\browser"" - {26cfa534-a5e2-4d12-93df-8041f19c31b4} 4588 ""\\\\.\\pipe\\gecko-crash-server-pipe.4588"" tab"
+0,580,taskhostw.exe,taskhostw.exe
+0,5028,firefox.exe,"""C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe"" -contentproc --channel=8108 -parentBuildID 20240606181944 -sandboxingKind 1 -prefsHandle 6916 -prefMapHandle 7664 -prefsLen 39342 -prefMapSize 251350 -win32kLockedDown -appDir ""C:\\Program Files (x86)\\Mozilla Firefox\\browser"" - {5643f1c3-218e-4160-befc-9fde81a734cd} 4588 ""\\\\.\\pipe\\gecko-crash-server-pipe.4588"" utility"
+0,2496,rdrleakdiag.ex,-
+0,5212,firefox.exe,"""C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe"" -contentproc --channel=8236 -childID 23 -isForBrowser -prefsHandle 8248 -prefMapHandle 8160 -prefsLen 33666 -prefMapSize 251350 -jsInitHandle 1320 -jsInitLen 234488 -parentBuildID 20240606181944 -win32kLockedDown -appDir ""C:\\Program Files (x86)\\Mozilla Firefox\\browser"" - {b9663ea7-719b-4af4-b886-1557da8039c1} 4588 ""\\\\.\\pipe\\gecko-crash-server-pipe.4588"" tab"
+0,4872,firefox.exe,"""C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe"" -contentproc --channel=7352 -childID 24 -isForBrowser -prefsHandle 9560 -prefMapHandle 7288 -prefsLen 33666 -prefMapSize 251350 -jsInitHandle 1320 -jsInitLen 234488 -parentBuildID 20240606181944 -win32kLockedDown -appDir ""C:\\Program Files (x86)\\Mozilla Firefox\\browser"" - {38cd0cca-a127-49c4-b516-50c74f91c3b1} 4588 ""\\\\.\\pipe\\gecko-crash-server-pipe.4588"" tab"
+0,5988,firefox.exe,"""C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe"" -contentproc --channel=9108 -childID 25 -isForBrowser -prefsHandle 4552 -prefMapHandle 4548 -prefsLen 33666 -prefMapSize 251350 -jsInitHandle 1320 -jsInitLen 234488 -parentBuildID 20240606181944 -win32kLockedDown -appDir ""C:\\Program Files (x86)\\Mozilla Firefox\\browser"" - {70f72afc-d877-4fc4-b54c-dd9563817eb6} 4588 ""\\\\.\\pipe\\gecko-crash-server-pipe.4588"" tab"
+0,5152,msiexec.exe,C:\\Windows\\system32\\msiexec.exe /V
+0,88,msiexec.exe,-
+0,2840,FTK Imager.exe,"""C:\\Program Files\\AccessData\\FTK Imager\\FTK Imager.exe"""
+0,3304,svchost.exe,C:\\Windows\\system32\\svchost.exe -k wsappx -p
+
