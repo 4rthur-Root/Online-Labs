@@ -9,4 +9,14 @@ traffic.pcapng
 Triage/
 *.box
 .vagrant/
-*.txt
+Applied-analysis1.txt
+
+# Raw/bulk analysis outputs - too large and too noisy to version
+raw_strings.txt
+windows.strings.csv
+strings_IP.csv
+timeliner.csv
+
+# bulk_extractor output directory, if ever copied into the repo
+bulk-memory/
+bulk-pagefile/
