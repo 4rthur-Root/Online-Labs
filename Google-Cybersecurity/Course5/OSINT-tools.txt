@@ -1,0 +1,17 @@
+OSINT tools
+There's an enormous amount of open-source information online. Finding relevant information that can be used to gather intelligence is a challenge. Information can be gathered from a variety of sources, such as search engines, social media, discussion boards, blogs, and more. Several tools also exist that can be used in your intelligence gathering process. Here are just a few examples of tools that you can explore:
+
+VirusTotal
+ is a service that allows anyone to analyze suspicious files, domains, URLs, and IP addresses for malicious content.
+
+MITRE ATT&CK®
+ is a knowledge base of adversary tactics and techniques based on real-world observations.
+
+OSINT Framework
+ is a web-based interface where you can find OSINT tools for almost any kind of source or platform.
+
+Have I been Pwned
+ is a tool that can be used to search for breached email accounts.
+
+There are numerous other OSINT tools that can be used to find specific types of information. Remember, information can be gathered from a variety of sources. Ultimately, it's your responsibility to thoroughly research any available information that's relevant to the problem you’re trying to solve.
+

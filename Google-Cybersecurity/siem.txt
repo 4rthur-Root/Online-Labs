@@ -1,0 +1,17 @@
+Coach
+It looks like we wrapped up early, so I wanted to give you a quick heads up that I can't provide full feedback since we didn't finish the session.
+
+To get the most out of this experience, I recommend going through all the topics next time.
+
+In this Dialogue, we focused on exploring a business operations scenario and discussing logs and SIEM.
+
+Your strengths:
+
+You quickly identified key aspects of cybersecurity business operations like availability, integrity, and confidentiality.
+You correctly identified relevant log types such as Apache/Nginx error logs, monitoring alerts, and database logs for investigating an outage.
+You understood the importance of real-time visibility and event correlation in SIEM tools.
+Areas for improvement:
+
+Further exploration of SIEM functionalities beyond event correlation, specifically how SIEMs generate alerts and reports to proactively protect business operations.
+Differentiating between SIEM core functionalities and advanced integrations like SOAR.
+I'll be here whenever you're ready to try again.

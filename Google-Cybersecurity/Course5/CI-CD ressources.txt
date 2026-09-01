@@ -1,0 +1,15 @@
+Resources:
+
+DevSecOps Using GitHub Actions: Building Secure CI/CD Pipelines. 
+https://medium.com/@rahulsharan512/devsecops-using-github-actions-building-secure-ci-cd-pipelines-5b6d59acab32
+
+6 Steps for Success with CI/CD Securing Hardening. 
+https://spectralops.io/blog/ci-cd-security-hardening/
+
+GitLab CI/CD - Hands-On Lab: Securing Scanning. 
+https://handbook.gitlab.com/handbook/customer-success/professional-services-engineering/education-services/gitlabcicdhandsonlab9/
+
+How can you stay current with the latest problem solving techniques in Cloud Computing as a manager. 
+https://www.linkedin.com/advice/1/how-can-you-stay-current-latest-problem-solving-msk5e
+
+
