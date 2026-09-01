@@ -1,0 +1,259 @@
+Plugin,Version,Hive,Description
+tsclient,20200518,NTUSER.DAT,Displays contents of user's Terminal Server Client\Default key
+uac,20200427,Software,Get Select User Account Control (UAC) Values from HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\System
+shellfolders,20200515,NTUSER.DAT,Gets user's shell folders values
+wab_tln,20191122,Software,Get WAB DLLPath settings
+attachmgr_tln,20130425,NTUSER.DAT,Checks user's keys that manage the Attachment Manager functionality (TLN)
+dcom,20200525,Software,Check DCOM Ports
+shellbags_tln,20180702,USRCLASS.DAT,Shell/BagMRU traversal in Win7 USRCLASS.DAT hives
+tasks_tln,20200416,Software,Checks TaskCache\Tasks subkeys
+killsuit,20200427,Software,Check for indications of Danderspritz Killsuit installation
+termcert,20200526,System,Gets Terminal Server certificate
+disableuserassist,20230710,NTUSER.DAT,Get Start_TrackEnabled and Start_TrackProgs values which confirm if UserAssist was disabled.
+mmc_tln,20120828,NTUSER.DAT,Get contents of user's MMC\Recent File List key (TLN)
+direct,20200515,Software,Searches Direct* keys for MostRecentApplication subkeys
+ntds,20200427,System,Parse Services NTDS key for specific persistence values
+typedurlstime,20200526,NTUSER.DAT,Returns contents of user's TypedURLsTime key.
+speech_tln,20191010,NTUSER.DAT,Get values from user's Speech key
+knowndev,20200515,NTUSER.DAT,Gets user's KnownDevices key contents
+shc,20200427,NTUSER.DAT,Gets SHC entries from user hive
+featureusage,20200511,NTUSER.DAT,Extracts user's FeatureUsage data.
+execpolicy,20200517,Software,Gets PowerShell Execution Policy
+uninstall,20200525,Software, NTUSER.DAT,Gets contents of Uninstall keys from Software, NTUSER.DAT hives
+typedurls,20200526,NTUSER.DAT,Returns contents of user's TypedURLs key.
+auditpol,20200515,Security,Get audit policy from the Security hive file
+wbem,20200511,Software,Get some contents from WBEM key
+killsuit_tln,20200414,Software,Check for indications of Danderspritz Killsuit installation
+run_tln,20221222,Software, NTUSER.DAT,[Autostart] Get autostart key contents from Software & ntuser.dat hives
+sysinternals,20080324,NTUSER.DAT,Checks for SysInternals apps keys
+networklist,20200518,Software,Collects network info from NetworkList key
+lsa,20200517,System,Lists specific contents of LSA key
+jumplistdata,20200517,NTUSER.DAT,Gets contents of user's JumpListData key
+shimcache,20220921,System,Parse file refs from System hive AppCompatCache data
+ica_sessions,20200528,Software,ARETE ONLY - Extracts Citrix ICA Session info
+mixer,20200517,NTUSER.DAT,Checks user's audio mixer settings
+lxss_tln,20140723,NTUSER.DAT,Gets WSL config.
+wordwheelquery_tln,20200824,NTUSER.DAT,Gets contents of user's WordWheelQuery key
+allowedenum,20200511,NTUSER.DAT, Software,Extracts AllowedEnumeration values to determine hidden special folders
+typedurls_tln,20120827,NTUSER.DAT,Returns MRU for user's TypedURLs key (TLN)
+lastloggedon,20200517,Software,Gets LastLoggedOn* values from LogonUI key
+taskcache,20200427,Software,Checks TaskCache\Tree root keys (not subkeys)
+profiler,20200525,NTUSER.DAT, System,Environment profiler information
+sizes,20200517,All,Scans a hive file looking for binary value data of a min size (5000)
+dam,20260424,System,Parse files from System hive BAM Services
+inprocserver,20200427,Software,Checks CLSID InProcServer32 values for indications of malware
+rlo,20200517,All,Parse hive, check key/value names for RLO character
+load,20200517,NTUSER.DAT,Gets load and run values from user hive
+recentapps,20200515,NTUSER.DAT,Gets contents of user's RecentApps key
+appx,20200427,NTUSER.DAT, USRCLASS.DAT,Checks for persistence via Universal Windows Platform Apps
+spp_clients,20130429,Software,Determines volumes monitored by VSS
+wab,20200427,Software,Get WAB DLLPath settings
+appcompatcache,20220921,System,Parse files from System hive AppCompatCache
+photos,20200525,USRCLASS.DAT,Shell/BagMRU traversal in Win7 USRCLASS.DAT hives
+del_tln,20190506,All,Parse hive, print deleted keys/values
+appassoc,20200515,NTUSER.DAT,Gets contents of user's ApplicationAssociationToasts key
+heap,20200427,Software,Checks HeapLeakDetection\DiagnosedApplications Subkeys
+runvirtual_tln,20191211,NTUSER.DAT, Software,Gets RunVirtual entries
+srum,20200518,Software,Gets contents of SRUM subkeys
+printmon,20200427,System,Lists installed Print Monitors
+emdmgmt,20200511,Software,Gets contents of EMDMgmt subkeys and values
+shares,20200525,System,Get list of shares from System hive file
+cmd_shell,20200515,Software,Gets shell open cmds for various file types
+bthenum,20200515,System,Get BTHENUM subkey info
+syscache_tln,20190516,syscache,
+logonstats,20200517,NTUSER.DAT,Gets contents of user's LogonStats key
+advanced_ip_scanner,20260503,NTUSER.DAT,Advanced IP Scanner (Famatech) locale, scan history and update-check values
+MITRE ATT&CK: T1046 (Network Service Scanning), T1595 (Active Scanning)
+networksetup2,20191004,System,Get NetworkSetup2 subkey info
+scriptleturl,20200525,Software, USRCLASS.DAT,Check CLSIDs for ScriptletURL subkeys
+svcdll,20200525,System,Lists Services keys with ServiceDll values
+netsh,20200515,Software,Gets list of NetSH helper DLLs
+runvirtual,20200427,NTUSER.DAT, Software,Gets RunVirtual entries
+nic2,20200525,System,Gets NIC info from System hive
+heidisql,20201227,NTUSER.DAT,Gets user's heidisql data
+cred_tln,20200402,system,Checks UseLogonCredential value
+msoffice_tln,20200518,NTUSER.DAT,Get user's MSOffice content
+appspecific,20200515,NTUSER.DAT,Gets contents of user's Intellipoint\AppSpecific subkeys
+printmon_tln,20191122,System,Lists installed Print Monitors
+muicache,20200525,NTUSER.DAT,USRCLASS.DAT,Gets EXEs from user's MUICache key
+usbstor,20200515,System,Get USBStor key info
+schedagent,20200518,Software,Get SchedulingAgent key contents
+oisc,20091125,NTUSER.DAT,Gets contents of user's Office Internet Server Cache
+defender,20200427,Software,Get Windows Defender settings
+mp2_tln,20200525,NTUSER.DAT,Gets user's MountPoints2 key contents
+bam,20200427,System,Parse files from System hive BAM Services
+secrets,20200517,Security,Get the last write time for the Policy\Secrets key
+printdemon,20200514,Software,Gets value assoc with printer ports and descriptions
+clsid,20200526,Software, USRCLASS.DAT,Get list of CLSID/registered classes
+landesk_tln,20130214,Software,Get list of programs monitored by LANDESK from Software hive
+bam_tln,20180225,System,Parse files from System hive BAM Services
+disablelastaccess,20200517,System,Get NTFSDisableLastAccessUpdate value
+runmru_tln,20120828,NTUSER.DAT,Gets contents of user's RunMRU key (TLN)
+outlook_homepage,20201002,NTUSER.DAT, Software,Retrieve values set to attack Outlook WebView Homepage
+tasks,20200427,Software,Checks TaskCache\Tasks subkeys
+onedrive_tln,20190823,NTUSER.DAT,Gets contents of user's OneDrive key
+tracing,20200511,Software,Gets list of apps that can be traced
+source_os,20200511,System,Parse Source OS subkey values
+comdlg32_tln,20260424,NTUSER.DAT,Gets contents of user's ComDlg32 key (TLN)
+injectdll64,20200427,NTUSER.DAT, Software,Retrieve values set to weaken Chrome security
+securityproviders,20200526,System,Gets SecurityProvider value from System hive
+userassist,20170204,NTUSER.DAT,Displays contents of UserAssist subkeys
+runmru,20200525,NTUSER.DAT,Gets contents of user's RunMRU key
+psscript,20200525,Software, NTUSER.DAT,Get PSScript.ini values
+typedurlstime_tln,20120613,NTUSER.DAT,Returns contents of Win8 user's TypedURLsTime key (TLN).
+typedpaths_tln,20120828,NTUSER.DAT,Gets contents of user's typedpaths key (TLN)
+ddo,20140414,NTUSER.DAT,Gets user's DeviceDisplayObjects key contents
+processor_architecture,20140505,System,Get from the processor architecture from the System's environment key
+winver,20200525,Software,Get Windows version & build info
+mountdev2,20200517,System,Return contents of System hive MountedDevices key
+disableeventlog,20230710,System,Gets EventLog -> Start value from System hive; Checks if default Security.evtx path is modified; Checks if MiniNt registry key is set.
+arpcache,20200515,NTUSER.DAT,Retrieves CurrentVersion\App Management\ARPCache entries
+findexes,20200525,All,Scans a hive file looking for binary value data that contains MZ
+networklist_tln,20150812,Software,Collects network info from NetworkList key (TLN)
+ips,20200518,System,Get IP Addresses and domains (DHCP,static)
+msoffice,20200518,NTUSER.DAT,Get user's MSOffice content
+speech,20200427,NTUSER.DAT,Get values from user's Speech key
+ssid,20200515,Software,Get WZCSVC SSID Info
+putty,20200515,NTUSER.DAT,Extracts the saved SshHostKeys for PuTTY.
+wpdbusenum,20200515,System,Get WpdBusEnum subkey info
+appcertdlls,20200427,System,Get entries from AppCertDlls key
+syscache,20200515,syscache,Parse SysCache.hve file
+ddpe,20221128,Software,Get the Machine ID (MCID) and Shield ID (DCID) needed to decrypt files using Dell Encryption. Also reports the Dell Server URI.
+at_tln,20140821,Software,Checks Software hive for AT jobs
+fileless,20200525,All,Scans a hive file looking for fileless malware entries
+btconfig,20200526,Software,Determines BlueTooth devices 'seen' by BroadComm drivers
+listsoft,20200517,NTUSER.DAT,Lists contents of user's Software key
+usbdevices,20200525,System,Parses Enum\USB key for USB & WPD devices
+apppaths_tln,20130429,NTUSER.DAT, Software,Gets content of App Paths subkeys (TLN)
+imagefile,20200515,Software,Checks ImageFileExecutionOptions subkeys values
+recentdocs_tln,20140220,NTUSER.DAT,Gets contents of user's RecentDocs key (TLN)
+powershellcore,20200525,Software,Extracts PowerShellCore settings
+slack_tln,20190506,All,Parse hive, print slack space, retrieve keys/values
+disablemru,20190924,NTUSER.DAT, Software,Checks settings disabling user's MRUs
+exefile,20211214,USRCLASS.DAT,Software,Get file associations using exefile file handler and modified open handler for exefile
+winzip,20200526,NTUSER.DAT,Get WinZip extract and filemenu values
+dam_tln,20260424,System,Parse files from System hive DAM Services
+adobe,20200522,NTUSER.DAT,Gets user's Adobe app cRecentFiles values
+applets_tln,20120613,NTUSER.DAT,Gets contents of user's Applets key (TLN)
+licenses,20200526,Software,Get contents of HKLM/Software/Licenses key
+cached,20200525,NTUSER.DAT,Gets cached Shell Extensions from NTUSER.DAT hive
+cached_tln,20150608,NTUSER.DAT,Gets cached Shell Extensions from NTUSER.DAT hive (TLN)
+run,20200511,Software, NTUSER.DAT,[Autostart] Get autostart key contents from Software hive
+drivers32,20200525,Software,Get values from the Drivers32 key
+wordwheelquery,20200823,NTUSER.DAT,Gets contents of user's WordWheelQuery key
+msis,20200517,Software,Determine MSI packages installed on the system
+del,20200515,All,Parse hive, print deleted keys/values
+bthport,20200517,System,Gets Bluetooth-connected devices from System hive
+ScanButton,20131210,System,Get Scan Button information
+termserv,20200506,System, Software,Gets Terminal Server settings from System and Software hives
+appkeys,20200517,NTUSER.DAT, Software,Extracts AppKeys entries.
+secctr,20200517,Software,Get data from Security Center key
+typedpaths,20200526,NTUSER.DAT,Gets contents of user's typedpaths key
+amcache,20200515,amcache,Parse AmCache.hve file
+backuprestore,20200517,System,Gets the contents of the FilesNotToSnapshot, KeysNotToRestore, and FilesNotToBackup keys
+susclient,20200518,Software,Extracts SusClient* info, including HDD SN (if avail)
+calibrator,20200427,Software,Checks DisplayCalibrator value (possible bypass assoc with LockBit ransomware)
+lxss,20200511,NTUSER.DAT,Gets WSL config.
+clsid_tln,20200526,Software, USRCLASS.DAT,Get list of CLSID/registered classes
+attachmgr,20200525,NTUSER.DAT,Checks user's keys that manage the Attachment Manager functionality
+dafupnp,20200525,System,Parses data from networked media streaming devices
+samparse,20220921,SAM,Parse SAM file for user & group mbrshp info
+recentapps_tln,20190513,NTUSER.DAT,Gets contents of user's RecentApps key
+shimcache_tln,20220921,System,Parse file refs from System hive AppCompatCache data
+mpmru,20200517,NTUSER.DAT,Gets user's Media Player RecentFileList values
+base,20200427,All,Parse base info from hive
+shutdown,20200518,System,Gets ShutdownTime value from System hive
+samparse_tln,20200826,SAM,Parse SAM file for user acct info (TLN)
+osversion_tln,20120608,NTUSER.DAT,Checks for OSVersion value (TLN)
+compname,20090727,System,Gets ComputerName and Hostname values from System hive
+imagedev,20140104,System, -- 
+devclass,20200525,System,Get USB device info from the DeviceClasses keys in the System hive
+wc_shares,20200515,NTUSER.DAT,Gets contents of user's WorkgroupCrawler/Shares subkeys
+wsh_settings,20200517,Software,Gets WSH Settings
+appcompatflags,20200525,NTUSER.DAT, Software,Extracts AppCompatFlags for Windows.
+volinfocache,20200518,Software,Gets VolumeInfoCache from Windows Search key
+shellbags,20200428,USRCLASS.DAT,Shell/BagMRU traversal in Win7+ USRCLASS.DAT hives
+appinitdlls,20200427,Software,Gets contents of AppInit_DLLs value
+advanced_ip_scanner_tln,20260503,NTUSER.DAT,Extracts execution, locale, and scan history for Advanced IP Scanner in TLN format.
+gpohist_tln,,Software,Collects system/user GPO history (TLN)
+tracing_tln,20120608,Software,Gets list of apps that can be traced (TLN)
+appcompatcache_tln,20220921,System,Parse files from System hive AppCompatCache
+remoteaccess,20200517,System,Get RemoteAccess AccountLockout settings
+watp,20200427,Software,Gets contents of Windows Advanced Threat Protection key
+services,20191024,System,Lists services/drivers in Services key by LastWrite times
+environment,20200512,System, NTUSER.DAT,Get environment vars from NTUSER.DAT & System hives
+gpohist,,Software,Collects system/user GPO history
+installer,20200517,Software,Determines product install information
+amcache_tln,20180311,amcache,Parse AmCache.hve file
+cred,20200427,system,Checks for UseLogonCredential value
+osversion,20200511,NTUSER.DAT,Checks for OSVersion value
+iconlayouts,20211001,NTUSER.DAT,Shell/Bag/1/Desktop - Iconlayouts
+sysinternals_tln,20080324,NTUSER.DAT,Checks for SysInternals apps keys (TLN)
+codepage,20200519,system,Checks codepage value
+mp2,20200526,NTUSER.DAT,Gets user's MountPoints2 key contents
+apppaths,20200511,NTUSER.DAT,Software,Gets content of App Paths subkeys
+nation,20200517,ntuser.dat,Gets region information from HKCU
+syscache_csv,20200515,syscache,
+appx_tln,20191014,NTUSER.DAT, USRCLASS.DAT,Checks for persistence via Universal Windows Platform Apps
+at,20200525,Software,Checks Software hive for AT jobs
+onedrive,20200515,NTUSER.DAT,Gets contents of user's OneDrive key
+uacbypass,20200511,USRCLASS.DAT, Software,Get possible UAC bypass settings
+rdpport,20200526,System,Queries System hive for RDP Port
+audiodev,20200525,Software,Gets audio capture/render devices
+sfc,20200517,Software,Get SFC values
+tsclient_tln,20120827,NTUSER.DAT,Displays contents of user's Terminal Server Client key (TLN)
+applets,20200525,NTUSER.DAT,Gets contents of user's Applets key
+landesk,20200517,Software,Get list of programs monitored by LANDESK - Software hive
+cmdproc_tln,20130425,NTUSER.DAT,Autostart - get Command Processor\AutoRun value from NTUSER.DAT hive (TLN)
+usb,20200515,System,Get USB key info
+svc,20200525,System,Lists Services key contents by LastWrite time (CSV)
+mmc,20200517,NTUSER.DAT,Get contents of user's MMC\Recent File List key
+thispcpolicy,20200511,Software,Gets ThisPCPolicy values
+svc_tln,20130911,System,Lists Services key contents by LastWrite time (CSV)
+disablesr,20200515,Software,Gets the value that turns System Restore either on or off
+taskcache_tln,20200416,Software,Checks TaskCache\Tree root keys (not subkeys)
+winrar,20200526,NTUSER.DAT,Get WinRAR\ArcHistory entries
+netlogon,20200515,System,Parse values for machine account password changes
+compdesc,20200511,NTUSER.DAT,Gets contents of user's ComputerDescriptions key
+recentdocs,20200427,NTUSER.DAT,Gets contents of user's RecentDocs key
+bthport_tln,20180705,System,Gets Bluetooth-connected devices from System hive; TLN output
+mixer_tln,20141112,NTUSER.DAT,Checks user's audio mixer info
+profilelist,20200518,Software,Get content of ProfileList key
+systemindex,20200518,Software,Gets systemindex\..\Paths info from Windows Search key
+prefetch,20200515,System,Gets the the Prefetch Parameters
+comdlg32,20200517,NTUSER.DAT,Gets contents of user's ComDlg32 key
+appkeys_tln,20180920,NTUSER.DAT, Software,Extracts AppKeys entries.
+sevenzip,20210329,NTUSER.DAT,Gets records of histories from 7-Zip keys
+routes,20200526,System,Get persistent routes from the Registry
+slack,20200517,All,Parse hive, print slack space, retrieve keys/values
+mountdev,20200517,System,Return contents of System hive MountedDevices key
+uninstall_tln,20120523,Software, NTUSER.DAT,Gets contents of Uninstall keys from Software, NTUSER.DAT hives(TLN format)
+timezone,20200518,System,Get TimeZoneInformation key contents
+pagefile,20140505,System,Get info on pagefile(s)
+winrar_tln,20120829,NTUSER.DAT,Get WinRAR\ArcHistory entries (TLN)
+direct_tln,20190911,Software,Searches Direct* keys for MostRecentApplication subkeys (TLN)
+portdev,20090118,Software,Parses Windows Portable Devices key contents
+pslogging,20200515,NTUSER.DAT, Software,Extracts PowerShell logging settings
+pending,20130711,System,Gets contents of PendingFileRenameOperations value
+runonceex,20200427,Software,Gets contents of RunOnceEx values
+disableremotescm,20200513,System,Gets DisableRemoteScmEndpoints value from System hive
+mndmru,20200517,NTUSER.DAT,Get contents of user's Map Network Drive MRU
+macaddr,20200515,System,Software, -- 
+winscp,20201227,NTUSER.DAT,Gets user's WinSCP 2 data
+winlogon_tln,20130429,Software,Alerts on values from the WinLogon key (TLN)
+portproxy,20210622,System,Get port proxy configuration from PortProxy key
+ryuk_gpo,20200427,Software,Get GPO policy settings from Software hive related to Ryuk
+mmo,20200517,NTUSER.DAT,Checks NTUSER for Multimedia\Other values [malware]
+cmdproc,20200515,NTUSER.DAT,Autostart - get Command Processor\AutoRun value from NTUSER.DAT hive
+muicache_tln,20130425,NTUSER.DAT,USRCLASS.DAT,Gets EXEs from user's MUICache key (TLN)
+userassist_tln,20180710,NTUSER.DAT,Displays contents of UserAssist subkeys in TLN format
+null,20160119,All,Check key/value names in a hive for leading null char
+searchscopes,20200517,NTUSER.DAT,Gets contents of user's SearchScopes key
+baseline,20130211,All,Scans a hive file, checking sizes of binary value data
+wow64,20200515,Software,Gets contents of WOW64\x86 key
+identities,20200525,NTUSER.DAT,Extracts values from Identities key; NTUSER.DAT
+mndmru_tln,20120829,NTUSER.DAT,Get user's Map Network Drive MRU (TLN)
+secrets_tln,20140814,Security,Get the last write time for the Policy\Secrets key
+shelloverlay,20100308,Software,Gets ShellIconOverlayIdentifiers values
+networkcards,20200518,Software,Get NetworkCards Info
+pendinggpos,20200427,NTUSER.DAT,Gets contents of user's PendingGPOs key

@@ -10,6 +10,10 @@ Triage/
 *.box
 .vagrant/
 Applied-analysis1.txt
+disk.txt
+timeline.txt
+Part2-velociraptor.txt
+continue.txt
 
 # Raw/bulk analysis outputs - too large and too noisy to version
 raw_strings.txt
