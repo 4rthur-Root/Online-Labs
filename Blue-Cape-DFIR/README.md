@@ -1,12 +1,50 @@
-# Blue Cape Security — DFIR Foundations and Techniques
+# Blue Cape Security - DFIR Foundations and Techniques
 
 <div align="center">
   <h3>Tools used across this project</h3>
   <table>
     <tr>
       <td align="center" width="100">
+        <img src="assets/wireshark.png" width="80" alt="Wireshark"/><br/>
+        <sub>Wireshark</sub>
+      </td>
+      <td align="center" width="100">
         <img src="assets/splunk.jpeg" width="80" alt="Splunk"/><br/>
         <sub>Splunk</sub>
+      </td>
+      <td align="center" width="100">
+        <img src="assets/sysmon.png" width="80" alt="Sysmon"/><br/>
+        <sub>Sysmon</sub>
+      </td>
+      <td align="center" width="100">
+        <img src="assets/volatility.png" width="80" alt="Volatility"/><br/>
+        <sub>Volatility 3</sub>
+      </td>
+      <td align="center" width="100">
+        <img src="assets/regripper.png" width="80" alt="RegRipper"/><br/>
+        <sub>RegRipper</sub>
+      </td>
+    </tr>
+    <tr>
+      <td align="center" width="100">
+        <img src="assets/bulk_extractor.png" width="80" alt="bulk_extractor"/><br/>
+        <sub>bulk_extractor</sub>
+      </td>
+      <td align="center" width="100">
+        <img src="assets/ftk_imager.png" width="80" alt="FTK Imager"/><br/>
+        <sub>FTK Imager</sub>
+      </td>
+      <td align="center" width="100">
+        <img src="assets/velociraptor.png" width="80" alt="Velociraptor"/><br/>
+        <sub>Velociraptor</sub>
+      </td>
+      <td align="center" width="100">
+        <img src="assets/timesketch.png" width="80" alt="Timesketch"/><br/>
+        <sub>Timesketch</sub>
+      </td>
+      <td align="center" width="100">
+        <img src="assets/eztools.png" width="80" alt="Eric Zimmerman Tools"/><br/>
+        <sub>EZ Tools</sub>
       </td>
     </tr>
   </table>
@@ -70,4 +108,4 @@ Cross-referenced against independent evidence sources across this project:
 
 ## Resources
 
-Course tools, cheat sheets, and case file references: [`Part-2-Elevate/03-applied-forensic-analysis/RESOURCES.md`](Part-2-Elevate/03-applied-forensic-analysis/RESOURCES.md)
+Full list of tools, cheat sheets, and case file references: [`RESOURCES.md`](RESOURCES.md)
