@@ -1,11 +1,11 @@
-# Part 2 — Elevate Your DFIR Skills
+# Part 2 - Elevate Your DFIR Skills
 
 This part moves from the general DFIR/forensics foundation built in Part 1 into a full, hands-on investigation: a single incident (Alice's compromised workstation) followed end to end across network capture, log aggregation, endpoint tooling, memory, disk, and timeline evidence.
 
 ## Structure
 
 ### [`01-security-operations/`](01-security-operations/)
-SOC fundamentals — core capabilities, threat intel/hunting, incident handling — closing with the first hands-on lab: full PCAP reconstruction of the initial compromise.
+SOC fundamentals - core capabilities, threat intel/hunting, incident handling - closing with the first hands-on lab: full PCAP reconstruction of the initial compromise.
 → [Lab: PCAP Analysis](01-security-operations/lab-pcap-analysis/README.md)
 
 ### [`02-incident-response-data-collection/`](02-incident-response-data-collection/)
@@ -22,6 +22,6 @@ Deep artifact-level forensics on the same incident: memory analysis, disk analys
 
 ## The case
 
-All three sections investigate the same incident: a compromise of `Client2.BCS.local` (Alice's workstation) beginning with a Firefox-delivered HTA stager, leading to PowerShell-based C2, registry persistence, privilege escalation, and data staging/exfiltration. Each lab approaches this from a different evidence source — network, logs, memory, disk, timeline — and is documented independently so it stands on its own, without requiring the others for context.
+All three sections investigate the same incident: a compromise of `Client2.BCS.local` (Alice's workstation) beginning with a Firefox-delivered HTA stager, leading to PowerShell-based C2, registry persistence, privilege escalation, and data staging/exfiltration. Each lab approaches this from a different evidence source - network, logs, memory, disk, timeline - and is documented independently so it stands on its own, without requiring the others for context.
 
 A full narrative reconstruction of the attack, once every piece was in place, is documented at the repository root in [`Scenario-Reveal.md`](../Scenario-Reveal.md).

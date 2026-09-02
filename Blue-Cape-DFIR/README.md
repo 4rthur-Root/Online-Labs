@@ -5,71 +5,71 @@
   <table>
     <tr>
       <td align="center" width="100">
-        <img src="assets/wireshark.png" width="80" alt="Wireshark"/><br/>
+        <img src="../assets/wireshark.png" width="80" alt="Wireshark"/><br/>
         <sub>Wireshark</sub>
       </td>
       <td align="center" width="100">
-        <img src="assets/splunk.jpeg" width="80" alt="Splunk"/><br/>
+        <img src="../assets/splunk.png" width="80" alt="Splunk"/><br/>
         <sub>Splunk</sub>
       </td>
       <td align="center" width="100">
-        <img src="assets/sysmon.png" width="80" alt="Sysmon"/><br/>
+        <img src="../assets/sysmon.jpeg" width="80" alt="Sysmon"/><br/>
         <sub>Sysmon</sub>
       </td>
       <td align="center" width="100">
-        <img src="assets/volatility.png" width="80" alt="Volatility"/><br/>
+        <img src="../assets/volatility.png" width="80" alt="Volatility"/><br/>
         <sub>Volatility 3</sub>
       </td>
       <td align="center" width="100">
-        <img src="assets/regripper.png" width="80" alt="RegRipper"/><br/>
+        <img src="../assets/regripper.jpeg" width="80" alt="RegRipper"/><br/>
         <sub>RegRipper</sub>
       </td>
     </tr>
     <tr>
       <td align="center" width="100">
-        <img src="assets/bulk_extractor.png" width="80" alt="bulk_extractor"/><br/>
+        <img src="../assets/bulk-extractor.jpeg" width="80" alt="bulk_extractor"/><br/>
         <sub>bulk_extractor</sub>
       </td>
       <td align="center" width="100">
-        <img src="assets/ftk_imager.png" width="80" alt="FTK Imager"/><br/>
+        <img src="../assets/magnetforensics-logo.svg" width="80" alt="FTK Imager"/><br/>
         <sub>FTK Imager</sub>
       </td>
       <td align="center" width="100">
-        <img src="assets/velociraptor.png" width="80" alt="Velociraptor"/><br/>
+        <img src="../assets/velociraptor.svg" width="80" alt="Velociraptor"/><br/>
         <sub>Velociraptor</sub>
       </td>
       <td align="center" width="100">
-        <img src="assets/timesketch.png" width="80" alt="Timesketch"/><br/>
+        <img src="../assets/timesketch.svg" width="80" alt="Timesketch"/><br/>
         <sub>Timesketch</sub>
       </td>
       <td align="center" width="100">
-        <img src="assets/eztools.png" width="80" alt="Eric Zimmerman Tools"/><br/>
+        <img src="../assets/eric.jpg" width="80" alt="Eric Zimmerman Tools"/><br/>
         <sub>EZ Tools</sub>
       </td>
     </tr>
   </table>
 </div>
 
-This repository documents hands-on practice through Blue Cape Security's free **DFIR Foundations and Techniques** course — SOC operations, incident response, and applied digital forensics. All analysis was performed on self-hosted virtual machines for educational purposes.
+This folder documents hands-on practice through Blue Cape Security's free **DFIR Foundations and Techniques** course - SOC operations, incident response, and applied digital forensics. All analysis was performed on self-hosted virtual machines for educational purposes.
 
-**Certificate of Completion:** [`DFIR-Certificate.pdf`](DFIR-Certificate.pdf) — 94.37% (67/71), 8 CEUs.
+**Certificate of Completion:** [`DFIR-Certificate.pdf`](DFIR-Certificate.pdf) - 94.37% (67/71), 8 CEUs.
 
 ## Structure
 
 ### [`Part-0-Welcome/`](Part-0-Welcome/)
-Course orientation — goals, role of a forensic analyst, what the course covers.
+Course orientation - goals, role of a forensic analyst, what the course covers.
 
 ### [`Part-1-Jumpstart/`](Part-1-Jumpstart/)
 DFIR fundamentals: the forensic process, incident response lifecycle, attack lifecycle, data acquisition options, forensic workstation setup, and an introduction to FTK.
 
 ### [`Part-2-Elevate/`](Part-2-Elevate/)
-The core of this repository — a full, hands-on investigation of a single incident (Alice's compromised workstation, `Client2.BCS.local`), carried across every major evidence source:
+The core of this repository - a full, hands-on investigation of a single incident (Alice's compromised workstation, `Client2.BCS.local`), carried across every major evidence source:
 
-- [`01-security-operations/`](Part-2-Elevate/01-security-operations/) — SOC fundamentals and the initial PCAP-based reconstruction of the compromise
-- [`02-incident-response-data-collection/`](Part-2-Elevate/02-incident-response-data-collection/) — Splunk SIEM correlation, Velociraptor/EDR exploration, offline collection techniques
-- [`03-applied-forensic-analysis/`](Part-2-Elevate/03-applied-forensic-analysis/) — memory, disk, and timeline forensics on the raw evidence itself
+- [`01-security-operations/`](Part-2-Elevate/01-security-operations/) - SOC fundamentals and the initial PCAP-based reconstruction of the compromise
+- [`02-incident-response-data-collection/`](Part-2-Elevate/02-incident-response-data-collection/) - Splunk SIEM correlation, Velociraptor/EDR exploration, offline collection techniques
+- [`03-applied-forensic-analysis/`](Part-2-Elevate/03-applied-forensic-analysis/) - memory, disk, and timeline forensics on the raw evidence itself
 
-Each lab has its own self-contained `README.md` — commands explained at the flag level, evidence embedded inline, and a "Detection & Mitigation" section reframing findings from a blue team perspective.
+Each lab has its own self-contained `README.md` - commands explained at the flag level, evidence embedded inline, and a "Detection & Mitigation" section reframing findings from a blue team perspective.
 
 ### [`lab-setup/`](Part-2-Elevate/lab-setup/)
 Vagrant/libvirt automation used to provision the lab environment (Splunk, Sysmon, attack replay scripts) locally.
@@ -78,18 +78,18 @@ Vagrant/libvirt automation used to provision the lab environment (Splunk, Sysmon
 
 Every lab in `Part-2-Elevate/` investigates the same incident, approached from a different evidence source each time. The full attack chain, once every piece was in place:
 
-1. **Delivery** — a Firefox download stager retrieved a payload from `http://w1ndowsupdate.com:8080/update.exe.hta` (DNS typosquatting on "windowsupdate").
-2. **Execution** — `update.exe.hta` executed, spawning a first PowerShell-based C2 agent.
-3. **C2 agent 1** — a PowerShell process communicating with `3.140.33.120` on port 9001.
-4. **Persistence** — a registry `Run` key maintained contact with the C2 across reboots/logons.
-5. **Privilege escalation** — an environment-variable-based script elevated the session, spawning a second, higher-privileged agent.
-6. **C2 agent 2** — a second PowerShell process, this one running with admin rights, communicating over port 9003.
-7. **Reconnaissance** — standard discovery commands (`whoami`, filesystem navigation, DNS queries).
-8. **Process injection attempts** — observed, but unsuccessful.
-9. **Staging** — `C:\Temp` created, `Alice\Documents` compressed into `C:\Temp\1.zip`.
-10. **Exfiltration** — `1.zip` uploaded via the second C2 agent, then deleted locally.
+1. **Delivery** - a Firefox download stager retrieved a payload from `http://w1ndowsupdate.com:8080/update.exe.hta` (DNS typosquatting on "windowsupdate").
+2. **Execution** - `update.exe.hta` executed, spawning a first PowerShell-based C2 agent.
+3. **C2 agent 1** - a PowerShell process communicating with `3.140.33.120` on port 9001.
+4. **Persistence** - a registry `Run` key maintained contact with the C2 across reboots/logons.
+5. **Privilege escalation** - an environment-variable-based script elevated the session, spawning a second, higher-privileged agent.
+6. **C2 agent 2** - a second PowerShell process, this one running with admin rights, communicating over port 9003.
+7. **Reconnaissance** - standard discovery commands (`whoami`, filesystem navigation, DNS queries).
+8. **Process injection attempts** - observed, but unsuccessful.
+9. **Staging** - `C:\Temp` created, `Alice\Documents` compressed into `C:\Temp\1.zip`.
+10. **Exfiltration** - `1.zip` uploaded via the second C2 agent, then deleted locally.
 
-Total data exfiltrated was small (~4 MB), but the chain covers the three pillars that matter most in a real incident: **initial access and system compromise, persistence, and exfiltration** — a compact but complete demonstration of what an attacker does once inside, and where each stage leaves evidence.
+Total data exfiltrated was small (~4 MB), but the chain covers the three pillars that matter most in a real incident: **initial access and system compromise, persistence, and exfiltration** - a compact but complete demonstration of what an attacker does once inside, and where each stage leaves evidence.
 
 Full narrative writeup: [`Scenario-Reveal.md`](Scenario-Reveal.md)
 
@@ -100,11 +100,11 @@ Cross-referenced against independent evidence sources across this project:
 
 ## Documentation Principles
 
-- One `README.md` per lab, fully self-contained — no dependency on other labs to be understood.
+- One `README.md` per lab, fully self-contained - no dependency on other labs to be understood.
 - `screenshots/` for course-material captures; `evidences/` reserved strictly for forensic investigation artifacts.
 - Every command explained at the flag level, not just reproduced.
 - A "Detection & Mitigation" section in every investigation writeup, reframing offensive findings from a blue team perspective.
-- Negative results and blockers are documented, not hidden — see the disk and timeline analysis labs for two honest examples of work paused on tooling issues rather than silently omitted.
+- Negative results and blockers are documented, not hidden - see the disk and timeline analysis labs for two honest examples of work paused on tooling issues rather than silently omitted.
 
 ## Resources
 
