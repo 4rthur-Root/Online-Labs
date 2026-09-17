@@ -1,0 +1,5 @@
+"Week","Focus","Resource","Why"
+"1–2","Windows internals: users, permissions, services, registry, GPO"," – Windows and AD Fundamentals module","Gets you comfortable in a real Windows environment, safe lab"
+"3–4","Active Directory: domains, OUs, Kerberos, NTLM, trusts, replication","Same module (AD Basics) +  AD DS path (free)","You need to think in AD terms before you can read its logs"
+"5–6","Windows event logs + Sysmon: 4624/4625, 4688, 4720, 4732, 4648, 1102, PowerShell 4104"," – Windows Logging for SOC room +  (free tier)","Hands-on log triage, real event data"
+"7–8","AD security specifically: attack paths, delegation, DCSync, BloodHound basics, what to hunt for"," SC-200 path (free) +  AD challenges","Ties it all together from a defender's perspective"
