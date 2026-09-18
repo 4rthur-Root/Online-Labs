@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+    <meta
+        http-equiv="Content-Security-Policy"
+        content="
+            default-src 'self';
+            script-src 'self';
+            style-src 'self' 'unsafe-inline';
+            img-src 'self' data:;
+            connect-src 'none';
+        "
+    >
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1"
+    >
+
+    <title>
+        TrustSettle
+    </title>
+
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+            min-height: 100vh;
+            padding: 20px;
+
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            font-family:
+                "Courier New",
+                monospace;
+
+            background: #0a0e27;
+            color: #00ff00;
+        }
+
+        .container {
+            width: 100%;
+            max-width: 800px;
+
+            padding: 30px;
+
+            background: #1a1f3a;
+
+            border:
+                2px solid #00ff00;
+
+            border-radius: 5px;
+        }
+
+        .header {
+            text-align: center;
+            margin-bottom: 30px;
+
+            border-bottom:
+                2px solid #00ff00;
+
+            padding-bottom: 15px;
+        }
+
+        .header h1 {
+            margin: 0 0 10px;
+        }
+
+        .header p {
+            color: #00aa00;
+        }
+
+        .status-bar {
+            display: grid;
+
+            grid-template-columns:
+                1fr 1fr;
+
+            gap: 20px;
+
+            margin-bottom: 30px;
+            padding: 15px;
+
+            background: #0a0e27;
+
+            border:
+                1px solid #00ff00;
+        }
+
+        .status-item {
+            text-align: center;
+        }
+
+        .status-label {
+            font-size: 11px;
+            color: #00aa00;
+        }
+
+        .status-value {
+            margin-top: 5px;
+
+            font-size: 16px;
+            font-weight: bold;
+        }
+
+        .game-container {
+            padding: 20px;
+
+            background: #0a0e27;
+
+            border:
+                1px solid #00ff00;
+        }
+
+        .game-title {
+            margin-bottom: 20px;
+
+            text-align: center;
+            font-size: 18px;
+        }
+
+        .game-board {
+            display: grid;
+
+            grid-template-columns:
+                repeat(4, 1fr);
+
+            gap: 10px;
+
+            margin-bottom: 20px;
+        }
+
+        .card {
+            aspect-ratio: 1;
+
+            border:
+                2px solid #00ff00;
+
+            border-radius: 3px;
+
+            background: #1a1f3a;
+            color: #00ff00;
+
+            font-size: 24px;
+            font-weight: bold;
+
+            cursor: pointer;
+        }
+
+        .card:hover:not(:disabled) {
+            background: #0a0e27;
+        }
+
+        .card.flipped {
+            background: #00ff00;
+            color: #0a0e27;
+        }
+
+        .card.matched {
+            opacity: 0.3;
+        }
+
+        .game-info {
+            padding: 15px;
+
+            text-align: center;
+
+            border:
+                1px dashed #00ff00;
+        }
+
+        .highlight {
+            font-weight: bold;
+        }
+
+        .terminal-output {
+            margin-top: 20px;
+            padding: 15px;
+
+            min-height: 100px;
+            max-height: 180px;
+            overflow-y: auto;
+
+            background: #000;
+
+            border:
+                1px solid #00ff00;
+
+            font-size: 11px;
+        }
+
+        .terminal-header {
+            margin-bottom: 10px;
+            padding-bottom: 8px;
+
+            border-bottom:
+                1px dashed #00aa00;
+
+            color: #00aa00;
+        }
+
+        .log-line {
+            margin: 4px 0;
+            word-break: break-all;
+        }
+
+        .success {
+            color: #00ff00;
+        }
+
+        .info {
+            color: #00aa00;
+        }
+
+        .warning {
+            color: #ffaa00;
+        }
+
+        .error {
+            color: #ff0000;
+        }
+
+        @media (
+            max-width: 600px
+        ) {
+            .game-board {
+                grid-template-columns:
+                    repeat(4, 1fr);
+            }
+
+            .container {
+                padding: 15px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+<div class="container">
+
+    <header class="header">
+        <h1>
+             Secure, verified wallet settlements you can trust.
+        </h1>
+    </header>
+
+    <section class="status-bar">
+
+        <div class="status-item">
+            <div class="status-label">
+                Status
+            </div>
+
+            <div
+                class="status-value"
+                id="statusValue"
+            >
+                INITIALIZING
+            </div>
+        </div>
+
+        <div class="status-item">
+            <div class="status-label">
+                Progress
+            </div>
+
+            <div
+                class="status-value"
+                id="progressValue"
+            >
+                0%
+            </div>
+        </div>
+
+    </section>
+
+    <main class="game-container">
+
+        <div class="game-title">
+            Click to continue..
+        </div>
+
+        <div
+            class="game-board"
+            id="gameBoard"
+        ></div>
+
+        <div class="game-info">
+
+            <p>
+                Matches Found:
+                <span
+                    class="highlight"
+                    id="matchCount"
+                >
+                    0
+                </span>
+                / 8
+            </p>
+
+            <p>
+                Attempts:
+                <span
+                    class="highlight"
+                    id="attemptCount"
+                >
+                    0
+                </span>
+            </p>
+
+            <p id="gameStatus">
+                Loading...
+            </p>
+
+        </div>
+
+    </main>
+
+</div>
+
+<script src="./renderer.js"></script>
+
+</body>
+</html>
