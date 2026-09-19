@@ -1,0 +1,12 @@
+[project]
+name = "paperghost"
+version = "0.1.0"
+description = "DFIR analysis tooling for HTB Holmes CTF 2026 - Sherlock 04 (The False Employee) - PaperGhost"
+requires-python = ">=3.11"
+dependencies = [
+    "regipy>=5.0.0",
+    "dissect.esedb>=3.0",
+]
+
+[tool.uv]
+package = false
