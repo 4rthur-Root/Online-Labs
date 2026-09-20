@@ -1,0 +1,14 @@
+## Bottle out
+
+1 - What are the remote address and port of the VPN server that the user connected to? (IPv4:port)?
+
+
+2 - What Certificate Authority (CA) issued the VPN client certificate? (string)
+What is the IP address assigned to the user by the VPN server? (IPv4 address)
+It seems that the PC is remotely managed. What is the name and version of the installed remote management agent? (Agent Name v.X.Y.Z)
+What is the domain the remote management agent connects to? (fully qualified domain name)
+What is the remote management agent Authentication Token? (SHA-1 Hash)
+What is the first of the three commands executed in Operation Vanish? (*********** ************ *:\*****\****\***** ******** ******)
+What is the account used to connect to the instant messaging server through the software previously identified? (email address)
+What is the password for that account? (string)
+What is the full name of the jailer? (FirstName LastName)
