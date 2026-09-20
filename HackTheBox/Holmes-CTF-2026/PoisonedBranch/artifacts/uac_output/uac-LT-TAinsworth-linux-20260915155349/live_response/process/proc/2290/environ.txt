@@ -1,0 +1,8 @@
+LANG=en_US.UTF-8
+PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+NOTIFY_SOCKET=/run/systemd/notify
+WATCHDOG_PID=2290
+WATCHDOG_USEC=180000000
+INVOCATION_ID=5f45bb1e6cf146bfa2b2af89c5fa6c1c
+JOURNAL_STREAM=8:89001
+SYSTEMD_EXEC_PID=2290

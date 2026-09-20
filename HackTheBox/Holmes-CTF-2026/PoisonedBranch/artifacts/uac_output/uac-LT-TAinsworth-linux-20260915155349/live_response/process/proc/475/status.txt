@@ -1,0 +1,57 @@
+Name:	vmtoolsd
+Umask:	0022
+State:	S (sleeping)
+Tgid:	475
+Ngid:	0
+Pid:	475
+PPid:	1
+TracerPid:	0
+Uid:	0	0	0	0
+Gid:	0	0	0	0
+FDSize:	64
+Groups:	 
+NStgid:	475
+NSpid:	475
+NSpgid:	475
+NSsid:	475
+VmPeak:	  241436 kB
+VmSize:	  241436 kB
+VmLck:	       0 kB
+VmPin:	       0 kB
+VmHWM:	   11408 kB
+VmRSS:	   11408 kB
+RssAnon:	    3652 kB
+RssFile:	    7756 kB
+RssShmem:	       0 kB
+VmData:	   27596 kB
+VmStk:	     132 kB
+VmExe:	      32 kB
+VmLib:	    8020 kB
+VmPTE:	     100 kB
+VmSwap:	       0 kB
+HugetlbPages:	       0 kB
+CoreDumping:	0
+THP_enabled:	1
+Threads:	3
+SigQ:	1/15382
+SigPnd:	0000000000000000
+ShdPnd:	0000000000000000
+SigBlk:	0000000000000000
+SigIgn:	0000000000001800
+SigCgt:	0000000100004207
+CapInh:	0000000000000000
+CapPrm:	000001ffffffffff
+CapEff:	000001ffffffffff
+CapBnd:	000001ffffffffff
+CapAmb:	0000000000000000
+NoNewPrivs:	0
+Seccomp:	0
+Seccomp_filters:	0
+Speculation_Store_Bypass:	thread vulnerable
+SpeculationIndirectBranch:	conditional enabled
+Cpus_allowed:	3
+Cpus_allowed_list:	0-1
+Mems_allowed:	00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000001
+Mems_allowed_list:	0
+voluntary_ctxt_switches:	997699
+nonvoluntary_ctxt_switches:	5639

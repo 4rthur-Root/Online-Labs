@@ -1,0 +1,6 @@
+NAME   FSTYPE FSVER LABEL UUID                                 FSAVAIL FSUSE% MOUNTPOINTS
+sda                                                                           
+|-sda1 vfat   FAT32       5B05-E03B                             505.2M     1% /boot/efi
+|-sda2 ext4   1.0         fbf395f4-54bd-4ea4-86fd-072a61b464d3     15G    12% /
+`-sda3 swap   1           2adf0eab-66ff-4cdb-8cc6-a7aa5f8057ef                [SWAP]
+sr0                                                                           

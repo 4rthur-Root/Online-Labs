@@ -1,0 +1,15 @@
+total 0
+drwxr-xr-x 2 root root    0 Sep 14 15:47 .
+drwxr-xr-x 3 root root    0 Sep 14 15:47 ..
+-rw------- 1 root root 4096 Sep 15 15:38 audit
+-rw------- 1 root root 4096 Sep 15 15:38 audit_header
+-rw------- 1 root root 4096 Sep 15 15:38 debug
+-r--r--r-- 1 root root 4096 Sep 14 15:47 enabled
+-rw------- 1 root root 4096 Sep 15 15:38 export_binary
+-rw------- 1 root root 4096 Sep 15 15:38 hash_policy
+-rw------- 1 root root 4096 Sep 15 15:38 lock_policy
+-rw------- 1 root root 4096 Sep 15 15:38 logsyscall
+-rw------- 1 root root 4096 Sep 15 15:38 mode
+-r--r--r-- 1 root root 4096 Sep 15 15:38 paranoid_load
+-r-------- 1 root root 4096 Sep 15 15:38 path_max
+-r-------- 1 root root 4096 Sep 15 15:38 rawdata_compression_level

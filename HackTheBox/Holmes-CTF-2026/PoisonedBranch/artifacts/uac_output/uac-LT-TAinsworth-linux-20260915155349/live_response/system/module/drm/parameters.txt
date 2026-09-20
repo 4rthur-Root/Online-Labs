@@ -1,0 +1,8 @@
+total 0
+drwxr-xr-x 2 root root    0 Sep 15 15:38 .
+drwxr-xr-x 6 root root    0 Sep 14 15:47 ..
+-rw------- 1 root root 4096 Sep 15 15:38 debug
+-rw-r--r-- 1 root root 4096 Sep 15 15:38 edid_firmware
+-r-------- 1 root root 4096 Sep 15 15:38 edid_fixup
+-rw------- 1 root root 4096 Sep 15 15:38 timestamp_precision_usec
+-rw------- 1 root root 4096 Sep 15 15:38 vblankoffdelay

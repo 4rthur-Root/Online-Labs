@@ -1,0 +1,232 @@
+563d54437000-563d5443c000 r--p 00000000 08:02 425186                     /usr/bin/vmtoolsd
+563d5443c000-563d54444000 r-xp 00005000 08:02 425186                     /usr/bin/vmtoolsd
+563d54444000-563d54448000 r--p 0000d000 08:02 425186                     /usr/bin/vmtoolsd
+563d54448000-563d54449000 r--p 00010000 08:02 425186                     /usr/bin/vmtoolsd
+563d54449000-563d5444a000 rw-p 00011000 08:02 425186                     /usr/bin/vmtoolsd
+563d5ba4a000-563d5baa7000 rw-p 00000000 00:00 0                          [heap]
+7f1680000000-7f1680021000 rw-p 00000000 00:00 0 
+7f1680021000-7f1684000000 ---p 00000000 00:00 0 
+7f1684000000-7f1684023000 rw-p 00000000 00:00 0 
+7f1684023000-7f1688000000 ---p 00000000 00:00 0 
+7f1688000000-7f1688021000 rw-p 00000000 00:00 0 
+7f1688021000-7f168c000000 ---p 00000000 00:00 0 
+7f168e57d000-7f168e57e000 ---p 00000000 00:00 0 
+7f168e57e000-7f168ed7e000 rw-p 00000000 00:00 0 
+7f168ed7e000-7f168ed7f000 ---p 00000000 00:00 0 
+7f168ed7f000-7f168f57f000 rw-p 00000000 00:00 0 
+7f168f57f000-7f168f580000 ---p 00000000 00:00 0 
+7f168f580000-7f168fe00000 rw-p 00000000 00:00 0 
+7f168fe00000-7f168fec5000 r--p 00000000 08:02 393482                     /usr/lib/x86_64-linux-gnu/libcrypto.so.3
+7f168fec5000-7f1690142000 r-xp 000c5000 08:02 393482                     /usr/lib/x86_64-linux-gnu/libcrypto.so.3
+7f1690142000-7f1690220000 r--p 00342000 08:02 393482                     /usr/lib/x86_64-linux-gnu/libcrypto.so.3
+7f1690220000-7f1690282000 r--p 0041f000 08:02 393482                     /usr/lib/x86_64-linux-gnu/libcrypto.so.3
+7f1690282000-7f1690285000 rw-p 00481000 08:02 393482                     /usr/lib/x86_64-linux-gnu/libcrypto.so.3
+7f1690285000-7f1690288000 rw-p 00000000 00:00 0 
+7f16902da000-7f16902dc000 r--p 00000000 08:02 425219                     /usr/lib/x86_64-linux-gnu/open-vm-tools/plugins/vmsvc/libvmbackup.so
+7f16902dc000-7f16902e1000 r-xp 00002000 08:02 425219                     /usr/lib/x86_64-linux-gnu/open-vm-tools/plugins/vmsvc/libvmbackup.so
+7f16902e1000-7f16902e4000 r--p 00007000 08:02 425219                     /usr/lib/x86_64-linux-gnu/open-vm-tools/plugins/vmsvc/libvmbackup.so
+7f16902e4000-7f16902e5000 r--p 00009000 08:02 425219                     /usr/lib/x86_64-linux-gnu/open-vm-tools/plugins/vmsvc/libvmbackup.so
+7f16902e5000-7f16902e6000 rw-p 0000a000 08:02 425219                     /usr/lib/x86_64-linux-gnu/open-vm-tools/plugins/vmsvc/libvmbackup.so
+7f16902e6000-7f16902e7000 r--p 00000000 08:02 425218                     /usr/lib/x86_64-linux-gnu/open-vm-tools/plugins/vmsvc/libtimeSync.so
+7f16902e7000-7f16902ea000 r-xp 00001000 08:02 425218                     /usr/lib/x86_64-linux-gnu/open-vm-tools/plugins/vmsvc/libtimeSync.so
+7f16902ea000-7f16902ec000 r--p 00004000 08:02 425218                     /usr/lib/x86_64-linux-gnu/open-vm-tools/plugins/vmsvc/libtimeSync.so
+7f16902ec000-7f16902ed000 r--p 00005000 08:02 425218                     /usr/lib/x86_64-linux-gnu/open-vm-tools/plugins/vmsvc/libtimeSync.so
+7f16902ed000-7f16902ee000 rw-p 00006000 08:02 425218                     /usr/lib/x86_64-linux-gnu/open-vm-tools/plugins/vmsvc/libtimeSync.so
+7f16902ee000-7f16902f3000 r--p 00000000 08:02 396542                     /usr/lib/x86_64-linux-gnu/libudev.so.1.7.5
+7f16902f3000-7f169030f000 r-xp 00005000 08:02 396542                     /usr/lib/x86_64-linux-gnu/libudev.so.1.7.5
+7f169030f000-7f169031a000 r--p 00021000 08:02 396542                     /usr/lib/x86_64-linux-gnu/libudev.so.1.7.5
+7f169031a000-7f169031b000 r--p 0002b000 08:02 396542                     /usr/lib/x86_64-linux-gnu/libudev.so.1.7.5
+7f169031b000-7f169031c000 rw-p 0002c000 08:02 396542                     /usr/lib/x86_64-linux-gnu/libudev.so.1.7.5
+7f169031c000-7f1690321000 r--p 00000000 08:02 425100                     /usr/lib/x86_64-linux-gnu/libdrm.so.2.4.0
+7f1690321000-7f169032c000 r-xp 00005000 08:02 425100                     /usr/lib/x86_64-linux-gnu/libdrm.so.2.4.0
+7f169032c000-7f1690330000 r--p 00010000 08:02 425100                     /usr/lib/x86_64-linux-gnu/libdrm.so.2.4.0
+7f1690330000-7f1690331000 r--p 00013000 08:02 425100                     /usr/lib/x86_64-linux-gnu/libdrm.so.2.4.0
+7f1690331000-7f1690332000 rw-p 00014000 08:02 425100                     /usr/lib/x86_64-linux-gnu/libdrm.so.2.4.0
+7f1690332000-7f1690333000 r--p 00000000 08:02 425217                     /usr/lib/x86_64-linux-gnu/open-vm-tools/plugins/vmsvc/libresolutionKMS.so
+7f1690333000-7f1690335000 r-xp 00001000 08:02 425217                     /usr/lib/x86_64-linux-gnu/open-vm-tools/plugins/vmsvc/libresolutionKMS.so
+7f1690335000-7f1690336000 r--p 00003000 08:02 425217                     /usr/lib/x86_64-linux-gnu/open-vm-tools/plugins/vmsvc/libresolutionKMS.so
+7f1690336000-7f1690337000 r--p 00003000 08:02 425217                     /usr/lib/x86_64-linux-gnu/open-vm-tools/plugins/vmsvc/libresolutionKMS.so
+7f1690337000-7f1690338000 rw-p 00004000 08:02 425217                     /usr/lib/x86_64-linux-gnu/open-vm-tools/plugins/vmsvc/libresolutionKMS.so
+7f1690338000-7f1690339000 r--p 00000000 08:02 425216                     /usr/lib/x86_64-linux-gnu/open-vm-tools/plugins/vmsvc/libpowerOps.so
+7f1690339000-7f169033a000 r-xp 00001000 08:02 425216                     /usr/lib/x86_64-linux-gnu/open-vm-tools/plugins/vmsvc/libpowerOps.so
+7f169033a000-7f169033b000 r--p 00002000 08:02 425216                     /usr/lib/x86_64-linux-gnu/open-vm-tools/plugins/vmsvc/libpowerOps.so
+7f169033b000-7f169033c000 r--p 00002000 08:02 425216                     /usr/lib/x86_64-linux-gnu/open-vm-tools/plugins/vmsvc/libpowerOps.so
+7f169033c000-7f169033d000 rw-p 00003000 08:02 425216                     /usr/lib/x86_64-linux-gnu/open-vm-tools/plugins/vmsvc/libpowerOps.so
+7f169033d000-7f169033f000 r--p 00000000 08:02 425215                     /usr/lib/x86_64-linux-gnu/open-vm-tools/plugins/vmsvc/libguestStore.so
+7f169033f000-7f1690342000 r-xp 00002000 08:02 425215                     /usr/lib/x86_64-linux-gnu/open-vm-tools/plugins/vmsvc/libguestStore.so
+7f1690342000-7f1690344000 r--p 00005000 08:02 425215                     /usr/lib/x86_64-linux-gnu/open-vm-tools/plugins/vmsvc/libguestStore.so
+7f1690344000-7f1690345000 r--p 00007000 08:02 425215                     /usr/lib/x86_64-linux-gnu/open-vm-tools/plugins/vmsvc/libguestStore.so
+7f1690345000-7f1690346000 rw-p 00008000 08:02 425215                     /usr/lib/x86_64-linux-gnu/open-vm-tools/plugins/vmsvc/libguestStore.so
+7f1690346000-7f1690349000 r--p 00000000 08:02 425214                     /usr/lib/x86_64-linux-gnu/open-vm-tools/plugins/vmsvc/libguestInfo.so
+7f1690349000-7f1690350000 r-xp 00003000 08:02 425214                     /usr/lib/x86_64-linux-gnu/open-vm-tools/plugins/vmsvc/libguestInfo.so
+7f1690350000-7f1690353000 r--p 0000a000 08:02 425214                     /usr/lib/x86_64-linux-gnu/open-vm-tools/plugins/vmsvc/libguestInfo.so
+7f1690353000-7f1690354000 r--p 0000c000 08:02 425214                     /usr/lib/x86_64-linux-gnu/open-vm-tools/plugins/vmsvc/libguestInfo.so
+7f1690354000-7f1690355000 rw-p 0000d000 08:02 425214                     /usr/lib/x86_64-linux-gnu/open-vm-tools/plugins/vmsvc/libguestInfo.so
+7f1690355000-7f1690357000 r--p 00000000 08:02 425213                     /usr/lib/x86_64-linux-gnu/open-vm-tools/plugins/vmsvc/libgdp.so
+7f1690357000-7f169035b000 r-xp 00002000 08:02 425213                     /usr/lib/x86_64-linux-gnu/open-vm-tools/plugins/vmsvc/libgdp.so
+7f169035b000-7f169035d000 r--p 00006000 08:02 425213                     /usr/lib/x86_64-linux-gnu/open-vm-tools/plugins/vmsvc/libgdp.so
+7f169035d000-7f169035e000 r--p 00007000 08:02 425213                     /usr/lib/x86_64-linux-gnu/open-vm-tools/plugins/vmsvc/libgdp.so
+7f169035e000-7f169035f000 rw-p 00008000 08:02 425213                     /usr/lib/x86_64-linux-gnu/open-vm-tools/plugins/vmsvc/libgdp.so
+7f169035f000-7f1690361000 r--p 00000000 08:02 425140                     /usr/lib/x86_64-linux-gnu/libmspack.so.0.1.0
+7f1690361000-7f169036f000 r-xp 00002000 08:02 425140                     /usr/lib/x86_64-linux-gnu/libmspack.so.0.1.0
+7f169036f000-7f1690372000 r--p 00010000 08:02 425140                     /usr/lib/x86_64-linux-gnu/libmspack.so.0.1.0
+7f1690372000-7f1690373000 r--p 00012000 08:02 425140                     /usr/lib/x86_64-linux-gnu/libmspack.so.0.1.0
+7f1690373000-7f1690374000 rw-p 00013000 08:02 425140                     /usr/lib/x86_64-linux-gnu/libmspack.so.0.1.0
+7f1690374000-7f1690376000 r--p 00000000 08:02 425196                     /usr/lib/x86_64-linux-gnu/libDeployPkg.so.0.0.0
+7f1690376000-7f169037a000 r-xp 00002000 08:02 425196                     /usr/lib/x86_64-linux-gnu/libDeployPkg.so.0.0.0
+7f169037a000-7f169037d000 r--p 00006000 08:02 425196                     /usr/lib/x86_64-linux-gnu/libDeployPkg.so.0.0.0
+7f169037d000-7f169037e000 r--p 00008000 08:02 425196                     /usr/lib/x86_64-linux-gnu/libDeployPkg.so.0.0.0
+7f169037e000-7f169037f000 rw-p 00009000 08:02 425196                     /usr/lib/x86_64-linux-gnu/libDeployPkg.so.0.0.0
+7f169037f000-7f1690381000 r--p 00000000 08:02 425212                     /usr/lib/x86_64-linux-gnu/open-vm-tools/plugins/vmsvc/libdeployPkgPlugin.so
+7f1690381000-7f1690383000 r-xp 00002000 08:02 425212                     /usr/lib/x86_64-linux-gnu/open-vm-tools/plugins/vmsvc/libdeployPkgPlugin.so
+7f1690383000-7f1690384000 r--p 00004000 08:02 425212                     /usr/lib/x86_64-linux-gnu/open-vm-tools/plugins/vmsvc/libdeployPkgPlugin.so
+7f1690384000-7f1690385000 r--p 00004000 08:02 425212                     /usr/lib/x86_64-linux-gnu/open-vm-tools/plugins/vmsvc/libdeployPkgPlugin.so
+7f1690385000-7f1690386000 rw-p 00005000 08:02 425212                     /usr/lib/x86_64-linux-gnu/open-vm-tools/plugins/vmsvc/libdeployPkgPlugin.so
+7f1690386000-7f1690387000 rw-p 00000000 00:00 0 
+7f1690387000-7f1690388000 r--p 00000000 08:02 425211                     /usr/lib/x86_64-linux-gnu/open-vm-tools/plugins/vmsvc/libcomponentMgr.so
+7f1690388000-7f169038a000 r-xp 00001000 08:02 425211                     /usr/lib/x86_64-linux-gnu/open-vm-tools/plugins/vmsvc/libcomponentMgr.so
+7f169038a000-7f169038c000 r--p 00003000 08:02 425211                     /usr/lib/x86_64-linux-gnu/open-vm-tools/plugins/vmsvc/libcomponentMgr.so
+7f169038c000-7f169038d000 r--p 00004000 08:02 425211                     /usr/lib/x86_64-linux-gnu/open-vm-tools/plugins/vmsvc/libcomponentMgr.so
+7f169038d000-7f169038e000 rw-p 00005000 08:02 425211                     /usr/lib/x86_64-linux-gnu/open-vm-tools/plugins/vmsvc/libcomponentMgr.so
+7f169038e000-7f16903ad000 r--p 00000000 08:02 393483                     /usr/lib/x86_64-linux-gnu/libssl.so.3
+7f16903ad000-7f169040a000 r-xp 0001f000 08:02 393483                     /usr/lib/x86_64-linux-gnu/libssl.so.3
+7f169040a000-7f1690429000 r--p 0007c000 08:02 393483                     /usr/lib/x86_64-linux-gnu/libssl.so.3
+7f1690429000-7f1690433000 r--p 0009a000 08:02 393483                     /usr/lib/x86_64-linux-gnu/libssl.so.3
+7f1690433000-7f1690437000 rw-p 000a4000 08:02 393483                     /usr/lib/x86_64-linux-gnu/libssl.so.3
+7f1690437000-7f169043d000 r--p 00000000 08:02 425208                     /usr/lib/x86_64-linux-gnu/open-vm-tools/plugins/common/libvix.so
+7f169043d000-7f169044f000 r-xp 00006000 08:02 425208                     /usr/lib/x86_64-linux-gnu/open-vm-tools/plugins/common/libvix.so
+7f169044f000-7f1690456000 r--p 00018000 08:02 425208                     /usr/lib/x86_64-linux-gnu/open-vm-tools/plugins/common/libvix.so
+7f1690456000-7f1690458000 r--p 0001f000 08:02 425208                     /usr/lib/x86_64-linux-gnu/open-vm-tools/plugins/common/libvix.so
+7f1690458000-7f1690459000 rw-p 00021000 08:02 425208                     /usr/lib/x86_64-linux-gnu/open-vm-tools/plugins/common/libvix.so
+7f1690459000-7f169052a000 rw-p 00000000 00:00 0 
+7f169052a000-7f169052b000 r--p 00000000 08:02 425207                     /usr/lib/x86_64-linux-gnu/open-vm-tools/plugins/common/libhgfsServer.so
+7f169052b000-7f169052c000 r-xp 00001000 08:02 425207                     /usr/lib/x86_64-linux-gnu/open-vm-tools/plugins/common/libhgfsServer.so
+7f169052c000-7f169052d000 r--p 00002000 08:02 425207                     /usr/lib/x86_64-linux-gnu/open-vm-tools/plugins/common/libhgfsServer.so
+7f169052d000-7f169052e000 r--p 00002000 08:02 425207                     /usr/lib/x86_64-linux-gnu/open-vm-tools/plugins/common/libhgfsServer.so
+7f169052e000-7f169052f000 rw-p 00003000 08:02 425207                     /usr/lib/x86_64-linux-gnu/open-vm-tools/plugins/common/libhgfsServer.so
+7f169052f000-7f16905ae000 rw-p 00000000 00:00 0 
+7f16905ae000-7f16905c2000 r--p 00000000 08:02 425197                     /usr/lib/x86_64-linux-gnu/libguestStoreClient.so.0.0.0
+7f16905c2000-7f16905d7000 r-xp 00014000 08:02 425197                     /usr/lib/x86_64-linux-gnu/libguestStoreClient.so.0.0.0
+7f16905d7000-7f16905e7000 r--p 00029000 08:02 425197                     /usr/lib/x86_64-linux-gnu/libguestStoreClient.so.0.0.0
+7f16905e7000-7f16905f9000 r--p 00038000 08:02 425197                     /usr/lib/x86_64-linux-gnu/libguestStoreClient.so.0.0.0
+7f16905f9000-7f16905fd000 rw-p 0004a000 08:02 425197                     /usr/lib/x86_64-linux-gnu/libguestStoreClient.so.0.0.0
+7f16905fd000-7f1690600000 rw-p 00000000 00:00 0 
+7f1690600000-7f16908e9000 r--p 00000000 08:02 406138                     /usr/lib/locale/locale-archive
+7f16908ed000-7f16908ee000 r--p 00000000 08:02 425210                     /usr/lib/x86_64-linux-gnu/open-vm-tools/plugins/vmsvc/libappInfo.so
+7f16908ee000-7f16908f0000 r-xp 00001000 08:02 425210                     /usr/lib/x86_64-linux-gnu/open-vm-tools/plugins/vmsvc/libappInfo.so
+7f16908f0000-7f16908f1000 r--p 00003000 08:02 425210                     /usr/lib/x86_64-linux-gnu/open-vm-tools/plugins/vmsvc/libappInfo.so
+7f16908f1000-7f16908f2000 r--p 00003000 08:02 425210                     /usr/lib/x86_64-linux-gnu/open-vm-tools/plugins/vmsvc/libappInfo.so
+7f16908f2000-7f16908f3000 rw-p 00004000 08:02 425210                     /usr/lib/x86_64-linux-gnu/open-vm-tools/plugins/vmsvc/libappInfo.so
+7f16908f3000-7f16908f8000 r--p 00000000 08:02 425200                     /usr/lib/x86_64-linux-gnu/libvgauth.so.0.0.0
+7f16908f8000-7f1690901000 r-xp 00005000 08:02 425200                     /usr/lib/x86_64-linux-gnu/libvgauth.so.0.0.0
+7f1690901000-7f1690908000 r--p 0000e000 08:02 425200                     /usr/lib/x86_64-linux-gnu/libvgauth.so.0.0.0
+7f1690908000-7f1690909000 r--p 00014000 08:02 425200                     /usr/lib/x86_64-linux-gnu/libvgauth.so.0.0.0
+7f1690909000-7f169090a000 rw-p 00015000 08:02 425200                     /usr/lib/x86_64-linux-gnu/libvgauth.so.0.0.0
+7f169090a000-7f1690911000 r--p 00000000 08:02 425199                     /usr/lib/x86_64-linux-gnu/libhgfs.so.0.0.0
+7f1690911000-7f1690928000 r-xp 00007000 08:02 425199                     /usr/lib/x86_64-linux-gnu/libhgfs.so.0.0.0
+7f1690928000-7f1690934000 r--p 0001e000 08:02 425199                     /usr/lib/x86_64-linux-gnu/libhgfs.so.0.0.0
+7f1690934000-7f1690935000 r--p 00029000 08:02 425199                     /usr/lib/x86_64-linux-gnu/libhgfs.so.0.0.0
+7f1690935000-7f1690936000 rw-p 0002a000 08:02 425199                     /usr/lib/x86_64-linux-gnu/libhgfs.so.0.0.0
+7f1690936000-7f169093d000 r--s 00000000 08:02 395207                     /usr/lib/x86_64-linux-gnu/gconv/gconv-modules.cache
+7f169093d000-7f1690941000 rw-p 00000000 00:00 0 
+7f1690941000-7f1690944000 r--p 00000000 08:02 394176                     /usr/lib/x86_64-linux-gnu/libresolv.so.2
+7f1690944000-7f169094c000 r-xp 00003000 08:02 394176                     /usr/lib/x86_64-linux-gnu/libresolv.so.2
+7f169094c000-7f169094e000 r--p 0000b000 08:02 394176                     /usr/lib/x86_64-linux-gnu/libresolv.so.2
+7f169094e000-7f169094f000 r--p 0000d000 08:02 394176                     /usr/lib/x86_64-linux-gnu/libresolv.so.2
+7f169094f000-7f1690950000 rw-p 0000e000 08:02 394176                     /usr/lib/x86_64-linux-gnu/libresolv.so.2
+7f1690950000-7f1690952000 rw-p 00000000 00:00 0 
+7f1690952000-7f1690954000 r--p 00000000 08:02 397562                     /usr/lib/x86_64-linux-gnu/libkeyutils.so.1.10
+7f1690954000-7f1690956000 r-xp 00002000 08:02 397562                     /usr/lib/x86_64-linux-gnu/libkeyutils.so.1.10
+7f1690956000-7f1690957000 r--p 00004000 08:02 397562                     /usr/lib/x86_64-linux-gnu/libkeyutils.so.1.10
+7f1690957000-7f1690958000 r--p 00004000 08:02 397562                     /usr/lib/x86_64-linux-gnu/libkeyutils.so.1.10
+7f1690958000-7f1690959000 rw-p 00005000 08:02 397562                     /usr/lib/x86_64-linux-gnu/libkeyutils.so.1.10
+7f1690959000-7f169095b000 rw-p 00000000 00:00 0 
+7f169095b000-7f169095e000 r--p 00000000 08:02 393486                     /usr/lib/x86_64-linux-gnu/libkrb5support.so.0.1
+7f169095e000-7f1690964000 r-xp 00003000 08:02 393486                     /usr/lib/x86_64-linux-gnu/libkrb5support.so.0.1
+7f1690964000-7f1690967000 r--p 00009000 08:02 393486                     /usr/lib/x86_64-linux-gnu/libkrb5support.so.0.1
+7f1690967000-7f1690968000 r--p 0000b000 08:02 393486                     /usr/lib/x86_64-linux-gnu/libkrb5support.so.0.1
+7f1690968000-7f1690969000 rw-p 0000c000 08:02 393486                     /usr/lib/x86_64-linux-gnu/libkrb5support.so.0.1
+7f1690969000-7f169096b000 r--p 00000000 08:02 398529                     /usr/lib/x86_64-linux-gnu/libcom_err.so.2.1
+7f169096b000-7f169096c000 r-xp 00002000 08:02 398529                     /usr/lib/x86_64-linux-gnu/libcom_err.so.2.1
+7f169096c000-7f169096d000 r--p 00003000 08:02 398529                     /usr/lib/x86_64-linux-gnu/libcom_err.so.2.1
+7f169096d000-7f169096e000 r--p 00003000 08:02 398529                     /usr/lib/x86_64-linux-gnu/libcom_err.so.2.1
+7f169096e000-7f169096f000 rw-p 00004000 08:02 398529                     /usr/lib/x86_64-linux-gnu/libcom_err.so.2.1
+7f169096f000-7f1690973000 r--p 00000000 08:02 397552                     /usr/lib/x86_64-linux-gnu/libk5crypto.so.3.1
+7f1690973000-7f169098d000 r-xp 00004000 08:02 397552                     /usr/lib/x86_64-linux-gnu/libk5crypto.so.3.1
+7f169098d000-7f169099a000 r--p 0001e000 08:02 397552                     /usr/lib/x86_64-linux-gnu/libk5crypto.so.3.1
+7f169099a000-7f169099b000 r--p 0002b000 08:02 397552                     /usr/lib/x86_64-linux-gnu/libk5crypto.so.3.1
+7f169099b000-7f169099c000 rw-p 0002c000 08:02 397552                     /usr/lib/x86_64-linux-gnu/libk5crypto.so.3.1
+7f169099c000-7f16909bf000 r--p 00000000 08:02 397582                     /usr/lib/x86_64-linux-gnu/libkrb5.so.3.3
+7f16909bf000-7f1690a1e000 r-xp 00023000 08:02 397582                     /usr/lib/x86_64-linux-gnu/libkrb5.so.3.3
+7f1690a1e000-7f1690a66000 r--p 00082000 08:02 397582                     /usr/lib/x86_64-linux-gnu/libkrb5.so.3.3
+7f1690a66000-7f1690a73000 r--p 000c9000 08:02 397582                     /usr/lib/x86_64-linux-gnu/libkrb5.so.3.3
+7f1690a73000-7f1690a76000 rw-p 000d6000 08:02 397582                     /usr/lib/x86_64-linux-gnu/libkrb5.so.3.3
+7f1690a76000-7f1690a82000 r--p 00000000 08:02 397557                     /usr/lib/x86_64-linux-gnu/libgssapi_krb5.so.2.2
+7f1690a82000-7f1690ab8000 r-xp 0000c000 08:02 397557                     /usr/lib/x86_64-linux-gnu/libgssapi_krb5.so.2.2
+7f1690ab8000-7f1690ac5000 r--p 00042000 08:02 397557                     /usr/lib/x86_64-linux-gnu/libgssapi_krb5.so.2.2
+7f1690ac5000-7f1690ac7000 r--p 0004f000 08:02 397557                     /usr/lib/x86_64-linux-gnu/libgssapi_krb5.so.2.2
+7f1690ac7000-7f1690ac9000 rw-p 00051000 08:02 397557                     /usr/lib/x86_64-linux-gnu/libgssapi_krb5.so.2.2
+7f1690ac9000-7f1690acb000 rw-p 00000000 00:00 0 
+7f1690acb000-7f1690adb000 r--p 00000000 08:02 394165                     /usr/lib/x86_64-linux-gnu/libm.so.6
+7f1690adb000-7f1690b4f000 r-xp 00010000 08:02 394165                     /usr/lib/x86_64-linux-gnu/libm.so.6
+7f1690b4f000-7f1690ba9000 r--p 00084000 08:02 394165                     /usr/lib/x86_64-linux-gnu/libm.so.6
+7f1690ba9000-7f1690baa000 r--p 000dd000 08:02 394165                     /usr/lib/x86_64-linux-gnu/libm.so.6
+7f1690baa000-7f1690bab000 rw-p 000de000 08:02 394165                     /usr/lib/x86_64-linux-gnu/libm.so.6
+7f1690bab000-7f1690bad000 r--p 00000000 08:02 392350                     /usr/lib/x86_64-linux-gnu/libpcre2-8.so.0.11.2
+7f1690bad000-7f1690c18000 r-xp 00002000 08:02 392350                     /usr/lib/x86_64-linux-gnu/libpcre2-8.so.0.11.2
+7f1690c18000-7f1690c43000 r--p 0006d000 08:02 392350                     /usr/lib/x86_64-linux-gnu/libpcre2-8.so.0.11.2
+7f1690c43000-7f1690c44000 r--p 00098000 08:02 392350                     /usr/lib/x86_64-linux-gnu/libpcre2-8.so.0.11.2
+7f1690c44000-7f1690c45000 rw-p 00099000 08:02 392350                     /usr/lib/x86_64-linux-gnu/libpcre2-8.so.0.11.2
+7f1690c45000-7f1690c47000 r--p 00000000 08:02 392227                     /usr/lib/x86_64-linux-gnu/libffi.so.8.1.2
+7f1690c47000-7f1690c4d000 r-xp 00002000 08:02 392227                     /usr/lib/x86_64-linux-gnu/libffi.so.8.1.2
+7f1690c4d000-7f1690c4f000 r--p 00008000 08:02 392227                     /usr/lib/x86_64-linux-gnu/libffi.so.8.1.2
+7f1690c4f000-7f1690c50000 r--p 00009000 08:02 392227                     /usr/lib/x86_64-linux-gnu/libffi.so.8.1.2
+7f1690c50000-7f1690c51000 rw-p 0000a000 08:02 392227                     /usr/lib/x86_64-linux-gnu/libffi.so.8.1.2
+7f1690c51000-7f1690c54000 r--p 00000000 08:02 392795                     /usr/lib/x86_64-linux-gnu/libgcc_s.so.1
+7f1690c54000-7f1690c6b000 r-xp 00003000 08:02 392795                     /usr/lib/x86_64-linux-gnu/libgcc_s.so.1
+7f1690c6b000-7f1690c6f000 r--p 0001a000 08:02 392795                     /usr/lib/x86_64-linux-gnu/libgcc_s.so.1
+7f1690c6f000-7f1690c70000 r--p 0001d000 08:02 392795                     /usr/lib/x86_64-linux-gnu/libgcc_s.so.1
+7f1690c70000-7f1690c71000 rw-p 0001e000 08:02 392795                     /usr/lib/x86_64-linux-gnu/libgcc_s.so.1
+7f1690c71000-7f1690c79000 r--p 00000000 08:02 399504                     /usr/lib/x86_64-linux-gnu/libtirpc.so.3.0.0
+7f1690c79000-7f1690c94000 r-xp 00008000 08:02 399504                     /usr/lib/x86_64-linux-gnu/libtirpc.so.3.0.0
+7f1690c94000-7f1690c9d000 r--p 00023000 08:02 399504                     /usr/lib/x86_64-linux-gnu/libtirpc.so.3.0.0
+7f1690c9d000-7f1690c9e000 r--p 0002c000 08:02 399504                     /usr/lib/x86_64-linux-gnu/libtirpc.so.3.0.0
+7f1690c9e000-7f1690c9f000 rw-p 0002d000 08:02 399504                     /usr/lib/x86_64-linux-gnu/libtirpc.so.3.0.0
+7f1690c9f000-7f1690ca1000 rw-p 00000000 00:00 0 
+7f1690ca1000-7f1690cc7000 r--p 00000000 08:02 393990                     /usr/lib/x86_64-linux-gnu/libc.so.6
+7f1690cc7000-7f1690e1d000 r-xp 00026000 08:02 393990                     /usr/lib/x86_64-linux-gnu/libc.so.6
+7f1690e1d000-7f1690e70000 r--p 0017c000 08:02 393990                     /usr/lib/x86_64-linux-gnu/libc.so.6
+7f1690e70000-7f1690e74000 r--p 001cf000 08:02 393990                     /usr/lib/x86_64-linux-gnu/libc.so.6
+7f1690e74000-7f1690e76000 rw-p 001d3000 08:02 393990                     /usr/lib/x86_64-linux-gnu/libc.so.6
+7f1690e76000-7f1690e83000 rw-p 00000000 00:00 0 
+7f1690e83000-7f1690ea0000 r--p 00000000 08:02 425123                     /usr/lib/x86_64-linux-gnu/libglib-2.0.so.0.7400.6
+7f1690ea0000-7f1690f2d000 r-xp 0001d000 08:02 425123                     /usr/lib/x86_64-linux-gnu/libglib-2.0.so.0.7400.6
+7f1690f2d000-7f1690fb9000 r--p 000aa000 08:02 425123                     /usr/lib/x86_64-linux-gnu/libglib-2.0.so.0.7400.6
+7f1690fb9000-7f1690fba000 r--p 00135000 08:02 425123                     /usr/lib/x86_64-linux-gnu/libglib-2.0.so.0.7400.6
+7f1690fba000-7f1690fbb000 rw-p 00136000 08:02 425123                     /usr/lib/x86_64-linux-gnu/libglib-2.0.so.0.7400.6
+7f1690fbb000-7f1690fbc000 rw-p 00000000 00:00 0 
+7f1690fbc000-7f1690fcb000 r--p 00000000 08:02 425125                     /usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0.7400.6
+7f1690fcb000-7f1690ffd000 r-xp 0000f000 08:02 425125                     /usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0.7400.6
+7f1690ffd000-7f1691017000 r--p 00041000 08:02 425125                     /usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0.7400.6
+7f1691017000-7f169101a000 r--p 0005b000 08:02 425125                     /usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0.7400.6
+7f169101a000-7f169101b000 rw-p 0005e000 08:02 425125                     /usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0.7400.6
+7f169101b000-7f169101c000 r--p 00000000 08:02 425124                     /usr/lib/x86_64-linux-gnu/libgmodule-2.0.so.0.7400.6
+7f169101c000-7f169101e000 r-xp 00001000 08:02 425124                     /usr/lib/x86_64-linux-gnu/libgmodule-2.0.so.0.7400.6
+7f169101e000-7f169101f000 r--p 00003000 08:02 425124                     /usr/lib/x86_64-linux-gnu/libgmodule-2.0.so.0.7400.6
+7f169101f000-7f1691020000 r--p 00003000 08:02 425124                     /usr/lib/x86_64-linux-gnu/libgmodule-2.0.so.0.7400.6
+7f1691020000-7f1691021000 rw-p 00004000 08:02 425124                     /usr/lib/x86_64-linux-gnu/libgmodule-2.0.so.0.7400.6
+7f1691021000-7f1691044000 r--p 00000000 08:02 425201                     /usr/lib/x86_64-linux-gnu/libvmtools.so.0.0.0
+7f1691044000-7f1691089000 r-xp 00023000 08:02 425201                     /usr/lib/x86_64-linux-gnu/libvmtools.so.0.0.0
+7f1691089000-7f16910b0000 r--p 00068000 08:02 425201                     /usr/lib/x86_64-linux-gnu/libvmtools.so.0.0.0
+7f16910b0000-7f16910c2000 r--p 0008f000 08:02 425201                     /usr/lib/x86_64-linux-gnu/libvmtools.so.0.0.0
+7f16910c2000-7f16910c8000 rw-p 000a1000 08:02 425201                     /usr/lib/x86_64-linux-gnu/libvmtools.so.0.0.0
+7f16910c8000-7f16910cc000 rw-p 00000000 00:00 0 
+7f16910cf000-7f16910d1000 rw-p 00000000 00:00 0 
+7f16910d1000-7f16910d2000 r--p 00000000 08:02 393987                     /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2
+7f16910d2000-7f16910f8000 r-xp 00001000 08:02 393987                     /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2
+7f16910f8000-7f1691102000 r--p 00027000 08:02 393987                     /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2
+7f1691102000-7f1691104000 r--p 00031000 08:02 393987                     /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2
+7f1691104000-7f1691106000 rw-p 00033000 08:02 393987                     /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2
+7ffe61d1f000-7ffe61d40000 rw-p 00000000 00:00 0                          [stack]
+7ffe61d65000-7ffe61d69000 r--p 00000000 00:00 0                          [vvar]
+7ffe61d69000-7ffe61d6b000 r-xp 00000000 00:00 0                          [vdso]

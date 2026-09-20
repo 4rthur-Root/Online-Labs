@@ -1,0 +1,11 @@
+Tom Ainsworth
+Developer
+Specialized in FULLSTACK delivery
+
+Goooogle 2018-2024
+
+Created tools to gather data on every individual in the world.
+Processed data to allow actionable delivery by Sales.
+
+Skills: Linux, Apache, mySQL, PHP
+

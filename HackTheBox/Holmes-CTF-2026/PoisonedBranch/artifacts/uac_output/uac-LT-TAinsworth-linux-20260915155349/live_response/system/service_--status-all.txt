@@ -1,0 +1,14 @@
+ [ + ]  apparmor
+ [ + ]  auditd
+ [ - ]  console-setup.sh
+ [ + ]  cron
+ [ + ]  dbus
+ [ - ]  hwclock.sh
+ [ - ]  keyboard-setup.sh
+ [ + ]  kmod
+ [ + ]  networking
+ [ + ]  open-vm-tools
+ [ + ]  procps
+ [ + ]  ssh
+ [ - ]  sudo
+ [ + ]  udev

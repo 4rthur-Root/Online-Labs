@@ -1,0 +1,27 @@
+Tom      tty1                          Mon Sep 14 15:48   still logged in
+reboot   system boot  6.1.0-49-amd64   Mon Sep 14 15:47   still running
+Tom      tty1                          Mon Sep 14 15:42 - down   (00:04)
+reboot   system boot  6.1.0-49-amd64   Mon Sep 14 15:42 - 15:47  (00:04)
+Tom      tty1                          Sun Sep 13 20:07 - down   (19:34)
+reboot   system boot  6.1.0-49-amd64   Sun Sep 13 20:07 - 15:42  (19:34)
+Tom      tty1                          Sun Sep 13 18:53 - down   (01:13)
+root     tty1                          Sun Sep 13 18:25 - 18:32  (00:07)
+reboot   system boot  6.1.0-49-amd64   Sun Sep 13 18:24 - 20:07  (01:42)
+Tom      tty1                          Fri Sep 11 21:04 - down   (00:15)
+reboot   system boot  6.1.0-49-amd64   Fri Sep 11 21:02 - 21:20  (00:18)
+Tom      tty1                          Fri Sep 11 15:26 - down   (02:48)
+reboot   system boot  6.1.0-49-amd64   Fri Sep 11 15:17 - 18:14  (02:57)
+Tom      tty1                          Thu Sep 10 23:15 - down   (16:01)
+reboot   system boot  6.1.0-49-amd64   Thu Sep 10 23:00 - 15:16  (16:16)
+Tom      tty1                          Thu Sep 10 18:47 - down   (03:56)
+root     tty1                          Thu Sep 10 18:21 - 18:21  (00:00)
+Tom      tty1                          Thu Sep 10 17:56 - 18:20  (00:24)
+reboot   system boot  6.1.0-49-amd64   Thu Sep 10 17:54 - 22:44  (04:49)
+root     tty1                          Thu Sep 10 17:49 - down   (00:04)
+reboot   system boot  6.1.0-49-amd64   Thu Sep 10 17:45 - 17:54  (00:08)
+felamos  tty1                          Wed Sep  9 02:21 - down  (1+15:24)
+reboot   system boot  6.1.0-49-amd64   Wed Sep  9 02:20 - 17:45 (1+15:25)
+reboot   system boot  6.1.0-49-amd64   Tue Sep  1 18:02 - 02:19 (7+08:16)
+reboot   system boot  6.1.0-49-amd64   Tue Sep  1 18:02 - 18:02  (00:00)
+
+wtmp begins Thu Jul  2 12:09:54 2026

@@ -1,0 +1,11 @@
+LANG=en_US.UTF-8
+PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+NOTIFY_SOCKET=/run/systemd/notify
+LISTEN_PID=250
+LISTEN_FDS=2
+LISTEN_FDNAMES=systemd-udevd-kernel.socket:systemd-udevd-control.socket
+WATCHDOG_PID=250
+WATCHDOG_USEC=180000000
+INVOCATION_ID=b4b40c07103746228185bccd1972db7a
+JOURNAL_STREAM=8:13050
+SYSTEMD_EXEC_PID=250

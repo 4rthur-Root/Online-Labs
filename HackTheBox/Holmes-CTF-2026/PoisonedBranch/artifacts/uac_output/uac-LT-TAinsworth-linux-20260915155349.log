@@ -1,0 +1,26 @@
+Created by UAC (Unix-like Artifacts Collector) 3.3.0
+
+[Case Information]
+Case Number: 
+Evidence Number: 
+Description: 
+Examiner: 
+Notes: 
+
+[System Information]
+Operating System: linux
+System Architecture: x86_64
+Hostname: LT-TAinsworth
+
+[Acquisition Information]
+Mount Point: /
+Acquisition Started: Tue Sep 15 15:53:50 2026 +0100
+Acquisition Finished: Tue Sep 15 15:55:59 2026 +0100
+
+[Output Information]
+File: uac-LT-TAinsworth-linux-20260915155349.tar.gz
+Format: tar
+
+[Computed Hashes]
+MD5 checksum: 5d6608ed88819ee728b38feaa904247c
+SHA1 checksum: 168ddd7870d8b41f23d30f7ba8f335f303f6a5ea

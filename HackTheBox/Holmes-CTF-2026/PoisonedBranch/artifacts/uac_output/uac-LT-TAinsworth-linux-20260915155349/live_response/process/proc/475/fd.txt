@@ -1,0 +1,12 @@
+total 0
+dr-x------ 2 root root  0 Sep 14 15:47 .
+dr-xr-xr-x 9 root root  0 Sep 14 15:47 ..
+lr-x------ 1 root root 64 Sep 15 15:53 0 -> /dev/null
+lrwx------ 1 root root 64 Sep 15 15:53 1 -> socket:[14415]
+lrwx------ 1 root root 64 Sep 15 15:53 10 -> /dev/dri/renderD128
+lrwx------ 1 root root 64 Sep 15 15:53 2 -> socket:[14415]
+l-wx------ 1 root root 64 Sep 14 15:47 3 -> /var/log/vmware-vmsvc-root.log
+lrwx------ 1 root root 64 Sep 15 15:53 4 -> anon_inode:[eventfd]
+lr-x------ 1 root root 64 Sep 15 15:53 5 -> pipe:[14749]
+l-wx------ 1 root root 64 Sep 15 15:53 6 -> pipe:[14749]
+lrwx------ 1 root root 64 Sep 15 15:53 8 -> socket:[14753]

@@ -1,0 +1,11 @@
+total 0
+dr-x------ 2 root root  0 Sep 14 15:47 .
+dr-xr-xr-x 9 root root  0 Sep 14 15:47 ..
+lr-x------ 1 root root 64 Sep 15 15:53 0 -> /dev/null
+lrwx------ 1 root root 64 Sep 15 15:53 1 -> socket:[14161]
+lrwx------ 1 root root 64 Sep 15 15:53 2 -> socket:[14161]
+lrwx------ 1 root root 64 Sep 14 15:47 3 -> socket:[14213]
+lr-x------ 1 root root 64 Sep 15 15:53 4 -> pipe:[14214]
+l-wx------ 1 root root 64 Sep 15 15:53 5 -> pipe:[14214]
+lrwx------ 1 root root 64 Sep 15 15:53 6 -> anon_inode:[eventfd]
+lrwx------ 1 root root 64 Sep 15 15:53 7 -> socket:[14329]

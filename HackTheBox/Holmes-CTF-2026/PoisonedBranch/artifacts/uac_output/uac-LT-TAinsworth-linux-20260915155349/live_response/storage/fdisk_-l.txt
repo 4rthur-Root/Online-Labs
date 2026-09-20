@@ -1,0 +1,12 @@
+Disk /dev/sda: 20 GiB, 21474836480 bytes, 41943040 sectors
+Disk model: Virtual disk    
+Units: sectors of 1 * 512 = 512 bytes
+Sector size (logical/physical): 512 bytes / 512 bytes
+I/O size (minimum/optimal): 512 bytes / 512 bytes
+Disklabel type: gpt
+Disk identifier: 953C3048-1398-461F-9D4B-6D8FC2541E8B
+
+Device        Start      End  Sectors  Size Type
+/dev/sda1      2048  1050623  1048576  512M EFI System
+/dev/sda2   1050624 39942143 38891520 18.5G Linux filesystem
+/dev/sda3  39942144 41940991  1998848  976M Linux swap

@@ -1,0 +1,9 @@
+biosdevname=0
+SHLVL=1
+HOME=/
+init=/sbin/init
+TERM=linux
+drop_caps=
+PATH=/sbin:/usr/sbin:/bin:/usr/bin
+PWD=/
+rootmnt=/root

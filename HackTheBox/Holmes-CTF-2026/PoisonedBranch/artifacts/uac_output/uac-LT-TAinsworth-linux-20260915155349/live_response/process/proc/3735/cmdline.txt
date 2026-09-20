@@ -1,0 +1,4 @@
+/bin/sh
+./uac
+full
+/root/uac_output

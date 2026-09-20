@@ -1,0 +1,9 @@
+555563c8b000-55556463c000 rw-p 00000000 00:00 0                          [heap]
+7f85ba000000-7f85ba0e1000 r-xp 00000000 08:02 916671                     /home/Tom/.cache/.ticket-parser/.integrity
+7f85ba2e1000-7f85ba2e9000 rw-p 000e1000 08:02 916671                     /home/Tom/.cache/.ticket-parser/.integrity
+7f85ba2e9000-7f85ba2f7000 rw-p 00000000 00:00 0 
+7f85ba31a000-7f85ba31b000 ---p 00000000 00:00 0 
+7f85ba31b000-7f85ba324000 rw-p 00000000 00:00 0 
+7ffc46c7e000-7ffc46ca0000 rw-p 00000000 00:00 0                          [stack]
+7ffc46d09000-7ffc46d0d000 r--p 00000000 00:00 0                          [vvar]
+7ffc46d0d000-7ffc46d0f000 r-xp 00000000 00:00 0                          [vdso]

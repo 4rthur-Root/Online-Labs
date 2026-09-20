@@ -1,0 +1,7 @@
+total 0
+drwxr-xr-x 2 root root    0 Sep 15 15:38 .
+drwxr-xr-x 6 root root    0 Sep 14 15:47 ..
+-r--r--r-- 1 root root 4096 Sep 15 15:38 drm_fbdev_overalloc
+-rw-r--r-- 1 root root 4096 Sep 15 15:38 edid_firmware
+-rw------- 1 root root 4096 Sep 15 15:38 fbdev_emulation
+-rw------- 1 root root 4096 Sep 15 15:38 poll

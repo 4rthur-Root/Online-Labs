@@ -1,0 +1,11 @@
+LANG=en_US.UTF-8
+PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+NOTIFY_SOCKET=/run/systemd/notify
+HOME=/home/Tom
+LOGNAME=Tom
+USER=Tom
+SHELL=/bin/bash
+INVOCATION_ID=15a07d75858541d59c75aec81f8756a1
+JOURNAL_STREAM=8:15500
+SYSTEMD_EXEC_PID=763
+XDG_RUNTIME_DIR=/run/user/1000

@@ -1,0 +1,45 @@
+56163d037000-56163d066000 r--p 00000000 08:02 393054                     /usr/bin/bash
+56163d066000-56163d127000 r-xp 0002f000 08:02 393054                     /usr/bin/bash
+56163d127000-56163d15f000 r--p 000f0000 08:02 393054                     /usr/bin/bash
+56163d15f000-56163d163000 r--p 00128000 08:02 393054                     /usr/bin/bash
+56163d163000-56163d16c000 rw-p 0012c000 08:02 393054                     /usr/bin/bash
+56163d16c000-56163d177000 rw-p 00000000 00:00 0 
+5616597ad000-561659967000 rw-p 00000000 00:00 0                          [heap]
+7f6ae08d0000-7f6ae08e0000 r--p 00000000 08:02 394165                     /usr/lib/x86_64-linux-gnu/libm.so.6
+7f6ae08e0000-7f6ae0954000 r-xp 00010000 08:02 394165                     /usr/lib/x86_64-linux-gnu/libm.so.6
+7f6ae0954000-7f6ae09ae000 r--p 00084000 08:02 394165                     /usr/lib/x86_64-linux-gnu/libm.so.6
+7f6ae09ae000-7f6ae09af000 r--p 000dd000 08:02 394165                     /usr/lib/x86_64-linux-gnu/libm.so.6
+7f6ae09af000-7f6ae09b0000 rw-p 000de000 08:02 394165                     /usr/lib/x86_64-linux-gnu/libm.so.6
+7f6ae09b0000-7f6ae09b7000 r--p 00000000 08:02 417457                     /usr/lib/x86_64-linux-gnu/libnss_systemd.so.2
+7f6ae09b7000-7f6ae09eb000 r-xp 00007000 08:02 417457                     /usr/lib/x86_64-linux-gnu/libnss_systemd.so.2
+7f6ae09eb000-7f6ae09fb000 r--p 0003b000 08:02 417457                     /usr/lib/x86_64-linux-gnu/libnss_systemd.so.2
+7f6ae09fb000-7f6ae09ff000 r--p 0004b000 08:02 417457                     /usr/lib/x86_64-linux-gnu/libnss_systemd.so.2
+7f6ae09ff000-7f6ae0a00000 rw-p 0004f000 08:02 417457                     /usr/lib/x86_64-linux-gnu/libnss_systemd.so.2
+7f6ae0a00000-7f6ae0ce9000 r--p 00000000 08:02 406138                     /usr/lib/locale/locale-archive
+7f6ae0d17000-7f6ae0d1a000 r--p 00000000 08:02 393552                     /usr/lib/x86_64-linux-gnu/libcap.so.2.66
+7f6ae0d1a000-7f6ae0d1f000 r-xp 00003000 08:02 393552                     /usr/lib/x86_64-linux-gnu/libcap.so.2.66
+7f6ae0d1f000-7f6ae0d21000 r--p 00008000 08:02 393552                     /usr/lib/x86_64-linux-gnu/libcap.so.2.66
+7f6ae0d21000-7f6ae0d22000 r--p 0000a000 08:02 393552                     /usr/lib/x86_64-linux-gnu/libcap.so.2.66
+7f6ae0d22000-7f6ae0d23000 rw-p 0000b000 08:02 393552                     /usr/lib/x86_64-linux-gnu/libcap.so.2.66
+7f6ae0d23000-7f6ae0d2a000 r--s 00000000 08:02 395207                     /usr/lib/x86_64-linux-gnu/gconv/gconv-modules.cache
+7f6ae0d2a000-7f6ae0d2d000 rw-p 00000000 00:00 0 
+7f6ae0d2d000-7f6ae0d53000 r--p 00000000 08:02 393990                     /usr/lib/x86_64-linux-gnu/libc.so.6
+7f6ae0d53000-7f6ae0ea9000 r-xp 00026000 08:02 393990                     /usr/lib/x86_64-linux-gnu/libc.so.6
+7f6ae0ea9000-7f6ae0efc000 r--p 0017c000 08:02 393990                     /usr/lib/x86_64-linux-gnu/libc.so.6
+7f6ae0efc000-7f6ae0f00000 r--p 001cf000 08:02 393990                     /usr/lib/x86_64-linux-gnu/libc.so.6
+7f6ae0f00000-7f6ae0f02000 rw-p 001d3000 08:02 393990                     /usr/lib/x86_64-linux-gnu/libc.so.6
+7f6ae0f02000-7f6ae0f0f000 rw-p 00000000 00:00 0 
+7f6ae0f0f000-7f6ae0f1e000 r--p 00000000 08:02 395227                     /usr/lib/x86_64-linux-gnu/libtinfo.so.6.4
+7f6ae0f1e000-7f6ae0f2f000 r-xp 0000f000 08:02 395227                     /usr/lib/x86_64-linux-gnu/libtinfo.so.6.4
+7f6ae0f2f000-7f6ae0f3d000 r--p 00020000 08:02 395227                     /usr/lib/x86_64-linux-gnu/libtinfo.so.6.4
+7f6ae0f3d000-7f6ae0f41000 r--p 0002d000 08:02 395227                     /usr/lib/x86_64-linux-gnu/libtinfo.so.6.4
+7f6ae0f41000-7f6ae0f42000 rw-p 00031000 08:02 395227                     /usr/lib/x86_64-linux-gnu/libtinfo.so.6.4
+7f6ae0f45000-7f6ae0f47000 rw-p 00000000 00:00 0 
+7f6ae0f47000-7f6ae0f48000 r--p 00000000 08:02 393987                     /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2
+7f6ae0f48000-7f6ae0f6e000 r-xp 00001000 08:02 393987                     /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2
+7f6ae0f6e000-7f6ae0f78000 r--p 00027000 08:02 393987                     /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2
+7f6ae0f78000-7f6ae0f7a000 r--p 00031000 08:02 393987                     /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2
+7f6ae0f7a000-7f6ae0f7c000 rw-p 00033000 08:02 393987                     /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2
+7fff12364000-7fff12385000 rw-p 00000000 00:00 0                          [stack]
+7fff123f0000-7fff123f4000 r--p 00000000 00:00 0                          [vvar]
+7fff123f4000-7fff123f6000 r-xp 00000000 00:00 0                          [vdso]

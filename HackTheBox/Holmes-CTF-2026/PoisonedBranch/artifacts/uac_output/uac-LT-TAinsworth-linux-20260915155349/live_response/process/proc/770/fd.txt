@@ -1,0 +1,7 @@
+total 0
+dr-x------ 2 Tom Tom  0 Sep 15 15:38 .
+dr-xr-xr-x 9 Tom Tom  0 Sep 14 19:08 ..
+lrwx------ 1 Tom Tom 64 Sep 15 15:38 0 -> /dev/tty1
+lrwx------ 1 Tom Tom 64 Sep 15 15:38 1 -> /dev/tty1
+lrwx------ 1 Tom Tom 64 Sep 15 15:38 2 -> /dev/tty1
+lrwx------ 1 Tom Tom 64 Sep 15 15:38 255 -> /dev/tty1

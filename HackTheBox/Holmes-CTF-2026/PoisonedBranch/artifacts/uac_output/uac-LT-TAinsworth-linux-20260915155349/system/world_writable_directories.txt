@@ -1,0 +1,15 @@
+/dev/mqueue
+/dev/shm
+/run/lock
+/tmp
+/tmp/.ICE-unix
+/tmp/.X11-unix
+/tmp/.XIM-unix
+/tmp/systemd-private-89db805e9efd4ef488a281a7d80ba935-systemd-timesyncd.service-1qXA23/tmp
+/tmp/.font-unix
+/tmp/systemd-private-89db805e9efd4ef488a281a7d80ba935-systemd-logind.service-YvfDUu/tmp
+/tmp/systemd-private-89db805e9efd4ef488a281a7d80ba935-systemd-hostnamed.service-tC0QmO/tmp
+/var/tmp
+/var/tmp/systemd-private-89db805e9efd4ef488a281a7d80ba935-systemd-timesyncd.service-wJhDxw/tmp
+/var/tmp/systemd-private-89db805e9efd4ef488a281a7d80ba935-systemd-logind.service-nWJ80x/tmp
+/var/tmp/systemd-private-89db805e9efd4ef488a281a7d80ba935-systemd-hostnamed.service-XOLtm3/tmp

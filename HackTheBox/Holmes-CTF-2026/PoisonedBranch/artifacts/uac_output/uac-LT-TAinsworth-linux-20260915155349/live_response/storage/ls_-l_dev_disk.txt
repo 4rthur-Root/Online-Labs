@@ -1,0 +1,45 @@
+/dev/disk/by-diskseq:
+total 0
+lrwxrwxrwx 1 root root  9 Sep 14 15:47 1 -> ../../sda
+lrwxrwxrwx 1 root root 11 Sep 14 15:47 10 -> ../../loop6
+lrwxrwxrwx 1 root root 11 Sep 14 15:47 11 -> ../../loop7
+lrwxrwxrwx 1 root root  9 Sep 14 15:47 3 -> ../../sr0
+lrwxrwxrwx 1 root root 11 Sep 14 15:47 4 -> ../../loop0
+lrwxrwxrwx 1 root root 11 Sep 14 15:47 5 -> ../../loop1
+lrwxrwxrwx 1 root root 11 Sep 14 15:47 6 -> ../../loop2
+lrwxrwxrwx 1 root root 11 Sep 14 15:47 7 -> ../../loop3
+lrwxrwxrwx 1 root root 11 Sep 14 15:47 8 -> ../../loop4
+lrwxrwxrwx 1 root root 11 Sep 14 15:47 9 -> ../../loop5
+
+/dev/disk/by-id:
+total 0
+lrwxrwxrwx 1 root root  9 Sep 14 15:47 ata-VMware_Virtual_IDE_CDROM_Drive_00000000000000000001 -> ../../sr0
+lrwxrwxrwx 1 root root  9 Sep 14 15:47 scsi-36000c295dd4e3e5a7a1ee056199c5cfc -> ../../sda
+lrwxrwxrwx 1 root root 10 Sep 14 15:47 scsi-36000c295dd4e3e5a7a1ee056199c5cfc-part1 -> ../../sda1
+lrwxrwxrwx 1 root root 10 Sep 14 15:47 scsi-36000c295dd4e3e5a7a1ee056199c5cfc-part2 -> ../../sda2
+lrwxrwxrwx 1 root root 10 Sep 14 15:47 scsi-36000c295dd4e3e5a7a1ee056199c5cfc-part3 -> ../../sda3
+lrwxrwxrwx 1 root root  9 Sep 14 15:47 wwn-0x6000c295dd4e3e5a7a1ee056199c5cfc -> ../../sda
+lrwxrwxrwx 1 root root 10 Sep 14 15:47 wwn-0x6000c295dd4e3e5a7a1ee056199c5cfc-part1 -> ../../sda1
+lrwxrwxrwx 1 root root 10 Sep 14 15:47 wwn-0x6000c295dd4e3e5a7a1ee056199c5cfc-part2 -> ../../sda2
+lrwxrwxrwx 1 root root 10 Sep 14 15:47 wwn-0x6000c295dd4e3e5a7a1ee056199c5cfc-part3 -> ../../sda3
+
+/dev/disk/by-partuuid:
+total 0
+lrwxrwxrwx 1 root root 10 Sep 14 15:47 258dda69-fa36-4104-ae2b-0a78c09296af -> ../../sda2
+lrwxrwxrwx 1 root root 10 Sep 14 15:47 bd900456-7309-4512-972c-7d3d2b4df9e6 -> ../../sda3
+lrwxrwxrwx 1 root root 10 Sep 14 15:47 d405202b-3528-4865-8666-89b0f16c4a21 -> ../../sda1
+
+/dev/disk/by-path:
+total 0
+lrwxrwxrwx 1 root root  9 Sep 14 15:47 pci-0000:00:07.1-ata-1 -> ../../sr0
+lrwxrwxrwx 1 root root  9 Sep 14 15:47 pci-0000:00:07.1-ata-1.0 -> ../../sr0
+lrwxrwxrwx 1 root root  9 Sep 14 15:47 pci-0000:02:00.0-scsi-0:0:0:0 -> ../../sda
+lrwxrwxrwx 1 root root 10 Sep 14 15:47 pci-0000:02:00.0-scsi-0:0:0:0-part1 -> ../../sda1
+lrwxrwxrwx 1 root root 10 Sep 14 15:47 pci-0000:02:00.0-scsi-0:0:0:0-part2 -> ../../sda2
+lrwxrwxrwx 1 root root 10 Sep 14 15:47 pci-0000:02:00.0-scsi-0:0:0:0-part3 -> ../../sda3
+
+/dev/disk/by-uuid:
+total 0
+lrwxrwxrwx 1 root root 10 Sep 14 15:47 2adf0eab-66ff-4cdb-8cc6-a7aa5f8057ef -> ../../sda3
+lrwxrwxrwx 1 root root 10 Sep 14 15:47 5B05-E03B -> ../../sda1
+lrwxrwxrwx 1 root root 10 Sep 14 15:47 fbf395f4-54bd-4ea4-86fd-072a61b464d3 -> ../../sda2

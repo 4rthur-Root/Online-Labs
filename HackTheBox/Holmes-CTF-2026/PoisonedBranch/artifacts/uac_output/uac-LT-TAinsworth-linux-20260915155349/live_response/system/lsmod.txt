@@ -1,0 +1,81 @@
+Module                  Size  Used by
+mptcp_diag             16384  0
+vsock_diag             16384  0
+tcp_diag               16384  0
+udp_diag               16384  0
+raw_diag               16384  0
+inet_diag              24576  4 tcp_diag,mptcp_diag,raw_diag,udp_diag
+unix_diag              16384  0
+af_packet_diag         16384  0
+netlink_diag           16384  0
+nf_tables             303104  0
+libcrc32c              16384  1 nf_tables
+nfnetlink              20480  1 nf_tables
+vsock_loopback         16384  0
+vmw_vsock_virtio_transport_common    53248  1 vsock_loopback
+vmw_vsock_vmci_transport    32768  1
+vsock                  53248  6 vmw_vsock_virtio_transport_common,vsock_loopback,vsock_diag,vmw_vsock_vmci_transport
+binfmt_misc            28672  1
+nls_ascii              16384  1
+nls_cp437              20480  1
+vfat                   24576  1
+fat                    90112  1 vfat
+intel_rapl_msr         20480  0
+intel_rapl_common      32768  1 intel_rapl_msr
+ghash_clmulni_intel    16384  0
+sha512_ssse3           49152  0
+sha512_generic         16384  1 sha512_ssse3
+sha256_ssse3           32768  0
+sha1_ssse3             32768  0
+vmwgfx                372736  1
+drm_ttm_helper         16384  1 vmwgfx
+ttm                    94208  2 vmwgfx,drm_ttm_helper
+vmw_balloon            24576  0
+aesni_intel           393216  0
+crypto_simd            16384  1 aesni_intel
+cryptd                 28672  2 crypto_simd,ghash_clmulni_intel
+drm_kms_helper        212992  3 vmwgfx
+pcspkr                 16384  0
+vmw_vmci               98304  2 vmw_balloon,vmw_vsock_vmci_transport
+button                 24576  0
+ac                     20480  0
+joydev                 28672  0
+evdev                  28672  2
+sg                     40960  0
+serio_raw              20480  0
+drm                   614400  6 vmwgfx,drm_kms_helper,drm_ttm_helper,ttm
+dm_mod                184320  0
+fuse                  176128  1
+loop                   32768  0
+efi_pstore             16384  0
+configfs               57344  1
+efivarfs               24576  1
+ip_tables              36864  0
+x_tables               61440  1 ip_tables
+autofs4                53248  2
+ext4                  991232  1
+crc16                  16384  1 ext4
+mbcache                16384  1 ext4
+jbd2                  167936  1 ext4
+crc32c_generic         16384  0
+sr_mod                 28672  0
+cdrom                  81920  1 sr_mod
+sd_mod                 65536  4
+ata_generic            16384  0
+t10_pi                 16384  1 sd_mod
+ata_piix               45056  0
+crc64_rocksoft         20480  1 t10_pi
+crc64                  20480  1 crc64_rocksoft
+crc_t10dif             20480  1 t10_pi
+crct10dif_generic      16384  0
+libata                401408  2 ata_piix,ata_generic
+vmw_pvscsi             32768  3
+crct10dif_pclmul       16384  1
+crct10dif_common       16384  3 crct10dif_generic,crc_t10dif,crct10dif_pclmul
+crc32_pclmul           16384  0
+scsi_mod              286720  5 vmw_pvscsi,sd_mod,libata,sg,sr_mod
+psmouse               184320  0
+crc32c_intel           24576  3
+i2c_piix4              28672  0
+vmxnet3                73728  0
+scsi_common            16384  4 scsi_mod,libata,sg,sr_mod

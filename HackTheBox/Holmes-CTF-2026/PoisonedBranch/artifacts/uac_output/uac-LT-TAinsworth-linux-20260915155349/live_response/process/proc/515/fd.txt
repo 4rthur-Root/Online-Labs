@@ -1,0 +1,8 @@
+total 0
+dr-x------ 2 root root  0 Sep 14 15:47 .
+dr-xr-xr-x 9 root root  0 Sep 14 15:47 ..
+lr-x------ 1 root root 64 Sep 15 15:53 0 -> /dev/null
+lrwx------ 1 root root 64 Sep 15 15:53 1 -> socket:[14513]
+lrwx------ 1 root root 64 Sep 15 15:53 2 -> socket:[14513]
+lrwx------ 1 root root 64 Sep 14 15:47 3 -> /run/crond.pid
+lrwx------ 1 root root 64 Sep 15 15:53 4 -> socket:[14520]

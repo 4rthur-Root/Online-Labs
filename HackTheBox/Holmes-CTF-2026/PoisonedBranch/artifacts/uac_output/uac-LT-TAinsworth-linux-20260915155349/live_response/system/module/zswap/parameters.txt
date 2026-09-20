@@ -1,0 +1,10 @@
+total 0
+drwxr-xr-x 2 root root    0 Sep 15 15:38 .
+drwxr-xr-x 3 root root    0 Sep 14 15:47 ..
+-rw-r--r-- 1 root root 4096 Sep 15 15:38 accept_threshold_percent
+-rw-r--r-- 1 root root 4096 Sep 15 15:38 compressor
+-rw-r--r-- 1 root root 4096 Sep 15 15:38 enabled
+-rw-r--r-- 1 root root 4096 Sep 15 15:38 max_pool_percent
+-rw-r--r-- 1 root root 4096 Sep 15 15:38 non_same_filled_pages_enabled
+-rw-r--r-- 1 root root 4096 Sep 15 15:38 same_filled_pages_enabled
+-rw-r--r-- 1 root root 4096 Sep 15 15:38 zpool

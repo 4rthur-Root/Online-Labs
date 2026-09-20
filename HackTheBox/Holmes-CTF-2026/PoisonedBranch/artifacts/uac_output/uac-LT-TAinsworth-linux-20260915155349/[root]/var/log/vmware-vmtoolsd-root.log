@@ -1,0 +1,48 @@
+[2026-09-01T17:02:40.749Z] [ message] [vmtoolsd] [482] VMware Tools Version: 12.2.0.41219 (build-21223074)
+[2026-09-01T17:02:40.749Z] [ message] [vmtoolsd] [482] Guest OS details: architecture='X86' bitness='64' distroAddlVersion='12 (bookworm)' distroName='Debian GNU/Linux' distroVersion='12' familyName='Linux' kernelVersion='6.1.0-49-amd64' prettyName='Debian GNU/Linux 12 (bookworm)'
+[2026-09-01T17:02:40.749Z] [ message] [vmtoolsd] [482] Log caching is enabled with maxCacheEntries=4096.
+[2026-09-01T17:02:40.749Z] [ message] [vmtoolsd] [482] Core dump limit set to -1
+[2026-09-01T17:03:00.481Z] [ message] [vmtoolsd] [473] VMware Tools Version: 12.2.0.41219 (build-21223074)
+[2026-09-01T17:03:00.481Z] [ message] [vmtoolsd] [473] Guest OS details: architecture='X86' bitness='64' distroAddlVersion='12 (bookworm)' distroName='Debian GNU/Linux' distroVersion='12' familyName='Linux' kernelVersion='6.1.0-49-amd64' prettyName='Debian GNU/Linux 12 (bookworm)'
+[2026-09-01T17:03:00.481Z] [ message] [vmtoolsd] [473] Log caching is enabled with maxCacheEntries=4096.
+[2026-09-01T17:03:00.481Z] [ message] [vmtoolsd] [473] Core dump limit set to -1
+[2026-09-09T01:20:38.701Z] [ message] [vmtoolsd] [472] VMware Tools Version: 12.2.0.41219 (build-21223074)
+[2026-09-09T01:20:38.701Z] [ message] [vmtoolsd] [472] Guest OS details: architecture='X86' bitness='64' distroAddlVersion='12 (bookworm)' distroName='Debian GNU/Linux' distroVersion='12' familyName='Linux' kernelVersion='6.1.0-49-amd64' prettyName='Debian GNU/Linux 12 (bookworm)'
+[2026-09-09T01:20:38.701Z] [ message] [vmtoolsd] [472] Log caching is enabled with maxCacheEntries=4096.
+[2026-09-09T01:20:38.702Z] [ message] [vmtoolsd] [472] Core dump limit set to -1
+[2026-09-10T16:45:50.724Z] [ message] [vmtoolsd] [473] VMware Tools Version: 12.2.0.41219 (build-21223074)
+[2026-09-10T16:45:50.725Z] [ message] [vmtoolsd] [473] Guest OS details: architecture='X86' bitness='64' distroAddlVersion='12 (bookworm)' distroName='Debian GNU/Linux' distroVersion='12' familyName='Linux' kernelVersion='6.1.0-49-amd64' prettyName='Debian GNU/Linux 12 (bookworm)'
+[2026-09-10T16:45:50.724Z] [ message] [vmtoolsd] [473] Log caching is enabled with maxCacheEntries=4096.
+[2026-09-10T16:45:50.725Z] [ message] [vmtoolsd] [473] Core dump limit set to -1
+[2026-09-10T16:54:24.661Z] [ message] [vmtoolsd] [473] VMware Tools Version: 12.2.0.41219 (build-21223074)
+[2026-09-10T16:54:24.662Z] [ message] [vmtoolsd] [473] Guest OS details: architecture='X86' bitness='64' distroAddlVersion='12 (bookworm)' distroName='Debian GNU/Linux' distroVersion='12' familyName='Linux' kernelVersion='6.1.0-49-amd64' prettyName='Debian GNU/Linux 12 (bookworm)'
+[2026-09-10T16:54:24.661Z] [ message] [vmtoolsd] [473] Log caching is enabled with maxCacheEntries=4096.
+[2026-09-10T16:54:24.662Z] [ message] [vmtoolsd] [473] Core dump limit set to -1
+[2026-09-10T22:00:26.767Z] [ message] [vmtoolsd] [471] VMware Tools Version: 12.2.0.41219 (build-21223074)
+[2026-09-10T22:00:26.768Z] [ message] [vmtoolsd] [471] Guest OS details: architecture='X86' bitness='64' distroAddlVersion='12 (bookworm)' distroName='Debian GNU/Linux' distroVersion='12' familyName='Linux' kernelVersion='6.1.0-49-amd64' prettyName='Debian GNU/Linux 12 (bookworm)'
+[2026-09-10T22:00:26.767Z] [ message] [vmtoolsd] [471] Log caching is enabled with maxCacheEntries=4096.
+[2026-09-10T22:00:26.768Z] [ message] [vmtoolsd] [471] Core dump limit set to -1
+[2026-09-11T14:17:14.686Z] [ message] [vmtoolsd] [473] VMware Tools Version: 12.2.0.41219 (build-21223074)
+[2026-09-11T14:17:14.687Z] [ message] [vmtoolsd] [473] Guest OS details: architecture='X86' bitness='64' distroAddlVersion='12 (bookworm)' distroName='Debian GNU/Linux' distroVersion='12' familyName='Linux' kernelVersion='6.1.0-49-amd64' prettyName='Debian GNU/Linux 12 (bookworm)'
+[2026-09-11T14:17:14.686Z] [ message] [vmtoolsd] [473] Log caching is enabled with maxCacheEntries=4096.
+[2026-09-11T14:17:14.687Z] [ message] [vmtoolsd] [473] Core dump limit set to -1
+[2026-09-11T20:02:04.949Z] [ message] [vmtoolsd] [476] VMware Tools Version: 12.2.0.41219 (build-21223074)
+[2026-09-11T20:02:04.950Z] [ message] [vmtoolsd] [476] Guest OS details: architecture='X86' bitness='64' distroAddlVersion='12 (bookworm)' distroName='Debian GNU/Linux' distroVersion='12' familyName='Linux' kernelVersion='6.1.0-49-amd64' prettyName='Debian GNU/Linux 12 (bookworm)'
+[2026-09-11T20:02:04.949Z] [ message] [vmtoolsd] [476] Log caching is enabled with maxCacheEntries=4096.
+[2026-09-11T20:02:04.950Z] [ message] [vmtoolsd] [476] Core dump limit set to -1
+[2026-09-13T17:24:16.667Z] [ message] [vmtoolsd] [472] VMware Tools Version: 12.2.0.41219 (build-21223074)
+[2026-09-13T17:24:16.668Z] [ message] [vmtoolsd] [472] Guest OS details: architecture='X86' bitness='64' distroAddlVersion='12 (bookworm)' distroName='Debian GNU/Linux' distroVersion='12' familyName='Linux' kernelVersion='6.1.0-49-amd64' prettyName='Debian GNU/Linux 12 (bookworm)'
+[2026-09-13T17:24:16.667Z] [ message] [vmtoolsd] [472] Log caching is enabled with maxCacheEntries=4096.
+[2026-09-13T17:24:16.668Z] [ message] [vmtoolsd] [472] Core dump limit set to -1
+[2026-09-13T19:07:21.673Z] [ message] [vmtoolsd] [472] VMware Tools Version: 12.2.0.41219 (build-21223074)
+[2026-09-13T19:07:21.674Z] [ message] [vmtoolsd] [472] Guest OS details: architecture='X86' bitness='64' distroAddlVersion='12 (bookworm)' distroName='Debian GNU/Linux' distroVersion='12' familyName='Linux' kernelVersion='6.1.0-49-amd64' prettyName='Debian GNU/Linux 12 (bookworm)'
+[2026-09-13T19:07:21.673Z] [ message] [vmtoolsd] [472] Log caching is enabled with maxCacheEntries=4096.
+[2026-09-13T19:07:21.674Z] [ message] [vmtoolsd] [472] Core dump limit set to -1
+[2026-09-14T14:42:26.712Z] [ message] [vmtoolsd] [473] VMware Tools Version: 12.2.0.41219 (build-21223074)
+[2026-09-14T14:42:26.713Z] [ message] [vmtoolsd] [473] Guest OS details: architecture='X86' bitness='64' distroAddlVersion='12 (bookworm)' distroName='Debian GNU/Linux' distroVersion='12' familyName='Linux' kernelVersion='6.1.0-49-amd64' prettyName='Debian GNU/Linux 12 (bookworm)'
+[2026-09-14T14:42:26.712Z] [ message] [vmtoolsd] [473] Log caching is enabled with maxCacheEntries=4096.
+[2026-09-14T14:42:26.713Z] [ message] [vmtoolsd] [473] Core dump limit set to -1
+[2026-09-14T14:47:32.746Z] [ message] [vmtoolsd] [475] VMware Tools Version: 12.2.0.41219 (build-21223074)
+[2026-09-14T14:47:32.747Z] [ message] [vmtoolsd] [475] Guest OS details: architecture='X86' bitness='64' distroAddlVersion='12 (bookworm)' distroName='Debian GNU/Linux' distroVersion='12' familyName='Linux' kernelVersion='6.1.0-49-amd64' prettyName='Debian GNU/Linux 12 (bookworm)'
+[2026-09-14T14:47:32.746Z] [ message] [vmtoolsd] [475] Log caching is enabled with maxCacheEntries=4096.
+[2026-09-14T14:47:32.747Z] [ message] [vmtoolsd] [475] Core dump limit set to -1

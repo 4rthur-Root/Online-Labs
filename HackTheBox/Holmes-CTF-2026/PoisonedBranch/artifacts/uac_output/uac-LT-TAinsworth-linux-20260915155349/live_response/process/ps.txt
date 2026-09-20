@@ -1,0 +1,7 @@
+    PID TTY          TIME CMD
+    612 tty1     00:00:00 login
+   1557 tty1     00:00:00 su
+   1558 tty1     00:00:00 bash
+   1811 tty1     00:00:00 uac
+   3101 tty1     00:00:00 uac
+   3137 tty1     00:00:00 ps

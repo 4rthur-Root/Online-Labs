@@ -1,0 +1,12 @@
+total 0
+dr-x------ 2 root root  0 Sep 15 15:53 .
+dr-xr-xr-x 9 root root  0 Sep 15 15:53 ..
+lr-x------ 1 root root 64 Sep 15 15:53 0 -> /dev/null
+lrwx------ 1 root root 64 Sep 15 15:53 1 -> socket:[89001]
+lrwx------ 1 root root 64 Sep 15 15:53 2 -> socket:[89001]
+lrwx------ 1 root root 64 Sep 15 15:53 3 -> socket:[89018]
+lrwx------ 1 root root 64 Sep 15 15:53 4 -> anon_inode:[eventpoll]
+lrwx------ 1 root root 64 Sep 15 15:53 5 -> anon_inode:[timerfd]
+lrwx------ 1 root root 64 Sep 15 15:53 6 -> anon_inode:[signalfd]
+lrwx------ 1 root root 64 Sep 15 15:53 7 -> socket:[89022]
+lrwx------ 1 root root 64 Sep 15 15:53 8 -> anon_inode:[timerfd]

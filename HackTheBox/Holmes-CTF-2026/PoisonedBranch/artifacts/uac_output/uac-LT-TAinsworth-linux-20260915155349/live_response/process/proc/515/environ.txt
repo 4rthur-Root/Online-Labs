@@ -1,0 +1,6 @@
+LANG=en_US.UTF-8
+PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+INVOCATION_ID=d72f12056be54d4891b2736013a9492b
+JOURNAL_STREAM=8:14513
+SYSTEMD_EXEC_PID=515
+READ_ENV=yes

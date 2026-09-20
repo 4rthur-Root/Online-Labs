@@ -1,0 +1,8 @@
+total 0
+dr-x------ 2 root root  0 Sep 15 15:53 .
+dr-xr-xr-x 9 root root  0 Sep 15 15:53 ..
+lr-x------ 1 root root 64 Sep 15 15:53 0 -> /root/uac_output/uac-data.tmp/artifact_list.tmp
+lrwx------ 1 root root 64 Sep 15 15:53 1 -> /dev/tty1
+lr-x------ 1 root root 64 Sep 15 15:53 10 -> /root/uac-3.3.0/uac
+lrwx------ 1 root root 64 Sep 15 15:53 11 -> /dev/tty1
+lrwx------ 1 root root 64 Sep 15 15:53 2 -> /dev/tty1

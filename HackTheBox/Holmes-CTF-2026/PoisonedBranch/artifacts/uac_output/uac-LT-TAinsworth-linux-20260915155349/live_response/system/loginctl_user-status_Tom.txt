@@ -1,0 +1,62 @@
+Tom (1000)
+	   Since: Mon 2026-09-14 15:48:00 BST; 24h ago
+	   State: active
+	Sessions: *1
+	  Linger: no
+	    Unit: user-1000.slice
+		  |-session-1.scope
+		  | |-  612 /bin/login -p --
+		  | |-  770 -bash
+		  | |- 1514 /home/Tom/.cache/.ticket-parser/.integrity
+		  | |- 1557 su
+		  | |- 1558 bash
+		  | |- 1811 /bin/sh ./uac -p full /root/uac_output
+		  | |-56924 /bin/sh ./uac -p full /root/uac_output
+		  | |-56990 /bin/sh ./uac -p full /root/uac_output
+		  | `-57040 loginctl user-status Tom
+		  `-user@1000.service
+		    `-init.scope
+		      |-763 /lib/systemd/systemd --user
+		      `-764 "(sd-pam)"
+
+Sep 14 16:22:09 LT-TAinsworth sudo[828]:      Tom : TTY=tty1 ; PWD=/home/Tom ; USER=root ; COMMAND=/usr/sbin/ip route replace default via 192.168.0.254 dev eth0
+Sep 14 16:22:09 LT-TAinsworth sudo[828]: pam_unix(sudo:session): session opened for user root(uid=0) by Tom(uid=1000)
+Sep 14 16:22:09 LT-TAinsworth sudo[828]: pam_unix(sudo:session): session closed for user root
+Sep 14 16:23:22 LT-TAinsworth sudo[833]:      Tom : TTY=tty1 ; PWD=/home/Tom ; USER=root ; COMMAND=/usr/sbin/ip neigh flush dev eth0
+Sep 14 16:23:22 LT-TAinsworth sudo[833]: pam_unix(sudo:session): session opened for user root(uid=0) by Tom(uid=1000)
+Sep 14 16:23:22 LT-TAinsworth sudo[833]: pam_unix(sudo:session): session closed for user root
+Sep 15 15:15:22 LT-TAinsworth su[1441]: (to root) Tom on tty1
+Sep 15 15:15:22 LT-TAinsworth su[1441]: pam_unix(su:session): session opened for user root(uid=0) by Tom(uid=1000)
+Sep 15 15:45:45 LT-TAinsworth su[1557]: (to root) Tom on tty1
+Sep 15 15:45:45 LT-TAinsworth su[1557]: pam_unix(su:session): session opened for user root(uid=0) by Tom(uid=1000)
+Tom (1000)
+	   Since: Mon 2026-09-14 15:48:00 BST; 24h ago
+	   State: active
+	Sessions: *1
+	  Linger: no
+	    Unit: user-1000.slice
+		  |-session-1.scope
+		  | |-  612 /bin/login -p --
+		  | |-  770 -bash
+		  | |- 1514 /home/Tom/.cache/.ticket-parser/.integrity
+		  | |- 1557 su
+		  | |- 1558 bash
+		  | |- 1811 /bin/sh ./uac -p full /root/uac_output
+		  | |-56924 /bin/sh ./uac -p full /root/uac_output
+		  | |-56990 /bin/sh ./uac -p full /root/uac_output
+		  | `-57095 loginctl user-status Tom
+		  `-user@1000.service
+		    `-init.scope
+		      |-763 /lib/systemd/systemd --user
+		      `-764 "(sd-pam)"
+
+Sep 14 16:22:09 LT-TAinsworth sudo[828]:      Tom : TTY=tty1 ; PWD=/home/Tom ; USER=root ; COMMAND=/usr/sbin/ip route replace default via 192.168.0.254 dev eth0
+Sep 14 16:22:09 LT-TAinsworth sudo[828]: pam_unix(sudo:session): session opened for user root(uid=0) by Tom(uid=1000)
+Sep 14 16:22:09 LT-TAinsworth sudo[828]: pam_unix(sudo:session): session closed for user root
+Sep 14 16:23:22 LT-TAinsworth sudo[833]:      Tom : TTY=tty1 ; PWD=/home/Tom ; USER=root ; COMMAND=/usr/sbin/ip neigh flush dev eth0
+Sep 14 16:23:22 LT-TAinsworth sudo[833]: pam_unix(sudo:session): session opened for user root(uid=0) by Tom(uid=1000)
+Sep 14 16:23:22 LT-TAinsworth sudo[833]: pam_unix(sudo:session): session closed for user root
+Sep 15 15:15:22 LT-TAinsworth su[1441]: (to root) Tom on tty1
+Sep 15 15:15:22 LT-TAinsworth su[1441]: pam_unix(su:session): session opened for user root(uid=0) by Tom(uid=1000)
+Sep 15 15:45:45 LT-TAinsworth su[1557]: (to root) Tom on tty1
+Sep 15 15:45:45 LT-TAinsworth su[1557]: pam_unix(su:session): session opened for user root(uid=0) by Tom(uid=1000)

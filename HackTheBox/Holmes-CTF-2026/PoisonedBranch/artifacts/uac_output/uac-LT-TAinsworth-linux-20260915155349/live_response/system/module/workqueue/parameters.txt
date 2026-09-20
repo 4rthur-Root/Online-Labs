@@ -1,0 +1,6 @@
+total 0
+drwxr-xr-x 2 root root    0 Sep 15 15:38 .
+drwxr-xr-x 3 root root    0 Sep 14 15:47 ..
+-rw-r--r-- 1 root root 4096 Sep 15 15:38 debug_force_rr_cpu
+-r--r--r-- 1 root root 4096 Sep 15 15:38 disable_numa
+-r--r--r-- 1 root root 4096 Sep 15 15:38 power_efficient

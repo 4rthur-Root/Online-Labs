@@ -1,0 +1,25 @@
+total 0
+dr-x------ 2 Tom Tom  0 Sep 14 15:48 .
+dr-xr-xr-x 9 Tom Tom  0 Sep 14 15:48 ..
+lr-x------ 1 Tom Tom 64 Sep 14 15:48 0 -> /dev/null
+lrwx------ 1 Tom Tom 64 Sep 14 15:48 1 -> socket:[15500]
+lr-x------ 1 Tom Tom 64 Sep 15 15:38 10 -> /proc/763/mountinfo
+lr-x------ 1 Tom Tom 64 Sep 15 15:38 11 -> anon_inode:inotify
+lrwx------ 1 Tom Tom 64 Sep 14 15:48 12 -> socket:[15550]
+lr-x------ 1 Tom Tom 64 Sep 15 15:38 13 -> anon_inode:inotify
+lr-x------ 1 Tom Tom 64 Sep 15 15:38 14 -> /proc/swaps
+lrwx------ 1 Tom Tom 64 Sep 15 15:38 15 -> socket:[15537]
+lrwx------ 1 Tom Tom 64 Sep 15 15:38 16 -> socket:[15539]
+lrwx------ 1 Tom Tom 64 Sep 15 15:38 17 -> socket:[15540]
+lrwx------ 1 Tom Tom 64 Sep 15 15:38 18 -> socket:[15541]
+lrwx------ 1 Tom Tom 64 Sep 15 15:38 19 -> socket:[15542]
+lrwx------ 1 Tom Tom 64 Sep 14 15:48 2 -> socket:[15500]
+lrwx------ 1 Tom Tom 64 Sep 14 15:48 20 -> socket:[15544]
+lrwx------ 1 Tom Tom 64 Sep 15 15:38 21 -> anon_inode:[timerfd]
+lrwx------ 1 Tom Tom 64 Sep 15 15:38 22 -> anon_inode:[timerfd]
+lrwx------ 1 Tom Tom 64 Sep 14 15:48 3 -> socket:[15521]
+lrwx------ 1 Tom Tom 64 Sep 15 15:38 4 -> anon_inode:[eventpoll]
+lrwx------ 1 Tom Tom 64 Sep 15 15:38 5 -> anon_inode:[signalfd]
+lr-x------ 1 Tom Tom 64 Sep 15 15:38 6 -> anon_inode:inotify
+lr-x------ 1 Tom Tom 64 Sep 15 15:38 7 -> /sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service
+lrwx------ 1 Tom Tom 64 Sep 14 15:48 9 -> anon_inode:[eventpoll]

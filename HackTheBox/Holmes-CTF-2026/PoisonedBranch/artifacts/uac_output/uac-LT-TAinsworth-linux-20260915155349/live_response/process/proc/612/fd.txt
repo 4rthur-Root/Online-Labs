@@ -1,0 +1,8 @@
+total 0
+dr-x------ 2 root root  0 Sep 14 15:47 .
+dr-xr-xr-x 9 root Tom   0 Sep 14 15:47 ..
+lrwx------ 1 root root 64 Sep 14 15:47 0 -> /dev/tty1
+lrwx------ 1 root root 64 Sep 15 15:53 1 -> /dev/tty1
+lrwx------ 1 root root 64 Sep 15 15:53 2 -> /dev/tty1
+lrwx------ 1 root root 64 Sep 14 15:47 3 -> socket:[14849]
+l-wx------ 1 root root 64 Sep 15 15:53 6 -> /run/systemd/sessions/1.ref

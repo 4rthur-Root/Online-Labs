@@ -1,0 +1,558 @@
+[2026-09-01T17:02:43.485Z] [   debug] ## Starting deploy pkg operation
+[2026-09-01T17:02:43.485Z] [    info] VMware Tools Version: 12.2.0.41219 (build-21223074)
+[2026-09-01T17:02:43.485Z] [   debug] Deploying /var/run/aedd07e3/imcf-xSdmSd
+[2026-09-01T17:02:43.485Z] [   debug] The valid [deployPkg] wait-cloudinit-timeout value range: 0 ~ 1800
+[2026-09-01T17:02:43.485Z] [    info] Initializing deployment module.
+[2026-09-01T17:02:43.485Z] [    info] Cleaning old state files.
+[2026-09-01T17:02:43.485Z] [    info] EXIT STATE 'INPROGRESS'.
+[2026-09-01T17:02:43.485Z] [   debug] Setting deploy error: 'Error removing lock '/var/log/.vmware-deploy.INPROGRESS'.(No such file or directory)'.
+[2026-09-01T17:02:43.485Z] [    info] EXIT STATE 'Done'.
+[2026-09-01T17:02:43.485Z] [   debug] Setting deploy error: 'Error removing lock '/var/log/.vmware-deploy.Done'.(No such file or directory)'.
+[2026-09-01T17:02:43.485Z] [    info] EXIT STATE 'ERRORED'.
+[2026-09-01T17:02:43.485Z] [   debug] Setting deploy error: 'Error removing lock '/var/log/.vmware-deploy.ERRORED'.(No such file or directory)'.
+[2026-09-01T17:02:43.486Z] [   debug] Setting deploy error: 'Success.'.
+[2026-09-01T17:02:43.486Z] [    info] Deploying cabinet file '/var/run/aedd07e3/imcf-xSdmSd'.
+[2026-09-01T17:02:43.486Z] [    info] Transitioning from state '(null)' to state 'INPROGRESS'.
+[2026-09-01T17:02:43.486Z] [    info] ENTER STATE 'INPROGRESS'.
+[2026-09-01T17:02:43.487Z] [    info] Reading cabinet file '/var/run/aedd07e3/imcf-xSdmSd' and will extract it to '/var/run/.vmware-imgcust-dwnQ765'.
+[2026-09-01T17:02:43.487Z] [    info] Flags in the header: 0.
+[2026-09-01T17:02:43.487Z] [    info] Original deployment command: '/usr/bin/perl -I/tmp/.vmware/linux/deploy/scripts /tmp/.vmware/linux/deploy/scripts/Customize.pl /tmp/.vmware/linux/deploy/cust.cfg'.
+[2026-09-01T17:02:43.487Z] [    info] Actual deployment command: '/usr/bin/perl -I/var/run/.vmware-imgcust-dwnQ765/scripts /var/run/.vmware-imgcust-dwnQ765/scripts/Customize.pl /var/run/.vmware-imgcust-dwnQ765/cust.cfg'.
+[2026-09-01T17:02:43.487Z] [    info] Extracting package files.
+[2026-09-01T17:02:43.511Z] [   debug] Command to exec : '/usr/bin/cloud-init'.
+[2026-09-01T17:02:43.511Z] [    info] sizeof ProcessInternal is 56
+[2026-09-01T17:02:43.511Z] [    info] Returning, pending output from stdout
+[2026-09-01T17:02:43.511Z] [    info] Returning, pending output from stderr
+[2026-09-01T17:02:43.513Z] [   error] execv failed to run (/usr/bin/cloud-init), errno=(2), error message:(No such file or directory)
+[2026-09-01T17:02:43.611Z] [    info] Process exited normally after 0 seconds, returned 127
+[2026-09-01T17:02:43.611Z] [    info] No more output from stdout
+[2026-09-01T17:02:43.611Z] [    info] No more output from stderr
+[2026-09-01T17:02:43.611Z] [    info] Customization command output:
+''.
+[2026-09-01T17:02:43.611Z] [   error] Customization command failed with exitcode: 127, stderr: ''.
+[2026-09-01T17:02:43.611Z] [    info] Cloud-init is not installed.
+[2026-09-01T17:02:43.611Z] [    info] UseCloudInitWorkflow return: 3
+[2026-09-01T17:02:43.611Z] [    info] Executing traditional GOSC workflow.
+[2026-09-01T17:02:43.611Z] [   debug] Command to exec : '/usr/bin/perl'.
+[2026-09-01T17:02:43.611Z] [    info] sizeof ProcessInternal is 56
+[2026-09-01T17:02:43.612Z] [    info] Returning, pending output from stdout
+[2026-09-01T17:02:43.612Z] [    info] Returning, pending output from stderr
+[2026-09-01T17:02:43.812Z] [    info] Saving output from stdout
+[2026-09-01T17:02:43.812Z] [    info] Saving output from stdout
+[2026-09-01T17:02:43.812Z] [    info] Saving output from stdout
+[2026-09-01T17:02:43.812Z] [    info] Saving output from stdout
+[2026-09-01T17:02:43.812Z] [    info] Saving output from stdout
+[2026-09-01T17:02:43.812Z] [    info] Saving output from stdout
+[2026-09-01T17:02:43.812Z] [    info] Saving output from stdout
+[2026-09-01T17:02:43.812Z] [    info] Saving output from stdout
+[2026-09-01T17:02:43.812Z] [    info] Saving output from stdout
+[2026-09-01T17:02:43.812Z] [    info] Saving output from stdout
+[2026-09-01T17:02:43.812Z] [    info] Saving output from stdout
+[2026-09-01T17:02:43.812Z] [    info] Saving output from stdout
+[2026-09-01T17:02:43.812Z] [    info] Saving output from stdout
+[2026-09-01T17:02:43.912Z] [    info] Process exited normally after 0 seconds, returned 0
+[2026-09-01T17:02:43.913Z] [    info] Saving output from stdout
+[2026-09-01T17:02:43.913Z] [    info] Saving output from stdout
+[2026-09-01T17:02:43.913Z] [    info] Saving output from stdout
+[2026-09-01T17:02:43.913Z] [    info] Saving output from stdout
+[2026-09-01T17:02:43.913Z] [    info] Saving output from stdout
+[2026-09-01T17:02:43.913Z] [    info] Saving output from stdout
+[2026-09-01T17:02:43.913Z] [    info] Saving output from stdout
+[2026-09-01T17:02:43.913Z] [    info] No more output from stdout
+[2026-09-01T17:02:43.913Z] [    info] No more output from stderr
+[2026-09-01T17:02:43.913Z] [    info] Customization command output:
+=================== Perl script log start =================
+2026-09-01T17:02:43 DEBUG: Creating directory /var/lock/vmware 
+2026-09-01T17:02:43 DEBUG: Opening /var/lock/vmware/gosc in O_CREAT|O_EXCL|O_WRONLY mode 
+2026-09-01T17:02:43 INFO: Opening file name /var/run/.vmware-imgcust-dwnQ765/cust.cfg. 
+2026-09-01T17:02:43 DEBUG: Processing line: '[NETWORK]' 
+2026-09-01T17:02:43 DEBUG: FOUND CATEGORY = NETWORK 
+2026-09-01T17:02:43 DEBUG: Processing line: 'NETWORKING = yes' 
+2026-09-01T17:02:43 DEBUG: ADDED KEY-VAL :: 'NETWORK|NETWORKING' = 'yes' 
+2026-09-01T17:02:43 DEBUG: Processing line: 'BOOTPROTO = dhcp' 
+2026-09-01T17:02:43 DEBUG: ADDED KEY-VAL :: 'NETWORK|BOOTPROTO' = 'dhcp' 
+2026-09-01T17:02:43 DEBUG: Processing line: 'HOSTNAME = HOLMESCTF2026-WKS01' 
+2026-09-01T17:02:43 DEBUG: ADDED KEY-VAL :: 'NETWORK|HOSTNAME' = 'HOLMESCTF2026-WKS01' 
+2026-09-01T17:02:43 DEBUG: Processing line: '' 
+2026-09-01T17:02:43 DEBUG: Empty line. Ignored. 
+2026-09-01T17:02:43 DEBUG: Processing line: '[NIC-CONFIG]' 
+2026-09-01T17:02:43 DEBUG: FOUND CATEGORY = NIC-CONFIG 
+2026-09-01T17:02:43 DEBUG: Processing line: 'NICS = NIC1' 
+2026-09-01T17:02:43 DEBUG: ADDED KEY-VAL :: 'NIC-CONFIG|NICS' = 'NIC1' 
+2026-09-01T17:02:43 DEBUG: Processing line: '' 
+2026-09-01T17:02:43 DEBUG: Empty line. Ignored. 
+2026-09-01T17:02:43 DEBUG: Processing line: '[NIC1]' 
+2026-09-01T17:02:43 DEBUG: FOUND CATEGORY = NIC1 
+2026-09-01T17:02:43 DEBUG: Processing line: 'MACADDR = 00:50:56:b9:00:b8' 
+2026-09-01T17:02:43 DEBUG: ADDED KEY-VAL :: 'NIC1|MACADDR' = '00:50:56:b9:00:b8' 
+2026-09-01T17:02:43 DEBUG: Processing line: 'PRIMARY = yes' 
+2026-09-01T17:02:43 DEBUG: ADDED KEY-VAL :: 'NIC1|PRIMARY' = 'yes' 
+2026-09-01T17:02:43 DEBUG: Processing line: 'ONBOOT = yes' 
+2026-09-01T17:02:43 DEBUG: ADDED KEY-VAL :: 'NIC1|ONBOOT' = 'yes' 
+2026-09-01T17:02:43 DEBUG: Processing line: 'IPv4_MODE = BACKWARDS_COMPATIBLE' 
+2026-09-01T17:02:43 DEBUG: ADDED KEY-VAL :: 'NIC1|IPv4_MODE' = 'BACKWARDS_COMPATIBLE' 
+2026-09-01T17:02:43 DEBUG: Processing line: 'BOOTPROTO = static' 
+2026-09-01T17:02:43 DEBUG: ADDED KEY-VAL :: 'NIC1|BOOTPROTO' = 'static' 
+2026-09-01T17:02:43 DEBUG: Processing line: 'IPADDR = 192.168.0.21' 
+2026-09-01T17:02:43 DEBUG: ADDED KEY-VAL :: 'NIC1|IPADDR' = '192.168.0.21' 
+2026-09-01T17:02:43 DEBUG: Processing line: 'NETMASK = 255.255.255.0' 
+2026-09-01T17:02:43 DEBUG: ADDED KEY-VAL :: 'NIC1|NETMASK' = '255.255.255.0' 
+2026-09-01T17:02:43 DEBUG: Processing line: 'GATEWAY = 192.168.0.254' 
+2026-09-01T17:02:43 DEBUG: ADDED KEY-VAL :: 'NIC1|GATEWAY' = '192.168.0.254' 
+2026-09-01T17:02:43 DEBUG: Processing line: '' 
+2026-09-01T17:02:43 DEBUG: Empty line. Ignored. 
+2026-09-01T17:02:43 DEBUG: Processing line: '' 
+2026-09-01T17:02:43 DEBUG: Empty line. Ignored. 
+2026-09-01T17:02:43 DEBUG: Processing line: '[DNS]' 
+2026-09-01T17:02:43 DEBUG: FOUND CATEGORY = DNS 
+2026-09-01T17:02:43 DEBUG: Processing line: 'DNSFROMDHCP=yes' 
+2026-09-01T17:02:43 DEBUG: ADDED KEY-VAL :: 'DNS|DNSFROMDHCP' = 'yes' 
+2026-09-01T17:02:43 DEBUG: Processing line: '' 
+2026-09-01T17:02:43 DEBUG: Empty line. Ignored. 
+2026-09-01T17:02:43 DEBUG: Processing line: '' 
+2026-09-01T17:02:43 DEBUG: Empty line. Ignored. 
+2026-09-01T17:02:43 DEBUG: Processing line: '' 
+2026-09-01T17:02:43 DEBUG: Empty line. Ignored. 
+2026-09-01T17:02:43 DEBUG: Processing line: '[CUSTOM-SOURCE]' 
+2026-09-01T17:02:43 DEBUG: FOUND CATEGORY = CUSTOM-SOURCE 
+2026-09-01T17:02:43 DEBUG: Processing line: 'CUSTOMIZATION_SOURCE=vcenter-clone' 
+2026-09-01T17:02:43 DEBUG: ADDED KEY-VAL :: 'CUSTOM-SOURCE|CUSTOMIZATION_SOURCE' = 'vcenter-clone' 
+2026-09-01T17:02:43 DEBUG: Opening file /var/run/.vmware-imgcust-dwnQ765/buildInfo.txt. 
+2026-09-01T17:02:43 INFO: SYSIMAGE_VERSION = 12.5.0.1415 
+2026-09-01T17:02:43 INFO: BUILDNUMBER = build-24231464 
+2026-09-01T17:02:43 INFO: /etc/vmware-tools/customization.conf doesn't exist. 
+2026-09-01T17:02:43 INFO: Matching guest OS by distribution flavour... 
+2026-09-01T17:02:43 DEBUG: Reading issue file ...  
+2026-09-01T17:02:43 DEBUG: Command: 'cat /etc/issue' 
+2026-09-01T17:02:43 DEBUG: Exit Code: 0 
+2026-09-01T17:02:43 DEBUG: Result: Debian GNU/Linux 12 \n \l
+
+ 
+2026-09-01T17:02:43 DEBUG: Reading /etc/os-release file ...  
+2026-09-01T17:02:43 DEBUG: opening file /etc/os-release. 
+2026-09-01T17:02:43 DEBUG: Match found   : Line = PRETTY_NAME="Debian GNU/Linux 12 (bookworm)"
+ 
+2026-09-01T17:02:43 DEBUG: Actual String : "Debian GNU/Linux 12 (bookworm)" 
+2026-09-01T17:02:43 DEBUG: Reading issue file ...  
+2026-09-01T17:02:43 DEBUG: Command: 'cat /etc/issue' 
+2026-09-01T17:02:43 DEBUG: Exit Code: 0 
+2026-09-01T17:02:43 DEBUG: Result: Debian GNU/Linux 12 \n \l
+
+ 
+2026-09-01T17:02:43 DEBUG: file content: 'Debian GNU/Linux 12 \n \l
+
+' 
+2026-09-01T17:02:43 DEBUG: Reading /etc/os-release file ...  
+2026-09-01T17:02:43 DEBUG: opening file /etc/os-release. 
+2026-09-01T17:02:43 DEBUG: Match found   : Line = VERSION_ID="12"
+ 
+2026-09-01T17:02:43 DEBUG: Actual String : "12" 
+2026-09-01T17:02:43 DEBUG: ID: "12" 
+2026-09-01T17:02:43 DEBUG: opening file /etc/os-release. 
+2026-09-01T17:02:43 DEBUG: Match found   : Line = VERSION_ID="12"
+ 
+2026-09-01T17:02:43 DEBUG: Actual String : "12" 
+2026-09-01T17:02:43 DEBUG: Version: "12" 
+2026-09-01T17:02:43 WARNING: Amazon Linux flavor not detected 
+2026-09-01T17:02:43 DEBUG: Reading issue file ...  
+2026-09-01T17:02:43 DEBUG: Command: 'cat /etc/issue' 
+2026-09-01T17:02:43 DEBUG: Exit Code: 0 
+2026-09-01T17:02:43 DEBUG: Result: Debian GNU/Linux 12 \n \l
+
+ 
+2026-09-01T17:02:43 DEBUG: Debian GNU/Linux 12 \n \l
+
+ 
+2026-09-01T17:02:43 WARNING: RedHat release file not available. Ignoring it. 
+2026-09-01T17:02:43 WARNING: Redhat flavor not detected 
+2026-09-01T17:02:43 DEBUG: Reading /etc/os-release file ... 
+2026-09-01T17:02:43 DEBUG: opening file /etc/os-release. 
+2026-09-01T17:02:43 DEBUG: Match found   : Line = PRETTY_NAME="Debian GNU/Linux 12 (bookworm)"
+ 
+2026-09-01T17:02:43 DEBUG: Actual String : "Debian GNU/Linux 12 (bookworm)" 
+2026-09-01T17:02:43 DEBUG: Reading issue file ...  
+2026-09-01T17:02:43 DEBUG: Command: 'cat /etc/issue' 
+2026-09-01T17:02:43 DEBUG: Exit Code: 0 
+2026-09-01T17:02:43 DEBUG: Result: Debian GNU/Linux 12 \n \l
+
+ 
+2026-09-01T17:02:43 DEBUG: Debian GNU/Linux 12 \n \l
+
+ 
+2026-09-01T17:02:43 WARNING: RedHat release file not available. Ignoring it. 
+2026-09-01T17:02:43 WARNING: Redhat flavor not detected 
+2026-09-01T17:02:43 DEBUG: Reading /etc/os-release file ... 
+2026-09-01T17:02:43 DEBUG: opening file /etc/os-release. 
+2026-09-01T17:02:43 DEBUG: Match found   : Line = PRETTY_NAME="Debian GNU/Linux 12 (bookworm)"
+ 
+2026-09-01T17:02:43 DEBUG: Actual String : "Debian GNU/Linux 12 (bookworm)" 
+2026-09-01T17:02:43 DEBUG: Reading issue file ...  
+2026-09-01T17:02:43 DEBUG: Command: 'cat /etc/issue' 
+2026-09-01T17:02:43 DEBUG: Exit Code: 0 
+2026-09-01T17:02:43 DEBUG: Result: Debian GNU/Linux 12 \n \l
+
+ 
+2026-09-01T17:02:43 DEBUG: Debian GNU/Linux 12 \n \l
+
+ 
+2026-09-01T17:02:43 WARNING: RedHat release file not available. Ignoring it. 
+2026-09-01T17:02:43 WARNING: Redhat flavor not detected 
+2026-09-01T17:02:43 DEBUG: Reading /etc/os-release file ... 
+2026-09-01T17:02:43 DEBUG: opening file /etc/os-release. 
+2026-09-01T17:02:43 DEBUG: Match found   : Line = PRETTY_NAME="Debian GNU/Linux 12 (bookworm)"
+ 
+2026-09-01T17:02:43 DEBUG: Actual String : "Debian GNU/Linux 12 (bookworm)" 
+2026-09-01T17:02:43 DEBUG: Reading issue file ...  
+2026-09-01T17:02:43 DEBUG: Command: 'cat /etc/issue' 
+2026-09-01T17:02:43 DEBUG: Exit Code: 0 
+2026-09-01T17:02:43 DEBUG: Result: Debian GNU/Linux 12 \n \l
+
+ 
+2026-09-01T17:02:43 DEBUG: Debian GNU/Linux 12 \n \l
+
+ 
+2026-09-01T17:02:43 WARNING: RedHat release file not available. Ignoring it. 
+2026-09-01T17:02:43 WARNING: Redhat flavor not detected 
+2026-09-01T17:02:43 DEBUG: Reading issue file ...  
+2026-09-01T17:02:43 DEBUG: Command: 'cat /etc/issue' 
+2026-09-01T17:02:43 DEBUG: Exit Code: 0 
+2026-09-01T17:02:43 DEBUG: Result: Debian GNU/Linux 12 \n \l
+
+ 
+2026-09-01T17:02:43 DEBUG: Debian GNU/Linux 12 \n \l
+
+ 
+2026-09-01T17:02:43 DEBUG: Reading issue file ...  
+2026-09-01T17:02:43 DEBUG: Command: 'cat /etc/issue' 
+2026-09-01T17:02:43 DEBUG: Exit Code: 0 
+2026-09-01T17:02:43 DEBUG: Result: Debian GNU/Linux 12 \n \l
+
+ 
+2026-09-01T17:02:43 DEBUG: Debian GNU/Linux 12 \n \l
+
+ 
+2026-09-01T17:02:43 DEBUG: Reading issue file ...  
+2026-09-01T17:02:43 DEBUG: Command: 'cat /etc/issue' 
+2026-09-01T17:02:43 DEBUG: Exit Code: 0 
+2026-09-01T17:02:43 DEBUG: Result: Debian GNU/Linux 12 \n \l
+
+ 
+2026-09-01T17:02:43 DEBUG: Debian GNU/Linux 12 \n \l
+
+ 
+2026-09-01T17:02:43 DEBUG: Reading issue file ...  
+2026-09-01T17:02:43 DEBUG: Command: 'cat /etc/issue' 
+2026-09-01T17:02:43 DEBUG: Exit Code: 0 
+2026-09-01T17:02:43 DEBUG: Result: Debian GNU/Linux 12 \n \l
+
+ 
+2026-09-01T17:02:43 DEBUG: Debian GNU/Linux 12 \n \l
+
+ 
+2026-09-01T17:02:43 DEBUG: Reading issue file ...  
+2026-09-01T17:02:43 DEBUG: Command: 'cat /etc/issue' 
+2026-09-01T17:02:43 DEBUG: Exit Code: 0 
+2026-09-01T17:02:43 DEBUG: Result: Debian GNU/Linux 12 \n \l
+
+ 
+2026-09-01T17:02:43 DEBUG: Debian GNU/Linux 12 \n \l
+
+ 
+2026-09-01T17:02:43 DEBUG: Reading issue file ...  
+2026-09-01T17:02:43 DEBUG: Command: 'cat /etc/issue' 
+2026-09-01T17:02:43 DEBUG: Exit Code: 0 
+2026-09-01T17:02:43 DEBUG: Result: Debian GNU/Linux 12 \n \l
+
+ 
+2026-09-01T17:02:43 DEBUG: Debian GNU/Linux 12 \n \l
+
+ 
+2026-09-01T17:02:43 DEBUG: Reading issue file ...  
+2026-09-01T17:02:43 DEBUG: Command: 'cat /etc/issue' 
+2026-09-01T17:02:43 DEBUG: Exit Code: 0 
+2026-09-01T17:02:43 DEBUG: Result: Debian GNU/Linux 12 \n \l
+
+ 
+2026-09-01T17:02:43 DEBUG: Debian GNU/Linux 12 \n \l
+
+ 
+2026-09-01T17:02:43 DEBUG: Reading issue file ...  
+2026-09-01T17:02:43 DEBUG: Command: 'cat /etc/issue' 
+2026-09-01T17:02:43 DEBUG: Exit Code: 0 
+2026-09-01T17:02:43 DEBUG: Result: Debian GNU/Linux 12 \n \l
+
+ 
+2026-09-01T17:02:43 DEBUG: Debian GNU/Linux 12 \n \l
+
+ 
+2026-09-01T17:02:43 DEBUG: Reading issue file ...  
+2026-09-01T17:02:43 DEBUG: Command: 'cat /etc/issue' 
+2026-09-01T17:02:43 DEBUG: Exit Code: 0 
+2026-09-01T17:02:43 DEBUG: Result: Debian GNU/Linux 12 \n \l
+
+ 
+2026-09-01T17:02:43 DEBUG: Debian GNU/Linux 12 \n \l
+
+ 
+2026-09-01T17:02:43 DEBUG: Reading issue file ...  
+2026-09-01T17:02:43 DEBUG: Command: 'cat /etc/issue' 
+2026-09-01T17:02:43 DEBUG: Exit Code: 0 
+2026-09-01T17:02:43 DEBUG: Result: Debian GNU/Linux 12 \n \l
+
+ 
+2026-09-01T17:02:43 DEBUG: Debian GNU/Linux 12 \n \l
+
+ 
+2026-09-01T17:02:43 INFO: Detected distribution: Debian 12 
+2026-09-01T17:02:43 DEBUG: Reading issue file ...  
+2026-09-01T17:02:43 DEBUG: Command: 'cat /etc/issue' 
+2026-09-01T17:02:43 DEBUG: Exit Code: 0 
+2026-09-01T17:02:43 DEBUG: Result: Debian GNU/Linux 12 \n \l
+
+ 
+2026-09-01T17:02:43 DEBUG: Debian GNU/Linux 12 \n \l
+
+ 
+2026-09-01T17:02:43 INFO: Detected distribution flavour: Debian 12 
+2026-09-01T17:02:43 INFO: Customization instance Debian11Customization loaded. 
+2026-09-01T17:02:43 INFO: Customization started 
+2026-09-01T17:02:43 DEBUG: Command: 'perl --version' 
+2026-09-01T17:02:43 DEBUG: Exit Code: 0 
+2026-09-01T17:02:43 DEBUG: Result: 
+This is perl 5, version 36, subversion 0 (v5.36.0) built for x86_64-linux-gnu-thread-multi
+(with 60 registered patches, see perl -V for more detail)
+
+Copyright 1987-2022, Larry Wall
+
+Perl may be copied only under the terms of either the Artistic License or the
+GNU General Public License, which may be found in the Perl 5 source kit.
+
+Complete documentation for Perl, including FAQ lists, should be found on
+this system using "man perl" or "perldoc perl".  If you have access to the
+Internet, point your browser at https://www.perl.org/, the Perl Home Page.
+
+ 
+2026-09-01T17:02:43 DEBUG: Command: 'hostname 2>/dev/null' 
+2026-09-01T17:02:43 DEBUG: Exit Code: 0 
+2026-09-01T17:02:43 DEBUG: Result: debian
+ 
+2026-09-01T17:02:43 DEBUG: TimedCommand: 'hostname -f 2>/dev/null' with timeout of 5 sec 
+2026-09-01T17:02:43 DEBUG: Fetching result from /tmp/timed_out_tmp_file_657 
+2026-09-01T17:02:43 DEBUG: TimedResult: debian
+ 
+2026-09-01T17:02:43 DEBUG: opening file /etc/hostname. 
+2026-09-01T17:02:43 DEBUG: Match found   : Line = debian
+ 
+2026-09-01T17:02:43 DEBUG: Actual String : debian 
+2026-09-01T17:02:43 INFO: OLD HOST NAME = debian 
+2026-09-01T17:02:43 INFO: Customization source: vcenter-clone 
+2026-09-01T17:02:43 DEBUG: Command: '/bin/cat /etc/machine-id' 
+2026-09-01T17:02:43 DEBUG: Exit Code: 0 
+2026-09-01T17:02:43 DEBUG: Result: d8dea88b65394734a6dabbb1b94cc15e
+ 
+2026-09-01T17:02:43 INFO: Old machine ID: d8dea88b65394734a6dabbb1b94cc15e
+ 
+2026-09-01T17:02:43 DEBUG: Command: '/bin/rm -f /etc/machine-id' 
+2026-09-01T17:02:43 DEBUG: Exit Code: 0 
+2026-09-01T17:02:43 DEBUG: Result:  
+2026-09-01T17:02:43 INFO: Renewing machine ID ...  
+2026-09-01T17:02:43 DEBUG: Command: 'dbus-uuidgen --ensure=/etc/machine-id' 
+2026-09-01T17:02:43 DEBUG: Exit Code: 0 
+2026-09-01T17:02:43 DEBUG: Result:  
+2026-09-01T17:02:43 DEBUG: Command: '/bin/cat /etc/machine-id' 
+2026-09-01T17:02:43 DEBUG: Exit Code: 0 
+2026-09-01T17:02:43 DEBUG: Result: 0bef0d519c98f13f85005ec16a970533
+ 
+2026-09-01T17:02:43 INFO: New machine ID: 0bef0d519c98f13f85005ec16a970533
+ 
+2026-09-01T17:02:43 INFO: Marker file exists or is undefined, pre-customization is not needed 
+2026-09-01T17:02:43 INFO: Customizing Network settings ...  
+2026-09-01T17:02:43 INFO: Erasing DHCP leases 
+2026-09-01T17:02:43 DEBUG: Command: 'pkill dhclient' 
+2026-09-01T17:02:43 DEBUG: Exit Code: 0 
+2026-09-01T17:02:43 DEBUG: Result:  
+2026-09-01T17:02:43 DEBUG: Command: 'rm -rf /var/lib/dhcp/*' 
+2026-09-01T17:02:43 DEBUG: Exit Code: 0 
+2026-09-01T17:02:43 DEBUG: Result:  
+2026-09-01T17:02:43 DEBUG: Host name is HOLMESCTF2026-WKS01 
+2026-09-01T17:02:43 DEBUG: opening file for writing (/etc/hostname). 
+2026-09-01T17:02:43 DEBUG: Command: 'chmod 644 /etc/hostname' 
+2026-09-01T17:02:43 DEBUG: Exit Code: 0 
+2026-09-01T17:02:43 DEBUG: Result:  
+2026-09-01T17:02:43 DEBUG: Command: 'hostname HOLMESCTF2026-WKS01' 
+2026-09-01T17:02:43 DEBUG: Exit Code: 0 
+2026-09-01T17:02:43 DEBUG: Result:  
+2026-09-01T17:02:43 INFO: Customizing NICS ...  
+2026-09-01T17:02:43 DEBUG: Command: 'modprobe pcnet32 2> /dev/null' 
+2026-09-01T17:02:43 DEBUG: Exit Code: 0 
+2026-09-01T17:02:43 DEBUG: Result:  
+2026-09-01T17:02:43 DEBUG: Command: '/sbin/ifconfig eth0 2> /dev/null' 
+2026-09-01T17:02:43 DEBUG: Exit Code: 127 
+2026-09-01T17:02:43 DEBUG: Result:  
+2026-09-01T17:02:43 INFO: Customizing NICS. { NIC1 } 
+2026-09-01T17:02:43 INFO: Customizing NIC NIC1 
+2026-09-01T17:02:43 DEBUG: Command: 'whereis ip' 
+2026-09-01T17:02:43 DEBUG: Exit Code: 0 
+2026-09-01T17:02:43 DEBUG: Result: ip: /usr/bin/ip /usr/sbin/ip /usr/share/man/man7/ip.7.gz /usr/share/man/man8/ip.8.gz
+ 
+2026-09-01T17:02:43 DEBUG: Command: '/usr/bin/ip addr show 2>&1' 
+2026-09-01T17:02:43 DEBUG: Exit Code: 0 
+2026-09-01T17:02:43 DEBUG: Result: 1: lo: <LOOPBACK,UP,LOWER_UP> mtu 65536 qdisc noqueue state UNKNOWN group default qlen 1000
+    link/loopback 00:00:00:00:00:00 brd 00:00:00:00:00:00
+    inet 127.0.0.1/8 scope host lo
+       valid_lft forever preferred_lft forever
+    inet6 ::1/128 scope host noprefixroute 
+       valid_lft forever preferred_lft forever
+2: eth0: <NO-CARRIER,BROADCAST,MULTICAST,UP> mtu 1500 qdisc mq state DOWN group default qlen 1000
+    link/ether 00:50:56:b9:00:b8 brd ff:ff:ff:ff:ff:ff
+    altname enp2s1
+    altname ens33
+ 
+2026-09-01T17:02:43 INFO: NIC suffix = eth0 
+2026-09-01T17:02:43 INFO: Configuring gateway from the primary NIC 'NIC1' 
+2026-09-01T17:02:43 INFO: Query config for ^(NIC1\|IPv6ADDR\|) 
+2026-09-01T17:02:43 INFO: Query config for ^(NIC1\|IPv6NETMASK\|) 
+2026-09-01T17:02:43 INFO: Query config for ^NIC1(\|IPv6GATEWAY\|) 
+2026-09-01T17:02:43 DEBUG: Command: 'mv /etc/network/interfaces /etc/network/interfaces.BeforeVMwareCustomization' 
+2026-09-01T17:02:43 DEBUG: Exit Code: 0 
+2026-09-01T17:02:43 DEBUG: Result:  
+2026-09-01T17:02:43 DEBUG: opening file for writing (/etc/network/interfaces). 
+2026-09-01T17:02:43 INFO: Customizing Hosts file ...  
+2026-09-01T17:02:43 DEBUG: Old hostname=[debian] 
+2026-09-01T17:02:43 DEBUG: Old FQDN=[debian] 
+2026-09-01T17:02:43 DEBUG: New hostname=[HOLMESCTF2026-WKS01] 
+2026-09-01T17:02:43 DEBUG: Building FQDN. HostnameFQDN: HOLMESCTF2026-WKS01, Domainname:  
+2026-09-01T17:02:43 DEBUG: New FQDN=[HOLMESCTF2026-WKS01] 
+2026-09-01T17:02:43 DEBUG: opening file /etc/hosts. 
+2026-09-01T17:02:43 DEBUG: Line (inp): 127.0.0.1	localhost
+ 
+2026-09-01T17:02:43 DEBUG: Line (inp): 127.0.1.1	debian
+ 
+2026-09-01T17:02:43 DEBUG: Replacing [debian] 
+2026-09-01T17:02:43 DEBUG: Replacing [debian] 
+2026-09-01T17:02:43 DEBUG: Adding [HOLMESCTF2026-WKS01] 
+2026-09-01T17:02:43 DEBUG: Line (inp): 
+ 
+2026-09-01T17:02:43 DEBUG: Line (inp): # The following lines are desirable for IPv6 capable hosts
+ 
+2026-09-01T17:02:43 DEBUG: Line (inp): ::1     localhost ip6-localhost ip6-loopback
+ 
+2026-09-01T17:02:43 DEBUG: Line (inp): ff02::1 ip6-allnodes
+ 
+2026-09-01T17:02:43 DEBUG: Line (inp): ff02::2 ip6-allrouters
+ 
+2026-09-01T17:02:43 DEBUG: Static ip entry added 
+2026-09-01T17:02:43 DEBUG: Line (out): 127.0.0.1	localhost
+ 
+2026-09-01T17:02:43 DEBUG: Line (out): 127.0.1.1 HOLMESCTF2026-WKS01
+ 
+2026-09-01T17:02:43 DEBUG: Line (out): 
+ 
+2026-09-01T17:02:43 DEBUG: Line (out): # The following lines are desirable for IPv6 capable hosts
+ 
+2026-09-01T17:02:43 DEBUG: Line (out): ::1     localhost ip6-localhost ip6-loopback
+ 
+2026-09-01T17:02:43 DEBUG: Line (out): ff02::1 ip6-allnodes
+ 
+2026-09-01T17:02:43 DEBUG: Line (out): ff02::2 ip6-allrouters
+ 
+2026-09-01T17:02:43 DEBUG: Line (out): 
+192.168.0.21	HOLMESCTF2026-WKS01
+ 
+2026-09-01T17:02:43 DEBUG: opening file for writing (/etc/hosts). 
+2026-09-01T17:02:43 DEBUG: Command: 'chmod 644 /etc/hosts' 
+2026-09-01T17:02:43 DEBUG: Exit Code: 0 
+2026-09-01T17:02:43 DEBUG: Result:  
+2026-09-01T17:02:43 INFO: Customizing DNS ...  
+2026-09-01T17:02:43 DEBUG: opening file /etc/nsswitch.conf. 
+2026-09-01T17:02:43 DEBUG: opening file for writing (/etc/nsswitch.conf). 
+2026-09-01T17:02:43 DEBUG: Command: 'chmod 644 /etc/nsswitch.conf' 
+2026-09-01T17:02:43 DEBUG: Exit Code: 0 
+2026-09-01T17:02:43 DEBUG: Result:  
+2026-09-01T17:02:43 INFO: Query config for ^(DNS\|SUFFIX\|) 
+2026-09-01T17:02:43 INFO: Query config for ^(DNS\|NAMESERVER\|) 
+2026-09-01T17:02:43 DEBUG: opening file for writing (/etc/resolv.conf). 
+2026-09-01T17:02:43 DEBUG: Command: 'chmod 644 /etc/resolv.conf' 
+2026-09-01T17:02:43 DEBUG: Exit Code: 0 
+2026-09-01T17:02:43 DEBUG: Result:  
+2026-09-01T17:02:43 INFO: Query config for ^(DNS\|SUFFIX\|) 
+2026-09-01T17:02:43 DEBUG: opening file for writing (/etc/dhcp/dhclient.conf). 
+2026-09-01T17:02:43 DEBUG: Command: 'chmod 644 /etc/dhcp/dhclient.conf' 
+2026-09-01T17:02:43 DEBUG: Exit Code: 0 
+2026-09-01T17:02:43 DEBUG: Result:  
+2026-09-01T17:02:43 DEBUG: opening file for writing (/etc/dhcp/dhclient.conf). 
+2026-09-01T17:02:43 DEBUG: Command: 'chmod 644 /etc/dhcp/dhclient.conf' 
+2026-09-01T17:02:43 DEBUG: Exit Code: 0 
+2026-09-01T17:02:43 DEBUG: Result:  
+2026-09-01T17:02:43 INFO: Customizing Date&Time ...  
+2026-09-01T17:02:43 INFO: Marker file exists or is undefined, password settings are not needed 
+2026-09-01T17:02:43 INFO: Marker file exists or is undefined, post-customization is not needed 
+2026-09-01T17:02:43 INFO: Marker creation is not needed 
+2026-09-01T17:02:43 INFO: Customization completed. 
+2026-09-01T17:02:43 DEBUG: Removing lock file /var/lock/vmware/gosc. 
+
+=================== Perl script log end =================
+[2026-09-01T17:02:48.913Z] [    info] Wait before set enable-nics stats in vmx.
+[2026-09-01T17:02:48.913Z] [   debug] Trying to connect network interfaces, attempt 1.
+[2026-09-01T17:02:48.915Z] [   debug] Got VMX response 'queryNicsSupported'.
+[2026-09-01T17:02:48.916Z] [   debug] Got VMX response 'disconnected'.
+[2026-09-01T17:02:49.917Z] [   debug] Got VMX response 'connected'.
+[2026-09-01T17:02:49.917Z] [    info] The network interfaces are connected on 1 second.
+[2026-09-01T17:02:49.917Z] [    info] Transitioning from state 'INPROGRESS' to state 'Done'.
+[2026-09-01T17:02:49.918Z] [    info] ENTER STATE 'Done'.
+[2026-09-01T17:02:49.918Z] [    info] EXIT STATE 'INPROGRESS'.
+[2026-09-01T17:02:49.918Z] [    info] Deployment succeeded.
+[2026-09-01T17:02:49.918Z] [    info] Launching cleanup.
+[2026-09-01T17:02:49.918Z] [   debug] Command to exec : '/bin/rm'.
+[2026-09-01T17:02:49.918Z] [    info] sizeof ProcessInternal is 56
+[2026-09-01T17:02:49.918Z] [    info] Returning, pending output from stdout
+[2026-09-01T17:02:49.918Z] [    info] Returning, pending output from stderr
+[2026-09-01T17:02:50.018Z] [    info] Process exited normally after 0 seconds, returned 0
+[2026-09-01T17:02:50.019Z] [    info] No more output from stdout
+[2026-09-01T17:02:50.019Z] [    info] No more output from stderr
+[2026-09-01T17:02:50.019Z] [    info] Customization command output:
+''.
+[2026-09-01T17:02:50.019Z] [    info] sSkipReboot: 'false', forceSkipReboot 'false'.
+[2026-09-01T17:02:50.019Z] [   debug] Ran DeployPkg_DeployPackageFromFile successfully
+[2026-09-01T17:02:50.019Z] [   debug] ## Closing log
+[2026-09-01T17:02:50.019Z] [   debug] Command to exec : '/bin/readlink'.
+[2026-09-01T17:02:50.020Z] [    info] sizeof ProcessInternal is 56
+[2026-09-01T17:02:50.020Z] [    info] Returning, pending output from stdout
+[2026-09-01T17:02:50.020Z] [    info] Returning, pending output from stderr
+[2026-09-01T17:02:50.121Z] [    info] Process exited normally after 0 seconds, returned 0
+[2026-09-01T17:02:50.121Z] [    info] Saving output from stdout
+[2026-09-01T17:02:50.121Z] [    info] No more output from stdout
+[2026-09-01T17:02:50.121Z] [    info] No more output from stderr
+[2026-09-01T17:02:50.121Z] [    info] Customization command output:
+'/bin/systemctl
+'.
+[2026-09-01T17:02:50.121Z] [   debug] /sbin/telinit is a soft link to systemctl
+[2026-09-01T17:02:50.121Z] [    info] Trigger reboot.
+[2026-09-01T17:02:50.121Z] [   debug] Command to exec : '/sbin/telinit'.
+[2026-09-01T17:02:50.121Z] [    info] sizeof ProcessInternal is 56
+[2026-09-01T17:02:50.122Z] [    info] Returning, pending output from stdout
+[2026-09-01T17:02:50.122Z] [    info] Returning, pending output from stderr
+[2026-09-01T17:02:50.222Z] [    info] Process exited normally after 0 seconds, returned 0
+[2026-09-01T17:02:50.222Z] [    info] No more output from stdout
+[2026-09-01T17:02:50.222Z] [    info] No more output from stderr
+[2026-09-01T17:02:50.222Z] [    info] Customization command output:
+''.
+[2026-09-01T17:02:50.379Z] [    info] Rebooting.
+[2026-09-01T17:02:50.379Z] [   debug] Command to exec : '/sbin/telinit'.
+[2026-09-01T17:02:50.379Z] [    info] sizeof ProcessInternal is 56
+[2026-09-01T17:02:50.380Z] [    info] Returning, pending output from stdout
+[2026-09-01T17:02:50.380Z] [    info] Returning, pending output from stderr
+[2026-09-01T17:02:50.481Z] [    info] Process exited normally after 0 seconds, returned 1
+[2026-09-01T17:02:50.481Z] [    info] No more output from stdout
+[2026-09-01T17:02:50.481Z] [    info] Saving output from stderr
+[2026-09-01T17:02:50.481Z] [    info] No more output from stderr
+[2026-09-01T17:02:50.481Z] [    info] Customization command output:
+''.
+[2026-09-01T17:02:50.481Z] [    info] Telinit command failed with exitcode: 1, stderr: 'Failed to connect to bus: Connection refused
+Failed to connect to bus: Connection refused
+Failed to open /run/initctl: No such device or address
+Failed to talk to init daemon: Connection refused
+'.
+[2026-09-01T17:02:51.481Z] [    info] Reboot has been triggered.
+[2026-09-01T17:02:51.481Z] [   debug] Ran DeployPkg_DeployPackageFromFile successfully
+[2026-09-01T17:02:51.481Z] [   debug] ## Closing log

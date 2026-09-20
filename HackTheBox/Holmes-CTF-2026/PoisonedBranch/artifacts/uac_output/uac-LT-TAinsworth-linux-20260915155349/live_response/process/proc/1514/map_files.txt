@@ -1,0 +1,5 @@
+total 0
+dr-x------ 2 Tom Tom  0 Sep 15 15:38 .
+dr-xr-xr-x 9 Tom Tom  0 Sep 15 15:20 ..
+lr-------- 1 Tom Tom 64 Sep 15 15:38 7f85ba000000-7f85ba0e1000 -> /home/Tom/.cache/.ticket-parser/.integrity
+lr-------- 1 Tom Tom 64 Sep 15 15:38 7f85ba2e1000-7f85ba2e9000 -> /home/Tom/.cache/.ticket-parser/.integrity

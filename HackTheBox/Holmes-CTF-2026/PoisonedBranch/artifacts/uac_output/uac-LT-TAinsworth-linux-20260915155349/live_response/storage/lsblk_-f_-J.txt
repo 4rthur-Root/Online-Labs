@@ -1,0 +1,63 @@
+{
+   "blockdevices": [
+      {
+         "name": "sda",
+         "fstype": null,
+         "fsver": null,
+         "label": null,
+         "uuid": null,
+         "fsavail": null,
+         "fsuse%": null,
+         "mountpoints": [
+             null
+         ],
+         "children": [
+            {
+               "name": "sda1",
+               "fstype": "vfat",
+               "fsver": "FAT32",
+               "label": null,
+               "uuid": "5B05-E03B",
+               "fsavail": "505.2M",
+               "fsuse%": "1%",
+               "mountpoints": [
+                   "/boot/efi"
+               ]
+            },{
+               "name": "sda2",
+               "fstype": "ext4",
+               "fsver": "1.0",
+               "label": null,
+               "uuid": "fbf395f4-54bd-4ea4-86fd-072a61b464d3",
+               "fsavail": "15G",
+               "fsuse%": "12%",
+               "mountpoints": [
+                   "/"
+               ]
+            },{
+               "name": "sda3",
+               "fstype": "swap",
+               "fsver": "1",
+               "label": null,
+               "uuid": "2adf0eab-66ff-4cdb-8cc6-a7aa5f8057ef",
+               "fsavail": null,
+               "fsuse%": null,
+               "mountpoints": [
+                   "[SWAP]"
+               ]
+            }
+         ]
+      },{
+         "name": "sr0",
+         "fstype": null,
+         "fsver": null,
+         "label": null,
+         "uuid": null,
+         "fsavail": null,
+         "fsuse%": null,
+         "mountpoints": [
+             null
+         ]
+      }
+   ]
+}

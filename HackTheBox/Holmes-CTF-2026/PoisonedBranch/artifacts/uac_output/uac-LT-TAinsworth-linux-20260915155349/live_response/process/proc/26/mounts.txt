@@ -1,0 +1,1 @@
+devtmpfs / devtmpfs rw,relatime,size=1968920k,nr_inodes=492230,mode=755,inode64 0 0

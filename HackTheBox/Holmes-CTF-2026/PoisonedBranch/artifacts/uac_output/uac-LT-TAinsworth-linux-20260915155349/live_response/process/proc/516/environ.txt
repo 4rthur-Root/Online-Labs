@@ -1,0 +1,10 @@
+LANG=en_US.UTF-8
+PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+NOTIFY_SOCKET=/run/systemd/notify
+LISTEN_PID=516
+LISTEN_FDS=1
+LISTEN_FDNAMES=dbus.socket
+SYSTEMD_NSS_DYNAMIC_BYPASS=1
+INVOCATION_ID=af499de9676a4e4dbdfa6d12f4f8ab44
+JOURNAL_STREAM=8:14247
+SYSTEMD_EXEC_PID=516

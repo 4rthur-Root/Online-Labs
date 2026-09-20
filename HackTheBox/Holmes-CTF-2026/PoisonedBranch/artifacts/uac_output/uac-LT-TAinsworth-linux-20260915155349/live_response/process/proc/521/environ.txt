@@ -1,0 +1,10 @@
+LANG=en_US.UTF-8
+PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+NOTIFY_SOCKET=/run/systemd/notify
+WATCHDOG_PID=521
+WATCHDOG_USEC=180000000
+INVOCATION_ID=724652026d8c40c1afe35f2662525fac
+JOURNAL_STREAM=8:14255
+RUNTIME_DIRECTORY=/run/systemd/inhibit:/run/systemd/seats:/run/systemd/sessions:/run/systemd/shutdown:/run/systemd/users
+STATE_DIRECTORY=/var/lib/systemd/linger
+SYSTEMD_EXEC_PID=521

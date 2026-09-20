@@ -1,0 +1,96 @@
+5628568ac000-5628568b1000 r--p 00000000 08:02 426527                     /usr/sbin/auditd
+5628568b1000-5628568c7000 r-xp 00005000 08:02 426527                     /usr/sbin/auditd
+5628568c7000-5628568d0000 r--p 0001b000 08:02 426527                     /usr/sbin/auditd
+5628568d0000-5628568d2000 r--p 00023000 08:02 426527                     /usr/sbin/auditd
+5628568d2000-5628568d3000 rw-p 00025000 08:02 426527                     /usr/sbin/auditd
+5628568d3000-5628568d7000 rw-p 00000000 00:00 0 
+562864168000-562864189000 rw-p 00000000 00:00 0                          [heap]
+7f0d05ab6000-7f0d05ab7000 ---p 00000000 00:00 0 
+7f0d05ab7000-7f0d062b7000 rw-p 00000000 00:00 0 
+7f0d062b7000-7f0d062bc000 rw-p 00000000 00:00 0 
+7f0d062bc000-7f0d062c4000 r--p 00000000 08:02 399504                     /usr/lib/x86_64-linux-gnu/libtirpc.so.3.0.0
+7f0d062c4000-7f0d062df000 r-xp 00008000 08:02 399504                     /usr/lib/x86_64-linux-gnu/libtirpc.so.3.0.0
+7f0d062df000-7f0d062e8000 r--p 00023000 08:02 399504                     /usr/lib/x86_64-linux-gnu/libtirpc.so.3.0.0
+7f0d062e8000-7f0d062e9000 r--p 0002c000 08:02 399504                     /usr/lib/x86_64-linux-gnu/libtirpc.so.3.0.0
+7f0d062e9000-7f0d062ea000 rw-p 0002d000 08:02 399504                     /usr/lib/x86_64-linux-gnu/libtirpc.so.3.0.0
+7f0d062ea000-7f0d062ed000 r--p 00000000 08:02 394176                     /usr/lib/x86_64-linux-gnu/libresolv.so.2
+7f0d062ed000-7f0d062f5000 r-xp 00003000 08:02 394176                     /usr/lib/x86_64-linux-gnu/libresolv.so.2
+7f0d062f5000-7f0d062f7000 r--p 0000b000 08:02 394176                     /usr/lib/x86_64-linux-gnu/libresolv.so.2
+7f0d062f7000-7f0d062f8000 r--p 0000d000 08:02 394176                     /usr/lib/x86_64-linux-gnu/libresolv.so.2
+7f0d062f8000-7f0d062f9000 rw-p 0000e000 08:02 394176                     /usr/lib/x86_64-linux-gnu/libresolv.so.2
+7f0d062f9000-7f0d062fb000 rw-p 00000000 00:00 0 
+7f0d062fb000-7f0d062fd000 r--p 00000000 08:02 397562                     /usr/lib/x86_64-linux-gnu/libkeyutils.so.1.10
+7f0d062fd000-7f0d062ff000 r-xp 00002000 08:02 397562                     /usr/lib/x86_64-linux-gnu/libkeyutils.so.1.10
+7f0d062ff000-7f0d06300000 r--p 00004000 08:02 397562                     /usr/lib/x86_64-linux-gnu/libkeyutils.so.1.10
+7f0d06300000-7f0d06301000 r--p 00004000 08:02 397562                     /usr/lib/x86_64-linux-gnu/libkeyutils.so.1.10
+7f0d06301000-7f0d06302000 rw-p 00005000 08:02 397562                     /usr/lib/x86_64-linux-gnu/libkeyutils.so.1.10
+7f0d06302000-7f0d06304000 rw-p 00000000 00:00 0 
+7f0d06304000-7f0d06307000 r--p 00000000 08:02 393486                     /usr/lib/x86_64-linux-gnu/libkrb5support.so.0.1
+7f0d06307000-7f0d0630d000 r-xp 00003000 08:02 393486                     /usr/lib/x86_64-linux-gnu/libkrb5support.so.0.1
+7f0d0630d000-7f0d06310000 r--p 00009000 08:02 393486                     /usr/lib/x86_64-linux-gnu/libkrb5support.so.0.1
+7f0d06310000-7f0d06311000 r--p 0000b000 08:02 393486                     /usr/lib/x86_64-linux-gnu/libkrb5support.so.0.1
+7f0d06311000-7f0d06312000 rw-p 0000c000 08:02 393486                     /usr/lib/x86_64-linux-gnu/libkrb5support.so.0.1
+7f0d06312000-7f0d06314000 r--p 00000000 08:02 398529                     /usr/lib/x86_64-linux-gnu/libcom_err.so.2.1
+7f0d06314000-7f0d06315000 r-xp 00002000 08:02 398529                     /usr/lib/x86_64-linux-gnu/libcom_err.so.2.1
+7f0d06315000-7f0d06316000 r--p 00003000 08:02 398529                     /usr/lib/x86_64-linux-gnu/libcom_err.so.2.1
+7f0d06316000-7f0d06317000 r--p 00003000 08:02 398529                     /usr/lib/x86_64-linux-gnu/libcom_err.so.2.1
+7f0d06317000-7f0d06318000 rw-p 00004000 08:02 398529                     /usr/lib/x86_64-linux-gnu/libcom_err.so.2.1
+7f0d06318000-7f0d0631c000 r--p 00000000 08:02 397552                     /usr/lib/x86_64-linux-gnu/libk5crypto.so.3.1
+7f0d0631c000-7f0d06336000 r-xp 00004000 08:02 397552                     /usr/lib/x86_64-linux-gnu/libk5crypto.so.3.1
+7f0d06336000-7f0d06343000 r--p 0001e000 08:02 397552                     /usr/lib/x86_64-linux-gnu/libk5crypto.so.3.1
+7f0d06343000-7f0d06344000 r--p 0002b000 08:02 397552                     /usr/lib/x86_64-linux-gnu/libk5crypto.so.3.1
+7f0d06344000-7f0d06345000 rw-p 0002c000 08:02 397552                     /usr/lib/x86_64-linux-gnu/libk5crypto.so.3.1
+7f0d06345000-7f0d06347000 r--p 00000000 08:02 392074                     /usr/lib/x86_64-linux-gnu/libcap-ng.so.0.0.0
+7f0d06347000-7f0d0634a000 r-xp 00002000 08:02 392074                     /usr/lib/x86_64-linux-gnu/libcap-ng.so.0.0.0
+7f0d0634a000-7f0d0634b000 r--p 00005000 08:02 392074                     /usr/lib/x86_64-linux-gnu/libcap-ng.so.0.0.0
+7f0d0634b000-7f0d0634c000 r--p 00006000 08:02 392074                     /usr/lib/x86_64-linux-gnu/libcap-ng.so.0.0.0
+7f0d0634c000-7f0d0634d000 rw-p 00007000 08:02 392074                     /usr/lib/x86_64-linux-gnu/libcap-ng.so.0.0.0
+7f0d0634d000-7f0d06352000 r--p 00000000 08:02 414412                     /usr/lib/x86_64-linux-gnu/libnsl.so.2.0.1
+7f0d06352000-7f0d0635f000 r-xp 00005000 08:02 414412                     /usr/lib/x86_64-linux-gnu/libnsl.so.2.0.1
+7f0d0635f000-7f0d06363000 r--p 00012000 08:02 414412                     /usr/lib/x86_64-linux-gnu/libnsl.so.2.0.1
+7f0d06363000-7f0d06364000 ---p 00016000 08:02 414412                     /usr/lib/x86_64-linux-gnu/libnsl.so.2.0.1
+7f0d06364000-7f0d06365000 r--p 00016000 08:02 414412                     /usr/lib/x86_64-linux-gnu/libnsl.so.2.0.1
+7f0d06365000-7f0d06366000 rw-p 00017000 08:02 414412                     /usr/lib/x86_64-linux-gnu/libnsl.so.2.0.1
+7f0d06366000-7f0d06368000 rw-p 00000000 00:00 0 
+7f0d06368000-7f0d0638e000 r--p 00000000 08:02 393990                     /usr/lib/x86_64-linux-gnu/libc.so.6
+7f0d0638e000-7f0d064e4000 r-xp 00026000 08:02 393990                     /usr/lib/x86_64-linux-gnu/libc.so.6
+7f0d064e4000-7f0d06537000 r--p 0017c000 08:02 393990                     /usr/lib/x86_64-linux-gnu/libc.so.6
+7f0d06537000-7f0d0653b000 r--p 001cf000 08:02 393990                     /usr/lib/x86_64-linux-gnu/libc.so.6
+7f0d0653b000-7f0d0653d000 rw-p 001d3000 08:02 393990                     /usr/lib/x86_64-linux-gnu/libc.so.6
+7f0d0653d000-7f0d0654c000 rw-p 00000000 00:00 0 
+7f0d0654c000-7f0d0656f000 r--p 00000000 08:02 397582                     /usr/lib/x86_64-linux-gnu/libkrb5.so.3.3
+7f0d0656f000-7f0d065ce000 r-xp 00023000 08:02 397582                     /usr/lib/x86_64-linux-gnu/libkrb5.so.3.3
+7f0d065ce000-7f0d06616000 r--p 00082000 08:02 397582                     /usr/lib/x86_64-linux-gnu/libkrb5.so.3.3
+7f0d06616000-7f0d06623000 r--p 000c9000 08:02 397582                     /usr/lib/x86_64-linux-gnu/libkrb5.so.3.3
+7f0d06623000-7f0d06626000 rw-p 000d6000 08:02 397582                     /usr/lib/x86_64-linux-gnu/libkrb5.so.3.3
+7f0d06626000-7f0d06632000 r--p 00000000 08:02 397557                     /usr/lib/x86_64-linux-gnu/libgssapi_krb5.so.2.2
+7f0d06632000-7f0d06668000 r-xp 0000c000 08:02 397557                     /usr/lib/x86_64-linux-gnu/libgssapi_krb5.so.2.2
+7f0d06668000-7f0d06675000 r--p 00042000 08:02 397557                     /usr/lib/x86_64-linux-gnu/libgssapi_krb5.so.2.2
+7f0d06675000-7f0d06677000 r--p 0004f000 08:02 397557                     /usr/lib/x86_64-linux-gnu/libgssapi_krb5.so.2.2
+7f0d06677000-7f0d06679000 rw-p 00051000 08:02 397557                     /usr/lib/x86_64-linux-gnu/libgssapi_krb5.so.2.2
+7f0d06679000-7f0d0667c000 r--p 00000000 08:02 391691                     /usr/lib/x86_64-linux-gnu/libauparse.so.0.0.0
+7f0d0667c000-7f0d0668f000 r-xp 00003000 08:02 391691                     /usr/lib/x86_64-linux-gnu/libauparse.so.0.0.0
+7f0d0668f000-7f0d0669b000 r--p 00016000 08:02 391691                     /usr/lib/x86_64-linux-gnu/libauparse.so.0.0.0
+7f0d0669b000-7f0d0669c000 r--p 00022000 08:02 391691                     /usr/lib/x86_64-linux-gnu/libauparse.so.0.0.0
+7f0d0669c000-7f0d0669d000 rw-p 00023000 08:02 391691                     /usr/lib/x86_64-linux-gnu/libauparse.so.0.0.0
+7f0d0669d000-7f0d066a2000 rw-p 00000000 00:00 0 
+7f0d066a2000-7f0d066a5000 r--p 00000000 08:02 392080                     /usr/lib/x86_64-linux-gnu/libaudit.so.1.0.0
+7f0d066a5000-7f0d066ac000 r-xp 00003000 08:02 392080                     /usr/lib/x86_64-linux-gnu/libaudit.so.1.0.0
+7f0d066ac000-7f0d066c1000 r--p 0000a000 08:02 392080                     /usr/lib/x86_64-linux-gnu/libaudit.so.1.0.0
+7f0d066c1000-7f0d066c2000 r--p 0001e000 08:02 392080                     /usr/lib/x86_64-linux-gnu/libaudit.so.1.0.0
+7f0d066c2000-7f0d066c3000 rw-p 0001f000 08:02 392080                     /usr/lib/x86_64-linux-gnu/libaudit.so.1.0.0
+7f0d066c3000-7f0d066d3000 rw-p 00000000 00:00 0 
+7f0d066d3000-7f0d066d6000 r--p 00000000 08:02 414418                     /usr/lib/x86_64-linux-gnu/libwrap.so.0.7.6
+7f0d066d6000-7f0d066db000 r-xp 00003000 08:02 414418                     /usr/lib/x86_64-linux-gnu/libwrap.so.0.7.6
+7f0d066db000-7f0d066dd000 r--p 00008000 08:02 414418                     /usr/lib/x86_64-linux-gnu/libwrap.so.0.7.6
+7f0d066dd000-7f0d066de000 r--p 0000a000 08:02 414418                     /usr/lib/x86_64-linux-gnu/libwrap.so.0.7.6
+7f0d066de000-7f0d066df000 rw-p 0000b000 08:02 414418                     /usr/lib/x86_64-linux-gnu/libwrap.so.0.7.6
+7f0d066e2000-7f0d066e4000 rw-p 00000000 00:00 0 
+7f0d066e4000-7f0d066e5000 r--p 00000000 08:02 393987                     /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2
+7f0d066e5000-7f0d0670b000 r-xp 00001000 08:02 393987                     /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2
+7f0d0670b000-7f0d06715000 r--p 00027000 08:02 393987                     /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2
+7f0d06715000-7f0d06717000 r--p 00031000 08:02 393987                     /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2
+7f0d06717000-7f0d06719000 rw-p 00033000 08:02 393987                     /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2
+7ffd6a905000-7ffd6a926000 rw-p 00000000 00:00 0                          [stack]
+7ffd6a988000-7ffd6a98c000 r--p 00000000 00:00 0                          [vvar]
+7ffd6a98c000-7ffd6a98e000 r-xp 00000000 00:00 0                          [vdso]

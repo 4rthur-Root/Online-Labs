@@ -1,0 +1,6 @@
+LANG=en_US.UTF-8
+PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+PIDFILE=/run/auditd.pid
+INVOCATION_ID=20a8b7af655d4e279ff22d9093db18fa
+JOURNAL_STREAM=8:14337
+SYSTEMD_EXEC_PID=464

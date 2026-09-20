@@ -1,0 +1,39 @@
+[2026-09-13T17:24:16.668Z] [ message] [vmsvc] [472] VMware Tools Version: 12.2.0.41219 (build-21223074)
+[2026-09-13T17:24:16.669Z] [ message] [vmsvc] [472] Guest OS details: architecture='X86' bitness='64' distroAddlVersion='12 (bookworm)' distroName='Debian GNU/Linux' distroVersion='12' familyName='Linux' kernelVersion='6.1.0-49-amd64' prettyName='Debian GNU/Linux 12 (bookworm)'
+[2026-09-13T17:24:16.668Z] [ message] [vmsvc] [472] Log caching is enabled with maxCacheEntries=4096.
+[2026-09-13T17:24:16.669Z] [ message] [vmsvc] [472] Core dump limit set to -1
+[2026-09-13T17:24:16.710Z] [ message] [vmtoolsd] [472] Plugin 'hgfsServer' initialized.
+[2026-09-13T17:24:16.710Z] [ message] [vix] [472] QueryVGAuthConfig: vgauth usage is: 1
+[2026-09-13T17:24:16.710Z] [ message] [vmtoolsd] [472] Plugin 'vix' initialized.
+[2026-09-13T17:24:16.710Z] [ message] [vmtoolsd] [472] Plugin 'appInfo' initialized.
+[2026-09-13T17:24:16.710Z] [ message] [vmtoolsd] [472] Plugin 'componentMgr' initialized.
+[2026-09-13T17:24:16.710Z] [ message] [vmtoolsd] [472] Plugin 'deployPkg' initialized.
+[2026-09-13T17:24:16.710Z] [ message] [vmtoolsd] [472] Plugin 'gdp' initialized.
+[2026-09-13T17:24:16.710Z] [ message] [vmtoolsd] [472] Plugin 'guestInfo' initialized.
+[2026-09-13T17:24:16.710Z] [ message] [vmtoolsd] [472] Plugin 'guestStore' initialized.
+[2026-09-13T17:24:16.710Z] [ message] [vmtoolsd] [472] Plugin 'powerops' initialized.
+[2026-09-13T17:24:16.710Z] [ message] [resolutionCommon] [472] resolutionCheckForKMS: dlopen succeeded.
+[2026-09-13T17:24:16.712Z] [ message] [resolutionCommon] [472] resolutionCheckForKMS: System support available for resolutionKMS.
+[2026-09-13T17:24:16.712Z] [ message] [vmtoolsd] [472] Plugin 'resolutionKMS' initialized.
+[2026-09-13T17:24:16.712Z] [ message] [vmtoolsd] [472] Plugin 'timeSync' initialized.
+[2026-09-13T17:24:16.712Z] [ message] [vmtoolsd] [472] Plugin 'vmbackup' initialized.
+[2026-09-13T17:24:19.777Z] [ message] [vmsvc] [472] Executing script for state change 'OS_PowerOn'.
+[2026-09-13T17:24:19.777Z] [ message] [powerops] [472] Executing script: '/etc/vmware-tools/poweron-vm-default'
+[2026-09-13T17:24:19.851Z] [ message] [vix] [472] VixTools_ProcessVixCommand: command 62
+[2026-09-13T17:24:19.932Z] [ message] [vmsvc] [472] Script exit code: 0, success = 1
+[2026-09-13T17:47:56.429Z] [ message] [vix] [472] VixTools_ProcessVixCommand: command 62
+[2026-09-13T17:47:56.474Z] [ message] [vix] [472] ToolsDaemonTcloReceiveVixCommand: command 62, additionalError = 17
+[2026-09-13T17:58:28.279Z] [ message] [vix] [472] VixTools_ProcessVixCommand: command 62
+[2026-09-13T17:58:28.321Z] [ message] [vix] [472] ToolsDaemonTcloReceiveVixCommand: command 62, additionalError = 17
+[2026-09-13T19:07:12.918Z] [ message] [vmtoolsd] [472] Unloading plugin 'vmbackup'.
+[2026-09-13T19:07:12.918Z] [ message] [vmtoolsd] [472] Unloading plugin 'timeSync'.
+[2026-09-13T19:07:12.918Z] [ message] [vmtoolsd] [472] Unloading plugin 'resolutionKMS'.
+[2026-09-13T19:07:12.918Z] [ message] [vmtoolsd] [472] Unloading plugin 'powerops'.
+[2026-09-13T19:07:12.918Z] [ message] [vmtoolsd] [472] Unloading plugin 'guestStore'.
+[2026-09-13T19:07:12.918Z] [ message] [vmtoolsd] [472] Unloading plugin 'guestInfo'.
+[2026-09-13T19:07:12.918Z] [ message] [vmtoolsd] [472] Unloading plugin 'gdp'.
+[2026-09-13T19:07:12.918Z] [ message] [vmtoolsd] [472] Unloading plugin 'deployPkg'.
+[2026-09-13T19:07:12.918Z] [ message] [vmtoolsd] [472] Unloading plugin 'componentMgr'.
+[2026-09-13T19:07:12.918Z] [ message] [vmtoolsd] [472] Unloading plugin 'appInfo'.
+[2026-09-13T19:07:12.918Z] [ message] [vmtoolsd] [472] Unloading plugin 'vix'.
+[2026-09-13T19:07:12.918Z] [ message] [vmtoolsd] [472] Unloading plugin 'hgfsServer'.

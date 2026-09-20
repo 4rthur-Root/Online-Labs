@@ -1,0 +1,15 @@
+total 0
+drwxr-xr-x 2 root root    0 Sep 15 15:38 .
+drwxr-xr-x 3 root root    0 Sep 14 15:47 ..
+-r--r--r-- 1 root root 4096 Sep 15 15:38 acpica_version
+-rw-r--r-- 1 root root 4096 Sep 15 15:38 aml_debug_output
+-rw-r--r-- 1 root root 4096 Sep 15 15:38 ec_busy_polling
+-rw-r--r-- 1 root root 4096 Sep 15 15:38 ec_delay
+-rw-r--r-- 1 root root 4096 Sep 15 15:38 ec_event_clearing
+-rw-r--r-- 1 root root 4096 Sep 15 15:38 ec_freeze_events
+-rw-r--r-- 1 root root 4096 Sep 15 15:38 ec_max_queries
+-rw-r--r-- 1 root root 4096 Sep 15 15:38 ec_no_wakeup
+-rw-r--r-- 1 root root 4096 Sep 15 15:38 ec_polling_guard
+-rw-r--r-- 1 root root 4096 Sep 15 15:38 ec_storm_threshold
+-rw-r--r-- 1 root root 4096 Sep 15 15:38 immediate_undock
+-rw-r--r-- 1 root root 4096 Sep 15 15:38 sleep_no_lps0

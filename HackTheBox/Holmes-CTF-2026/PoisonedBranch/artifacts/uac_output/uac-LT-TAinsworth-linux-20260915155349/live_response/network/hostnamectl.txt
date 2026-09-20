@@ -1,0 +1,12 @@
+ Static hostname: LT-TAinsworth
+       Icon name: computer-vm
+         Chassis: vm 🖴
+      Machine ID: 0bef0d519c98f13f85005ec16a970533
+         Boot ID: 89db805e9efd4ef488a281a7d80ba935
+  Virtualization: vmware
+Operating System: Debian GNU/Linux 12 (bookworm)
+          Kernel: Linux 6.1.0-49-amd64
+    Architecture: x86-64
+ Hardware Vendor: VMware, Inc.
+  Hardware Model: VMware20,1
+Firmware Version: VMW201.00V.23553139.B64.2403260940

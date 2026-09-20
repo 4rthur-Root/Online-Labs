@@ -1,0 +1,4 @@
+COMMAND    PID     USER   FD   TYPE DEVICE SIZE/OFF NODE NAME
+sshd       629        0    3u  IPv4  15411      0t0  TCP *:22 (LISTEN)
+sshd       629        0    4u  IPv6  15413      0t0  TCP *:22 (LISTEN)
+.integrit 1514     1000    4u  IPv4  87204      0t0  TCP 192.168.0.21:50878->203.0.113.10:31337 (ESTABLISHED)

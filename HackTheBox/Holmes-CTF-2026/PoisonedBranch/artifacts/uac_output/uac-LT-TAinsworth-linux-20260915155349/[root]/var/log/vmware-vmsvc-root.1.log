@@ -1,0 +1,32 @@
+[2026-09-14T14:42:26.715Z] [ message] [vmsvc] [473] VMware Tools Version: 12.2.0.41219 (build-21223074)
+[2026-09-14T14:42:26.715Z] [ message] [vmsvc] [473] Guest OS details: architecture='X86' bitness='64' distroAddlVersion='12 (bookworm)' distroName='Debian GNU/Linux' distroVersion='12' familyName='Linux' kernelVersion='6.1.0-49-amd64' prettyName='Debian GNU/Linux 12 (bookworm)'
+[2026-09-14T14:42:26.715Z] [ message] [vmsvc] [473] Log caching is enabled with maxCacheEntries=4096.
+[2026-09-14T14:42:26.715Z] [ message] [vmsvc] [473] Core dump limit set to -1
+[2026-09-14T14:42:26.750Z] [ message] [vmtoolsd] [473] Plugin 'hgfsServer' initialized.
+[2026-09-14T14:42:26.750Z] [ message] [vix] [473] QueryVGAuthConfig: vgauth usage is: 1
+[2026-09-14T14:42:26.750Z] [ message] [vmtoolsd] [473] Plugin 'vix' initialized.
+[2026-09-14T14:42:26.750Z] [ message] [vmtoolsd] [473] Plugin 'appInfo' initialized.
+[2026-09-14T14:42:26.750Z] [ message] [vmtoolsd] [473] Plugin 'componentMgr' initialized.
+[2026-09-14T14:42:26.750Z] [ message] [vmtoolsd] [473] Plugin 'deployPkg' initialized.
+[2026-09-14T14:42:26.750Z] [ message] [vmtoolsd] [473] Plugin 'gdp' initialized.
+[2026-09-14T14:42:26.750Z] [ message] [vmtoolsd] [473] Plugin 'guestInfo' initialized.
+[2026-09-14T14:42:26.750Z] [ message] [vmtoolsd] [473] Plugin 'guestStore' initialized.
+[2026-09-14T14:42:26.750Z] [ message] [vmtoolsd] [473] Plugin 'powerops' initialized.
+[2026-09-14T14:42:26.750Z] [ message] [resolutionCommon] [473] resolutionCheckForKMS: dlopen succeeded.
+[2026-09-14T14:42:26.752Z] [ message] [resolutionCommon] [473] resolutionCheckForKMS: System support available for resolutionKMS.
+[2026-09-14T14:42:26.752Z] [ message] [vmtoolsd] [473] Plugin 'resolutionKMS' initialized.
+[2026-09-14T14:42:26.752Z] [ message] [vmtoolsd] [473] Plugin 'timeSync' initialized.
+[2026-09-14T14:42:26.752Z] [ message] [vmtoolsd] [473] Plugin 'vmbackup' initialized.
+[2026-09-14T14:42:29.944Z] [ message] [vix] [473] VixTools_ProcessVixCommand: command 62
+[2026-09-14T14:47:04.229Z] [ message] [vmtoolsd] [473] Unloading plugin 'vmbackup'.
+[2026-09-14T14:47:04.229Z] [ message] [vmtoolsd] [473] Unloading plugin 'timeSync'.
+[2026-09-14T14:47:04.229Z] [ message] [vmtoolsd] [473] Unloading plugin 'resolutionKMS'.
+[2026-09-14T14:47:04.229Z] [ message] [vmtoolsd] [473] Unloading plugin 'powerops'.
+[2026-09-14T14:47:04.229Z] [ message] [vmtoolsd] [473] Unloading plugin 'guestStore'.
+[2026-09-14T14:47:04.229Z] [ message] [vmtoolsd] [473] Unloading plugin 'guestInfo'.
+[2026-09-14T14:47:04.229Z] [ message] [vmtoolsd] [473] Unloading plugin 'gdp'.
+[2026-09-14T14:47:04.229Z] [ message] [vmtoolsd] [473] Unloading plugin 'deployPkg'.
+[2026-09-14T14:47:04.229Z] [ message] [vmtoolsd] [473] Unloading plugin 'componentMgr'.
+[2026-09-14T14:47:04.229Z] [ message] [vmtoolsd] [473] Unloading plugin 'appInfo'.
+[2026-09-14T14:47:04.229Z] [ message] [vmtoolsd] [473] Unloading plugin 'vix'.
+[2026-09-14T14:47:04.229Z] [ message] [vmtoolsd] [473] Unloading plugin 'hgfsServer'.

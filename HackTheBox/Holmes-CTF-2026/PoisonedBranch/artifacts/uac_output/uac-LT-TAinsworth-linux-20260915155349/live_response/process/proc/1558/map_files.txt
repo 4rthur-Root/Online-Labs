@@ -1,0 +1,25 @@
+total 0
+dr-x------ 2 root root  0 Sep 15 15:53 .
+dr-xr-xr-x 9 root root  0 Sep 15 15:53 ..
+lr-------- 1 root root 64 Sep 15 15:53 55c7d8791000-55c7d87c0000 -> /usr/bin/bash
+lr-------- 1 root root 64 Sep 15 15:53 55c7d87c0000-55c7d8881000 -> /usr/bin/bash
+lr-------- 1 root root 64 Sep 15 15:53 55c7d8881000-55c7d88b9000 -> /usr/bin/bash
+lr-------- 1 root root 64 Sep 15 15:53 55c7d88b9000-55c7d88bd000 -> /usr/bin/bash
+lr-------- 1 root root 64 Sep 15 15:53 55c7d88bd000-55c7d88c6000 -> /usr/bin/bash
+lr-------- 1 root root 64 Sep 15 15:53 7f537f800000-7f537fae9000 -> /usr/lib/locale/locale-archive
+lr-------- 1 root root 64 Sep 15 15:53 7f537fb3d000-7f537fb44000 -> /usr/lib/x86_64-linux-gnu/gconv/gconv-modules.cache
+lr-------- 1 root root 64 Sep 15 15:53 7f537fb47000-7f537fb6d000 -> /usr/lib/x86_64-linux-gnu/libc.so.6
+lr-------- 1 root root 64 Sep 15 15:53 7f537fb6d000-7f537fcc3000 -> /usr/lib/x86_64-linux-gnu/libc.so.6
+lr-------- 1 root root 64 Sep 15 15:53 7f537fcc3000-7f537fd16000 -> /usr/lib/x86_64-linux-gnu/libc.so.6
+lr-------- 1 root root 64 Sep 15 15:53 7f537fd16000-7f537fd1a000 -> /usr/lib/x86_64-linux-gnu/libc.so.6
+lr-------- 1 root root 64 Sep 15 15:53 7f537fd1a000-7f537fd1c000 -> /usr/lib/x86_64-linux-gnu/libc.so.6
+lr-------- 1 root root 64 Sep 15 15:53 7f537fd29000-7f537fd38000 -> /usr/lib/x86_64-linux-gnu/libtinfo.so.6.4
+lr-------- 1 root root 64 Sep 15 15:53 7f537fd38000-7f537fd49000 -> /usr/lib/x86_64-linux-gnu/libtinfo.so.6.4
+lr-------- 1 root root 64 Sep 15 15:53 7f537fd49000-7f537fd57000 -> /usr/lib/x86_64-linux-gnu/libtinfo.so.6.4
+lr-------- 1 root root 64 Sep 15 15:53 7f537fd57000-7f537fd5b000 -> /usr/lib/x86_64-linux-gnu/libtinfo.so.6.4
+lr-------- 1 root root 64 Sep 15 15:53 7f537fd5b000-7f537fd5c000 -> /usr/lib/x86_64-linux-gnu/libtinfo.so.6.4
+lr-------- 1 root root 64 Sep 15 15:53 7f537fd61000-7f537fd62000 -> /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2
+lr-------- 1 root root 64 Sep 15 15:53 7f537fd62000-7f537fd88000 -> /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2
+lr-------- 1 root root 64 Sep 15 15:53 7f537fd88000-7f537fd92000 -> /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2
+lr-------- 1 root root 64 Sep 15 15:53 7f537fd92000-7f537fd94000 -> /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2
+lr-------- 1 root root 64 Sep 15 15:53 7f537fd94000-7f537fd96000 -> /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2

@@ -1,0 +1,11 @@
+LANG=en_US.UTF-8
+PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+NOTIFY_SOCKET=/run/systemd/notify
+LISTEN_PID=226
+LISTEN_FDS=4
+LISTEN_FDNAMES=systemd-journald-dev-log.socket:systemd-journald-audit.socket:systemd-journald.socket:systemd-journald.socket
+WATCHDOG_PID=226
+WATCHDOG_USEC=180000000
+INVOCATION_ID=7638c659f4f043b4be33e104a9365985
+RUNTIME_DIRECTORY=/run/systemd/journal
+SYSTEMD_EXEC_PID=226

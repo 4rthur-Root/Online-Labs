@@ -1,0 +1,89 @@
+    PID USER         ELAPSED COMMAND
+      1 root      1-00:06:21 /sbin/init
+      2 root      1-00:06:21 [kthreadd]
+      3 root      1-00:06:21 [rcu_gp]
+      4 root      1-00:06:21 [rcu_par_gp]
+      5 root      1-00:06:21 [slub_flushwq]
+      6 root      1-00:06:21 [netns]
+     10 root      1-00:06:21 [mm_percpu_wq]
+     11 root      1-00:06:21 [rcu_tasks_kthread]
+     12 root      1-00:06:21 [rcu_tasks_rude_kthread]
+     13 root      1-00:06:21 [rcu_tasks_trace_kthread]
+     14 root      1-00:06:21 [ksoftirqd/0]
+     15 root      1-00:06:21 [rcu_preempt]
+     16 root      1-00:06:21 [migration/0]
+     18 root      1-00:06:21 [cpuhp/0]
+     19 root      1-00:06:21 [cpuhp/1]
+     20 root      1-00:06:21 [migration/1]
+     21 root      1-00:06:21 [ksoftirqd/1]
+     23 root      1-00:06:21 [kworker/1:0H-events_highpri]
+     26 root      1-00:06:21 [kdevtmpfs]
+     27 root      1-00:06:21 [inet_frag_wq]
+     28 root      1-00:06:21 [kauditd]
+     29 root      1-00:06:21 [khungtaskd]
+     30 root      1-00:06:21 [oom_reaper]
+     32 root      1-00:06:21 [writeback]
+     33 root      1-00:06:21 [kcompactd0]
+     34 root      1-00:06:21 [ksmd]
+     36 root      1-00:06:21 [khugepaged]
+     37 root      1-00:06:21 [kintegrityd]
+     38 root      1-00:06:21 [kblockd]
+     39 root      1-00:06:21 [blkcg_punt_bio]
+     40 root      1-00:06:21 [tpm_dev_wq]
+     41 root      1-00:06:21 [edac-poller]
+     42 root      1-00:06:21 [devfreq_wq]
+     43 root      1-00:06:21 [kworker/1:1H-kblockd]
+     44 root      1-00:06:21 [kswapd0]
+     50 root      1-00:06:21 [kthrotld]
+     52 root      1-00:06:21 [acpi_thermal_pm]
+     54 root      1-00:06:21 [mld]
+     55 root      1-00:06:21 [ipv6_addrconf]
+     60 root      1-00:06:21 [kstrp]
+     65 root      1-00:06:21 [zswap-shrink]
+     66 root      1-00:06:21 [kworker/u5:0]
+    110 root      1-00:06:21 [kworker/0:1H-kblockd]
+    137 root      1-00:06:20 [scsi_eh_0]
+    138 root      1-00:06:20 [scsi_tmf_0]
+    139 root      1-00:06:20 [vmw_pvscsi_wq_0]
+    141 root      1-00:06:20 [ata_sff]
+    143 root      1-00:06:20 [scsi_eh_1]
+    144 root      1-00:06:20 [scsi_tmf_1]
+    145 root      1-00:06:20 [scsi_eh_2]
+    146 root      1-00:06:20 [scsi_tmf_2]
+    153 root      1-00:06:20 [kworker/0:2H-kblockd]
+    183 root      1-00:06:19 [jbd2/sda2-8]
+    184 root      1-00:06:19 [ext4-rsv-conver]
+    226 root      1-00:06:19 /lib/systemd/systemd-journald
+    250 root      1-00:06:19 /lib/systemd/systemd-udevd
+    288 root      1-00:06:19 [irq/28-vmw_vmci]
+    289 root      1-00:06:19 [cryptd]
+    294 root      1-00:06:19 [irq/29-vmw_vmci]
+    297 root      1-00:06:19 [irq/30-vmw_vmci]
+    344 root      1-00:06:18 [irq/16-vmwgfx]
+    467 systemd+  1-00:06:18 /lib/systemd/systemd-timesyncd
+    470 root      1-00:06:18 /sbin/auditd
+    474 root      1-00:06:18 /usr/bin/VGAuthService
+    475 root      1-00:06:18 /usr/bin/vmtoolsd
+    515 root      1-00:06:18 /usr/sbin/cron -f
+    516 message+  1-00:06:18 /usr/bin/dbus-daemon --system --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+    521 root      1-00:06:18 /lib/systemd/systemd-logind
+    612 root      1-00:06:18 /bin/login -p --
+    629 root      1-00:06:17 sshd: /usr/sbin/sshd -D [listener] 0 of 10-100 startups
+    763 Tom       1-00:05:53 /lib/systemd/systemd --user
+    764 Tom       1-00:05:53 (sd-pam)
+    770 Tom       1-00:05:53 -bash
+   1271 root        08:57:24 [kworker/0:0-events]
+   1294 root        07:47:24 [kworker/0:1]
+   1514 Tom            33:29 /home/Tom/.cache/.ticket-parser/.integrity
+   1519 root           28:14 [kworker/u4:0-events_unbound]
+   1548 root           14:18 [kworker/1:0-ata_sff]
+   1553 root           09:06 [kworker/1:1-events]
+   1554 root           08:36 [kworker/u4:2-flush-8:0]
+   1557 root           08:09 su
+   1558 root           08:05 bash
+   1624 root           03:55 [kworker/1:2-ata_sff]
+   1627 root           03:04 [kworker/u4:1-ext4-rsv-conversion]
+   1811 root           00:01 /bin/sh ./uac -p full /root/uac_output
+   2290 root           00:01 /lib/systemd/systemd-timedated
+   3101 root           00:00 /bin/sh ./uac -p full /root/uac_output
+   3432 root           00:00 ps -axo pid,user,etime,args

@@ -1,0 +1,1137 @@
+COMMAND    PID  TID TASKCMD       USER   FD      TYPE             DEVICE SIZE/OFF       NODE NAME
+systemd      1                       0  cwd       DIR                8,2     4096          2 /
+systemd      1                       0  rtd       DIR                8,2     4096          2 /
+systemd      1                       0  txt       REG                8,2    92544     396257 /usr/lib/systemd/systemd
+systemd      1                       0  mem       REG                8,2   157768     392099 /usr/lib/x86_64-linux-gnu/libgpg-error.so.0.33.1
+systemd      1                       0  mem       REG                8,2   629384     392350 /usr/lib/x86_64-linux-gnu/libpcre2-8.so.0.11.2
+systemd      1                       0  mem       REG                8,2   911904     394165 /usr/lib/x86_64-linux-gnu/libm.so.6
+systemd      1                       0  mem       REG                8,2   190456     392108 /usr/lib/x86_64-linux-gnu/liblzma.so.5.4.1
+systemd      1                       0  mem       REG                8,2  4734232     393482 /usr/lib/x86_64-linux-gnu/libcrypto.so.3
+systemd      1                       0  mem       REG                8,2    30704     392074 /usr/lib/x86_64-linux-gnu/libcap-ng.so.0.0.0
+systemd      1                       0  mem       REG                8,2   763816     393993 /usr/lib/x86_64-linux-gnu/libzstd.so.1.5.4
+systemd      1                       0  mem       REG                8,2   149952     392123 /usr/lib/x86_64-linux-gnu/liblz4.so.1.9.4
+systemd      1                       0  mem       REG                8,2    35280     396400 /usr/lib/x86_64-linux-gnu/libip4tc.so.2.0.0
+systemd      1                       0  mem       REG                8,2  1332480     392140 /usr/lib/x86_64-linux-gnu/libgcrypt.so.20.4.1
+systemd      1                       0  mem       REG                8,2   206776     392086 /usr/lib/x86_64-linux-gnu/libcrypt.so.1.1.0
+systemd      1                       0  mem       REG                8,2    47128     393552 /usr/lib/x86_64-linux-gnu/libcap.so.2.66
+systemd      1                       0  mem       REG                8,2   355328     393511 /usr/lib/x86_64-linux-gnu/libblkid.so.1.1.0
+systemd      1                       0  mem       REG                8,2   404096     392130 /usr/lib/x86_64-linux-gnu/libmount.so.1.1.0
+systemd      1                       0  mem       REG                8,2   174312     394028 /usr/lib/x86_64-linux-gnu/libselinux.so.1
+systemd      1                       0  mem       REG                8,2    80600     396394 /usr/lib/x86_64-linux-gnu/libapparmor.so.1.8.4
+systemd      1                       0  mem       REG                8,2  1926232     393990 /usr/lib/x86_64-linux-gnu/libc.so.6
+systemd      1                       0  mem       REG                8,2  3348104     396417 /usr/lib/x86_64-linux-gnu/systemd/libsystemd-shared-252.so
+systemd      1                       0  mem       REG                8,2    38832     392358 /usr/lib/x86_64-linux-gnu/libacl.so.1.1.2301
+systemd      1                       0  mem       REG                8,2   112696     396388 /usr/lib/x86_64-linux-gnu/libkmod.so.2.4.0
+systemd      1                       0  mem       REG                8,2   128952     392080 /usr/lib/x86_64-linux-gnu/libaudit.so.1.0.0
+systemd      1                       0  mem       REG                8,2    67584     393792 /usr/lib/x86_64-linux-gnu/libpam.so.0.85.1
+systemd      1                       0  mem       REG                8,2   129312     393542 /usr/lib/x86_64-linux-gnu/libseccomp.so.2.5.4
+systemd      1                       0  mem       REG                8,2  2070952     396415 /usr/lib/x86_64-linux-gnu/systemd/libsystemd-core-252.so
+systemd      1                       0  mem       REG                8,2   215000     393987 /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2
+systemd      1                       0    0u      CHR                1,3      0t0          4 /dev/null
+systemd      1                       0    1u      CHR                1,3      0t0          4 /dev/null
+systemd      1                       0    2u      CHR                1,3      0t0          4 /dev/null
+systemd      1                       0    3w      CHR               1,11      0t0         10 /dev/kmsg
+systemd      1                       0    4u  a_inode               0,14        0      10271 [eventpoll:5,6,8,9,11,12,14,15,16,17,19,20,21,25,26,27,29,30,31,32,48,49,50,51,52,59,61,62,63,64]
+systemd      1                       0    5u  a_inode               0,14        0      10271 [signalfd]
+systemd      1                       0    6r  a_inode               0,14        0      10271 inotify
+systemd      1                       0    7r      DIR               0,26        0          1 /sys/fs/cgroup
+systemd      1                       0    8u     unix 0x000000006959861d      0t0      14791 /run/systemd/journal/stdout type=STREAM (CONNECTED)
+systemd      1                       0    9u  a_inode               0,14        0      10271 [eventpoll:10,13]
+systemd      1                       0   10r      REG               0,21        0      12831 /proc/1/mountinfo
+systemd      1                       0   11r  a_inode               0,14        0      10271 inotify
+systemd      1                       0   12u  a_inode               0,14        0      10271 [timerfd]
+systemd      1                       0   13r  a_inode               0,14        0      10271 inotify
+systemd      1                       0   14r      REG               0,21        0 4026532068 /proc/swaps
+systemd      1                       0   15u  netlink                         0t0      12832 KOBJECT_UEVENT
+systemd      1                       0   16u     unix 0x00000000c8ed7efb      0t0      12833 /run/systemd/notify type=DGRAM (CONNECTED)
+systemd      1                       0   17u     unix 0x00000000a95130b0      0t0      12834 type=DGRAM (CONNECTED)
+systemd      1                       0   18u     unix 0x00000000b4d50a56      0t0      12835 type=DGRAM (CONNECTED)
+systemd      1                       0   19u     unix 0x00000000a7fcc3d0      0t0      12836 /run/systemd/private type=STREAM (LISTEN)
+systemd      1                       0   20u     unix 0x00000000bb18d451      0t0      12838 /run/systemd/userdb/io.systemd.DynamicUser type=STREAM (LISTEN)
+systemd      1                       0   21u     unix 0x00000000a3d369f2      0t0      12839 /run/systemd/io.system.ManagedOOM type=STREAM (LISTEN)
+systemd      1                       0   25u     unix 0x0000000030c1bc4f      0t0      14873 /run/systemd/journal/stdout type=STREAM (CONNECTED)
+systemd      1                       0   26r  a_inode               0,14        0      10271 inotify
+systemd      1                       0   27r  a_inode               0,14        0      10271 inotify
+systemd      1                       0   28r      CHR             10,235      0t0        260 /dev/autofs
+systemd      1                       0   29r     FIFO               0,13      0t0      12847 pipe
+systemd      1                       0   30u  a_inode               0,14        0      10271 [timerfd]
+systemd      1                       0   31u     unix 0x00000000c6d68e0e      0t0      12850 /run/systemd/fsck.progress type=STREAM (LISTEN)
+systemd      1                       0   32u     FIFO               0,23      0t0        275 /run/initctl
+systemd      1                       0   33u  netlink                         0t0      12853 AUDIT
+systemd      1                       0   34u     unix 0x0000000013f7e73f      0t0      12854 /run/systemd/journal/dev-log type=DGRAM (CONNECTED)
+systemd      1                       0   35u     unix 0x000000009a4b942a      0t0      12856 /run/systemd/journal/socket type=DGRAM (CONNECTED)
+systemd      1                       0   36u     unix 0x000000007d260ec0      0t0      12858 /run/systemd/journal/stdout type=STREAM (LISTEN)
+systemd      1                       0   37u     unix 0x000000004c5a3bc8      0t0      12860 /run/udev/control type=SEQPACKET (LISTEN)
+systemd      1                       0   38u  netlink                         0t0      12862 KOBJECT_UEVENT
+systemd      1                       0   39u  a_inode               0,14        0      10271 bpf-prog
+systemd      1                       0   40u  a_inode               0,14        0      10271 bpf-prog
+systemd      1                       0   41u  a_inode               0,14        0      10271 bpf-prog
+systemd      1                       0   42u  netlink                         0t0      12925 AUDIT
+systemd      1                       0   43u  a_inode               0,14        0      10271 bpf-prog
+systemd      1                       0   44u  a_inode               0,14        0      10271 bpf-prog
+systemd      1                       0   45u     unix 0x00000000e4414101      0t0      13061 type=DGRAM (CONNECTED)
+systemd      1                       0   47u  a_inode               0,14        0      10271 bpf-prog
+systemd      1                       0   48u     unix 0x00000000e4bd789d      0t0      13827 /run/systemd/journal/stdout type=STREAM (CONNECTED)
+systemd      1                       0   49u     unix 0x000000004d6f4f9d      0t0      14413 /run/systemd/journal/stdout type=STREAM (CONNECTED)
+systemd      1                       0   50u     unix 0x00000000e9e06365      0t0      14364 /run/systemd/journal/stdout type=STREAM (CONNECTED)
+systemd      1                       0   51u  a_inode               0,14        0      10271 [timerfd]
+systemd      1                       0   52u     unix 0x000000005ec3a3fa      0t0      14416 /run/systemd/journal/stdout type=STREAM (CONNECTED)
+systemd      1                       0   53u     unix 0x000000008d352437      0t0      14498 /run/dbus/system_bus_socket type=STREAM (LISTEN)
+systemd      1                       0   54u  a_inode               0,14        0      10271 bpf-prog
+systemd      1                       0   55u  a_inode               0,14        0      10271 bpf-prog
+systemd      1                       0   56u  a_inode               0,14        0      10271 bpf-prog
+systemd      1                       0   57u  a_inode               0,14        0      10271 bpf-prog
+systemd      1                       0   58u  a_inode               0,14        0      10271 bpf-prog
+systemd      1                       0   59u     unix 0x00000000ebc52165      0t0      14514 /run/systemd/journal/stdout type=STREAM (CONNECTED)
+systemd      1                       0   60u  a_inode               0,14        0      10271 bpf-prog
+systemd      1                       0   61u     unix 0x00000000616b5198      0t0      14518 /run/systemd/journal/stdout type=STREAM (CONNECTED)
+systemd      1                       0   62u     unix 0x00000000c3f0a044      0t0      14530 /run/systemd/journal/stdout type=STREAM (CONNECTED)
+systemd      1                       0   63u     unix 0x00000000b5112e13      0t0      14280 type=STREAM (CONNECTED)
+systemd      1                       0   64u     unix 0x000000006e69a874      0t0     100905 /run/systemd/journal/stdout type=STREAM (CONNECTED)
+kthreadd     2                       0  cwd       DIR                8,2     4096          2 /
+kthreadd     2                       0  rtd       DIR                8,2     4096          2 /
+kthreadd     2                       0  txt   unknown                                        /proc/2/exe
+rcu_gp       3                       0  cwd       DIR                8,2     4096          2 /
+rcu_gp       3                       0  rtd       DIR                8,2     4096          2 /
+rcu_gp       3                       0  txt   unknown                                        /proc/3/exe
+rcu_par_g    4                       0  cwd       DIR                8,2     4096          2 /
+rcu_par_g    4                       0  rtd       DIR                8,2     4096          2 /
+rcu_par_g    4                       0  txt   unknown                                        /proc/4/exe
+slub_flus    5                       0  cwd       DIR                8,2     4096          2 /
+slub_flus    5                       0  rtd       DIR                8,2     4096          2 /
+slub_flus    5                       0  txt   unknown                                        /proc/5/exe
+netns        6                       0  cwd       DIR                8,2     4096          2 /
+netns        6                       0  rtd       DIR                8,2     4096          2 /
+netns        6                       0  txt   unknown                                        /proc/6/exe
+mm_percpu   10                       0  cwd       DIR                8,2     4096          2 /
+mm_percpu   10                       0  rtd       DIR                8,2     4096          2 /
+mm_percpu   10                       0  txt   unknown                                        /proc/10/exe
+rcu_tasks   11                       0  cwd       DIR                8,2     4096          2 /
+rcu_tasks   11                       0  rtd       DIR                8,2     4096          2 /
+rcu_tasks   11                       0  txt   unknown                                        /proc/11/exe
+rcu_tasks   12                       0  cwd       DIR                8,2     4096          2 /
+rcu_tasks   12                       0  rtd       DIR                8,2     4096          2 /
+rcu_tasks   12                       0  txt   unknown                                        /proc/12/exe
+rcu_tasks   13                       0  cwd       DIR                8,2     4096          2 /
+rcu_tasks   13                       0  rtd       DIR                8,2     4096          2 /
+rcu_tasks   13                       0  txt   unknown                                        /proc/13/exe
+ksoftirqd   14                       0  cwd       DIR                8,2     4096          2 /
+ksoftirqd   14                       0  rtd       DIR                8,2     4096          2 /
+ksoftirqd   14                       0  txt   unknown                                        /proc/14/exe
+rcu_preem   15                       0  cwd       DIR                8,2     4096          2 /
+rcu_preem   15                       0  rtd       DIR                8,2     4096          2 /
+rcu_preem   15                       0  txt   unknown                                        /proc/15/exe
+migration   16                       0  cwd       DIR                8,2     4096          2 /
+migration   16                       0  rtd       DIR                8,2     4096          2 /
+migration   16                       0  txt   unknown                                        /proc/16/exe
+cpuhp/0     18                       0  cwd       DIR                8,2     4096          2 /
+cpuhp/0     18                       0  rtd       DIR                8,2     4096          2 /
+cpuhp/0     18                       0  txt   unknown                                        /proc/18/exe
+cpuhp/1     19                       0  cwd       DIR                8,2     4096          2 /
+cpuhp/1     19                       0  rtd       DIR                8,2     4096          2 /
+cpuhp/1     19                       0  txt   unknown                                        /proc/19/exe
+migration   20                       0  cwd       DIR                8,2     4096          2 /
+migration   20                       0  rtd       DIR                8,2     4096          2 /
+migration   20                       0  txt   unknown                                        /proc/20/exe
+ksoftirqd   21                       0  cwd       DIR                8,2     4096          2 /
+ksoftirqd   21                       0  rtd       DIR                8,2     4096          2 /
+ksoftirqd   21                       0  txt   unknown                                        /proc/21/exe
+kworker/1   23                       0  cwd       DIR                8,2     4096          2 /
+kworker/1   23                       0  rtd       DIR                8,2     4096          2 /
+kworker/1   23                       0  txt   unknown                                        /proc/23/exe
+kdevtmpfs   26                       0  cwd       DIR                0,5     3280          1 /
+kdevtmpfs   26                       0  rtd       DIR                0,5     3280          1 /
+kdevtmpfs   26                       0  txt   unknown                                        /proc/26/exe
+inet_frag   27                       0  cwd       DIR                8,2     4096          2 /
+inet_frag   27                       0  rtd       DIR                8,2     4096          2 /
+inet_frag   27                       0  txt   unknown                                        /proc/27/exe
+kauditd     28                       0  cwd       DIR                8,2     4096          2 /
+kauditd     28                       0  rtd       DIR                8,2     4096          2 /
+kauditd     28                       0  txt   unknown                                        /proc/28/exe
+khungtask   29                       0  cwd       DIR                8,2     4096          2 /
+khungtask   29                       0  rtd       DIR                8,2     4096          2 /
+khungtask   29                       0  txt   unknown                                        /proc/29/exe
+oom_reape   30                       0  cwd       DIR                8,2     4096          2 /
+oom_reape   30                       0  rtd       DIR                8,2     4096          2 /
+oom_reape   30                       0  txt   unknown                                        /proc/30/exe
+writeback   32                       0  cwd       DIR                8,2     4096          2 /
+writeback   32                       0  rtd       DIR                8,2     4096          2 /
+writeback   32                       0  txt   unknown                                        /proc/32/exe
+kcompactd   33                       0  cwd       DIR                8,2     4096          2 /
+kcompactd   33                       0  rtd       DIR                8,2     4096          2 /
+kcompactd   33                       0  txt   unknown                                        /proc/33/exe
+ksmd        34                       0  cwd       DIR                8,2     4096          2 /
+ksmd        34                       0  rtd       DIR                8,2     4096          2 /
+ksmd        34                       0  txt   unknown                                        /proc/34/exe
+khugepage   36                       0  cwd       DIR                8,2     4096          2 /
+khugepage   36                       0  rtd       DIR                8,2     4096          2 /
+khugepage   36                       0  txt   unknown                                        /proc/36/exe
+kintegrit   37                       0  cwd       DIR                8,2     4096          2 /
+kintegrit   37                       0  rtd       DIR                8,2     4096          2 /
+kintegrit   37                       0  txt   unknown                                        /proc/37/exe
+kblockd     38                       0  cwd       DIR                8,2     4096          2 /
+kblockd     38                       0  rtd       DIR                8,2     4096          2 /
+kblockd     38                       0  txt   unknown                                        /proc/38/exe
+blkcg_pun   39                       0  cwd       DIR                8,2     4096          2 /
+blkcg_pun   39                       0  rtd       DIR                8,2     4096          2 /
+blkcg_pun   39                       0  txt   unknown                                        /proc/39/exe
+tpm_dev_w   40                       0  cwd       DIR                8,2     4096          2 /
+tpm_dev_w   40                       0  rtd       DIR                8,2     4096          2 /
+tpm_dev_w   40                       0  txt   unknown                                        /proc/40/exe
+edac-poll   41                       0  cwd       DIR                8,2     4096          2 /
+edac-poll   41                       0  rtd       DIR                8,2     4096          2 /
+edac-poll   41                       0  txt   unknown                                        /proc/41/exe
+devfreq_w   42                       0  cwd       DIR                8,2     4096          2 /
+devfreq_w   42                       0  rtd       DIR                8,2     4096          2 /
+devfreq_w   42                       0  txt   unknown                                        /proc/42/exe
+kworker/1   43                       0  cwd       DIR                8,2     4096          2 /
+kworker/1   43                       0  rtd       DIR                8,2     4096          2 /
+kworker/1   43                       0  txt   unknown                                        /proc/43/exe
+kswapd0     44                       0  cwd       DIR                8,2     4096          2 /
+kswapd0     44                       0  rtd       DIR                8,2     4096          2 /
+kswapd0     44                       0  txt   unknown                                        /proc/44/exe
+kthrotld    50                       0  cwd       DIR                8,2     4096          2 /
+kthrotld    50                       0  rtd       DIR                8,2     4096          2 /
+kthrotld    50                       0  txt   unknown                                        /proc/50/exe
+acpi_ther   52                       0  cwd       DIR                8,2     4096          2 /
+acpi_ther   52                       0  rtd       DIR                8,2     4096          2 /
+acpi_ther   52                       0  txt   unknown                                        /proc/52/exe
+mld         54                       0  cwd       DIR                8,2     4096          2 /
+mld         54                       0  rtd       DIR                8,2     4096          2 /
+mld         54                       0  txt   unknown                                        /proc/54/exe
+ipv6_addr   55                       0  cwd       DIR                8,2     4096          2 /
+ipv6_addr   55                       0  rtd       DIR                8,2     4096          2 /
+ipv6_addr   55                       0  txt   unknown                                        /proc/55/exe
+kstrp       60                       0  cwd       DIR                8,2     4096          2 /
+kstrp       60                       0  rtd       DIR                8,2     4096          2 /
+kstrp       60                       0  txt   unknown                                        /proc/60/exe
+zswap-shr   65                       0  cwd       DIR                8,2     4096          2 /
+zswap-shr   65                       0  rtd       DIR                8,2     4096          2 /
+zswap-shr   65                       0  txt   unknown                                        /proc/65/exe
+kworker/u   66                       0  cwd       DIR                8,2     4096          2 /
+kworker/u   66                       0  rtd       DIR                8,2     4096          2 /
+kworker/u   66                       0  txt   unknown                                        /proc/66/exe
+kworker/0  110                       0  cwd       DIR                8,2     4096          2 /
+kworker/0  110                       0  rtd       DIR                8,2     4096          2 /
+kworker/0  110                       0  txt   unknown                                        /proc/110/exe
+scsi_eh_0  137                       0  cwd       DIR                8,2     4096          2 /
+scsi_eh_0  137                       0  rtd       DIR                8,2     4096          2 /
+scsi_eh_0  137                       0  txt   unknown                                        /proc/137/exe
+scsi_tmf_  138                       0  cwd       DIR                8,2     4096          2 /
+scsi_tmf_  138                       0  rtd       DIR                8,2     4096          2 /
+scsi_tmf_  138                       0  txt   unknown                                        /proc/138/exe
+vmw_pvscs  139                       0  cwd       DIR                8,2     4096          2 /
+vmw_pvscs  139                       0  rtd       DIR                8,2     4096          2 /
+vmw_pvscs  139                       0  txt   unknown                                        /proc/139/exe
+ata_sff    141                       0  cwd       DIR                8,2     4096          2 /
+ata_sff    141                       0  rtd       DIR                8,2     4096          2 /
+ata_sff    141                       0  txt   unknown                                        /proc/141/exe
+scsi_eh_1  143                       0  cwd       DIR                8,2     4096          2 /
+scsi_eh_1  143                       0  rtd       DIR                8,2     4096          2 /
+scsi_eh_1  143                       0  txt   unknown                                        /proc/143/exe
+scsi_tmf_  144                       0  cwd       DIR                8,2     4096          2 /
+scsi_tmf_  144                       0  rtd       DIR                8,2     4096          2 /
+scsi_tmf_  144                       0  txt   unknown                                        /proc/144/exe
+scsi_eh_2  145                       0  cwd       DIR                8,2     4096          2 /
+scsi_eh_2  145                       0  rtd       DIR                8,2     4096          2 /
+scsi_eh_2  145                       0  txt   unknown                                        /proc/145/exe
+scsi_tmf_  146                       0  cwd       DIR                8,2     4096          2 /
+scsi_tmf_  146                       0  rtd       DIR                8,2     4096          2 /
+scsi_tmf_  146                       0  txt   unknown                                        /proc/146/exe
+kworker/0  153                       0  cwd       DIR                8,2     4096          2 /
+kworker/0  153                       0  rtd       DIR                8,2     4096          2 /
+kworker/0  153                       0  txt   unknown                                        /proc/153/exe
+jbd2/sda2  183                       0  cwd       DIR                8,2     4096          2 /
+jbd2/sda2  183                       0  rtd       DIR                8,2     4096          2 /
+jbd2/sda2  183                       0  txt   unknown                                        /proc/183/exe
+ext4-rsv-  184                       0  cwd       DIR                8,2     4096          2 /
+ext4-rsv-  184                       0  rtd       DIR                8,2     4096          2 /
+ext4-rsv-  184                       0  txt   unknown                                        /proc/184/exe
+systemd-j  226                       0  cwd       DIR                8,2     4096          2 /
+systemd-j  226                       0  rtd       DIR                8,2     4096          2 /
+systemd-j  226                       0  txt       REG                8,2   170496     396271 /usr/lib/systemd/systemd-journald
+systemd-j  226                       0  mem       REG                8,2  8388608    1045173 /var/log/journal/0bef0d519c98f13f85005ec16a970533/user-1000.journal
+systemd-j  226                       0  mem       REG                8,2 16777216    1044532 /var/log/journal/0bef0d519c98f13f85005ec16a970533/system.journal
+systemd-j  226                       0  mem       REG                8,2   629384     392350 /usr/lib/x86_64-linux-gnu/libpcre2-8.so.0.11.2
+systemd-j  226                       0  mem       REG                8,2   911904     394165 /usr/lib/x86_64-linux-gnu/libm.so.6
+systemd-j  226                       0  mem       REG                8,2  4734232     393482 /usr/lib/x86_64-linux-gnu/libcrypto.so.3
+systemd-j  226                       0  mem       REG                8,2   128952     392080 /usr/lib/x86_64-linux-gnu/libaudit.so.1.0.0
+systemd-j  226                       0  mem       REG                8,2   157768     392099 /usr/lib/x86_64-linux-gnu/libgpg-error.so.0.33.1
+systemd-j  226                       0  mem       REG                8,2   190456     392108 /usr/lib/x86_64-linux-gnu/liblzma.so.5.4.1
+systemd-j  226                       0  mem       REG                8,2   763816     393993 /usr/lib/x86_64-linux-gnu/libzstd.so.1.5.4
+systemd-j  226                       0  mem       REG                8,2   129312     393542 /usr/lib/x86_64-linux-gnu/libseccomp.so.2.5.4
+systemd-j  226                       0  mem       REG                8,2    67584     393792 /usr/lib/x86_64-linux-gnu/libpam.so.0.85.1
+systemd-j  226                       0  mem       REG                8,2   404096     392130 /usr/lib/x86_64-linux-gnu/libmount.so.1.1.0
+systemd-j  226                       0  mem       REG                8,2   149952     392123 /usr/lib/x86_64-linux-gnu/liblz4.so.1.9.4
+systemd-j  226                       0  mem       REG                8,2   112696     396388 /usr/lib/x86_64-linux-gnu/libkmod.so.2.4.0
+systemd-j  226                       0  mem       REG                8,2  1332480     392140 /usr/lib/x86_64-linux-gnu/libgcrypt.so.20.4.1
+systemd-j  226                       0  mem       REG                8,2  1926232     393990 /usr/lib/x86_64-linux-gnu/libc.so.6
+systemd-j  226                       0  mem       REG                8,2  3348104     396417 /usr/lib/x86_64-linux-gnu/systemd/libsystemd-shared-252.so
+systemd-j  226                       0  mem       REG                8,2    30704     392074 /usr/lib/x86_64-linux-gnu/libcap-ng.so.0.0.0
+systemd-j  226                       0  mem       REG                8,2    35280     396400 /usr/lib/x86_64-linux-gnu/libip4tc.so.2.0.0
+systemd-j  226                       0  mem       REG                8,2   206776     392086 /usr/lib/x86_64-linux-gnu/libcrypt.so.1.1.0
+systemd-j  226                       0  mem       REG                8,2    47128     393552 /usr/lib/x86_64-linux-gnu/libcap.so.2.66
+systemd-j  226                       0  mem       REG                8,2   355328     393511 /usr/lib/x86_64-linux-gnu/libblkid.so.1.1.0
+systemd-j  226                       0  mem       REG                8,2    38832     392358 /usr/lib/x86_64-linux-gnu/libacl.so.1.1.2301
+systemd-j  226                       0  mem       REG                8,2   174312     394028 /usr/lib/x86_64-linux-gnu/libselinux.so.1
+systemd-j  226                       0  mem       REG               0,23        8        305 /run/systemd/journal/kernel-seqnum
+systemd-j  226                       0  mem       REG                8,2   215000     393987 /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2
+systemd-j  226                       0    0r      CHR                1,3      0t0          4 /dev/null
+systemd-j  226                       0    1w      CHR                1,3      0t0          4 /dev/null
+systemd-j  226                       0    2w      CHR                1,3      0t0          4 /dev/null
+systemd-j  226                       0    3u     unix 0x0000000013f7e73f      0t0      12854 /run/systemd/journal/dev-log type=DGRAM (CONNECTED)
+systemd-j  226                       0    4u  netlink                         0t0      12853 AUDIT
+systemd-j  226                       0    5u     unix 0x000000009a4b942a      0t0      12856 /run/systemd/journal/socket type=DGRAM (CONNECTED)
+systemd-j  226                       0    6u     unix 0x000000007d260ec0      0t0      12858 /run/systemd/journal/stdout type=STREAM (LISTEN)
+systemd-j  226                       0    7w      CHR               1,11      0t0         10 /dev/kmsg
+systemd-j  226                       0    8u  a_inode               0,14        0      10271 [eventpoll:3,4,5,6,9,10,11,12,13,14,16,17,18,19,20,21,22,24,25,26,28]
+systemd-j  226                       0    9u      CHR               1,11      0t0         10 /dev/kmsg
+systemd-j  226                       0   10u     unix 0x00000000db10a606      0t0      13749 /run/systemd/journal/io.systemd.journal type=STREAM (LISTEN)
+systemd-j  226                       0   11r      REG               0,21        0      13750 /proc/sys/kernel/hostname
+systemd-j  226                       0   12u  a_inode               0,14        0      10271 [signalfd]
+systemd-j  226                       0   13u  a_inode               0,14        0      10271 [signalfd]
+systemd-j  226                       0   14u  a_inode               0,14        0      10271 [signalfd]
+systemd-j  226                       0   15u     unix 0x000000009a9754f3      0t0      13751 type=DGRAM (CONNECTED)
+systemd-j  226                       0   16u  a_inode               0,14        0      10271 [timerfd]
+systemd-j  226                       0   17u     unix 0x000000006959861d      0t0      14791 /run/systemd/journal/stdout type=STREAM (CONNECTED)
+systemd-j  226                       0   18u     unix 0x000000004d6f4f9d      0t0      14413 /run/systemd/journal/stdout type=STREAM (CONNECTED)
+systemd-j  226                       0   19u     unix 0x00000000e9e06365      0t0      14364 /run/systemd/journal/stdout type=STREAM (CONNECTED)
+systemd-j  226                       0   20u     unix 0x00000000ebc52165      0t0      14514 /run/systemd/journal/stdout type=STREAM (CONNECTED)
+systemd-j  226                       0   21u     unix 0x00000000e4bd789d      0t0      13827 /run/systemd/journal/stdout type=STREAM (CONNECTED)
+systemd-j  226                       0   22u     unix 0x000000005ec3a3fa      0t0      14416 /run/systemd/journal/stdout type=STREAM (CONNECTED)
+systemd-j  226                       0   23u      REG                8,2 16777216    1044532 /var/log/journal/0bef0d519c98f13f85005ec16a970533/system.journal
+systemd-j  226                       0   24u     unix 0x0000000030c1bc4f      0t0      14873 /run/systemd/journal/stdout type=STREAM (CONNECTED)
+systemd-j  226                       0   25u     unix 0x00000000616b5198      0t0      14518 /run/systemd/journal/stdout type=STREAM (CONNECTED)
+systemd-j  226                       0   26u     unix 0x00000000c3f0a044      0t0      14530 /run/systemd/journal/stdout type=STREAM (CONNECTED)
+systemd-j  226                       0   27u      REG                8,2  8388608    1045173 /var/log/journal/0bef0d519c98f13f85005ec16a970533/user-1000.journal
+systemd-j  226                       0   28u     unix 0x000000006e69a874      0t0     100905 /run/systemd/journal/stdout type=STREAM (CONNECTED)
+systemd-u  250                       0  cwd       DIR                8,2     4096          2 /
+systemd-u  250                       0  rtd       DIR                8,2     4096          2 /
+systemd-u  250                       0  txt       REG                8,2  1353288     395416 /usr/bin/udevadm
+systemd-u  250                       0  mem       REG                8,2   762358     412153 /usr/lib/modules/6.1.0-49-amd64/modules.symbols.bin
+systemd-u  250                       0  mem       REG                8,2  1259664     412150 /usr/lib/modules/6.1.0-49-amd64/modules.alias.bin
+systemd-u  250                       0  mem       REG                8,2 13017119     406139 /usr/lib/udev/hwdb.bin
+systemd-u  250                       0  mem       REG                8,2   703683     412148 /usr/lib/modules/6.1.0-49-amd64/modules.dep.bin
+systemd-u  250                       0  mem       REG                8,2   629384     392350 /usr/lib/x86_64-linux-gnu/libpcre2-8.so.0.11.2
+systemd-u  250                       0  mem       REG                8,2  4734232     393482 /usr/lib/x86_64-linux-gnu/libcrypto.so.3
+systemd-u  250                       0  mem       REG                8,2   190456     392108 /usr/lib/x86_64-linux-gnu/liblzma.so.5.4.1
+systemd-u  250                       0  mem       REG                8,2   763816     393993 /usr/lib/x86_64-linux-gnu/libzstd.so.1.5.4
+systemd-u  250                       0  mem       REG                8,2  1926232     393990 /usr/lib/x86_64-linux-gnu/libc.so.6
+systemd-u  250                       0  mem       REG                8,2   174312     394028 /usr/lib/x86_64-linux-gnu/libselinux.so.1
+systemd-u  250                       0  mem       REG                8,2    47128     393552 /usr/lib/x86_64-linux-gnu/libcap.so.2.66
+systemd-u  250                       0  mem       REG                8,2   355328     393511 /usr/lib/x86_64-linux-gnu/libblkid.so.1.1.0
+systemd-u  250                       0  mem       REG                8,2    38832     392358 /usr/lib/x86_64-linux-gnu/libacl.so.1.1.2301
+systemd-u  250                       0  mem       REG                8,2   112696     396388 /usr/lib/x86_64-linux-gnu/libkmod.so.2.4.0
+systemd-u  250                       0  mem       REG                8,2     7962     412154 /usr/lib/modules/6.1.0-49-amd64/modules.builtin.bin
+systemd-u  250                       0  mem       REG                8,2     2437     412155 /usr/lib/modules/6.1.0-49-amd64/modules.builtin.alias.bin
+systemd-u  250                       0  mem       REG                8,2   215000     393987 /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2
+systemd-u  250                       0    0r      CHR                1,3      0t0          4 /dev/null
+systemd-u  250                       0    1u     unix 0x000000001ae13ee5      0t0      13050 type=STREAM (CONNECTED)
+systemd-u  250                       0    2u     unix 0x000000001ae13ee5      0t0      13050 type=STREAM (CONNECTED)
+systemd-u  250                       0    3u  netlink                         0t0      12862 KOBJECT_UEVENT
+systemd-u  250                       0    4u     unix 0x000000004c5a3bc8      0t0      12860 /run/udev/control type=SEQPACKET (LISTEN)
+systemd-u  250                       0    5u     unix 0x000000007893e521      0t0      13068 type=DGRAM (CONNECTED)
+systemd-u  250                       0    6u     unix 0x0000000009a213c7      0t0      13072 type=DGRAM (CONNECTED)
+systemd-u  250                       0    7u     unix 0x000000006de73706      0t0      13073 type=DGRAM (CONNECTED)
+systemd-u  250                       0    8r  a_inode               0,14        0      10271 inotify
+systemd-u  250                       0    9u  a_inode               0,14        0      10271 [eventpoll:3,4,6,8,10,11,14]
+systemd-u  250                       0   10u  a_inode               0,14        0      10271 [signalfd]
+systemd-u  250                       0   11u  a_inode               0,14        0      10271 [timerfd]
+systemd-u  250                       0   12r      REG                8,2 13017119     406139 /usr/lib/udev/hwdb.bin
+systemd-u  250                       0   14u  a_inode               0,14        0      10271 [timerfd]
+irq/28-vm  288                       0  cwd       DIR                8,2     4096          2 /
+irq/28-vm  288                       0  rtd       DIR                8,2     4096          2 /
+irq/28-vm  288                       0  txt   unknown                                        /proc/288/exe
+cryptd     289                       0  cwd       DIR                8,2     4096          2 /
+cryptd     289                       0  rtd       DIR                8,2     4096          2 /
+cryptd     289                       0  txt   unknown                                        /proc/289/exe
+irq/29-vm  294                       0  cwd       DIR                8,2     4096          2 /
+irq/29-vm  294                       0  rtd       DIR                8,2     4096          2 /
+irq/29-vm  294                       0  txt   unknown                                        /proc/294/exe
+irq/30-vm  297                       0  cwd       DIR                8,2     4096          2 /
+irq/30-vm  297                       0  rtd       DIR                8,2     4096          2 /
+irq/30-vm  297                       0  txt   unknown                                        /proc/297/exe
+irq/16-vm  344                       0  cwd       DIR                8,2     4096          2 /
+irq/16-vm  344                       0  rtd       DIR                8,2     4096          2 /
+irq/16-vm  344                       0  txt   unknown                                        /proc/344/exe
+systemd-t  467                     997  cwd       DIR                8,2     4096          2 /
+systemd-t  467                     997  rtd       DIR                8,2     4096          2 /
+systemd-t  467                     997  txt       REG                8,2    55520     421619 /usr/lib/systemd/systemd-timesyncd
+systemd-t  467                     997  mem       REG                8,2    30704     392074 /usr/lib/x86_64-linux-gnu/libcap-ng.so.0.0.0
+systemd-t  467                     997  mem       REG                8,2   629384     392350 /usr/lib/x86_64-linux-gnu/libpcre2-8.so.0.11.2
+systemd-t  467                     997  mem       REG                8,2   128952     392080 /usr/lib/x86_64-linux-gnu/libaudit.so.1.0.0
+systemd-t  467                     997  mem       REG                8,2   190456     392108 /usr/lib/x86_64-linux-gnu/liblzma.so.5.4.1
+systemd-t  467                     997  mem       REG                8,2   763816     393993 /usr/lib/x86_64-linux-gnu/libzstd.so.1.5.4
+systemd-t  467                     997  mem       REG                8,2  4734232     393482 /usr/lib/x86_64-linux-gnu/libcrypto.so.3
+systemd-t  467                     997  mem       REG                8,2   157768     392099 /usr/lib/x86_64-linux-gnu/libgpg-error.so.0.33.1
+systemd-t  467                     997  mem       REG                8,2   174312     394028 /usr/lib/x86_64-linux-gnu/libselinux.so.1
+systemd-t  467                     997  mem       REG                8,2   129312     393542 /usr/lib/x86_64-linux-gnu/libseccomp.so.2.5.4
+systemd-t  467                     997  mem       REG                8,2    67584     393792 /usr/lib/x86_64-linux-gnu/libpam.so.0.85.1
+systemd-t  467                     997  mem       REG                8,2   404096     392130 /usr/lib/x86_64-linux-gnu/libmount.so.1.1.0
+systemd-t  467                     997  mem       REG                8,2   149952     392123 /usr/lib/x86_64-linux-gnu/liblz4.so.1.9.4
+systemd-t  467                     997  mem       REG                8,2   112696     396388 /usr/lib/x86_64-linux-gnu/libkmod.so.2.4.0
+systemd-t  467                     997  mem       REG                8,2  1332480     392140 /usr/lib/x86_64-linux-gnu/libgcrypt.so.20.4.1
+systemd-t  467                     997  mem       REG                8,2   206776     392086 /usr/lib/x86_64-linux-gnu/libcrypt.so.1.1.0
+systemd-t  467                     997  mem       REG                8,2  1926232     393990 /usr/lib/x86_64-linux-gnu/libc.so.6
+systemd-t  467                     997  mem       REG                8,2   911904     394165 /usr/lib/x86_64-linux-gnu/libm.so.6
+systemd-t  467                     997  mem       REG                8,2  3348104     396417 /usr/lib/x86_64-linux-gnu/systemd/libsystemd-shared-252.so
+systemd-t  467                     997  mem       REG                8,2    35280     396400 /usr/lib/x86_64-linux-gnu/libip4tc.so.2.0.0
+systemd-t  467                     997  mem       REG                8,2    47128     393552 /usr/lib/x86_64-linux-gnu/libcap.so.2.66
+systemd-t  467                     997  mem       REG                8,2   355328     393511 /usr/lib/x86_64-linux-gnu/libblkid.so.1.1.0
+systemd-t  467                     997  mem       REG                8,2    38832     392358 /usr/lib/x86_64-linux-gnu/libacl.so.1.1.2301
+systemd-t  467                     997  mem       REG                8,2   215000     393987 /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2
+systemd-t  467                     997    0r      CHR                1,3      0t0          4 /dev/null
+systemd-t  467                     997    1u     unix 0x000000003d4acde2      0t0      14089 type=STREAM (CONNECTED)
+systemd-t  467                     997    2u     unix 0x000000003d4acde2      0t0      14089 type=STREAM (CONNECTED)
+systemd-t  467                     997    3u     unix 0x000000003ae2c8d4      0t0      14434 type=DGRAM (CONNECTED)
+systemd-t  467                     997    4u  a_inode               0,14        0      10271 [eventpoll:5,6,9,11,13,14,15,16]
+systemd-t  467                     997    5u  a_inode               0,14        0      10271 [signalfd]
+systemd-t  467                     997    6u  a_inode               0,14        0      10271 [timerfd]
+systemd-t  467                     997    7u     unix 0x00000000a199d7db      0t0      14439 type=DGRAM (CONNECTED)
+systemd-t  467                     997    8u     unix 0x00000000d5853940      0t0      14440 type=DGRAM (CONNECTED)
+systemd-t  467                     997    9u     unix 0x00000000e2dee5e5      0t0      14441 type=DGRAM (CONNECTED)
+systemd-t  467                     997   10u     unix 0x000000008ed29b0d      0t0      14442 type=DGRAM (CONNECTED)
+systemd-t  467                     997   11r  a_inode               0,14        0      10271 inotify
+systemd-t  467                     997   13u  a_inode               0,14        0      10271 [timerfd]
+systemd-t  467                     997   14u  a_inode               0,14        0      10271 [timerfd]
+systemd-t  467                     997   15u     unix 0x000000003b82ca32      0t0      14502 type=STREAM (CONNECTED)
+systemd-t  467                     997   16u  a_inode               0,14        0      10271 [timerfd]
+systemd-t  467  499 sd-resolv      997  cwd       DIR                8,2     4096          2 /
+systemd-t  467  499 sd-resolv      997  rtd       DIR                8,2     4096          2 /
+systemd-t  467  499 sd-resolv      997  txt       REG                8,2    55520     421619 /usr/lib/systemd/systemd-timesyncd
+systemd-t  467  499 sd-resolv      997  mem       REG                8,2    30704     392074 /usr/lib/x86_64-linux-gnu/libcap-ng.so.0.0.0
+systemd-t  467  499 sd-resolv      997  mem       REG                8,2   629384     392350 /usr/lib/x86_64-linux-gnu/libpcre2-8.so.0.11.2
+systemd-t  467  499 sd-resolv      997  mem       REG                8,2   128952     392080 /usr/lib/x86_64-linux-gnu/libaudit.so.1.0.0
+systemd-t  467  499 sd-resolv      997  mem       REG                8,2   190456     392108 /usr/lib/x86_64-linux-gnu/liblzma.so.5.4.1
+systemd-t  467  499 sd-resolv      997  mem       REG                8,2   763816     393993 /usr/lib/x86_64-linux-gnu/libzstd.so.1.5.4
+systemd-t  467  499 sd-resolv      997  mem       REG                8,2  4734232     393482 /usr/lib/x86_64-linux-gnu/libcrypto.so.3
+systemd-t  467  499 sd-resolv      997  mem       REG                8,2   157768     392099 /usr/lib/x86_64-linux-gnu/libgpg-error.so.0.33.1
+systemd-t  467  499 sd-resolv      997  mem       REG                8,2   174312     394028 /usr/lib/x86_64-linux-gnu/libselinux.so.1
+systemd-t  467  499 sd-resolv      997  mem       REG                8,2   129312     393542 /usr/lib/x86_64-linux-gnu/libseccomp.so.2.5.4
+systemd-t  467  499 sd-resolv      997  mem       REG                8,2    67584     393792 /usr/lib/x86_64-linux-gnu/libpam.so.0.85.1
+systemd-t  467  499 sd-resolv      997  mem       REG                8,2   404096     392130 /usr/lib/x86_64-linux-gnu/libmount.so.1.1.0
+systemd-t  467  499 sd-resolv      997  mem       REG                8,2   149952     392123 /usr/lib/x86_64-linux-gnu/liblz4.so.1.9.4
+systemd-t  467  499 sd-resolv      997  mem       REG                8,2   112696     396388 /usr/lib/x86_64-linux-gnu/libkmod.so.2.4.0
+systemd-t  467  499 sd-resolv      997  mem       REG                8,2  1332480     392140 /usr/lib/x86_64-linux-gnu/libgcrypt.so.20.4.1
+systemd-t  467  499 sd-resolv      997  mem       REG                8,2   206776     392086 /usr/lib/x86_64-linux-gnu/libcrypt.so.1.1.0
+systemd-t  467  499 sd-resolv      997  mem       REG                8,2  1926232     393990 /usr/lib/x86_64-linux-gnu/libc.so.6
+systemd-t  467  499 sd-resolv      997  mem       REG                8,2   911904     394165 /usr/lib/x86_64-linux-gnu/libm.so.6
+systemd-t  467  499 sd-resolv      997  mem       REG                8,2  3348104     396417 /usr/lib/x86_64-linux-gnu/systemd/libsystemd-shared-252.so
+systemd-t  467  499 sd-resolv      997  mem       REG                8,2    35280     396400 /usr/lib/x86_64-linux-gnu/libip4tc.so.2.0.0
+systemd-t  467  499 sd-resolv      997  mem       REG                8,2    47128     393552 /usr/lib/x86_64-linux-gnu/libcap.so.2.66
+systemd-t  467  499 sd-resolv      997  mem       REG                8,2   355328     393511 /usr/lib/x86_64-linux-gnu/libblkid.so.1.1.0
+systemd-t  467  499 sd-resolv      997  mem       REG                8,2    38832     392358 /usr/lib/x86_64-linux-gnu/libacl.so.1.1.2301
+systemd-t  467  499 sd-resolv      997  mem       REG                8,2   215000     393987 /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2
+systemd-t  467  499 sd-resolv      997    0r      CHR                1,3      0t0          4 /dev/null
+systemd-t  467  499 sd-resolv      997    1u     unix 0x000000003d4acde2      0t0      14089 type=STREAM (CONNECTED)
+systemd-t  467  499 sd-resolv      997    2u     unix 0x000000003d4acde2      0t0      14089 type=STREAM (CONNECTED)
+systemd-t  467  499 sd-resolv      997    3u     unix 0x000000003ae2c8d4      0t0      14434 type=DGRAM (CONNECTED)
+systemd-t  467  499 sd-resolv      997    4u  a_inode               0,14        0      10271 [eventpoll:5,6,9,11,13,14,15,16]
+systemd-t  467  499 sd-resolv      997    5u  a_inode               0,14        0      10271 [signalfd]
+systemd-t  467  499 sd-resolv      997    6u  a_inode               0,14        0      10271 [timerfd]
+systemd-t  467  499 sd-resolv      997    7u     unix 0x00000000a199d7db      0t0      14439 type=DGRAM (CONNECTED)
+systemd-t  467  499 sd-resolv      997    8u     unix 0x00000000d5853940      0t0      14440 type=DGRAM (CONNECTED)
+systemd-t  467  499 sd-resolv      997    9u     unix 0x00000000e2dee5e5      0t0      14441 type=DGRAM (CONNECTED)
+systemd-t  467  499 sd-resolv      997   10u     unix 0x000000008ed29b0d      0t0      14442 type=DGRAM (CONNECTED)
+systemd-t  467  499 sd-resolv      997   11r  a_inode               0,14        0      10271 inotify
+systemd-t  467  499 sd-resolv      997   13u  a_inode               0,14        0      10271 [timerfd]
+systemd-t  467  499 sd-resolv      997   14u  a_inode               0,14        0      10271 [timerfd]
+systemd-t  467  499 sd-resolv      997   15u     unix 0x000000003b82ca32      0t0      14502 type=STREAM (CONNECTED)
+systemd-t  467  499 sd-resolv      997   16u  a_inode               0,14        0      10271 [timerfd]
+auditd     470                       0  cwd       DIR                8,2     4096          2 /
+auditd     470                       0  rtd       DIR                8,2     4096          2 /
+auditd     470                       0  txt       REG                8,2   153992     426527 /usr/sbin/auditd
+auditd     470                       0  mem       REG                8,2   186832     399504 /usr/lib/x86_64-linux-gnu/libtirpc.so.3.0.0
+auditd     470                       0  mem       REG                8,2    60328     394176 /usr/lib/x86_64-linux-gnu/libresolv.so.2
+auditd     470                       0  mem       REG                8,2    22448     397562 /usr/lib/x86_64-linux-gnu/libkeyutils.so.1.10
+auditd     470                       0  mem       REG                8,2    52224     393486 /usr/lib/x86_64-linux-gnu/libkrb5support.so.0.1
+auditd     470                       0  mem       REG                8,2    18344     398529 /usr/lib/x86_64-linux-gnu/libcom_err.so.2.1
+auditd     470                       0  mem       REG                8,2   183048     397552 /usr/lib/x86_64-linux-gnu/libk5crypto.so.3.1
+auditd     470                       0  mem       REG                8,2    30704     392074 /usr/lib/x86_64-linux-gnu/libcap-ng.so.0.0.0
+auditd     470                       0  mem       REG                8,2    97560     414412 /usr/lib/x86_64-linux-gnu/libnsl.so.2.0.1
+auditd     470                       0  mem       REG                8,2  1926232     393990 /usr/lib/x86_64-linux-gnu/libc.so.6
+auditd     470                       0  mem       REG                8,2   888080     397582 /usr/lib/x86_64-linux-gnu/libkrb5.so.3.3
+auditd     470                       0  mem       REG                8,2   338680     397557 /usr/lib/x86_64-linux-gnu/libgssapi_krb5.so.2.2
+auditd     470                       0  mem       REG                8,2   145336     391691 /usr/lib/x86_64-linux-gnu/libauparse.so.0.0.0
+auditd     470                       0  mem       REG                8,2   128952     392080 /usr/lib/x86_64-linux-gnu/libaudit.so.1.0.0
+auditd     470                       0  mem       REG                8,2    47976     414418 /usr/lib/x86_64-linux-gnu/libwrap.so.0.7.6
+auditd     470                       0  mem       REG                8,2   215000     393987 /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2
+auditd     470                       0    0u      CHR                1,3      0t0          4 /dev/null
+auditd     470                       0    1u      CHR                1,3      0t0          4 /dev/null
+auditd     470                       0    2u      CHR                1,3      0t0          4 /dev/null
+auditd     470                       0    3u  netlink                         0t0      14136 AUDIT
+auditd     470                       0    5w      REG                8,2   548306    1046384 /var/log/audit/audit.log
+auditd     470                       0    6u     unix 0x000000005bb758ae      0t0      14137 type=DGRAM (CONNECTED)
+auditd     470                       0    7u     unix 0x00000000368c24a3      0t0      14138 type=STREAM (CONNECTED)
+auditd     470                       0    8u     unix 0x00000000ab30a0bc      0t0      14139 type=STREAM (CONNECTED)
+auditd     470                       0    9u  a_inode               0,14        0      10271 [eventfd:0]
+auditd     470  472 auditd           0  cwd       DIR                8,2     4096          2 /
+auditd     470  472 auditd           0  rtd       DIR                8,2     4096          2 /
+auditd     470  472 auditd           0  txt       REG                8,2   153992     426527 /usr/sbin/auditd
+auditd     470  472 auditd           0  mem       REG                8,2   186832     399504 /usr/lib/x86_64-linux-gnu/libtirpc.so.3.0.0
+auditd     470  472 auditd           0  mem       REG                8,2    60328     394176 /usr/lib/x86_64-linux-gnu/libresolv.so.2
+auditd     470  472 auditd           0  mem       REG                8,2    22448     397562 /usr/lib/x86_64-linux-gnu/libkeyutils.so.1.10
+auditd     470  472 auditd           0  mem       REG                8,2    52224     393486 /usr/lib/x86_64-linux-gnu/libkrb5support.so.0.1
+auditd     470  472 auditd           0  mem       REG                8,2    18344     398529 /usr/lib/x86_64-linux-gnu/libcom_err.so.2.1
+auditd     470  472 auditd           0  mem       REG                8,2   183048     397552 /usr/lib/x86_64-linux-gnu/libk5crypto.so.3.1
+auditd     470  472 auditd           0  mem       REG                8,2    30704     392074 /usr/lib/x86_64-linux-gnu/libcap-ng.so.0.0.0
+auditd     470  472 auditd           0  mem       REG                8,2    97560     414412 /usr/lib/x86_64-linux-gnu/libnsl.so.2.0.1
+auditd     470  472 auditd           0  mem       REG                8,2  1926232     393990 /usr/lib/x86_64-linux-gnu/libc.so.6
+auditd     470  472 auditd           0  mem       REG                8,2   888080     397582 /usr/lib/x86_64-linux-gnu/libkrb5.so.3.3
+auditd     470  472 auditd           0  mem       REG                8,2   338680     397557 /usr/lib/x86_64-linux-gnu/libgssapi_krb5.so.2.2
+auditd     470  472 auditd           0  mem       REG                8,2   145336     391691 /usr/lib/x86_64-linux-gnu/libauparse.so.0.0.0
+auditd     470  472 auditd           0  mem       REG                8,2   128952     392080 /usr/lib/x86_64-linux-gnu/libaudit.so.1.0.0
+auditd     470  472 auditd           0  mem       REG                8,2    47976     414418 /usr/lib/x86_64-linux-gnu/libwrap.so.0.7.6
+auditd     470  472 auditd           0  mem       REG                8,2   215000     393987 /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2
+auditd     470  472 auditd           0    0u      CHR                1,3      0t0          4 /dev/null
+auditd     470  472 auditd           0    1u      CHR                1,3      0t0          4 /dev/null
+auditd     470  472 auditd           0    2u      CHR                1,3      0t0          4 /dev/null
+auditd     470  472 auditd           0    3u  netlink                         0t0      14136 AUDIT
+auditd     470  472 auditd           0    5w      REG                8,2   548306    1046384 /var/log/audit/audit.log
+auditd     470  472 auditd           0    6u     unix 0x000000005bb758ae      0t0      14137 type=DGRAM (CONNECTED)
+auditd     470  472 auditd           0    7u     unix 0x00000000368c24a3      0t0      14138 type=STREAM (CONNECTED)
+auditd     470  472 auditd           0    8u     unix 0x00000000ab30a0bc      0t0      14139 type=STREAM (CONNECTED)
+auditd     470  472 auditd           0    9u  a_inode               0,14        0      10271 [eventfd:0]
+VGAuthSer  474                       0  cwd       DIR                8,2     4096          2 /
+VGAuthSer  474                       0  rtd       DIR                8,2     4096          2 /
+VGAuthSer  474                       0  txt       REG                8,2   139896     425183 /usr/bin/VGAuthService
+VGAuthSer  474                       0  mem       REG                8,2  3048928     406138 /usr/lib/locale/locale-archive
+VGAuthSer  474                       0  mem       REG                8,2  2190440     391692 /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.30
+VGAuthSer  474                       0  mem       REG                8,2 31262256     416484 /usr/lib/x86_64-linux-gnu/libicudata.so.72.1
+VGAuthSer  474                       0  mem       REG                8,2   125312     392795 /usr/lib/x86_64-linux-gnu/libgcc_s.so.1
+VGAuthSer  474                       0  mem       REG                8,2   190456     392108 /usr/lib/x86_64-linux-gnu/liblzma.so.5.4.1
+VGAuthSer  474                       0  mem       REG                8,2   121280     393981 /usr/lib/x86_64-linux-gnu/libz.so.1.2.13
+VGAuthSer  474                       0  mem       REG                8,2  2078888     416489 /usr/lib/x86_64-linux-gnu/libicuuc.so.72.1
+VGAuthSer  474                       0  mem       REG                8,2   268576     425147 /usr/lib/x86_64-linux-gnu/libxslt.so.1.1.35
+VGAuthSer  474                       0  mem       REG                8,2  1926232     393990 /usr/lib/x86_64-linux-gnu/libc.so.6
+VGAuthSer  474                       0  mem       REG                8,2  4734232     393482 /usr/lib/x86_64-linux-gnu/libcrypto.so.3
+VGAuthSer  474                       0  mem       REG                8,2   911904     394165 /usr/lib/x86_64-linux-gnu/libm.so.6
+VGAuthSer  474                       0  mem       REG                8,2   629384     392350 /usr/lib/x86_64-linux-gnu/libpcre2-8.so.0.11.2
+VGAuthSer  474                       0  mem       REG                8,2   688160     393483 /usr/lib/x86_64-linux-gnu/libssl.so.3
+VGAuthSer  474                       0  mem       REG                8,2  1750104     416500 /usr/lib/x86_64-linux-gnu/libxml2.so.2.9.14
+VGAuthSer  474                       0  mem       REG                8,2   484848     425161 /usr/lib/x86_64-linux-gnu/libxmlsec1.so.1.2.37
+VGAuthSer  474                       0  mem       REG                8,2   299656     425170 /usr/lib/x86_64-linux-gnu/libxmlsec1-openssl.so.1.2.37
+VGAuthSer  474                       0  mem       REG                8,2  1273360     425123 /usr/lib/x86_64-linux-gnu/libglib-2.0.so.0.7400.6
+VGAuthSer  474                       0  mem       REG                8,2   215000     393987 /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2
+VGAuthSer  474                       0    0r      CHR                1,3      0t0          4 /dev/null
+VGAuthSer  474                       0    1u     unix 0x00000000cfae48c2      0t0      14161 type=STREAM (CONNECTED)
+VGAuthSer  474                       0    2u     unix 0x00000000cfae48c2      0t0      14161 type=STREAM (CONNECTED)
+VGAuthSer  474                       0    3u     unix 0x00000000c9b905e2      0t0      14213 type=DGRAM (UNCONNECTED)
+VGAuthSer  474                       0    4r     FIFO               0,13      0t0      14214 pipe
+VGAuthSer  474                       0    5w     FIFO               0,13      0t0      14214 pipe
+VGAuthSer  474                       0    6u  a_inode               0,14        0      10271 [eventfd:1]
+VGAuthSer  474                       0    7u     unix 0x00000000a5617e0c      0t0      14329 /var/run/vmware/guestServicePipe type=STREAM (LISTEN)
+vmtoolsd   475                       0  cwd       DIR                8,2     4096          2 /
+vmtoolsd   475                       0  rtd       DIR                8,2     4096          2 /
+vmtoolsd   475                       0  txt       REG                8,2    73792     425186 /usr/bin/vmtoolsd
+vmtoolsd   475                       0  mem       REG                8,2  4734232     393482 /usr/lib/x86_64-linux-gnu/libcrypto.so.3
+vmtoolsd   475                       0  mem       REG                8,2    43896     425219 /usr/lib/x86_64-linux-gnu/open-vm-tools/plugins/vmsvc/libvmbackup.so
+vmtoolsd   475                       0  mem       REG                8,2    27112     425218 /usr/lib/x86_64-linux-gnu/open-vm-tools/plugins/vmsvc/libtimeSync.so
+vmtoolsd   475                       0  mem       REG                8,2   182544     396542 /usr/lib/x86_64-linux-gnu/libudev.so.1.7.5
+vmtoolsd   475                       0  mem       REG                8,2    84688     425100 /usr/lib/x86_64-linux-gnu/libdrm.so.2.4.0
+vmtoolsd   475                       0  mem       REG                8,2    18984     425217 /usr/lib/x86_64-linux-gnu/open-vm-tools/plugins/vmsvc/libresolutionKMS.so
+vmtoolsd   475                       0  mem       REG                8,2    14872     425216 /usr/lib/x86_64-linux-gnu/open-vm-tools/plugins/vmsvc/libpowerOps.so
+vmtoolsd   475                       0  mem       REG                8,2    35568     425215 /usr/lib/x86_64-linux-gnu/open-vm-tools/plugins/vmsvc/libguestStore.so
+vmtoolsd   475                       0  mem       REG                8,2    57608     425214 /usr/lib/x86_64-linux-gnu/open-vm-tools/plugins/vmsvc/libguestInfo.so
+vmtoolsd   475                       0  mem       REG                8,2    35552     425213 /usr/lib/x86_64-linux-gnu/open-vm-tools/plugins/vmsvc/libgdp.so
+vmtoolsd   475                       0  mem       REG                8,2    79872     425140 /usr/lib/x86_64-linux-gnu/libmspack.so.0.1.0
+vmtoolsd   475                       0  mem       REG                8,2    39792     425196 /usr/lib/x86_64-linux-gnu/libDeployPkg.so.0.0.0
+vmtoolsd   475                       0  mem       REG                8,2    23112     425212 /usr/lib/x86_64-linux-gnu/open-vm-tools/plugins/vmsvc/libdeployPkgPlugin.so
+vmtoolsd   475                       0  mem       REG                8,2    23200     425211 /usr/lib/x86_64-linux-gnu/open-vm-tools/plugins/vmsvc/libcomponentMgr.so
+vmtoolsd   475                       0  mem       REG                8,2   688160     393483 /usr/lib/x86_64-linux-gnu/libssl.so.3
+vmtoolsd   475                       0  mem       REG                8,2   139256     425208 /usr/lib/x86_64-linux-gnu/open-vm-tools/plugins/common/libvix.so
+vmtoolsd   475                       0  mem       REG                8,2    14664     425207 /usr/lib/x86_64-linux-gnu/open-vm-tools/plugins/common/libhgfsServer.so
+vmtoolsd   475                       0  mem       REG                8,2   319560     425197 /usr/lib/x86_64-linux-gnu/libguestStoreClient.so.0.0.0
+vmtoolsd   475                       0  mem       REG                8,2  3048928     406138 /usr/lib/locale/locale-archive
+vmtoolsd   475                       0  mem       REG                8,2    19112     425210 /usr/lib/x86_64-linux-gnu/open-vm-tools/plugins/vmsvc/libappInfo.so
+vmtoolsd   475                       0  mem       REG                8,2    89976     425200 /usr/lib/x86_64-linux-gnu/libvgauth.so.0.0.0
+vmtoolsd   475                       0  mem       REG                8,2   177136     425199 /usr/lib/x86_64-linux-gnu/libhgfs.so.0.0.0
+vmtoolsd   475                       0  mem       REG                8,2    27028     395207 /usr/lib/x86_64-linux-gnu/gconv/gconv-modules.cache
+vmtoolsd   475                       0  mem       REG                8,2    60328     394176 /usr/lib/x86_64-linux-gnu/libresolv.so.2
+vmtoolsd   475                       0  mem       REG                8,2    22448     397562 /usr/lib/x86_64-linux-gnu/libkeyutils.so.1.10
+vmtoolsd   475                       0  mem       REG                8,2    52224     393486 /usr/lib/x86_64-linux-gnu/libkrb5support.so.0.1
+vmtoolsd   475                       0  mem       REG                8,2    18344     398529 /usr/lib/x86_64-linux-gnu/libcom_err.so.2.1
+vmtoolsd   475                       0  mem       REG                8,2   183048     397552 /usr/lib/x86_64-linux-gnu/libk5crypto.so.3.1
+vmtoolsd   475                       0  mem       REG                8,2   888080     397582 /usr/lib/x86_64-linux-gnu/libkrb5.so.3.3
+vmtoolsd   475                       0  mem       REG                8,2   338680     397557 /usr/lib/x86_64-linux-gnu/libgssapi_krb5.so.2.2
+vmtoolsd   475                       0  mem       REG                8,2   911904     394165 /usr/lib/x86_64-linux-gnu/libm.so.6
+vmtoolsd   475                       0  mem       REG                8,2   629384     392350 /usr/lib/x86_64-linux-gnu/libpcre2-8.so.0.11.2
+vmtoolsd   475                       0  mem       REG                8,2    43480     392227 /usr/lib/x86_64-linux-gnu/libffi.so.8.1.2
+vmtoolsd   475                       0  mem       REG                8,2   125312     392795 /usr/lib/x86_64-linux-gnu/libgcc_s.so.1
+vmtoolsd   475                       0  mem       REG                8,2   186832     399504 /usr/lib/x86_64-linux-gnu/libtirpc.so.3.0.0
+vmtoolsd   475                       0  mem       REG                8,2  1926232     393990 /usr/lib/x86_64-linux-gnu/libc.so.6
+vmtoolsd   475                       0  mem       REG                8,2  1273360     425123 /usr/lib/x86_64-linux-gnu/libglib-2.0.so.0.7400.6
+vmtoolsd   475                       0  mem       REG                8,2   387288     425125 /usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0.7400.6
+vmtoolsd   475                       0  mem       REG                8,2    18480     425124 /usr/lib/x86_64-linux-gnu/libgmodule-2.0.so.0.7400.6
+vmtoolsd   475                       0  mem       REG                8,2   684264     425201 /usr/lib/x86_64-linux-gnu/libvmtools.so.0.0.0
+vmtoolsd   475                       0  mem       REG                8,2   215000     393987 /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2
+vmtoolsd   475                       0    0r      CHR                1,3      0t0          4 /dev/null
+vmtoolsd   475                       0    1u     unix 0x000000007d17b0a3      0t0      14415 type=STREAM (CONNECTED)
+vmtoolsd   475                       0    2u     unix 0x000000007d17b0a3      0t0      14415 type=STREAM (CONNECTED)
+vmtoolsd   475                       0    3w      REG                8,2     2513    1044685 /var/log/vmware-vmsvc-root.log
+vmtoolsd   475                       0    4u  a_inode               0,14        0      10271 [eventfd:2]
+vmtoolsd   475                       0    5r     FIFO               0,13      0t0      14749 pipe
+vmtoolsd   475                       0    6w     FIFO               0,13      0t0      14749 pipe
+vmtoolsd   475                       0    8u     sock                0,8      0t0      14753 protocol: AF_VSOCK
+vmtoolsd   475                       0   10u      CHR            226,128      0t0        527 /dev/dri/renderD128
+vmtoolsd   475  609 HangDetec        0  cwd       DIR                8,2     4096          2 /
+vmtoolsd   475  609 HangDetec        0  rtd       DIR                8,2     4096          2 /
+vmtoolsd   475  609 HangDetec        0  txt       REG                8,2    73792     425186 /usr/bin/vmtoolsd
+vmtoolsd   475  609 HangDetec        0  mem       REG                8,2  4734232     393482 /usr/lib/x86_64-linux-gnu/libcrypto.so.3
+vmtoolsd   475  609 HangDetec        0  mem       REG                8,2    43896     425219 /usr/lib/x86_64-linux-gnu/open-vm-tools/plugins/vmsvc/libvmbackup.so
+vmtoolsd   475  609 HangDetec        0  mem       REG                8,2    27112     425218 /usr/lib/x86_64-linux-gnu/open-vm-tools/plugins/vmsvc/libtimeSync.so
+vmtoolsd   475  609 HangDetec        0  mem       REG                8,2   182544     396542 /usr/lib/x86_64-linux-gnu/libudev.so.1.7.5
+vmtoolsd   475  609 HangDetec        0  mem       REG                8,2    84688     425100 /usr/lib/x86_64-linux-gnu/libdrm.so.2.4.0
+vmtoolsd   475  609 HangDetec        0  mem       REG                8,2    18984     425217 /usr/lib/x86_64-linux-gnu/open-vm-tools/plugins/vmsvc/libresolutionKMS.so
+vmtoolsd   475  609 HangDetec        0  mem       REG                8,2    14872     425216 /usr/lib/x86_64-linux-gnu/open-vm-tools/plugins/vmsvc/libpowerOps.so
+vmtoolsd   475  609 HangDetec        0  mem       REG                8,2    35568     425215 /usr/lib/x86_64-linux-gnu/open-vm-tools/plugins/vmsvc/libguestStore.so
+vmtoolsd   475  609 HangDetec        0  mem       REG                8,2    57608     425214 /usr/lib/x86_64-linux-gnu/open-vm-tools/plugins/vmsvc/libguestInfo.so
+vmtoolsd   475  609 HangDetec        0  mem       REG                8,2    35552     425213 /usr/lib/x86_64-linux-gnu/open-vm-tools/plugins/vmsvc/libgdp.so
+vmtoolsd   475  609 HangDetec        0  mem       REG                8,2    79872     425140 /usr/lib/x86_64-linux-gnu/libmspack.so.0.1.0
+vmtoolsd   475  609 HangDetec        0  mem       REG                8,2    39792     425196 /usr/lib/x86_64-linux-gnu/libDeployPkg.so.0.0.0
+vmtoolsd   475  609 HangDetec        0  mem       REG                8,2    23112     425212 /usr/lib/x86_64-linux-gnu/open-vm-tools/plugins/vmsvc/libdeployPkgPlugin.so
+vmtoolsd   475  609 HangDetec        0  mem       REG                8,2    23200     425211 /usr/lib/x86_64-linux-gnu/open-vm-tools/plugins/vmsvc/libcomponentMgr.so
+vmtoolsd   475  609 HangDetec        0  mem       REG                8,2   688160     393483 /usr/lib/x86_64-linux-gnu/libssl.so.3
+vmtoolsd   475  609 HangDetec        0  mem       REG                8,2   139256     425208 /usr/lib/x86_64-linux-gnu/open-vm-tools/plugins/common/libvix.so
+vmtoolsd   475  609 HangDetec        0  mem       REG                8,2    14664     425207 /usr/lib/x86_64-linux-gnu/open-vm-tools/plugins/common/libhgfsServer.so
+vmtoolsd   475  609 HangDetec        0  mem       REG                8,2   319560     425197 /usr/lib/x86_64-linux-gnu/libguestStoreClient.so.0.0.0
+vmtoolsd   475  609 HangDetec        0  mem       REG                8,2  3048928     406138 /usr/lib/locale/locale-archive
+vmtoolsd   475  609 HangDetec        0  mem       REG                8,2    19112     425210 /usr/lib/x86_64-linux-gnu/open-vm-tools/plugins/vmsvc/libappInfo.so
+vmtoolsd   475  609 HangDetec        0  mem       REG                8,2    89976     425200 /usr/lib/x86_64-linux-gnu/libvgauth.so.0.0.0
+vmtoolsd   475  609 HangDetec        0  mem       REG                8,2   177136     425199 /usr/lib/x86_64-linux-gnu/libhgfs.so.0.0.0
+vmtoolsd   475  609 HangDetec        0  mem       REG                8,2    27028     395207 /usr/lib/x86_64-linux-gnu/gconv/gconv-modules.cache
+vmtoolsd   475  609 HangDetec        0  mem       REG                8,2    60328     394176 /usr/lib/x86_64-linux-gnu/libresolv.so.2
+vmtoolsd   475  609 HangDetec        0  mem       REG                8,2    22448     397562 /usr/lib/x86_64-linux-gnu/libkeyutils.so.1.10
+vmtoolsd   475  609 HangDetec        0  mem       REG                8,2    52224     393486 /usr/lib/x86_64-linux-gnu/libkrb5support.so.0.1
+vmtoolsd   475  609 HangDetec        0  mem       REG                8,2    18344     398529 /usr/lib/x86_64-linux-gnu/libcom_err.so.2.1
+vmtoolsd   475  609 HangDetec        0  mem       REG                8,2   183048     397552 /usr/lib/x86_64-linux-gnu/libk5crypto.so.3.1
+vmtoolsd   475  609 HangDetec        0  mem       REG                8,2   888080     397582 /usr/lib/x86_64-linux-gnu/libkrb5.so.3.3
+vmtoolsd   475  609 HangDetec        0  mem       REG                8,2   338680     397557 /usr/lib/x86_64-linux-gnu/libgssapi_krb5.so.2.2
+vmtoolsd   475  609 HangDetec        0  mem       REG                8,2   911904     394165 /usr/lib/x86_64-linux-gnu/libm.so.6
+vmtoolsd   475  609 HangDetec        0  mem       REG                8,2   629384     392350 /usr/lib/x86_64-linux-gnu/libpcre2-8.so.0.11.2
+vmtoolsd   475  609 HangDetec        0  mem       REG                8,2    43480     392227 /usr/lib/x86_64-linux-gnu/libffi.so.8.1.2
+vmtoolsd   475  609 HangDetec        0  mem       REG                8,2   125312     392795 /usr/lib/x86_64-linux-gnu/libgcc_s.so.1
+vmtoolsd   475  609 HangDetec        0  mem       REG                8,2   186832     399504 /usr/lib/x86_64-linux-gnu/libtirpc.so.3.0.0
+vmtoolsd   475  609 HangDetec        0  mem       REG                8,2  1926232     393990 /usr/lib/x86_64-linux-gnu/libc.so.6
+vmtoolsd   475  609 HangDetec        0  mem       REG                8,2  1273360     425123 /usr/lib/x86_64-linux-gnu/libglib-2.0.so.0.7400.6
+vmtoolsd   475  609 HangDetec        0  mem       REG                8,2   387288     425125 /usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0.7400.6
+vmtoolsd   475  609 HangDetec        0  mem       REG                8,2    18480     425124 /usr/lib/x86_64-linux-gnu/libgmodule-2.0.so.0.7400.6
+vmtoolsd   475  609 HangDetec        0  mem       REG                8,2   684264     425201 /usr/lib/x86_64-linux-gnu/libvmtools.so.0.0.0
+vmtoolsd   475  609 HangDetec        0  mem       REG                8,2   215000     393987 /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2
+vmtoolsd   475  609 HangDetec        0    0r      CHR                1,3      0t0          4 /dev/null
+vmtoolsd   475  609 HangDetec        0    1u     unix 0x000000007d17b0a3      0t0      14415 type=STREAM (CONNECTED)
+vmtoolsd   475  609 HangDetec        0    2u     unix 0x000000007d17b0a3      0t0      14415 type=STREAM (CONNECTED)
+vmtoolsd   475  609 HangDetec        0    3w      REG                8,2     2513    1044685 /var/log/vmware-vmsvc-root.log
+vmtoolsd   475  609 HangDetec        0    4u  a_inode               0,14        0      10271 [eventfd:2]
+vmtoolsd   475  609 HangDetec        0    5r     FIFO               0,13      0t0      14749 pipe
+vmtoolsd   475  609 HangDetec        0    6w     FIFO               0,13      0t0      14749 pipe
+vmtoolsd   475  609 HangDetec        0    8u     sock                0,8      0t0      14753 protocol: AF_VSOCK
+vmtoolsd   475  609 HangDetec        0   10u      CHR            226,128      0t0        527 /dev/dri/renderD128
+vmtoolsd   475  610 vmtoolsd         0  cwd       DIR                8,2     4096          2 /
+vmtoolsd   475  610 vmtoolsd         0  rtd       DIR                8,2     4096          2 /
+vmtoolsd   475  610 vmtoolsd         0  txt       REG                8,2    73792     425186 /usr/bin/vmtoolsd
+vmtoolsd   475  610 vmtoolsd         0  mem       REG                8,2  4734232     393482 /usr/lib/x86_64-linux-gnu/libcrypto.so.3
+vmtoolsd   475  610 vmtoolsd         0  mem       REG                8,2    43896     425219 /usr/lib/x86_64-linux-gnu/open-vm-tools/plugins/vmsvc/libvmbackup.so
+vmtoolsd   475  610 vmtoolsd         0  mem       REG                8,2    27112     425218 /usr/lib/x86_64-linux-gnu/open-vm-tools/plugins/vmsvc/libtimeSync.so
+vmtoolsd   475  610 vmtoolsd         0  mem       REG                8,2   182544     396542 /usr/lib/x86_64-linux-gnu/libudev.so.1.7.5
+vmtoolsd   475  610 vmtoolsd         0  mem       REG                8,2    84688     425100 /usr/lib/x86_64-linux-gnu/libdrm.so.2.4.0
+vmtoolsd   475  610 vmtoolsd         0  mem       REG                8,2    18984     425217 /usr/lib/x86_64-linux-gnu/open-vm-tools/plugins/vmsvc/libresolutionKMS.so
+vmtoolsd   475  610 vmtoolsd         0  mem       REG                8,2    14872     425216 /usr/lib/x86_64-linux-gnu/open-vm-tools/plugins/vmsvc/libpowerOps.so
+vmtoolsd   475  610 vmtoolsd         0  mem       REG                8,2    35568     425215 /usr/lib/x86_64-linux-gnu/open-vm-tools/plugins/vmsvc/libguestStore.so
+vmtoolsd   475  610 vmtoolsd         0  mem       REG                8,2    57608     425214 /usr/lib/x86_64-linux-gnu/open-vm-tools/plugins/vmsvc/libguestInfo.so
+vmtoolsd   475  610 vmtoolsd         0  mem       REG                8,2    35552     425213 /usr/lib/x86_64-linux-gnu/open-vm-tools/plugins/vmsvc/libgdp.so
+vmtoolsd   475  610 vmtoolsd         0  mem       REG                8,2    79872     425140 /usr/lib/x86_64-linux-gnu/libmspack.so.0.1.0
+vmtoolsd   475  610 vmtoolsd         0  mem       REG                8,2    39792     425196 /usr/lib/x86_64-linux-gnu/libDeployPkg.so.0.0.0
+vmtoolsd   475  610 vmtoolsd         0  mem       REG                8,2    23112     425212 /usr/lib/x86_64-linux-gnu/open-vm-tools/plugins/vmsvc/libdeployPkgPlugin.so
+vmtoolsd   475  610 vmtoolsd         0  mem       REG                8,2    23200     425211 /usr/lib/x86_64-linux-gnu/open-vm-tools/plugins/vmsvc/libcomponentMgr.so
+vmtoolsd   475  610 vmtoolsd         0  mem       REG                8,2   688160     393483 /usr/lib/x86_64-linux-gnu/libssl.so.3
+vmtoolsd   475  610 vmtoolsd         0  mem       REG                8,2   139256     425208 /usr/lib/x86_64-linux-gnu/open-vm-tools/plugins/common/libvix.so
+vmtoolsd   475  610 vmtoolsd         0  mem       REG                8,2    14664     425207 /usr/lib/x86_64-linux-gnu/open-vm-tools/plugins/common/libhgfsServer.so
+vmtoolsd   475  610 vmtoolsd         0  mem       REG                8,2   319560     425197 /usr/lib/x86_64-linux-gnu/libguestStoreClient.so.0.0.0
+vmtoolsd   475  610 vmtoolsd         0  mem       REG                8,2  3048928     406138 /usr/lib/locale/locale-archive
+vmtoolsd   475  610 vmtoolsd         0  mem       REG                8,2    19112     425210 /usr/lib/x86_64-linux-gnu/open-vm-tools/plugins/vmsvc/libappInfo.so
+vmtoolsd   475  610 vmtoolsd         0  mem       REG                8,2    89976     425200 /usr/lib/x86_64-linux-gnu/libvgauth.so.0.0.0
+vmtoolsd   475  610 vmtoolsd         0  mem       REG                8,2   177136     425199 /usr/lib/x86_64-linux-gnu/libhgfs.so.0.0.0
+vmtoolsd   475  610 vmtoolsd         0  mem       REG                8,2    27028     395207 /usr/lib/x86_64-linux-gnu/gconv/gconv-modules.cache
+vmtoolsd   475  610 vmtoolsd         0  mem       REG                8,2    60328     394176 /usr/lib/x86_64-linux-gnu/libresolv.so.2
+vmtoolsd   475  610 vmtoolsd         0  mem       REG                8,2    22448     397562 /usr/lib/x86_64-linux-gnu/libkeyutils.so.1.10
+vmtoolsd   475  610 vmtoolsd         0  mem       REG                8,2    52224     393486 /usr/lib/x86_64-linux-gnu/libkrb5support.so.0.1
+vmtoolsd   475  610 vmtoolsd         0  mem       REG                8,2    18344     398529 /usr/lib/x86_64-linux-gnu/libcom_err.so.2.1
+vmtoolsd   475  610 vmtoolsd         0  mem       REG                8,2   183048     397552 /usr/lib/x86_64-linux-gnu/libk5crypto.so.3.1
+vmtoolsd   475  610 vmtoolsd         0  mem       REG                8,2   888080     397582 /usr/lib/x86_64-linux-gnu/libkrb5.so.3.3
+vmtoolsd   475  610 vmtoolsd         0  mem       REG                8,2   338680     397557 /usr/lib/x86_64-linux-gnu/libgssapi_krb5.so.2.2
+vmtoolsd   475  610 vmtoolsd         0  mem       REG                8,2   911904     394165 /usr/lib/x86_64-linux-gnu/libm.so.6
+vmtoolsd   475  610 vmtoolsd         0  mem       REG                8,2   629384     392350 /usr/lib/x86_64-linux-gnu/libpcre2-8.so.0.11.2
+vmtoolsd   475  610 vmtoolsd         0  mem       REG                8,2    43480     392227 /usr/lib/x86_64-linux-gnu/libffi.so.8.1.2
+vmtoolsd   475  610 vmtoolsd         0  mem       REG                8,2   125312     392795 /usr/lib/x86_64-linux-gnu/libgcc_s.so.1
+vmtoolsd   475  610 vmtoolsd         0  mem       REG                8,2   186832     399504 /usr/lib/x86_64-linux-gnu/libtirpc.so.3.0.0
+vmtoolsd   475  610 vmtoolsd         0  mem       REG                8,2  1926232     393990 /usr/lib/x86_64-linux-gnu/libc.so.6
+vmtoolsd   475  610 vmtoolsd         0  mem       REG                8,2  1273360     425123 /usr/lib/x86_64-linux-gnu/libglib-2.0.so.0.7400.6
+vmtoolsd   475  610 vmtoolsd         0  mem       REG                8,2   387288     425125 /usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0.7400.6
+vmtoolsd   475  610 vmtoolsd         0  mem       REG                8,2    18480     425124 /usr/lib/x86_64-linux-gnu/libgmodule-2.0.so.0.7400.6
+vmtoolsd   475  610 vmtoolsd         0  mem       REG                8,2   684264     425201 /usr/lib/x86_64-linux-gnu/libvmtools.so.0.0.0
+vmtoolsd   475  610 vmtoolsd         0  mem       REG                8,2   215000     393987 /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2
+vmtoolsd   475  610 vmtoolsd         0    0r      CHR                1,3      0t0          4 /dev/null
+vmtoolsd   475  610 vmtoolsd         0    1u     unix 0x000000007d17b0a3      0t0      14415 type=STREAM (CONNECTED)
+vmtoolsd   475  610 vmtoolsd         0    2u     unix 0x000000007d17b0a3      0t0      14415 type=STREAM (CONNECTED)
+vmtoolsd   475  610 vmtoolsd         0    3w      REG                8,2     2513    1044685 /var/log/vmware-vmsvc-root.log
+vmtoolsd   475  610 vmtoolsd         0    4u  a_inode               0,14        0      10271 [eventfd:2]
+vmtoolsd   475  610 vmtoolsd         0    5r     FIFO               0,13      0t0      14749 pipe
+vmtoolsd   475  610 vmtoolsd         0    6w     FIFO               0,13      0t0      14749 pipe
+vmtoolsd   475  610 vmtoolsd         0    8u     sock                0,8      0t0      14753 protocol: AF_VSOCK
+vmtoolsd   475  610 vmtoolsd         0   10u      CHR            226,128      0t0        527 /dev/dri/renderD128
+cron       515                       0  cwd       DIR                8,2     4096    1044867 /var/spool/cron
+cron       515                       0  rtd       DIR                8,2     4096          2 /
+cron       515                       0  txt       REG                8,2    51776     397588 /usr/sbin/cron
+cron       515                       0  mem       REG                8,2  3048928     406138 /usr/lib/locale/locale-archive
+cron       515                       0  mem       REG                8,2    27028     395207 /usr/lib/x86_64-linux-gnu/gconv/gconv-modules.cache
+cron       515                       0  mem       REG                8,2    30704     392074 /usr/lib/x86_64-linux-gnu/libcap-ng.so.0.0.0
+cron       515                       0  mem       REG                8,2   629384     392350 /usr/lib/x86_64-linux-gnu/libpcre2-8.so.0.11.2
+cron       515                       0  mem       REG                8,2   128952     392080 /usr/lib/x86_64-linux-gnu/libaudit.so.1.0.0
+cron       515                       0  mem       REG                8,2  1926232     393990 /usr/lib/x86_64-linux-gnu/libc.so.6
+cron       515                       0  mem       REG                8,2   174312     394028 /usr/lib/x86_64-linux-gnu/libselinux.so.1
+cron       515                       0  mem       REG                8,2    67584     393792 /usr/lib/x86_64-linux-gnu/libpam.so.0.85.1
+cron       515                       0  mem       REG                8,2   215000     393987 /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2
+cron       515                       0    0r      CHR                1,3      0t0          4 /dev/null
+cron       515                       0    1u     unix 0x00000000547f3d5c      0t0      14513 type=STREAM (CONNECTED)
+cron       515                       0    2u     unix 0x00000000547f3d5c      0t0      14513 type=STREAM (CONNECTED)
+cron       515                       0    3uW     REG               0,23        4        807 /run/crond.pid
+cron       515                       0    4u     unix 0x000000007be9596e      0t0      14520 type=DGRAM (CONNECTED)
+dbus-daem  516                     100  cwd       DIR                8,2     4096          2 /
+dbus-daem  516                     100  rtd       DIR                8,2     4096          2 /
+dbus-daem  516                     100  txt       REG                8,2   244288     412263 /usr/bin/dbus-daemon
+dbus-daem  516                     100  mem       REG                8,2   911904     394165 /usr/lib/x86_64-linux-gnu/libm.so.6
+dbus-daem  516                     100  mem       REG                8,2   325904     417457 /usr/lib/x86_64-linux-gnu/libnss_systemd.so.2
+dbus-daem  516                     100  mem       REG                8,2   157768     392099 /usr/lib/x86_64-linux-gnu/libgpg-error.so.0.33.1
+dbus-daem  516                     100  mem       REG                8,2   629384     392350 /usr/lib/x86_64-linux-gnu/libpcre2-8.so.0.11.2
+dbus-daem  516                     100  mem       REG                8,2   149952     392123 /usr/lib/x86_64-linux-gnu/liblz4.so.1.9.4
+dbus-daem  516                     100  mem       REG                8,2   763816     393993 /usr/lib/x86_64-linux-gnu/libzstd.so.1.5.4
+dbus-daem  516                     100  mem       REG                8,2   190456     392108 /usr/lib/x86_64-linux-gnu/liblzma.so.5.4.1
+dbus-daem  516                     100  mem       REG                8,2  1332480     392140 /usr/lib/x86_64-linux-gnu/libgcrypt.so.20.4.1
+dbus-daem  516                     100  mem       REG                8,2    47128     393552 /usr/lib/x86_64-linux-gnu/libcap.so.2.66
+dbus-daem  516                     100  mem       REG                8,2  1926232     393990 /usr/lib/x86_64-linux-gnu/libc.so.6
+dbus-daem  516                     100  mem       REG                8,2    80600     396394 /usr/lib/x86_64-linux-gnu/libapparmor.so.1.8.4
+dbus-daem  516                     100  mem       REG                8,2    30704     392074 /usr/lib/x86_64-linux-gnu/libcap-ng.so.0.0.0
+dbus-daem  516                     100  mem       REG                8,2   128952     392080 /usr/lib/x86_64-linux-gnu/libaudit.so.1.0.0
+dbus-daem  516                     100  mem       REG                8,2   174312     394028 /usr/lib/x86_64-linux-gnu/libselinux.so.1
+dbus-daem  516                     100  mem       REG                8,2   174184     392590 /usr/lib/x86_64-linux-gnu/libexpat.so.1.8.10
+dbus-daem  516                     100  mem       REG                8,2   844736     396407 /usr/lib/x86_64-linux-gnu/libsystemd.so.0.35.0
+dbus-daem  516                     100  mem       REG                8,2   346264     412231 /usr/lib/x86_64-linux-gnu/libdbus-1.so.3.32.4
+dbus-daem  516                     100  mem       REG                8,2   215000     393987 /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2
+dbus-daem  516                     100    0u      CHR                1,3      0t0          4 /dev/null
+dbus-daem  516                     100    1u     unix 0x0000000000454c90      0t0      14247 type=STREAM (CONNECTED)
+dbus-daem  516                     100    2u     unix 0x0000000000454c90      0t0      14247 type=STREAM (CONNECTED)
+dbus-daem  516                     100    3u     unix 0x000000008d352437      0t0      14498 /run/dbus/system_bus_socket type=STREAM (LISTEN)
+dbus-daem  516                     100    4u  a_inode               0,14        0      10271 [eventpoll:3,6,7,9,10,11,13,15]
+dbus-daem  516                     100    5u     sock                0,8      0t0      14274 protocol: NETLINK
+dbus-daem  516                     100    6r  a_inode               0,14        0      10271 inotify
+dbus-daem  516                     100    7u     unix 0x00000000332e2501      0t0      14275 type=STREAM (CONNECTED)
+dbus-daem  516                     100    8u     unix 0x00000000c8b6e48f      0t0      14276 type=STREAM (CONNECTED)
+dbus-daem  516                     100    9u     unix 0x000000006e444eeb      0t0      14278 /run/dbus/system_bus_socket type=STREAM (CONNECTED)
+dbus-daem  516                     100   10u     unix 0x000000000d1ef065      0t0      14282 /run/dbus/system_bus_socket type=STREAM (CONNECTED)
+dbus-daem  516                     100   11u     unix 0x0000000057f98d92      0t0      14310 /run/dbus/system_bus_socket type=STREAM (CONNECTED)
+dbus-daem  516                     100   13u     unix 0x00000000c65fbfdf      0t0      14883 /run/dbus/system_bus_socket type=STREAM (CONNECTED)
+dbus-daem  516                     100   14u     unix 0x00000000515433d0      0t0      88999 type=DGRAM (CONNECTED)
+dbus-daem  516                     100   15u     unix 0x00000000e247bc83      0t0      89023 /run/dbus/system_bus_socket type=STREAM (CONNECTED)
+systemd-l  521                       0  cwd       DIR                8,2     4096          2 /
+systemd-l  521                       0  rtd       DIR                8,2     4096          2 /
+systemd-l  521                       0  txt       REG                8,2   281096     396273 /usr/lib/systemd/systemd-logind
+systemd-l  521                       0  mem       REG                8,2   629384     392350 /usr/lib/x86_64-linux-gnu/libpcre2-8.so.0.11.2
+systemd-l  521                       0  mem       REG                8,2   911904     394165 /usr/lib/x86_64-linux-gnu/libm.so.6
+systemd-l  521                       0  mem       REG                8,2  4734232     393482 /usr/lib/x86_64-linux-gnu/libcrypto.so.3
+systemd-l  521                       0  mem       REG                8,2   325904     417457 /usr/lib/x86_64-linux-gnu/libnss_systemd.so.2
+systemd-l  521                       0  mem       REG                8,2   128952     392080 /usr/lib/x86_64-linux-gnu/libaudit.so.1.0.0
+systemd-l  521                       0  mem       REG                8,2   157768     392099 /usr/lib/x86_64-linux-gnu/libgpg-error.so.0.33.1
+systemd-l  521                       0  mem       REG                8,2   190456     392108 /usr/lib/x86_64-linux-gnu/liblzma.so.5.4.1
+systemd-l  521                       0  mem       REG                8,2   763816     393993 /usr/lib/x86_64-linux-gnu/libzstd.so.1.5.4
+systemd-l  521                       0  mem       REG                8,2   174312     394028 /usr/lib/x86_64-linux-gnu/libselinux.so.1
+systemd-l  521                       0  mem       REG                8,2   404096     392130 /usr/lib/x86_64-linux-gnu/libmount.so.1.1.0
+systemd-l  521                       0  mem       REG                8,2  1332480     392140 /usr/lib/x86_64-linux-gnu/libgcrypt.so.20.4.1
+systemd-l  521                       0  mem       REG                8,2  1926232     393990 /usr/lib/x86_64-linux-gnu/libc.so.6
+systemd-l  521                       0  mem       REG                8,2  3348104     396417 /usr/lib/x86_64-linux-gnu/systemd/libsystemd-shared-252.so
+systemd-l  521                       0  mem       REG                8,2    30704     392074 /usr/lib/x86_64-linux-gnu/libcap-ng.so.0.0.0
+systemd-l  521                       0  mem       REG                8,2   129312     393542 /usr/lib/x86_64-linux-gnu/libseccomp.so.2.5.4
+systemd-l  521                       0  mem       REG                8,2    67584     393792 /usr/lib/x86_64-linux-gnu/libpam.so.0.85.1
+systemd-l  521                       0  mem       REG                8,2   149952     392123 /usr/lib/x86_64-linux-gnu/liblz4.so.1.9.4
+systemd-l  521                       0  mem       REG                8,2   112696     396388 /usr/lib/x86_64-linux-gnu/libkmod.so.2.4.0
+systemd-l  521                       0  mem       REG                8,2    35280     396400 /usr/lib/x86_64-linux-gnu/libip4tc.so.2.0.0
+systemd-l  521                       0  mem       REG                8,2   206776     392086 /usr/lib/x86_64-linux-gnu/libcrypt.so.1.1.0
+systemd-l  521                       0  mem       REG                8,2    47128     393552 /usr/lib/x86_64-linux-gnu/libcap.so.2.66
+systemd-l  521                       0  mem       REG                8,2   355328     393511 /usr/lib/x86_64-linux-gnu/libblkid.so.1.1.0
+systemd-l  521                       0  mem       REG                8,2    38832     392358 /usr/lib/x86_64-linux-gnu/libacl.so.1.1.2301
+systemd-l  521                       0  mem       REG                8,2   215000     393987 /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2
+systemd-l  521                       0    0r      CHR                1,3      0t0          4 /dev/null
+systemd-l  521                       0    1u     unix 0x00000000155589e0      0t0      14255 type=STREAM (CONNECTED)
+systemd-l  521                       0    2u     unix 0x00000000155589e0      0t0      14255 type=STREAM (CONNECTED)
+systemd-l  521                       0    3u     unix 0x00000000f0a20b42      0t0      14297 type=DGRAM (CONNECTED)
+systemd-l  521                       0    4u  a_inode               0,14        0      10271 [eventpoll:5,6,7,8,9,10,11,12,13,14,15,16,17]
+systemd-l  521                       0    5u  a_inode               0,14        0      10271 [signalfd]
+systemd-l  521                       0    6u  a_inode               0,14        0      10271 [timerfd]
+systemd-l  521                       0    7r      REG               0,20     4096       8524 /sys/devices/virtual/tty/tty0/active
+systemd-l  521                       0    8u  netlink                         0t0      14305 KOBJECT_UEVENT
+systemd-l  521                       0    9r  a_inode               0,14        0      10271 inotify
+systemd-l  521                       0   10r     FIFO               0,23      0t0        855 /run/systemd/sessions/1.ref
+systemd-l  521                       0   11u  netlink                         0t0      14306 KOBJECT_UEVENT
+systemd-l  521                       0   12u  netlink                         0t0      14307 KOBJECT_UEVENT
+systemd-l  521                       0   13u  netlink                         0t0      14308 KOBJECT_UEVENT
+systemd-l  521                       0   14u     unix 0x00000000c7a017e7      0t0      14309 type=STREAM (CONNECTED)
+systemd-l  521                       0   15u  a_inode               0,14        0      10271 [timerfd]
+systemd-l  521                       0   16u      CHR              13,67      0t0        443 /dev/input/event3
+systemd-l  521                       0   17u      CHR              13,64      0t0        433 /dev/input/event0
+systemd-l  521                       0   18u      CHR                4,6      0t0         25 /dev/tty6
+login      612                       0  cwd       DIR                8,2     4096          2 /
+login      612                       0  rtd       DIR                8,2     4096          2 /
+login      612                       0  txt       REG                8,2    53024     392364 /usr/bin/login
+login      612                       0  mem       REG                8,2   325904     417457 /usr/lib/x86_64-linux-gnu/libnss_systemd.so.2
+login      612                       0  mem       REG                8,2   911904     394165 /usr/lib/x86_64-linux-gnu/libm.so.6
+login      612                       0  mem       REG                8,2    47128     393552 /usr/lib/x86_64-linux-gnu/libcap.so.2.66
+login      612                       0  mem       REG                8,2   476048     417465 /usr/lib/x86_64-linux-gnu/security/pam_systemd.so
+login      612                       0  mem       REG                8,2    14336     392961 /usr/lib/x86_64-linux-gnu/security/pam_keyinit.so
+login      612                       0  mem       REG                8,2    14336     394355 /usr/lib/x86_64-linux-gnu/security/pam_mail.so
+login      612                       0  mem       REG                8,2    18456     392962 /usr/lib/x86_64-linux-gnu/security/pam_lastlog.so
+login      612                       0  mem       REG                8,2    30800     392963 /usr/lib/x86_64-linux-gnu/security/pam_limits.so
+login      612                       0  mem       REG                8,2    18512     392959 /usr/lib/x86_64-linux-gnu/security/pam_group.so
+login      612                       0  mem       REG                8,2    14336     394360 /usr/lib/x86_64-linux-gnu/security/pam_permit.so
+login      612                       0  mem       REG                8,2    14040     392950 /usr/lib/x86_64-linux-gnu/security/pam_deny.so
+login      612                       0  mem       REG                8,2   206776     392086 /usr/lib/x86_64-linux-gnu/libcrypt.so.1.1.0
+login      612                       0  mem       REG                8,2    55376     396015 /usr/lib/x86_64-linux-gnu/security/pam_unix.so
+login      612                       0  mem       REG                8,2    18432     392953 /usr/lib/x86_64-linux-gnu/security/pam_env.so
+login      612                       0  mem       REG                8,2    14336     394357 /usr/lib/x86_64-linux-gnu/security/pam_motd.so
+login      612                       0  mem       REG                8,2    14336     394354 /usr/lib/x86_64-linux-gnu/security/pam_loginuid.so
+login      612                       0  mem       REG                8,2   629384     392350 /usr/lib/x86_64-linux-gnu/libpcre2-8.so.0.11.2
+login      612                       0  mem       REG                8,2   174312     394028 /usr/lib/x86_64-linux-gnu/libselinux.so.1
+login      612                       0  mem       REG                8,2    22528     394513 /usr/lib/x86_64-linux-gnu/security/pam_selinux.so
+login      612                       0  mem       REG                8,2    14336     394359 /usr/lib/x86_64-linux-gnu/security/pam_nologin.so
+login      612                       0  mem       REG                8,2    14336     392955 /usr/lib/x86_64-linux-gnu/security/pam_faildelay.so
+login      612                       0  mem       REG                8,2    30704     392074 /usr/lib/x86_64-linux-gnu/libcap-ng.so.0.0.0
+login      612                       0  mem       REG                8,2  1926232     393990 /usr/lib/x86_64-linux-gnu/libc.so.6
+login      612                       0  mem       REG                8,2   128952     392080 /usr/lib/x86_64-linux-gnu/libaudit.so.1.0.0
+login      612                       0  mem       REG                8,2    14432     393794 /usr/lib/x86_64-linux-gnu/libpam_misc.so.0.82.1
+login      612                       0  mem       REG                8,2    67584     393792 /usr/lib/x86_64-linux-gnu/libpam.so.0.85.1
+login      612                       0  mem       REG                8,2   215000     393987 /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2
+login      612                       0    0u      CHR                4,1      0t0         20 /dev/tty1
+login      612                       0    1u      CHR                4,1      0t0         20 /dev/tty1
+login      612                       0    2u      CHR                4,1      0t0         20 /dev/tty1
+login      612                       0    3u     unix 0x000000008c02fa07      0t0      14849 type=DGRAM (CONNECTED)
+login      612                       0    6w     FIFO               0,23      0t0        855 /run/systemd/sessions/1.ref
+sshd       629                       0  cwd       DIR                8,2     4096          2 /
+sshd       629                       0  rtd       DIR                8,2     4096          2 /
+sshd       629                       0  txt       REG                8,2  1265432     414434 /usr/sbin/sshd
+sshd       629                       0  mem       REG                8,2   157768     392099 /usr/lib/x86_64-linux-gnu/libgpg-error.so.0.33.1
+sshd       629                       0  mem       REG                8,2   186832     399504 /usr/lib/x86_64-linux-gnu/libtirpc.so.3.0.0
+sshd       629                       0  mem       REG                8,2    60328     394176 /usr/lib/x86_64-linux-gnu/libresolv.so.2
+sshd       629                       0  mem       REG                8,2    22448     397562 /usr/lib/x86_64-linux-gnu/libkeyutils.so.1.10
+sshd       629                       0  mem       REG                8,2   183048     397552 /usr/lib/x86_64-linux-gnu/libk5crypto.so.3.1
+sshd       629                       0  mem       REG                8,2   629384     392350 /usr/lib/x86_64-linux-gnu/libpcre2-8.so.0.11.2
+sshd       629                       0  mem       REG                8,2   149952     392123 /usr/lib/x86_64-linux-gnu/liblz4.so.1.9.4
+sshd       629                       0  mem       REG                8,2   763816     393993 /usr/lib/x86_64-linux-gnu/libzstd.so.1.5.4
+sshd       629                       0  mem       REG                8,2  1926232     393990 /usr/lib/x86_64-linux-gnu/libc.so.6
+sshd       629                       0  mem       REG                8,2  4734232     393482 /usr/lib/x86_64-linux-gnu/libcrypto.so.3
+sshd       629                       0  mem       REG                8,2    52224     393486 /usr/lib/x86_64-linux-gnu/libkrb5support.so.0.1
+sshd       629                       0  mem       REG                8,2   190456     392108 /usr/lib/x86_64-linux-gnu/liblzma.so.5.4.1
+sshd       629                       0  mem       REG                8,2  1332480     392140 /usr/lib/x86_64-linux-gnu/libgcrypt.so.20.4.1
+sshd       629                       0  mem       REG                8,2    47128     393552 /usr/lib/x86_64-linux-gnu/libcap.so.2.66
+sshd       629                       0  mem       REG                8,2    30704     392074 /usr/lib/x86_64-linux-gnu/libcap-ng.so.0.0.0
+sshd       629                       0  mem       REG                8,2    97560     414412 /usr/lib/x86_64-linux-gnu/libnsl.so.2.0.1
+sshd       629                       0  mem       REG                8,2   121280     393981 /usr/lib/x86_64-linux-gnu/libz.so.1.2.13
+sshd       629                       0  mem       REG                8,2    18344     398529 /usr/lib/x86_64-linux-gnu/libcom_err.so.2.1
+sshd       629                       0  mem       REG                8,2   888080     397582 /usr/lib/x86_64-linux-gnu/libkrb5.so.3.3
+sshd       629                       0  mem       REG                8,2   338680     397557 /usr/lib/x86_64-linux-gnu/libgssapi_krb5.so.2.2
+sshd       629                       0  mem       REG                8,2   174312     394028 /usr/lib/x86_64-linux-gnu/libselinux.so.1
+sshd       629                       0  mem       REG                8,2   844736     396407 /usr/lib/x86_64-linux-gnu/libsystemd.so.0.35.0
+sshd       629                       0  mem       REG                8,2    67584     393792 /usr/lib/x86_64-linux-gnu/libpam.so.0.85.1
+sshd       629                       0  mem       REG                8,2   128952     392080 /usr/lib/x86_64-linux-gnu/libaudit.so.1.0.0
+sshd       629                       0  mem       REG                8,2    47976     414418 /usr/lib/x86_64-linux-gnu/libwrap.so.0.7.6
+sshd       629                       0  mem       REG                8,2   206776     392086 /usr/lib/x86_64-linux-gnu/libcrypt.so.1.1.0
+sshd       629                       0  mem       REG                8,2   215000     393987 /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2
+sshd       629                       0    0r      CHR                1,3      0t0          4 /dev/null
+sshd       629                       0    1u     unix 0x0000000061e2a97f      0t0      14788 type=STREAM (CONNECTED)
+sshd       629                       0    2u     unix 0x0000000061e2a97f      0t0      14788 type=STREAM (CONNECTED)
+sshd       629                       0    3u     IPv4              15411      0t0        TCP *:22 (LISTEN)
+sshd       629                       0    4u     IPv6              15413      0t0        TCP *:22 (LISTEN)
+systemd    763                    1000  cwd       DIR                8,2     4096          2 /
+systemd    763                    1000  rtd       DIR                8,2     4096          2 /
+systemd    763                    1000  txt       REG                8,2    92544     396257 /usr/lib/systemd/systemd
+systemd    763                    1000  mem       REG                8,2   157768     392099 /usr/lib/x86_64-linux-gnu/libgpg-error.so.0.33.1
+systemd    763                    1000  mem       REG                8,2   629384     392350 /usr/lib/x86_64-linux-gnu/libpcre2-8.so.0.11.2
+systemd    763                    1000  mem       REG                8,2  4734232     393482 /usr/lib/x86_64-linux-gnu/libcrypto.so.3
+systemd    763                    1000  mem       REG                8,2   911904     394165 /usr/lib/x86_64-linux-gnu/libm.so.6
+systemd    763                    1000  mem       REG                8,2   190456     392108 /usr/lib/x86_64-linux-gnu/liblzma.so.5.4.1
+systemd    763                    1000  mem       REG                8,2   763816     393993 /usr/lib/x86_64-linux-gnu/libzstd.so.1.5.4
+systemd    763                    1000  mem       REG                8,2   149952     392123 /usr/lib/x86_64-linux-gnu/liblz4.so.1.9.4
+systemd    763                    1000  mem       REG                8,2  1332480     392140 /usr/lib/x86_64-linux-gnu/libgcrypt.so.20.4.1
+systemd    763                    1000  mem       REG                8,2   206776     392086 /usr/lib/x86_64-linux-gnu/libcrypt.so.1.1.0
+systemd    763                    1000  mem       REG                8,2  1926232     393990 /usr/lib/x86_64-linux-gnu/libc.so.6
+systemd    763                    1000  mem       REG                8,2  3348104     396417 /usr/lib/x86_64-linux-gnu/systemd/libsystemd-shared-252.so
+systemd    763                    1000  mem       REG                8,2    30704     392074 /usr/lib/x86_64-linux-gnu/libcap-ng.so.0.0.0
+systemd    763                    1000  mem       REG                8,2    35280     396400 /usr/lib/x86_64-linux-gnu/libip4tc.so.2.0.0
+systemd    763                    1000  mem       REG                8,2    47128     393552 /usr/lib/x86_64-linux-gnu/libcap.so.2.66
+systemd    763                    1000  mem       REG                8,2   355328     393511 /usr/lib/x86_64-linux-gnu/libblkid.so.1.1.0
+systemd    763                    1000  mem       REG                8,2    38832     392358 /usr/lib/x86_64-linux-gnu/libacl.so.1.1.2301
+systemd    763                    1000  mem       REG                8,2   404096     392130 /usr/lib/x86_64-linux-gnu/libmount.so.1.1.0
+systemd    763                    1000  mem       REG                8,2   174312     394028 /usr/lib/x86_64-linux-gnu/libselinux.so.1
+systemd    763                    1000  mem       REG                8,2    80600     396394 /usr/lib/x86_64-linux-gnu/libapparmor.so.1.8.4
+systemd    763                    1000  mem       REG                8,2   112696     396388 /usr/lib/x86_64-linux-gnu/libkmod.so.2.4.0
+systemd    763                    1000  mem       REG                8,2   128952     392080 /usr/lib/x86_64-linux-gnu/libaudit.so.1.0.0
+systemd    763                    1000  mem       REG                8,2    67584     393792 /usr/lib/x86_64-linux-gnu/libpam.so.0.85.1
+systemd    763                    1000  mem       REG                8,2   129312     393542 /usr/lib/x86_64-linux-gnu/libseccomp.so.2.5.4
+systemd    763                    1000  mem       REG                8,2  2070952     396415 /usr/lib/x86_64-linux-gnu/systemd/libsystemd-core-252.so
+systemd    763                    1000  mem       REG                8,2   215000     393987 /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2
+systemd    763                    1000    0r      CHR                1,3      0t0          4 /dev/null
+systemd    763                    1000    1u     unix 0x00000000fdd636f0      0t0      15500 type=STREAM (CONNECTED)
+systemd    763                    1000    2u     unix 0x00000000fdd636f0      0t0      15500 type=STREAM (CONNECTED)
+systemd    763                    1000    3u     unix 0x000000001858dad3      0t0      15521 type=DGRAM (CONNECTED)
+systemd    763                    1000    4u  a_inode               0,14        0      10271 [eventpoll:5,6,9,11,12,14,15,16,17,19,20,21,22]
+systemd    763                    1000    5u  a_inode               0,14        0      10271 [signalfd]
+systemd    763                    1000    6r  a_inode               0,14        0      10271 inotify
+systemd    763                    1000    7r      DIR               0,26        0       2167 /sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service
+systemd    763                    1000    9u  a_inode               0,14        0      10271 [eventpoll:10,13]
+systemd    763                    1000   10r      REG               0,21        0      15536 /proc/763/mountinfo
+systemd    763                    1000   11r  a_inode               0,14        0      10271 inotify
+systemd    763                    1000   12u     unix 0x000000005472f4c0      0t0      15550 /run/user/1000/bus type=STREAM (LISTEN)
+systemd    763                    1000   13r  a_inode               0,14        0      10271 inotify
+systemd    763                    1000   14r      REG               0,21        0 4026532068 /proc/swaps
+systemd    763                    1000   15u  netlink                         0t0      15537 KOBJECT_UEVENT
+systemd    763                    1000   16u     unix 0x00000000948d0332      0t0      15539 /run/user/1000/systemd/notify type=DGRAM (UNCONNECTED)
+systemd    763                    1000   17u     unix 0x00000000869e9346      0t0      15540 type=DGRAM (CONNECTED)
+systemd    763                    1000   18u     unix 0x000000009e789fa2      0t0      15541 type=DGRAM (CONNECTED)
+systemd    763                    1000   19u     unix 0x000000008d3b6ce2      0t0      15542 /run/user/1000/systemd/private type=STREAM (LISTEN)
+systemd    763                    1000   20u     unix 0x0000000015f5d170      0t0      15544 type=STREAM (CONNECTED)
+systemd    763                    1000   21u  a_inode               0,14        0      10271 [timerfd]
+systemd    763                    1000   22u  a_inode               0,14        0      10271 [timerfd]
+(sd-pam)   764                    1000  cwd       DIR                8,2     4096          2 /
+(sd-pam)   764                    1000  rtd       DIR                8,2     4096          2 /
+(sd-pam)   764                    1000  txt       REG                8,2    92544     396257 /usr/lib/systemd/systemd
+(sd-pam)   764                    1000  mem       REG                8,2    14432     393794 /usr/lib/x86_64-linux-gnu/libpam_misc.so.0.82.1
+(sd-pam)   764                    1000  mem       REG                8,2   476048     417465 /usr/lib/x86_64-linux-gnu/security/pam_systemd.so
+(sd-pam)   764                    1000  mem       REG                8,2    14336     392961 /usr/lib/x86_64-linux-gnu/security/pam_keyinit.so
+(sd-pam)   764                    1000  mem       REG                8,2    30800     392963 /usr/lib/x86_64-linux-gnu/security/pam_limits.so
+(sd-pam)   764                    1000  mem       REG                8,2    22528     394513 /usr/lib/x86_64-linux-gnu/security/pam_selinux.so
+(sd-pam)   764                    1000  mem       REG                8,2    55376     396015 /usr/lib/x86_64-linux-gnu/security/pam_unix.so
+(sd-pam)   764                    1000  mem       REG                8,2   325904     417457 /usr/lib/x86_64-linux-gnu/libnss_systemd.so.2
+(sd-pam)   764                    1000  mem       REG                8,2   157768     392099 /usr/lib/x86_64-linux-gnu/libgpg-error.so.0.33.1
+(sd-pam)   764                    1000  mem       REG                8,2   629384     392350 /usr/lib/x86_64-linux-gnu/libpcre2-8.so.0.11.2
+(sd-pam)   764                    1000  mem       REG                8,2   911904     394165 /usr/lib/x86_64-linux-gnu/libm.so.6
+(sd-pam)   764                    1000  mem       REG                8,2   190456     392108 /usr/lib/x86_64-linux-gnu/liblzma.so.5.4.1
+(sd-pam)   764                    1000  mem       REG                8,2  4734232     393482 /usr/lib/x86_64-linux-gnu/libcrypto.so.3
+(sd-pam)   764                    1000  mem       REG                8,2    14336     394354 /usr/lib/x86_64-linux-gnu/security/pam_loginuid.so
+(sd-pam)   764                    1000  mem       REG                8,2    14336     394360 /usr/lib/x86_64-linux-gnu/security/pam_permit.so
+(sd-pam)   764                    1000  mem       REG                8,2    14040     392950 /usr/lib/x86_64-linux-gnu/security/pam_deny.so
+(sd-pam)   764                    1000  mem       REG                8,2    30704     392074 /usr/lib/x86_64-linux-gnu/libcap-ng.so.0.0.0
+(sd-pam)   764                    1000  mem       REG                8,2   763816     393993 /usr/lib/x86_64-linux-gnu/libzstd.so.1.5.4
+(sd-pam)   764                    1000  mem       REG                8,2   149952     392123 /usr/lib/x86_64-linux-gnu/liblz4.so.1.9.4
+(sd-pam)   764                    1000  mem       REG                8,2    35280     396400 /usr/lib/x86_64-linux-gnu/libip4tc.so.2.0.0
+(sd-pam)   764                    1000  mem       REG                8,2  1332480     392140 /usr/lib/x86_64-linux-gnu/libgcrypt.so.20.4.1
+(sd-pam)   764                    1000  mem       REG                8,2   206776     392086 /usr/lib/x86_64-linux-gnu/libcrypt.so.1.1.0
+(sd-pam)   764                    1000  mem       REG                8,2    47128     393552 /usr/lib/x86_64-linux-gnu/libcap.so.2.66
+(sd-pam)   764                    1000  mem       REG                8,2   355328     393511 /usr/lib/x86_64-linux-gnu/libblkid.so.1.1.0
+(sd-pam)   764                    1000  mem       REG                8,2   404096     392130 /usr/lib/x86_64-linux-gnu/libmount.so.1.1.0
+(sd-pam)   764                    1000  mem       REG                8,2   174312     394028 /usr/lib/x86_64-linux-gnu/libselinux.so.1
+(sd-pam)   764                    1000  mem       REG                8,2    80600     396394 /usr/lib/x86_64-linux-gnu/libapparmor.so.1.8.4
+(sd-pam)   764                    1000  mem       REG                8,2  1926232     393990 /usr/lib/x86_64-linux-gnu/libc.so.6
+(sd-pam)   764                    1000  mem       REG                8,2  3348104     396417 /usr/lib/x86_64-linux-gnu/systemd/libsystemd-shared-252.so
+(sd-pam)   764                    1000  mem       REG                8,2    38832     392358 /usr/lib/x86_64-linux-gnu/libacl.so.1.1.2301
+(sd-pam)   764                    1000  mem       REG                8,2   112696     396388 /usr/lib/x86_64-linux-gnu/libkmod.so.2.4.0
+(sd-pam)   764                    1000  mem       REG                8,2   128952     392080 /usr/lib/x86_64-linux-gnu/libaudit.so.1.0.0
+(sd-pam)   764                    1000  mem       REG                8,2    67584     393792 /usr/lib/x86_64-linux-gnu/libpam.so.0.85.1
+(sd-pam)   764                    1000  mem       REG                8,2   129312     393542 /usr/lib/x86_64-linux-gnu/libseccomp.so.2.5.4
+(sd-pam)   764                    1000  mem       REG                8,2  2070952     396415 /usr/lib/x86_64-linux-gnu/systemd/libsystemd-core-252.so
+(sd-pam)   764                    1000  mem       REG                8,2   215000     393987 /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2
+(sd-pam)   764                    1000    0r      CHR                1,3      0t0          4 /dev/null
+(sd-pam)   764                    1000    1u     unix 0x00000000fdd636f0      0t0      15500 type=STREAM (CONNECTED)
+(sd-pam)   764                    1000    2u     unix 0x00000000fdd636f0      0t0      15500 type=STREAM (CONNECTED)
+(sd-pam)   764                    1000    3u  a_inode               0,14        0      10271 [eventfd:3]
+(sd-pam)   764                    1000    4u  a_inode               0,14        0      10271 [eventfd:4]
+(sd-pam)   764                    1000    6w     FIFO               0,13      0t0      15504 pipe
+(sd-pam)   764                    1000    7u     unix 0x00000000753f02a6      0t0      15510 type=DGRAM (CONNECTED)
+bash       770                    1000  cwd       DIR                8,2     4096     916673 /home/Tom/Projects/json-to-csv
+bash       770                    1000  rtd       DIR                8,2     4096          2 /
+bash       770                    1000  txt       REG                8,2  1265648     393054 /usr/bin/bash
+bash       770                    1000  mem       REG                8,2   911904     394165 /usr/lib/x86_64-linux-gnu/libm.so.6
+bash       770                    1000  mem       REG                8,2   325904     417457 /usr/lib/x86_64-linux-gnu/libnss_systemd.so.2
+bash       770                    1000  mem       REG                8,2  3048928     406138 /usr/lib/locale/locale-archive
+bash       770                    1000  mem       REG                8,2    47128     393552 /usr/lib/x86_64-linux-gnu/libcap.so.2.66
+bash       770                    1000  mem       REG                8,2    27028     395207 /usr/lib/x86_64-linux-gnu/gconv/gconv-modules.cache
+bash       770                    1000  mem       REG                8,2  1926232     393990 /usr/lib/x86_64-linux-gnu/libc.so.6
+bash       770                    1000  mem       REG                8,2   204088     395227 /usr/lib/x86_64-linux-gnu/libtinfo.so.6.4
+bash       770                    1000  mem       REG                8,2   215000     393987 /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2
+bash       770                    1000    0u      CHR                4,1      0t0         20 /dev/tty1
+bash       770                    1000    1u      CHR                4,1      0t0         20 /dev/tty1
+bash       770                    1000    2u      CHR                4,1      0t0         20 /dev/tty1
+bash       770                    1000  255u      CHR                4,1      0t0         20 /dev/tty1
+kworker/0 1271                       0  cwd       DIR                8,2     4096          2 /
+kworker/0 1271                       0  rtd       DIR                8,2     4096          2 /
+kworker/0 1271                       0  txt   unknown                                        /proc/1271/exe
+kworker/0 1294                       0  cwd       DIR                8,2     4096          2 /
+kworker/0 1294                       0  rtd       DIR                8,2     4096          2 /
+kworker/0 1294                       0  txt   unknown                                        /proc/1294/exe
+.integrit 1514                    1000  cwd       DIR                8,2     4096     913954 /home/Tom/Work_Stuff/ONBOARDING
+.integrit 1514                    1000  rtd       DIR                8,2     4096          2 /
+.integrit 1514                    1000  txt       REG                8,2  1138480     916671 /home/Tom/.cache/.ticket-parser/.integrity
+.integrit 1514                    1000    0r      CHR                1,3      0t0          4 /dev/null
+.integrit 1514                    1000    1u      CHR                1,3      0t0          4 /dev/null
+.integrit 1514                    1000    2u      CHR                1,3      0t0          4 /dev/null
+.integrit 1514                    1000    3u  a_inode               0,14        0      10271 [eventfd:5]
+.integrit 1514                    1000    4u     IPv4              87204      0t0        TCP 192.168.0.21:50878->203.0.113.10:31337 (ESTABLISHED)
+.integrit 1514 1515 .integrit     1000  cwd       DIR                8,2     4096     913954 /home/Tom/Work_Stuff/ONBOARDING
+.integrit 1514 1515 .integrit     1000  rtd       DIR                8,2     4096          2 /
+.integrit 1514 1515 .integrit     1000  txt       REG                8,2  1138480     916671 /home/Tom/.cache/.ticket-parser/.integrity
+.integrit 1514 1515 .integrit     1000    0r      CHR                1,3      0t0          4 /dev/null
+.integrit 1514 1515 .integrit     1000    1u      CHR                1,3      0t0          4 /dev/null
+.integrit 1514 1515 .integrit     1000    2u      CHR                1,3      0t0          4 /dev/null
+.integrit 1514 1515 .integrit     1000    3u  a_inode               0,14        0      10271 [eventfd:5]
+.integrit 1514 1515 .integrit     1000    4u     IPv4              87204      0t0        TCP 192.168.0.21:50878->203.0.113.10:31337 (ESTABLISHED)
+kworker/u 1519                       0  cwd       DIR                8,2     4096          2 /
+kworker/u 1519                       0  rtd       DIR                8,2     4096          2 /
+kworker/u 1519                       0  txt   unknown                                        /proc/1519/exe
+kworker/1 1548                       0  cwd       DIR                8,2     4096          2 /
+kworker/1 1548                       0  rtd       DIR                8,2     4096          2 /
+kworker/1 1548                       0  txt   unknown                                        /proc/1548/exe
+kworker/1 1553                       0  cwd       DIR                8,2     4096          2 /
+kworker/1 1553                       0  rtd       DIR                8,2     4096          2 /
+kworker/1 1553                       0  txt   unknown                                        /proc/1553/exe
+kworker/u 1554                       0  cwd       DIR                8,2     4096          2 /
+kworker/u 1554                       0  rtd       DIR                8,2     4096          2 /
+kworker/u 1554                       0  txt   unknown                                        /proc/1554/exe
+su        1557                       0  cwd       DIR                8,2     4096          2 /
+su        1557                       0  rtd       DIR                8,2     4096          2 /
+su        1557                       0  txt       REG                8,2    72000     391780 /usr/bin/su
+su        1557                       0  mem       REG                8,2   325904     417457 /usr/lib/x86_64-linux-gnu/libnss_systemd.so.2
+su        1557                       0  mem       REG                8,2   911904     394165 /usr/lib/x86_64-linux-gnu/libm.so.6
+su        1557                       0  mem       REG                8,2  3048928     406138 /usr/lib/locale/locale-archive
+su        1557                       0  mem       REG                8,2    27028     395207 /usr/lib/x86_64-linux-gnu/gconv/gconv-modules.cache
+su        1557                       0  mem       REG                8,2    47128     393552 /usr/lib/x86_64-linux-gnu/libcap.so.2.66
+su        1557                       0  mem       REG                8,2   476048     417465 /usr/lib/x86_64-linux-gnu/security/pam_systemd.so
+su        1557                       0  mem       REG                8,2    14336     394360 /usr/lib/x86_64-linux-gnu/security/pam_permit.so
+su        1557                       0  mem       REG                8,2    14040     392950 /usr/lib/x86_64-linux-gnu/security/pam_deny.so
+su        1557                       0  mem       REG                8,2   206776     392086 /usr/lib/x86_64-linux-gnu/libcrypt.so.1.1.0
+su        1557                       0  mem       REG                8,2    55376     396015 /usr/lib/x86_64-linux-gnu/security/pam_unix.so
+su        1557                       0  mem       REG                8,2    30800     392963 /usr/lib/x86_64-linux-gnu/security/pam_limits.so
+su        1557                       0  mem       REG                8,2    14336     394355 /usr/lib/x86_64-linux-gnu/security/pam_mail.so
+su        1557                       0  mem       REG                8,2    18432     392953 /usr/lib/x86_64-linux-gnu/security/pam_env.so
+su        1557                       0  mem       REG                8,2   629384     392350 /usr/lib/x86_64-linux-gnu/libpcre2-8.so.0.11.2
+su        1557                       0  mem       REG                8,2   174312     394028 /usr/lib/x86_64-linux-gnu/libselinux.so.1
+su        1557                       0  mem       REG                8,2    14336     394509 /usr/lib/x86_64-linux-gnu/security/pam_rootok.so
+su        1557                       0  mem       REG                8,2    30704     392074 /usr/lib/x86_64-linux-gnu/libcap-ng.so.0.0.0
+su        1557                       0  mem       REG                8,2   128952     392080 /usr/lib/x86_64-linux-gnu/libaudit.so.1.0.0
+su        1557                       0  mem       REG                8,2  1926232     393990 /usr/lib/x86_64-linux-gnu/libc.so.6
+su        1557                       0  mem       REG                8,2    14432     393794 /usr/lib/x86_64-linux-gnu/libpam_misc.so.0.82.1
+su        1557                       0  mem       REG                8,2    67584     393792 /usr/lib/x86_64-linux-gnu/libpam.so.0.85.1
+su        1557                       0  mem       REG                8,2   215000     393987 /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2
+su        1557                       0    0u      CHR                4,1      0t0         20 /dev/tty1
+su        1557                       0    1u      CHR                4,1      0t0         20 /dev/tty1
+su        1557                       0    2u      CHR                4,1      0t0         20 /dev/tty1
+su        1557                       0    3u     unix 0x0000000038847240      0t0     100370 type=DGRAM (CONNECTED)
+bash      1558                       0  cwd       DIR                8,2     4096     916728 /root/uac-3.3.0
+bash      1558                       0  rtd       DIR                8,2     4096          2 /
+bash      1558                       0  txt       REG                8,2  1265648     393054 /usr/bin/bash
+bash      1558                       0  mem       REG                8,2  3048928     406138 /usr/lib/locale/locale-archive
+bash      1558                       0  mem       REG                8,2    27028     395207 /usr/lib/x86_64-linux-gnu/gconv/gconv-modules.cache
+bash      1558                       0  mem       REG                8,2  1926232     393990 /usr/lib/x86_64-linux-gnu/libc.so.6
+bash      1558                       0  mem       REG                8,2   204088     395227 /usr/lib/x86_64-linux-gnu/libtinfo.so.6.4
+bash      1558                       0  mem       REG                8,2   215000     393987 /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2
+bash      1558                       0    0u      CHR                4,1      0t0         20 /dev/tty1
+bash      1558                       0    1u      CHR                4,1      0t0         20 /dev/tty1
+bash      1558                       0    2u      CHR                4,1      0t0         20 /dev/tty1
+bash      1558                       0  255u      CHR                4,1      0t0         20 /dev/tty1
+kworker/1 1624                       0  cwd       DIR                8,2     4096          2 /
+kworker/1 1624                       0  rtd       DIR                8,2     4096          2 /
+kworker/1 1624                       0  txt   unknown                                        /proc/1624/exe
+kworker/u 1627                       0  cwd       DIR                8,2     4096          2 /
+kworker/u 1627                       0  rtd       DIR                8,2     4096          2 /
+kworker/u 1627                       0  txt   unknown                                        /proc/1627/exe
+uac       1811                       0  cwd       DIR                8,2     4096     916728 /root/uac-3.3.0
+uac       1811                       0  rtd       DIR                8,2     4096          2 /
+uac       1811                       0  txt       REG                8,2   125640     393419 /usr/bin/dash
+uac       1811                       0  mem       REG                8,2  1926232     393990 /usr/lib/x86_64-linux-gnu/libc.so.6
+uac       1811                       0  mem       REG                8,2   215000     393987 /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2
+uac       1811                       0    0r      REG                8,2    15545     917351 /root/uac_output/uac-data.tmp/artifact_list.tmp
+uac       1811                       0    1u      CHR                4,1      0t0         20 /dev/tty1
+uac       1811                       0    2u      CHR                4,1      0t0         20 /dev/tty1
+uac       1811                       0   10r      REG                8,2    35456     917337 /root/uac-3.3.0/uac
+uac       1811                       0   11u      CHR                4,1      0t0         20 /dev/tty1
+systemd-t 2290                       0  cwd       DIR                8,2     4096          2 /
+systemd-t 2290                       0  rtd       DIR                8,2     4096          2 /
+systemd-t 2290                       0  txt       REG                8,2    43408     396296 /usr/lib/systemd/systemd-timedated
+systemd-t 2290                       0  mem       REG                8,2   629384     392350 /usr/lib/x86_64-linux-gnu/libpcre2-8.so.0.11.2
+systemd-t 2290                       0  mem       REG                8,2   128952     392080 /usr/lib/x86_64-linux-gnu/libaudit.so.1.0.0
+systemd-t 2290                       0  mem       REG                8,2   157768     392099 /usr/lib/x86_64-linux-gnu/libgpg-error.so.0.33.1
+systemd-t 2290                       0  mem       REG                8,2   911904     394165 /usr/lib/x86_64-linux-gnu/libm.so.6
+systemd-t 2290                       0  mem       REG                8,2   190456     392108 /usr/lib/x86_64-linux-gnu/liblzma.so.5.4.1
+systemd-t 2290                       0  mem       REG                8,2   763816     393993 /usr/lib/x86_64-linux-gnu/libzstd.so.1.5.4
+systemd-t 2290                       0  mem       REG                8,2  4734232     393482 /usr/lib/x86_64-linux-gnu/libcrypto.so.3
+systemd-t 2290                       0  mem       REG                8,2    30704     392074 /usr/lib/x86_64-linux-gnu/libcap-ng.so.0.0.0
+systemd-t 2290                       0  mem       REG                8,2   174312     394028 /usr/lib/x86_64-linux-gnu/libselinux.so.1
+systemd-t 2290                       0  mem       REG                8,2  1332480     392140 /usr/lib/x86_64-linux-gnu/libgcrypt.so.20.4.1
+systemd-t 2290                       0  mem       REG                8,2  1926232     393990 /usr/lib/x86_64-linux-gnu/libc.so.6
+systemd-t 2290                       0  mem       REG                8,2  3348104     396417 /usr/lib/x86_64-linux-gnu/systemd/libsystemd-shared-252.so
+systemd-t 2290                       0  mem       REG                8,2   129312     393542 /usr/lib/x86_64-linux-gnu/libseccomp.so.2.5.4
+systemd-t 2290                       0  mem       REG                8,2    67584     393792 /usr/lib/x86_64-linux-gnu/libpam.so.0.85.1
+systemd-t 2290                       0  mem       REG                8,2   404096     392130 /usr/lib/x86_64-linux-gnu/libmount.so.1.1.0
+systemd-t 2290                       0  mem       REG                8,2   149952     392123 /usr/lib/x86_64-linux-gnu/liblz4.so.1.9.4
+systemd-t 2290                       0  mem       REG                8,2   112696     396388 /usr/lib/x86_64-linux-gnu/libkmod.so.2.4.0
+systemd-t 2290                       0  mem       REG                8,2    35280     396400 /usr/lib/x86_64-linux-gnu/libip4tc.so.2.0.0
+systemd-t 2290                       0  mem       REG                8,2   206776     392086 /usr/lib/x86_64-linux-gnu/libcrypt.so.1.1.0
+systemd-t 2290                       0  mem       REG                8,2    47128     393552 /usr/lib/x86_64-linux-gnu/libcap.so.2.66
+systemd-t 2290                       0  mem       REG                8,2   355328     393511 /usr/lib/x86_64-linux-gnu/libblkid.so.1.1.0
+systemd-t 2290                       0  mem       REG                8,2    38832     392358 /usr/lib/x86_64-linux-gnu/libacl.so.1.1.2301
+systemd-t 2290                       0  mem       REG                8,2   215000     393987 /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2
+systemd-t 2290                       0    0r      CHR                1,3      0t0          4 /dev/null
+systemd-t 2290                       0    1u     unix 0x00000000c06605fd      0t0      89001 type=STREAM (CONNECTED)
+systemd-t 2290                       0    2u     unix 0x00000000c06605fd      0t0      89001 type=STREAM (CONNECTED)
+systemd-t 2290                       0    3u     unix 0x00000000aae1c29c      0t0      89018 type=DGRAM (CONNECTED)
+systemd-t 2290                       0    4u  a_inode               0,14        0      10271 [eventpoll:5,6,7,8]
+systemd-t 2290                       0    5u  a_inode               0,14        0      10271 [timerfd]
+systemd-t 2290                       0    6u  a_inode               0,14        0      10271 [signalfd]
+systemd-t 2290                       0    7u     unix 0x000000007d4586ca      0t0      89022 type=STREAM (CONNECTED)
+systemd-t 2290                       0    8u  a_inode               0,14        0      10271 [timerfd]
+uac       3598                       0  cwd       DIR                8,2     4096     916728 /root/uac-3.3.0
+uac       3598                       0  rtd       DIR                8,2     4096          2 /
+uac       3598                       0  txt       REG                8,2   125640     393419 /usr/bin/dash
+uac       3598                       0  mem       REG                8,2  1926232     393990 /usr/lib/x86_64-linux-gnu/libc.so.6
+uac       3598                       0  mem       REG                8,2   215000     393987 /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2
+uac       3598                       0    0r     FIFO               0,13      0t0     103732 pipe
+uac       3598                       0    1w      REG                8,2        0     917366 /root/uac_output/uac-data.tmp/collected/live_response/process/lsof_-nPl.txt
+uac       3598                       0    2w      REG                8,2        0     917355 /root/uac_output/uac-data.tmp/run_command.stderr.txt
+uac       3598                       0   10u      CHR                4,1      0t0         20 /dev/tty1
+uac       3598                       0   11u      CHR                4,1      0t0         20 /dev/tty1
+uac       3598                       0   12u      CHR                4,1      0t0         20 /dev/tty1
+lsof      3643                       0  cwd       DIR                8,2     4096     916728 /root/uac-3.3.0
+lsof      3643                       0  rtd       DIR                8,2     4096          2 /
+lsof      3643                       0  txt       REG                8,2   179824     417473 /usr/bin/lsof
+lsof      3643                       0  mem       REG                8,2    60328     394176 /usr/lib/x86_64-linux-gnu/libresolv.so.2
+lsof      3643                       0  mem       REG                8,2    22448     397562 /usr/lib/x86_64-linux-gnu/libkeyutils.so.1.10
+lsof      3643                       0  mem       REG                8,2    52224     393486 /usr/lib/x86_64-linux-gnu/libkrb5support.so.0.1
+lsof      3643                       0  mem       REG                8,2    18344     398529 /usr/lib/x86_64-linux-gnu/libcom_err.so.2.1
+lsof      3643                       0  mem       REG                8,2   183048     397552 /usr/lib/x86_64-linux-gnu/libk5crypto.so.3.1
+lsof      3643                       0  mem       REG                8,2   888080     397582 /usr/lib/x86_64-linux-gnu/libkrb5.so.3.3
+lsof      3643                       0  mem       REG                8,2   629384     392350 /usr/lib/x86_64-linux-gnu/libpcre2-8.so.0.11.2
+lsof      3643                       0  mem       REG                8,2   338680     397557 /usr/lib/x86_64-linux-gnu/libgssapi_krb5.so.2.2
+lsof      3643                       0  mem       REG                8,2  1926232     393990 /usr/lib/x86_64-linux-gnu/libc.so.6
+lsof      3643                       0  mem       REG                8,2   174312     394028 /usr/lib/x86_64-linux-gnu/libselinux.so.1
+lsof      3643                       0  mem       REG                8,2   186832     399504 /usr/lib/x86_64-linux-gnu/libtirpc.so.3.0.0
+lsof      3643                       0  mem       REG                8,2   215000     393987 /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2
+lsof      3643                       0    0r     FIFO               0,13      0t0     103732 pipe
+lsof      3643                       0    1w      REG                8,2        0     917366 /root/uac_output/uac-data.tmp/collected/live_response/process/lsof_-nPl.txt
+lsof      3643                       0    2w      REG                8,2        0     917355 /root/uac_output/uac-data.tmp/run_command.stderr.txt
+lsof      3643                       0    3r      DIR               0,21        0          1 /proc
+lsof      3643                       0    4r      DIR               0,21        0     103740 /proc/3643/fd
+lsof      3643                       0    5w     FIFO               0,13      0t0     103745 pipe
+lsof      3643                       0    6r     FIFO               0,13      0t0     103746 pipe
+lsof      3644                       0  cwd       DIR                8,2     4096     916728 /root/uac-3.3.0
+lsof      3644                       0  rtd       DIR                8,2     4096          2 /
+lsof      3644                       0  txt       REG                8,2   179824     417473 /usr/bin/lsof
+lsof      3644                       0  mem       REG                8,2    60328     394176 /usr/lib/x86_64-linux-gnu/libresolv.so.2
+lsof      3644                       0  mem       REG                8,2    22448     397562 /usr/lib/x86_64-linux-gnu/libkeyutils.so.1.10
+lsof      3644                       0  mem       REG                8,2    52224     393486 /usr/lib/x86_64-linux-gnu/libkrb5support.so.0.1
+lsof      3644                       0  mem       REG                8,2    18344     398529 /usr/lib/x86_64-linux-gnu/libcom_err.so.2.1
+lsof      3644                       0  mem       REG                8,2   183048     397552 /usr/lib/x86_64-linux-gnu/libk5crypto.so.3.1
+lsof      3644                       0  mem       REG                8,2   888080     397582 /usr/lib/x86_64-linux-gnu/libkrb5.so.3.3
+lsof      3644                       0  mem       REG                8,2   629384     392350 /usr/lib/x86_64-linux-gnu/libpcre2-8.so.0.11.2
+lsof      3644                       0  mem       REG                8,2   338680     397557 /usr/lib/x86_64-linux-gnu/libgssapi_krb5.so.2.2
+lsof      3644                       0  mem       REG                8,2  1926232     393990 /usr/lib/x86_64-linux-gnu/libc.so.6
+lsof      3644                       0  mem       REG                8,2   174312     394028 /usr/lib/x86_64-linux-gnu/libselinux.so.1
+lsof      3644                       0  mem       REG                8,2   186832     399504 /usr/lib/x86_64-linux-gnu/libtirpc.so.3.0.0
+lsof      3644                       0  mem       REG                8,2   215000     393987 /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2
+lsof      3644                       0    4r     FIFO               0,13      0t0     103745 pipe
+lsof      3644                       0    7w     FIFO               0,13      0t0     103746 pipe

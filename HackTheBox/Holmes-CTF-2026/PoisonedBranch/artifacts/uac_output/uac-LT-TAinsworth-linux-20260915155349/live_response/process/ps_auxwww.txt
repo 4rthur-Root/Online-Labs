@@ -1,0 +1,89 @@
+USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+root           1  0.0  0.3 102116 12120 ?        Ss   Sep14   0:02 /sbin/init
+root           2  0.0  0.0      0     0 ?        S    Sep14   0:00 [kthreadd]
+root           3  0.0  0.0      0     0 ?        I<   Sep14   0:00 [rcu_gp]
+root           4  0.0  0.0      0     0 ?        I<   Sep14   0:00 [rcu_par_gp]
+root           5  0.0  0.0      0     0 ?        I<   Sep14   0:00 [slub_flushwq]
+root           6  0.0  0.0      0     0 ?        I<   Sep14   0:00 [netns]
+root          10  0.0  0.0      0     0 ?        I<   Sep14   0:00 [mm_percpu_wq]
+root          11  0.0  0.0      0     0 ?        I    Sep14   0:00 [rcu_tasks_kthread]
+root          12  0.0  0.0      0     0 ?        I    Sep14   0:00 [rcu_tasks_rude_kthread]
+root          13  0.0  0.0      0     0 ?        I    Sep14   0:00 [rcu_tasks_trace_kthread]
+root          14  0.0  0.0      0     0 ?        S    Sep14   0:00 [ksoftirqd/0]
+root          15  0.0  0.0      0     0 ?        I    Sep14   0:01 [rcu_preempt]
+root          16  0.0  0.0      0     0 ?        S    Sep14   0:00 [migration/0]
+root          18  0.0  0.0      0     0 ?        S    Sep14   0:00 [cpuhp/0]
+root          19  0.0  0.0      0     0 ?        S    Sep14   0:00 [cpuhp/1]
+root          20  0.0  0.0      0     0 ?        S    Sep14   0:00 [migration/1]
+root          21  0.0  0.0      0     0 ?        S    Sep14   0:00 [ksoftirqd/1]
+root          23  0.0  0.0      0     0 ?        I<   Sep14   0:00 [kworker/1:0H-events_highpri]
+root          26  0.0  0.0      0     0 ?        S    Sep14   0:00 [kdevtmpfs]
+root          27  0.0  0.0      0     0 ?        I<   Sep14   0:00 [inet_frag_wq]
+root          28  0.0  0.0      0     0 ?        S    Sep14   0:00 [kauditd]
+root          29  0.0  0.0      0     0 ?        S    Sep14   0:00 [khungtaskd]
+root          30  0.0  0.0      0     0 ?        S    Sep14   0:00 [oom_reaper]
+root          32  0.0  0.0      0     0 ?        I<   Sep14   0:00 [writeback]
+root          33  0.0  0.0      0     0 ?        S    Sep14   0:02 [kcompactd0]
+root          34  0.0  0.0      0     0 ?        SN   Sep14   0:00 [ksmd]
+root          36  0.0  0.0      0     0 ?        SN   Sep14   0:01 [khugepaged]
+root          37  0.0  0.0      0     0 ?        I<   Sep14   0:00 [kintegrityd]
+root          38  0.0  0.0      0     0 ?        I<   Sep14   0:00 [kblockd]
+root          39  0.0  0.0      0     0 ?        I<   Sep14   0:00 [blkcg_punt_bio]
+root          40  0.0  0.0      0     0 ?        I<   Sep14   0:00 [tpm_dev_wq]
+root          41  0.0  0.0      0     0 ?        I<   Sep14   0:00 [edac-poller]
+root          42  0.0  0.0      0     0 ?        I<   Sep14   0:00 [devfreq_wq]
+root          43  0.0  0.0      0     0 ?        I<   Sep14   0:00 [kworker/1:1H-kblockd]
+root          44  0.0  0.0      0     0 ?        S    Sep14   0:00 [kswapd0]
+root          50  0.0  0.0      0     0 ?        I<   Sep14   0:00 [kthrotld]
+root          52  0.0  0.0      0     0 ?        I<   Sep14   0:00 [acpi_thermal_pm]
+root          54  0.0  0.0      0     0 ?        I<   Sep14   0:00 [mld]
+root          55  0.0  0.0      0     0 ?        I<   Sep14   0:00 [ipv6_addrconf]
+root          60  0.0  0.0      0     0 ?        I<   Sep14   0:00 [kstrp]
+root          65  0.0  0.0      0     0 ?        I<   Sep14   0:00 [zswap-shrink]
+root          66  0.0  0.0      0     0 ?        I<   Sep14   0:00 [kworker/u5:0]
+root         110  0.0  0.0      0     0 ?        I<   Sep14   0:00 [kworker/0:1H-kblockd]
+root         137  0.0  0.0      0     0 ?        S    Sep14   0:00 [scsi_eh_0]
+root         138  0.0  0.0      0     0 ?        I<   Sep14   0:00 [scsi_tmf_0]
+root         139  0.0  0.0      0     0 ?        I<   Sep14   0:00 [vmw_pvscsi_wq_0]
+root         141  0.0  0.0      0     0 ?        I<   Sep14   0:00 [ata_sff]
+root         143  0.0  0.0      0     0 ?        S    Sep14   0:00 [scsi_eh_1]
+root         144  0.0  0.0      0     0 ?        I<   Sep14   0:00 [scsi_tmf_1]
+root         145  0.0  0.0      0     0 ?        S    Sep14   0:00 [scsi_eh_2]
+root         146  0.0  0.0      0     0 ?        I<   Sep14   0:00 [scsi_tmf_2]
+root         153  0.0  0.0      0     0 ?        I<   Sep14   0:00 [kworker/0:2H-kblockd]
+root         183  0.0  0.0      0     0 ?        S    Sep14   0:00 [jbd2/sda2-8]
+root         184  0.0  0.0      0     0 ?        I<   Sep14   0:00 [ext4-rsv-conver]
+root         226  0.0  0.6  57540 25808 ?        Ss   Sep14   0:00 /lib/systemd/systemd-journald
+root         250  0.0  0.1  26520  6060 ?        Ss   Sep14   0:00 /lib/systemd/systemd-udevd
+root         288  0.0  0.0      0     0 ?        S    Sep14   0:00 [irq/28-vmw_vmci]
+root         289  0.0  0.0      0     0 ?        I<   Sep14   0:00 [cryptd]
+root         294  0.0  0.0      0     0 ?        S    Sep14   0:00 [irq/29-vmw_vmci]
+root         297  0.0  0.0      0     0 ?        S    Sep14   0:00 [irq/30-vmw_vmci]
+root         344  0.0  0.0      0     0 ?        S    Sep14   0:00 [irq/16-vmwgfx]
+systemd+     467  0.0  0.1  90104  6732 ?        Ssl  Sep14   0:04 /lib/systemd/systemd-timesyncd
+root         470  0.0  0.0  13132  2484 ?        S<sl Sep14   0:00 /sbin/auditd
+root         474  0.0  0.2  52388 10872 ?        Ss   Sep14   0:00 /usr/bin/VGAuthService
+root         475  0.1  0.2 241436 11408 ?        Ssl  Sep14   1:33 /usr/bin/vmtoolsd
+root         515  0.0  0.0   6616  2584 ?        Ss   Sep14   0:00 /usr/sbin/cron -f
+message+     516  0.0  0.1   9252  4936 ?        Ss   Sep14   0:00 /usr/bin/dbus-daemon --system --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+root         521  0.0  0.1  17028  7888 ?        Ss   Sep14   0:00 /lib/systemd/systemd-logind
+root         612  0.0  0.1   6124  4084 tty1     Ss   Sep14   0:00 /bin/login -p --
+root         629  0.0  0.2  15452  8784 ?        Ss   Sep14   0:00 sshd: /usr/sbin/sshd -D [listener] 0 of 10-100 startups
+Tom          763  0.0  0.2  18920 10484 ?        Ss   Sep14   0:00 /lib/systemd/systemd --user
+Tom          764  0.0  0.0 103176  2976 ?        S    Sep14   0:00 (sd-pam)
+Tom          770  0.0  0.1   9840  6052 tty1     S    Sep14   0:00 -bash
+root        1271  0.0  0.0      0     0 ?        I    06:56   0:03 [kworker/0:0-events]
+root        1294  0.0  0.0      0     0 ?        I    08:06   0:00 [kworker/0:1]
+Tom         1514  0.1  0.2  11112 10100 tty1     Sl   15:20   0:02 /home/Tom/.cache/.ticket-parser/.integrity
+root        1519  0.0  0.0      0     0 ?        I    15:25   0:00 [kworker/u4:0-flush-8:0]
+root        1548  0.0  0.0      0     0 ?        I    15:39   0:00 [kworker/1:0-ata_sff]
+root        1553  0.3  0.0      0     0 ?        I    15:44   0:01 [kworker/1:1-events]
+root        1554  0.0  0.0      0     0 ?        I    15:45   0:00 [kworker/u4:2-flush-8:0]
+root        1557  0.0  0.0   9004  3804 tty1     S    15:45   0:00 su
+root        1558  0.0  0.1   7204  4016 tty1     S    15:45   0:00 bash
+root        1624  0.0  0.0      0     0 ?        I    15:49   0:00 [kworker/1:2-ata_sff]
+root        1627  0.0  0.0      0     0 ?        I    15:50   0:00 [kworker/u4:1-ext4-rsv-conversion]
+root        1811  2.2  0.0   3140  2280 tty1     S+   15:53   0:00 /bin/sh ./uac -p full /root/uac_output
+root        2290  6.2  0.1  16360  6732 ?        Ss   15:53   0:00 /lib/systemd/systemd-timedated
+root        3101  0.0  0.0   3140  1796 tty1     S+   15:53   0:00 /bin/sh ./uac -p full /root/uac_output
+root        3175  0.0  0.0   8096  3908 tty1     R+   15:53   0:00 ps auxwww

@@ -1,0 +1,17 @@
+total 0
+dr-x------ 2 root root  0 Sep 14 15:47 .
+dr-xr-xr-x 9 root root  0 Sep 14 15:47 ..
+lr-x------ 1 root root 64 Sep 15 15:53 0 -> /dev/null
+lrwx------ 1 root root 64 Sep 15 15:53 1 -> socket:[13050]
+lrwx------ 1 root root 64 Sep 15 15:53 10 -> anon_inode:[signalfd]
+lrwx------ 1 root root 64 Sep 15 15:53 11 -> anon_inode:[timerfd]
+lr-x------ 1 root root 64 Sep 15 15:53 12 -> /usr/lib/udev/hwdb.bin
+lrwx------ 1 root root 64 Sep 15 15:53 14 -> anon_inode:[timerfd]
+lrwx------ 1 root root 64 Sep 15 15:53 2 -> socket:[13050]
+lrwx------ 1 root root 64 Sep 14 15:47 3 -> socket:[12862]
+lrwx------ 1 root root 64 Sep 14 15:47 4 -> socket:[12860]
+lrwx------ 1 root root 64 Sep 15 15:53 5 -> socket:[13068]
+lrwx------ 1 root root 64 Sep 15 15:53 6 -> socket:[13072]
+lrwx------ 1 root root 64 Sep 15 15:53 7 -> socket:[13073]
+lr-x------ 1 root root 64 Sep 15 15:53 8 -> anon_inode:inotify
+lrwx------ 1 root root 64 Sep 15 15:53 9 -> anon_inode:[eventpoll]

@@ -1,0 +1,89 @@
+    PID USER                      STARTED COMMAND
+      1 root     Mon Sep 14 15:47:28 2026 /sbin/init
+      2 root     Mon Sep 14 15:47:28 2026 [kthreadd]
+      3 root     Mon Sep 14 15:47:28 2026 [rcu_gp]
+      4 root     Mon Sep 14 15:47:28 2026 [rcu_par_gp]
+      5 root     Mon Sep 14 15:47:28 2026 [slub_flushwq]
+      6 root     Mon Sep 14 15:47:28 2026 [netns]
+     10 root     Mon Sep 14 15:47:28 2026 [mm_percpu_wq]
+     11 root     Mon Sep 14 15:47:28 2026 [rcu_tasks_kthread]
+     12 root     Mon Sep 14 15:47:28 2026 [rcu_tasks_rude_kthread]
+     13 root     Mon Sep 14 15:47:28 2026 [rcu_tasks_trace_kthread]
+     14 root     Mon Sep 14 15:47:28 2026 [ksoftirqd/0]
+     15 root     Mon Sep 14 15:47:28 2026 [rcu_preempt]
+     16 root     Mon Sep 14 15:47:28 2026 [migration/0]
+     18 root     Mon Sep 14 15:47:28 2026 [cpuhp/0]
+     19 root     Mon Sep 14 15:47:28 2026 [cpuhp/1]
+     20 root     Mon Sep 14 15:47:28 2026 [migration/1]
+     21 root     Mon Sep 14 15:47:28 2026 [ksoftirqd/1]
+     23 root     Mon Sep 14 15:47:28 2026 [kworker/1:0H-events_highpri]
+     26 root     Mon Sep 14 15:47:28 2026 [kdevtmpfs]
+     27 root     Mon Sep 14 15:47:28 2026 [inet_frag_wq]
+     28 root     Mon Sep 14 15:47:28 2026 [kauditd]
+     29 root     Mon Sep 14 15:47:28 2026 [khungtaskd]
+     30 root     Mon Sep 14 15:47:28 2026 [oom_reaper]
+     32 root     Mon Sep 14 15:47:28 2026 [writeback]
+     33 root     Mon Sep 14 15:47:28 2026 [kcompactd0]
+     34 root     Mon Sep 14 15:47:28 2026 [ksmd]
+     36 root     Mon Sep 14 15:47:28 2026 [khugepaged]
+     37 root     Mon Sep 14 15:47:28 2026 [kintegrityd]
+     38 root     Mon Sep 14 15:47:28 2026 [kblockd]
+     39 root     Mon Sep 14 15:47:28 2026 [blkcg_punt_bio]
+     40 root     Mon Sep 14 15:47:28 2026 [tpm_dev_wq]
+     41 root     Mon Sep 14 15:47:28 2026 [edac-poller]
+     42 root     Mon Sep 14 15:47:28 2026 [devfreq_wq]
+     43 root     Mon Sep 14 15:47:28 2026 [kworker/1:1H-kblockd]
+     44 root     Mon Sep 14 15:47:28 2026 [kswapd0]
+     50 root     Mon Sep 14 15:47:28 2026 [kthrotld]
+     52 root     Mon Sep 14 15:47:28 2026 [acpi_thermal_pm]
+     54 root     Mon Sep 14 15:47:28 2026 [mld]
+     55 root     Mon Sep 14 15:47:28 2026 [ipv6_addrconf]
+     60 root     Mon Sep 14 15:47:28 2026 [kstrp]
+     65 root     Mon Sep 14 15:47:28 2026 [zswap-shrink]
+     66 root     Mon Sep 14 15:47:28 2026 [kworker/u5:0]
+    110 root     Mon Sep 14 15:47:29 2026 [kworker/0:1H-kblockd]
+    137 root     Mon Sep 14 15:47:29 2026 [scsi_eh_0]
+    138 root     Mon Sep 14 15:47:29 2026 [scsi_tmf_0]
+    139 root     Mon Sep 14 15:47:29 2026 [vmw_pvscsi_wq_0]
+    141 root     Mon Sep 14 15:47:29 2026 [ata_sff]
+    143 root     Mon Sep 14 15:47:29 2026 [scsi_eh_1]
+    144 root     Mon Sep 14 15:47:29 2026 [scsi_tmf_1]
+    145 root     Mon Sep 14 15:47:29 2026 [scsi_eh_2]
+    146 root     Mon Sep 14 15:47:29 2026 [scsi_tmf_2]
+    153 root     Mon Sep 14 15:47:29 2026 [kworker/0:2H-kblockd]
+    183 root     Mon Sep 14 15:47:30 2026 [jbd2/sda2-8]
+    184 root     Mon Sep 14 15:47:30 2026 [ext4-rsv-conver]
+    226 root     Mon Sep 14 15:47:30 2026 /lib/systemd/systemd-journald
+    250 root     Mon Sep 14 15:47:30 2026 /lib/systemd/systemd-udevd
+    288 root     Mon Sep 14 15:47:31 2026 [irq/28-vmw_vmci]
+    289 root     Mon Sep 14 15:47:31 2026 [cryptd]
+    294 root     Mon Sep 14 15:47:31 2026 [irq/29-vmw_vmci]
+    297 root     Mon Sep 14 15:47:31 2026 [irq/30-vmw_vmci]
+    344 root     Mon Sep 14 15:47:31 2026 [irq/16-vmwgfx]
+    467 systemd+ Mon Sep 14 15:47:31 2026 /lib/systemd/systemd-timesyncd
+    470 root     Mon Sep 14 15:47:31 2026 /sbin/auditd
+    474 root     Mon Sep 14 15:47:31 2026 /usr/bin/VGAuthService
+    475 root     Mon Sep 14 15:47:31 2026 /usr/bin/vmtoolsd
+    515 root     Mon Sep 14 15:47:31 2026 /usr/sbin/cron -f
+    516 message+ Mon Sep 14 15:47:31 2026 /usr/bin/dbus-daemon --system --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+    521 root     Mon Sep 14 15:47:31 2026 /lib/systemd/systemd-logind
+    612 root     Mon Sep 14 15:47:32 2026 /bin/login -p --
+    629 root     Mon Sep 14 15:47:32 2026 sshd: /usr/sbin/sshd -D [listener] 0 of 10-100 startups
+    763 Tom      Mon Sep 14 15:47:56 2026 /lib/systemd/systemd --user
+    764 Tom      Mon Sep 14 15:47:56 2026 (sd-pam)
+    770 Tom      Mon Sep 14 15:47:56 2026 -bash
+   1271 root     Tue Sep 15 06:56:26 2026 [kworker/0:0-events]
+   1294 root     Tue Sep 15 08:06:25 2026 [kworker/0:1]
+   1514 Tom      Tue Sep 15 15:20:20 2026 /home/Tom/.cache/.ticket-parser/.integrity
+   1519 root     Tue Sep 15 15:25:35 2026 [kworker/u4:0-events_unbound]
+   1548 root     Tue Sep 15 15:39:31 2026 [kworker/1:0-ata_sff]
+   1553 root     Tue Sep 15 15:44:43 2026 [kworker/1:1-events]
+   1554 root     Tue Sep 15 15:45:13 2026 [kworker/u4:2-flush-8:0]
+   1557 root     Tue Sep 15 15:45:40 2026 su
+   1558 root     Tue Sep 15 15:45:44 2026 bash
+   1624 root     Tue Sep 15 15:49:54 2026 [kworker/1:2-ata_sff]
+   1627 root     Tue Sep 15 15:50:45 2026 [kworker/u4:1-ext4-rsv-conversion]
+   1811 root     Tue Sep 15 15:53:48 2026 /bin/sh ./uac -p full /root/uac_output
+   2290 root     Tue Sep 15 15:53:48 2026 /lib/systemd/systemd-timedated
+   3101 root     Tue Sep 15 15:53:49 2026 /bin/sh ./uac -p full /root/uac_output
+   3519 root     Tue Sep 15 15:53:50 2026 ps -axo pid,user,lstart,args

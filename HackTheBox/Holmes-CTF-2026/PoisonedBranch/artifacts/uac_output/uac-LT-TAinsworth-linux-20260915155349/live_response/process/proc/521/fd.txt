@@ -1,0 +1,22 @@
+total 0
+dr-x------ 2 root root  0 Sep 14 15:47 .
+dr-xr-xr-x 9 root root  0 Sep 14 15:47 ..
+lr-x------ 1 root root 64 Sep 15 15:53 0 -> /dev/null
+lrwx------ 1 root root 64 Sep 15 15:53 1 -> socket:[14255]
+lr-x------ 1 root root 64 Sep 15 15:53 10 -> /run/systemd/sessions/1.ref
+lrwx------ 1 root root 64 Sep 15 15:53 11 -> socket:[14306]
+lrwx------ 1 root root 64 Sep 15 15:53 12 -> socket:[14307]
+lrwx------ 1 root root 64 Sep 15 15:53 13 -> socket:[14308]
+lrwx------ 1 root root 64 Sep 15 15:53 14 -> socket:[14309]
+lrwx------ 1 root root 64 Sep 15 15:53 15 -> anon_inode:[timerfd]
+lrwx------ 1 root root 64 Sep 15 15:53 16 -> /dev/input/event3
+lrwx------ 1 root root 64 Sep 15 15:53 17 -> /dev/input/event0
+lrwx------ 1 root root 64 Sep 15 15:53 18 -> /dev/tty6
+lrwx------ 1 root root 64 Sep 15 15:53 2 -> socket:[14255]
+lrwx------ 1 root root 64 Sep 14 15:47 3 -> socket:[14297]
+lrwx------ 1 root root 64 Sep 14 15:47 4 -> anon_inode:[eventpoll]
+lrwx------ 1 root root 64 Sep 15 15:53 5 -> anon_inode:[signalfd]
+lrwx------ 1 root root 64 Sep 15 15:53 6 -> anon_inode:[timerfd]
+lr-x------ 1 root root 64 Sep 15 15:53 7 -> /sys/devices/virtual/tty/tty0/active
+lrwx------ 1 root root 64 Sep 15 15:53 8 -> socket:[14305]
+lr-x------ 1 root root 64 Sep 15 15:53 9 -> anon_inode:inotify

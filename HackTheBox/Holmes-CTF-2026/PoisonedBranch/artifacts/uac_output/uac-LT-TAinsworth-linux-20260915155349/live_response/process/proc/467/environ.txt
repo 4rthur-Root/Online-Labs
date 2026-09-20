@@ -1,0 +1,13 @@
+LANG=en_US.UTF-8
+PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+NOTIFY_SOCKET=/run/systemd/notify
+WATCHDOG_PID=467
+WATCHDOG_USEC=180000000
+LOGNAME=systemd-timesync
+USER=systemd-timesync
+INVOCATION_ID=2d68c275bf764deda5cdae5b235a1c95
+JOURNAL_STREAM=8:14089
+RUNTIME_DIRECTORY=/run/systemd/timesync
+STATE_DIRECTORY=/var/lib/systemd/timesync
+SYSTEMD_EXEC_PID=467
+SYSTEMD_NSS_RESOLVE_VALIDATE=0

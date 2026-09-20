@@ -1,0 +1,7 @@
+               Local time: Tue 2026-09-15 15:54:30 BST
+           Universal time: Tue 2026-09-15 14:54:30 UTC
+                 RTC time: Tue 2026-09-15 14:54:30
+                Time zone: Europe/London (BST, +0100)
+System clock synchronized: yes
+              NTP service: active
+          RTC in local TZ: no

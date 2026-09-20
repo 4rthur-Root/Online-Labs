@@ -1,0 +1,11 @@
+NEXT                        LEFT          LAST                        PASSED        UNIT                         ACTIVATES
+Tue 2026-09-15 16:02:28 BST 7min left     Mon 2026-09-14 16:02:32 BST 23h ago       systemd-tmpfiles-clean.timer systemd-tmpfiles-clean.service
+Tue 2026-09-15 21:44:25 BST 5h 49min left Tue 2026-09-15 06:33:26 BST 9h ago        apt-daily.timer              apt-daily.service
+Wed 2026-09-16 00:00:00 BST 8h left       Tue 2026-09-15 00:00:05 BST 15h ago       dpkg-db-backup.timer         dpkg-db-backup.service
+Wed 2026-09-16 00:00:00 BST 8h left       Tue 2026-09-15 00:00:05 BST 15h ago       logrotate.timer              logrotate.service
+Wed 2026-09-16 04:19:55 BST 12h left      Tue 2026-09-15 08:06:26 BST 7h ago        man-db.timer                 man-db.service
+Wed 2026-09-16 06:36:13 BST 14h left      Tue 2026-09-15 06:56:26 BST 8h ago        apt-daily-upgrade.timer      apt-daily-upgrade.service
+Sun 2026-09-20 03:10:13 BST 4 days left   Sun 2026-09-13 18:24:49 BST 1 day 21h ago e2scrub_all.timer            e2scrub_all.service
+Mon 2026-09-21 01:19:25 BST 5 days left   Mon 2026-09-14 00:13:17 BST 1 day 15h ago fstrim.timer                 fstrim.service
+
+8 timers listed.
