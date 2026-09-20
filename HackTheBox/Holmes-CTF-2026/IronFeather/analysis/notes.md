@@ -52,6 +52,15 @@
 - impact vGPOS (525.856): 51.5016938, -0.1620929
 - GPS sensor at 526.016: 51.5016943, -0.1620924
 - disarm @576.968, land_detected @577.312
-## takeoff variants
-- vGPOS@arm 285.256 = home = 51.4996985/ -0.1607997 ; GPS@285.268 51.4996989/-0.1607997 ;
-  mission item0 51.4997000/-0.1608000 ; vLP ref 51.4996987/-0.1608002
+## takeoff variants (Q11 — UNRESOLVED, rejected by platform)
+- vGPOS@arm 285.256 = home = 51.4996985 / -0.1607997
+- GPS@285.268: 51.4996989 / -0.1607997
+- mission item0 (double): 51.4997000 / -0.1608000
+- SIH_LOC_LAT0/LON0 + groundtruth: 51.4996986 / -0.1608000 (and -0.1607999 trunc)
+- navigator float32 item0: 51.4996986 / -0.1607997
+- vLP LTP ref: 51.4996987 / -0.1608002
+ALL REJECTED -> expected value differs / possibly separate lat-lon fields.
+
+## Q13 detail: injected failure = battery drain
+- changed params at 516s: SIM_BAT_DRAIN=1.0, SIM_BAT_MIN_PCT=0.0
+- command MAV_CMD_INJECT_FAILURE (420) @520.764s ack OK, mission aborted @522.992s
