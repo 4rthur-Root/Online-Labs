@@ -1,1 +1,4 @@
 firmware*
+memory.elf
+*.evtx
+*.img
