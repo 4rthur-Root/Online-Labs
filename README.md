@@ -108,18 +108,17 @@ The main project: a complete, hands-on **DFIR investigation** through Blue Cape 
 | [`CyberDefenders/`](CyberDefenders/) | *FakeGPT-Lab* walkthrough | ✅ Documented |
 | [`Google-Cybersecurity/`](Google-Cybersecurity/) | Google Cybersecurity Certificate - courses 1–9 notes | 🚧 In progress (course notes) |
 | [`LetsDefend/`](LetsDefend/) | Malware Analysis & Cybersecurity Fundamentals | 🚧 Starter only |
-| [`TheForage/`](TheForage/) | TATA Cybersecurity Analyst job simulation | 🚧 Starter only |
+| [`TheForage/`](TheForage/) | AIG Shields Up: Cybersecurity (done) + TATA Cybersecurity Analyst (starter) | 🚧 In progress |
 | [`BTLO/`](BTLO/) | Blue Team Labs Online | ⏳ To come |
 | [`BOTS/`](BOTS/) | BOTS (SOC simulation) | ⏳ To come |
 
 ## 🗺️ Roadmap
 
 - **Done** : Blue-Cape-DFIR full investigation, SANS CTF writeups, 3 HackTheBox Sherlocks, TryHackMe labs, FakeGPT-Lab.
-- **In progress** : Google Cybersecurity Certificate notes, LetsDefend fundamentals, TheForage simulation.
+- **In progress** : Google Cybersecurity Certificate notes, LetsDefend fundamentals, TheForage TATA simulation.
+- **Done (Forage)** : AIG Shields Up: Cybersecurity simulation - Log4j advisory + ransomware bruteforce.
 - **To come** : BTLO and BOTS SOC-style labs.
 
 ---
 
-Prefer starting from the inside: each subfolder has its own self-contained `README.md` covering the how and why behind every finding. 
-
-
+Prefer starting from the inside: each subfolder has its own self-contained `README.md` covering the how and why behind every finding.
