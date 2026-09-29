@@ -1,0 +1,26 @@
+From: AIG Cyber & Information Security Team
+To: Product Development Team
+Subject: Security Advisory concerning product Development environment Log4j
+—
+Body: 
+Hello John Doe,
+
+AIG Cyber & Information Security Team would like to inform you that a recent Log4j vulnerability has been discovered in the security community that may affect the product development environment.
+
+This vulnerability named Log4Shell, is a remote code execution (RCE) vulnerability affecting Apache’s Log4j library, 
+versions 2.0-beta9 to 2.14.1. The vulnerability exists in the action the Java Naming and Directory Interface (JNDI) 
+takes to resolve variables.
+
+An adversary can exploit Log4Shell by submitting a specially crafted request to a vulnerable system that causes 
+that system to execute arbitrary code. The request allows the adversary to take full control over the system.
+The adversary can then steal information, launch ransomware, or conduct other malicious activity.
+
+I would encourage you to Immediately identify, mitigate, and update affected products that use Log4j to the latest patched version.
+
+
+To be sure everything is patched you can check https://logging.apache.org/log4j/2.x/security.html.
+
+For any questions or issues, don’t hesitate to reach out to us.
+
+Kind regards,
+AIG Cyber & Information Security Team
