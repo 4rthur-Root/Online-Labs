@@ -1,159 +1,141 @@
-![AIG](./shots/AIG.png)
+# AIG - Shields Up: Cybersecurity (Forage)
 
-## Task 1 Responding to a zero-day vulnerability
-![task-1-overview](./shots/task-1-overview.png)
-Here are the instructions for your task
-The CISA has recently published the following two advisories:
-https://www.cisa.gov/news-events/cybersecurity-advisories/aa21-356a
-https://www.cisa.gov/news-events/news/cisa-fbi-nsa-and-international-partners-issue-advisory-ransomware-trends-2021
-The first advisory (Log4j), outlines a serious vulnerability in one of the world’s most popular logging software.
-The second advisory explores how ransomware has been increasing and is becoming professionalized - a concern for a large company like AIG.
-Your task is to respond to the Apache Log4j zero-day vulnerability that was released to the public by advising affected teams of the vulnerability. 
+![AIG](./screenshots/AIG.png)
 
-First, conduct your research on the vulnerability using the “CISA Advisory" resources provided above as a starting point.
+Forage virtual job simulation for AIG's Cyber & Information Security Team. Two tasks: responding to a zero-day advisory as an Information Security Analyst, then bruteforcing the decryption key of a ransomware-encrypted file after an exploitation attempt.
 
-Next, analyze the “Infrastructure List” below to find out which infrastructure may be affected by the vulnerability, and which team has ownership.
+**Certificate / proof of completion:** simulation completed [insert completion date]; LinkedIn share posted.
 
-![table](./shots/tools.png)
+---
 
-Draft your advisory email below
-To finish this task, draft an advisory email to alert the infrastructure owner of the seriousness of this vulnerability. 
+## Task 1 - Responding to a zero-day vulnerability
 
-For inspiration, you can use the email template provided below from our last cyber threat advisory.
+![task-1-overview](./screenshots/task-1-overview.png)
 
-```text
-From: AIG Cyber & Information Security Team
-To: <affected team>
-Subject: Security Advisory concerning <affected product> <affected software>
-—
-Body: 
-Hello <affected team owner>,
+### Scenario
 
-AIG Cyber & Information Security Team would like to inform you that a recent <affected software> vulnerability has been discovered in the security community that may affect <affected product>.
+CISA published two advisories: one on the Apache Log4j vulnerability, one on ransomware trends and professionalization. As an Information Security Analyst on AIG's Cyber & Information Security Team, the job was to research the Log4j vulnerability, cross-reference it against AIG's infrastructure, and draft an advisory to the affected team before an attacker could exploit it.
 
-<vulnerability description>
+### Vulnerability research
 
-<vulnerability risk/impact>
+- **Log4j2 remote code execution** (CVE-2021-44228, "Log4Shell") - an unauthenticated attacker can trigger remote code execution on any system logging attacker-controlled input through a vulnerable Log4j2 version (2.0-beta9 through 2.15.0), via JNDI lookups in log messages.
+- A related follow-up (CVE-2021-45046) affected the initial 2.15.0 fix in certain non-default configurations.
+- Fixed versions: **2.16.0** (Java 8) and **2.12.2** (Java 7).
+- Severity: Critical - no authentication required, and exploitation only requires getting a malicious string into a log line (e.g. via a request header or username field).
 
-<vulnerability remediation>
+### Infrastructure review
 
-<any assurances to ensure advisory was actioned>
+Cross-referencing the vulnerability against AIG's asset inventory to find which product/team was exposed:
 
-For any questions or issues, don’t hesitate to reach out to us.
+![infrastructure-list](./screenshots/tools.png)
 
-Kind regards,
-AIG Cyber & Information Security Team
-```
+| Product Team | Product Name | Services Installed | Exposed? |
+|---|---|---|---|
+| IT | Workstation Management System | OpenSSH, dnsmasq, lighttpd | No |
+| **Product Development** | **Product Development Staging Environment** | Dovecot pop3d, Apache httpd, **Log4j**, Dovecot imapd, MiniServ | **Yes** |
+| Marketing | Marketing Analytics Server | Microsoft ftpd, Indy httpd, Microsoft Windows RPC/netbios-ssn, Windows Server 2008 R2-2012 | No |
+| HR | Human Resource Information System | OpenSSH, Apache httpd, rpcbind2-4 | No |
 
+Only the **Product Development Staging Environment** runs Log4j, so it's the only asset in scope for this advisory. Owner: Product Development team (John Doe).
 
+### Advisory email
 
+Following AIG's advisory template (risk/impact, remediation, and a call to confirm remediation), addressed to the infrastructure owner identified above:
 
-Example advisory email
-Great work!
+> **From:** AIG Cyber & Information Security Team
+> **To:** Product Development Team (product@email.com)
+> **Subject:** Security Advisory concerning Product Development Staging Environment | Log4j
+>
+> Hello John Doe,
+>
+> AIG Cyber & Information Security Team would like to inform you that a recent Log4j vulnerability has been discovered in the security community that may affect the Product Development Staging Environment infrastructure.
+>
+> **Vulnerability Overview**
+> Log4j is a common open-source tool used for application logging and monitoring across the web. A vulnerability in versions Log4j2 2.0-beta9 through 2.15.0 allows an unauthenticated attacker to perform remote code execution on affected infrastructure - CVE-2021-44228 and CVE-2021-45046.
+>
+> **Affected products:** Log4j2 2.0-beta9 through 2.15.0
+>
+> **Risk & Impact:** Critical - remote code execution (RCE). An attacker could remotely access the Product Development Staging Environment to exfiltrate data or execute malicious actions.
+>
+> **Remediation**
+> - Identify any assets or infrastructure running the affected Log4j version
+> - Update to Log4j 2.16.0 (Java 8) or 2.12.2 (Java 7)
+> - Watch for signs of exploitation
+>
+> If you identify signs of exploitation, reach out immediately. Please confirm remediation with the security team by replying to this email.
+>
+> Kind regards,
+> AIG Cyber & Information Security Team
 
-There are many ways you could have attempted this task, as advisory emails come in all shapes and sizes. Below you'll find one example of an advisory email alerting the infrastructure owner of the seriousness of this vulnerability.
+**Takeaway:** the advisory workflow is research → cross-reference asset inventory to find real exposure → notify only the owner of the affected system, with risk, impact, and a concrete remediation path, not a blanket warning.
 
-From: AIG Cyber & Information Security Team
-To: Product Development Team (product@email.com)
-Subject: Security Advisory concerning Product Development Staging Environment | Log4j
-—
-Body:
-Hello John Doe,
+---
 
-AIG Cyber & Information Security Team would like to inform you that a recent Log4j vulnerability has been discovered in the security community that may affect the Product Development Staging Environment infrastructure.
+## Task 2 - Bypassing ransomware
 
-Vulnerability Overview
-Log4j is a common open-source tool used for application logging and monitoring across the web. Recently, a vulnerability has been identified in versions Log4j2 2.0-beta9 through 2.15.0 that would allow an unauthenticated attacker to perform remote code execution on affected infrastructure, making this a critical vulnerability. You can learn more in the NIST disclosures: NVD - CVE-2021-44228 and NVD - CVE-2021-45046.
+![task-2-overview](./screenshots/task-2-overview.png)
 
-Affected products
-Log4j2 2.0-beta9 through 2.15.0
+### Scenario
 
-Risk & Impact
-Critical - remote code execution (RCE). An attacker will be able to remotely access the Product Development Staging Environment infrastructure to exfiltrate data or execute malicious actions.
+The Log4j vulnerability above was exploited on the Product Development Staging Environment before the advisory could be actioned. The Incident Detection & Response team stopped the ransomware mid-install, but it had already encrypted one zip file (`enc.zip`). AIG's CISO chose not to pay the ransom - no guarantee of a working decryption key, and no guarantee the attacker doesn't strike again - and asked for the password to be recovered by bruteforce instead, on the assumption the attacker used a common, copy-pasted payload rather than a custom key.
 
-Remediation
-● Identify any assets or infrastructure running the affected Log4j version
-● Update to the following versions: Log4j 2.16.0 (Java 8) and 2.12.2 (Java 7)
-● Be on the lookout for any signs of exploitation
+### Approach
 
-If you identified any signs of exploitation, please immediately reach out. After you have remediated this vulnerability, please confirm with the security team by replying to this email.
-
-For any questions or issues, don’t hesitate to reach out to us.
-
-Kind regards,
-AIG Cyber & Information Security Team
-
-
-### Task 2 Bypassing ransomware
-
-![task-2-overview](./shots/task-2-overview.png)
-
-* Setting the scene for your next task
-Your advisory email in the last task was great. It provided context to the affected teams on what the vulnerability was, and how to remediate it. 
-
-Unfortunately, an attacker was able to exploit the vulnerability on the affected server and began installing a ransomware virus. Luckily, the Incident Detection & Response team was able to prevent the ransomware virus from completely installing, so it only managed to encrypt one zip file. 
-
-Internally, the Chief Information Security Officer does not want to pay the ransom, because there isn’t any guarantee that the decryption key will be provided or that the attackers won’t strike again in the future. 
-
-Instead, we would like you to bruteforce the decryption key. Based on the attacker’s sloppiness, we don’t expect this to be a complicated encryption key, because they used copy-pasted payloads and immediately tried to use ransomware instead of moving around laterally on the network.
-
-* Here is the background information for your task
-In this task, you will write a Python script to bruteforce the decryption key of the encrypted file.
-
-Bruteforcing is the act of repeatedly trying different combinations to break the password encryption (based on either randomly generated passwords, or from a list of passwords to try). In the resource below, we've provided a small subset of passwords from Rockyou - a widely know password wordlist that contains thousands of common passwords in one wordlist.
-
-Ransomware will often encrypt all files on a device, and sometimes give the decryption key after the ransom has been paid (but this is not always the case!). In this task, we would like you to break the encryption without paying the ransom.
-
-A foundational Python 3+ template has also been provided for you in the resource below. One potential implementation is described in the code comments.
-
-After, open the decrypted word doc and paste your Python code in the text field below. We'll show you an example answer on the next step, but we encourage you to give it a go first!
-
-
-
-sample provided after 
+A [Python bruteforce script](./bruteforce.py) that iterates through a wordlist (a subset of `rockyou.txt`) and attempts to extract `enc.zip` with each candidate password:
 
 ```python
-from zipfile import ZipFile
-
-def attempt_extract(zf_handle, password):
+def attempt_extract(zf, password):
     try:
-        zf_handle.extractall(pwd=password)
+        zf.extractall(pwd=password)
         return True
-    except:
+    except RuntimeError:
+        zf.close()
         return False
-
-def main():
-    print("[+] Beginning bruteforce ")
-    with ZipFile('enc.zip') as zf:
-        with open('rockyou.txt', 'rb') as f:
-            for p in f:
-                password = p.strip()
-                if attempt_extract(zf, password):
-                    print("[+] Correct password: %s" % password)
-                    exit(0)
-                else:
-                    print("[-] Incorrect password: %s" % password)
-
-    print("[+] Password not found in list")
-
-if __name__ == "__main__":
-    main()
-
 ```
 
-now last quizes
+- `password` is read from `rockyou.txt` in binary mode (`'rb'`), so it's already `bytes` - the type `zf.extractall(pwd=...)` expects; no manual encoding needed.
+- A wrong password on a ZipCrypto-encrypted archive raises `RuntimeError` ("Bad password") as soon as the per-file password check fails, which is what triggered on every incorrect guess here. `attempt_extract()` returns `False` on that and closes the (now unusable) handle.
+- Because a failed attempt leaves the `ZipFile` object closed, the main loop reopens it before the next try:
 
+```python
+with ZipFile('enc.zip') as zf:
+    with open('rockyou.txt', 'rb') as f:
+        for line in f:
+            password = line.strip()
+            if attempt_extract(zf, password):
+                print(f"[+] Extraction successful - password: {password}")
+                break
+            else:
+                print(f"[-] Extraction failed - password: {password}")
+                zf = ZipFile('enc.zip', 'r')
+```
 
-![1](./shots/1.png)
-![1](./shots/1.png)
-![1](./shots/1.png)
-![1](./shots/1.png)
-![1](./shots/1.png)
-![1](./shots/1.png)
-![1](./shots/1.png)
-![1](./shots/1.png)
-![1](./shots/1.png)
-![1](./shots/1.png)
+### Result
 
-Uses
-https://www.canva.com/design/DAFl7ChBdDM/r4eSUvu_ANmkqukuwM7_6Q/view?utm_content=DAFl7ChBdDM&utm_campaign=designshare&utm_medium=link&utm_source=viewer
+```
+$ python3 bruteforce.py
+[+] Beginning bruteforce
+Extraction failed for the password b'123456'
+...
+Extraction failed for the password b'gabriela'
+Extraction successful for the password b'SPONGEBOB'
+```
+
+The password was recovered in 82 attempts - `SPONGEBOB`, an all-caps dictionary word straight out of the wordlist. It confirms the brief's assumption: a rushed, copy-pasted ransomware deployment with no custom key generation.
+
+### Detection & Mitigation
+
+This task is offense-flavored (cracking a password), so from a blue-team lens:
+
+- **Detection:** repeated failed decryption/extraction attempts against an archive, or repeated failed-password events, are a bruteforce signature - worth alerting on if this pattern shows up against production systems rather than a recovery workstation.
+- **Root cause, not just recovery:** the fact this password was crackable in under 100 guesses is a symptom of the Log4j RCE going unpatched, not a security control on its own - recovering the file doesn't close the exploitation path that got the attacker in.
+- **Mitigation:** the real fix is upstream - patch Log4j per the Task 1 advisory, monitor for the initial exploitation attempt (e.g. JNDI lookup strings in logs), and maintain offline/immutable backups so recovery never depends on cracking the attacker's key in the first place.
+
+---
+
+## What I learned
+
+- Prioritizing an advisory by cross-referencing a vulnerability against an actual asset inventory, instead of broadcasting a generic alert.
+- Writing a concise, actionable security advisory: risk/impact, affected scope, remediation, and a confirmation loop.
+- Bruteforcing a ZIP password in Python with `zipfile`, including the handle-reuse gotcha after a failed `extractall()` attempt.
+- Reframing an offensive recovery technique (bruteforcing) in terms of what it reveals about the upstream failure (unpatched RCE) and what actually prevents a repeat.
