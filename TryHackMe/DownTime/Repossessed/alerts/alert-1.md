@@ -8,7 +8,7 @@
 
 - Type: Execution
 
-- Date: Oct 25rd 2026 at 01:29
+- Date: Oct 26rd 2026 at 02:05
 
 Description:
 
@@ -174,3 +174,8 @@ List of Related Entities: ai.exe ;  WINWORD.EXE; Q3_PressKit_Feedback.docm
 
 Reason for Classifying as False Positive: No relevant logs seen in the splunk interface, the alert involves legitimate tools with no clue on their missuse.
 ```
+
+I will mark this as true positive with escalation (SIEM not giving much index=* User="NOT_TRANSLATED" ndex=* User="NOT_TRANSLATED").
+
+I will classify as true positive with escalation just for the http download .
+

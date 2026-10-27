@@ -114,25 +114,24 @@ WinEventLog:Microsoft-Windows-Sysmon/Operational
 Playbook : At [playbok](https://tryhackme.com/soc-sim/playbook/de3bae14-f480-4354-b4e8-94a3a083d578) Unusual Network Connection Detection - Windows Environment
 This playbook provides step-by-step guidelines for SOC Level 1 analysts to investigate unusual network connection activity in a Windows environment. This involve unexpected or suspicious connections, communication with unknown external IPs or lateral movement attempts. The playbook helps analysts review key log data, assess involved processes, and determine whether the activity is malicious.
 
-This is again done by smith , here using powershell he tried to initiate a connection to the ip `45.147.230.131`. I don't have much things to look for here , so check the ip in virus total shows its manners so verdict is <span style="color: red;">True positive</span> .
+This is again done by smith  , here using powershell he tried to initiate a connection to the ip `45.147.230.131`. I don't have much things to look for here (splunk: index=* (src_ip="45.147.230.131" OR dest_ip="45.147.230.131") nothing) , so check the ip in virus total shows its manners so verdict is <span style="color: red;">True positive</span> .
 
 ![virus](./evidences/virus-total.png)
 
 
 ### My report 
 ```
-Time of activity: ct 24rd 2026 at 01:09
+Time of activity: Oct 26rd 2026 at 02:03:41.547
 
-List of Affected Entities: The machine from where the connection was made
+List of Affected Entities: HM-MSMITH.tryhatmestudios.thm host
 
-Reason for Classifying as True Positive: The unknown user smith run it with powershell 
-the destination IP was flagged dangerous by Virustotal
+Reason for Classifying as True Positive: The unknown user smith accessed an IP that was flagged dangerous by Virustotal
 
-Reason for Escalating the Alert: This alert needs to be investigated in depth to catch communication between the host and the malicious IP
+Reason for Escalating the Alert:  This alert needs to be investigated in depth to catch communication between the host and the malicious IP
 
 Recommended Remediation Actions: Look further at network analysis to see what communications were made with the IP
 
 List of Attack Indicators: User: Smith
-powershell
-IP
+powershell execution
+IP: 5.147.230.131
 ```
