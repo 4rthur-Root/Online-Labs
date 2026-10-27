@@ -1,17 +1,30 @@
-# REPOSSESSED
+# Repossessed — SOC simulator
 
 ![repossessed](./screenhots/repossessed.png)
 
-This is the first room of the CTF and it is a SOC simulator.
-It has 7 steps.
+This is the first room in my Downtime CTF write-up. It is a seven-step SOC simulation in which I reviewed alerts, investigated the available telemetry, and recorded a triage decision.
 
-[all 7 images should be here]
+## My alert investigations
 
-One loaded , you see the dashboards
+The notes below retain my initial reasoning and add a corrected assessment where I found a gap or an unsupported conclusion. The event records are not fully consistent in their timestamps, so check the event-level time and process identifiers before treating the alerts as one chronological sequence.
+
+| Alert | Topic | Analysis |
+|---|---|---|
+| 6352 | Office AI helper spawned by Word | [Alert 1](./alerts/alert-1.md) |
+| 6353 | Encoded PowerShell downloader | [Alert 2](./alerts/alert-2.md) |
+| 6354 | PowerShell outbound connection to `45.147.230.131` | [Alert 3](./alerts/alert3.md) |
+| 6355 | Windows Credential Manager enumeration | [Alert 4](./alerts/alert4.md) |
+| 6356 | Domain-account enumeration | [Alert 5](./alerts/alert5.md) |
+| 6357 | Suspicious Windows service creation | [Alert 6](./alerts/alert6.md) |
+| 6358 | PowerShell connection to `104.18.32.47` | [Alert 7](./alerts/alert7.md) |
+| 6359 | 7-Zip archives NeuralNexus build output | [Alert 8](./alerts/alert8.md) |
+| 6360 | PowerShell connection to `45.147.230.131` | [Alert 9](./alerts/alert9.md) |
+
+When the room loads, the SOC dashboards are available:
 ![dashboard1](./screenhots/dashboard1.png)
 ![dashboard2](./screenhots/dashboard2.png)
 
-At the alert tab, we can take a look at some alerts
+The Alerts tab contains the cases to triage:
 ![alert](./screenhots/alerts.png)
 
 ## Documentation
@@ -156,4 +169,4 @@ This morning, something odd shows up in the SIEM: a Marketing workstation spawns
 
 - Assess whether any data was accessed or removed from the network.
 
-Now let's dive in to the first one , [alert1](./alerts/alert1.md).
+Now let's dive into the first one, [Alert 6352](./alerts/alert-1.md).

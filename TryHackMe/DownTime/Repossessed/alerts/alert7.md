@@ -1,133 +1,36 @@
-# Alert 7
+# Alert 6358 — Suspicious outbound connection around archive activity
 
-- id: 6358
+- **Disposition:** Suspicious; escalate within the confirmed host compromise, but do not label this connection as exfiltration without further evidence.
+- **Severity / type:** Critical / Exfiltration (as labelled by the alert)
+- **Host / user:** `THM-SREYES.tryhatmestudios.thm` / `NT AUTHORITY\SYSTEM`
+- **Event time:** 2026-10-26 05:28:33.567
 
-- alert Rule: Suspicious External connection following archive creation 
+**Evidence:** Sysmon Event ID 3; PowerShell on `10.60.10.20` connects to `104.18.32.47:443` over TCP. Its process GUID differs from the PowerShell process that launched 7-Zip in Alert 6359. The connection precedes the 7-Zip process event at 05:30:24.
 
-- Severity: <span style="color: red;">Critical</span>   
+## My initial assessment
 
-- Type: Exfiltration
+I initially leaned toward a false positive because the destination appeared to be a Cloudflare address, the IP had a clean VirusTotal result, and I thought the source differed from the other activity. My draft report then contradicted that conclusion by calling it a true positive and asserting that 7-Zip was used to exfiltrate data.
 
-- Date: Oct 23rd 2026 at 05:30
+## Review and corrections
 
-Description:
+The host name in this event is the same compromised `THM-SREYES` host as Alerts 6357–6360. The private source address `10.60.10.20` is not evidence that the event belongs to a different case. A public Cloudflare IP can front many services; a clean reputation result does not establish that the specific connection was benign.
 
-This detection fires when a host transmits data to an external destination around the time an archive file is created locally. Connections to the same destination are grouped, so an alert may represent several connections rather than one, and the analyst is expected to establish how many occurred and over what interval. Archive creation followed by an outbound transfer matches the pattern used to move collected data out of an environment, but it also matches routine backup, telemetry, and vendor integration traffic. The analyst must establish what the archive contained, which process opened the connection, and whether the destination is a known and approved service before reaching a verdict.
+This connection is not directly tied to the later 7-Zip process: the process GUIDs differ, and the connection event occurs before the archive-creation event. Treat it as suspicious outbound PowerShell activity on a compromised host, not as proof that the archive was uploaded. Correlate the domain, TLS metadata, process command line, DNS, proxy/firewall logs, and traffic volume before reaching a more specific conclusion.
 
-DestinationIp:
+The alert summary is dated 2026-10-23, while the raw network event is dated 2026-10-26 05:28:33.567. Resolve that discrepancy as part of timeline validation.
 
-104.18.32.47
+## Case note
 
-DestinationPort:
+> **Disposition:** Escalate as suspicious, potentially incident-related activity. The available record does not prove archive exfiltration or establish the purpose of this particular connection.
+>
+> **Entities / indicators:** `THM-SREYES.tryhatmestudios.thm`, `10.60.10.20`, PowerShell running as SYSTEM, `104.18.32.47:443/TCP`.
+>
+> **Next steps:** Resolve the destination at the event time; review SNI, DNS, proxy and firewall records; inspect the process command line and process tree; check for bytes sent/received; compare with approved application traffic. Do not block a shared Cloudflare address without identifying the hosted service and assessing collateral impact.
 
-443
+## MITRE ATT&CK
 
-EventCode:
+No technique is confirmed by the network event alone. Web-protocol command and control ([T1071.001](https://attack.mitre.org/techniques/T1071/001/)) is a hypothesis only if the connection's purpose is verified.
 
-3
+## Reporting correction
 
-EventType:
-
-4
-
-Image:
-
-C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
-
-Initiated:
-
-true
-
-LogName:
-
-Microsoft-Windows-Sysmon/Operational
-
-OpCode:
-
-Info
-
-ProcessGuid:
-
-{3af46175-3c7c-6a90-d11c-000000001100}
-
-ProcessId:
-
-12408
-
-Protocol:
-
-tcp
-
-Sid:
-
-S-1-5-18
-
-SidType:
-
-0
-
-SourceIp:
-
-10.60.10.20
-
-SourceName:
-
-Microsoft-Windows-Sysmon
-
-SourcePort:
-
-56222
-
-TaskCategory:
-
-Network connection detected (rule: NetworkConnect)
-
-Type:
-
-Information
-
-User:
-
-[ "NOT_TRANSLATED", "NT AUTHORITY\\SYSTEM" ]
-
-category:
-
-Network connection detected (rule: NetworkConnect)
-
-event_id:
-
-43438
-
-host:
-
-THM-SREYES.tryhatmestudios.thm
-
-timestamp:
-
-10/26/2026 05:28:33.567
-
-datasource:
-
-WinEventLog:Microsoft-Windows-Sysmon/Operational
-
-
-things are taking shape it is now extracting data to a cloudflare  IP 104.18.32.47 marked clean by virustotal though . but wait first of all it is not the same ip 20 not 22 , not same scipt or user , this might be just noise or legitimate so , false positive 
-
-```
-ime of activity: Oct 26th 2026 at 05:32
-
-
-List of Affected Entities: HM-MSMITH.tryhatmestudios.thm host
-
-
-Reason for Classifying as True Positive: the malicious script is using 7z maybe to exfiltrate stolen data to a remote server .
-
-
-Reason for Escalating the Alert: A high level user is using 7z to zip something and send
-
-
-Recommended Remediation Actions: investigate what was zipped and whether it was sent or not and to who ?
-
-
-List of Attack Indicators: svchost_update.exe; 7zip.exe , AUTHORITY/SYSTEM
-```
+Keep the initial uncertainty visible, then resolve it with process and timeline evidence. Do not write “7-Zip exfiltrated the archive” here: this event has a different process GUID and predates the archive event.

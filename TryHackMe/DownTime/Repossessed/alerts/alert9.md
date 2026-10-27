@@ -1,130 +1,39 @@
-# Alert 9
+# Alert 6360 — Suspicious outbound connection following archive creation
 
-- id: 6360
+- **Disposition:** True positive / escalate as likely command-and-control activity; confirm whether any archive data was transferred.
+- **Severity / type:** Critical / Exfiltration
+- **Host / user:** `THM-SREYES.tryhatmestudios.thm` / `NT AUTHORITY\SYSTEM`
+- **Event time:** 2026-10-26 15:11:41.384
 
-- alert Rule: Suspicious External connection following archive creation 
+**Evidence:** Sysmon Event ID 3; PowerShell on `10.60.10.20` connects to `45.147.230.131:8067` over TCP. Its process GUID matches the parent PowerShell process GUID recorded for 7-Zip in Alert 6359. The destination is also reported in Alert 6354.
 
-- Severity: <span style="color: red;">Critical</span>   
+## My initial assessment
 
-- Type: Exfiltration
+I identified the destination as a previously reported malicious IP and classified the alert as a true positive requiring escalation. My draft said there was a “high volume” of traffic, but the supplied event contains no byte counts or connection totals to support that claim. I also used the wrong host label in the report.
 
-- Date: Oct 23rd 2026 at 05:30
+## Review and corrections
 
-Description:
+The matching process GUID links this network event to the PowerShell process that launched 7-Zip, which is materially stronger evidence than simple time proximity. It supports the conclusion that the same suspicious process both staged the archive and connected to the known destination.
 
-This detection fires when a host transmits data to an external destination around the time an archive file is created locally. Connections to the same destination are grouped, so an alert may represent several connections rather than one, and the analyst is expected to establish how many occurred and over what interval. Archive creation followed by an outbound transfer matches the pattern used to move collected data out of an environment, but it also matches routine backup, telemetry, and vendor integration traffic. The analyst must establish what the archive contained, which process opened the connection, and whether the destination is a known and approved service before reaching a verdict.
+There is a substantial timestamp gap: 7-Zip is recorded at 05:30:24, while this connection is recorded at 15:11:41. Confirm clock/timezone normalization, process lifetime, and the alert's aggregation window. The network-connect event does not include byte counts, request contents, or proof that `nx_build_beta.7z` was sent. Report probable C2/possible exfiltration, not confirmed exfiltration, until traffic or destination-side evidence verifies transfer.
 
-DestinationIp:
+The alert summary itself is dated 2026-10-23 05:30, while the raw event is dated 2026-10-26 15:11:41.384. Resolve both the alert-to-event discrepancy and the ten-hour gap to Alert 6359 before asserting sequence or duration.
 
-45.147.230.131
+## Case note
 
-DestinationPort:
+> **Disposition:** True positive; escalate as part of the confirmed compromise. The shared process GUID and known destination support malicious network activity; the actual transfer of archive contents remains unverified.
+>
+> **Entities / indicators:** `THM-SREYES.tryhatmestudios.thm`, `10.60.10.20`, SYSTEM, PowerShell PID 14264, `45.147.230.131:8067/TCP`, `7z.exe`, `C:\Windows\Temp\nx_build_beta.7z`.
+>
+> **Next steps:** Correlate the process GUID with all Sysmon and PowerShell events; verify time normalization and connection duration/volume; examine DNS, proxy, firewall, and packet data; determine whether the archive was opened or transmitted; hunt for the destination across the environment and preserve the archive and script.
 
-8067
+## MITRE ATT&CK
 
-EventCode:
+| Technique | ID | Confidence |
+|---|---|---|
+| Web Protocols | [T1071.001](https://attack.mitre.org/techniques/T1071/001/) | Likely if the connection is confirmed as command and control; TCP port 8067 alone does not identify the application protocol. |
+| Exfiltration Over C2 Channel | [T1041](https://attack.mitre.org/techniques/T1041/) | Possible, not confirmed. Requires evidence that collected data was transmitted over the command-and-control channel. |
 
-3
+## Reporting correction
 
-EventType:
-
-4
-
-Image:
-
-C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
-
-Initiated:
-
-true
-
-LogName:
-
-Microsoft-Windows-Sysmon/Operational
-
-OpCode:
-
-Info
-
-ProcessGuid:
-
-{3af46175-3bfc-6a90-a41c-000000001100}
-
-ProcessId:
-
-14264
-
-Protocol:
-
-tcp
-
-Sid:
-
-S-1-5-18
-
-SidType:
-
-0
-
-SourceIp:
-
-10.60.10.20
-
-SourceName:
-
-Microsoft-Windows-Sysmon
-
-SourcePort:
-
-52624
-
-TaskCategory:
-
-Network connection detected (rule: NetworkConnect)
-
-Type:
-
-Information
-
-User:
-
-[ "NOT_TRANSLATED", "NT AUTHORITY\\SYSTEM" ]
-
-category:
-
-Network connection detected (rule: NetworkConnect)
-
-event_id:
-
-43456
-
-host:
-
-THM-SREYES.tryhatmestudios.thm
-
-timestamp:
-
-10/26/2026 15:11:41.384
-
-datasource:
-
-WinEventLog:Microsoft-Windows-Sysmon/Operational
-
-
-
-```
-
-Time of activity: Oct 26th 2026 at 15:14
-
-List of Affected Entities: HM-MSMITH.tryhatmestudios.thm host
-
-Reason for Classifying as True Positive: There is a high bound of traffic betwwen the host and the malicious IP 45.147.230.131
-
-Reason for Escalating the Alert: The communication must be analyzed further 
-
-Recommended Remediation Actions: Analyze network traffic to recover the full communication between the two devices and if further damage was made .
-
-List of Attack Indicators: IP  45.147.230.131
-powershell.exe
-high bond of traffic
-```
+Use the actual host, destination, and event time. Remove the unsupported “high volume” claim unless flow or proxy records confirm it. Separate confirmed process lineage from the still-unconfirmed transfer of archive contents.

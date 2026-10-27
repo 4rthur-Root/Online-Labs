@@ -1,137 +1,38 @@
-# Alert 2
+# Alert 6354 — Suspicious outbound connection following document activity
 
-- id: 6354
+- **Disposition:** True positive / escalate in the context of the confirmed PowerShell intrusion; validate the event chronology.
+- **Severity / type:** High / Command and Control
+- **Host / user:** `THM-MSMITH.tryhatmestudios.thm` / `TRYHATME\m.smith`
+- **Event time:** 2026-10-24 01:07:28.474
 
-- alert Rule: Suspicious outbound  following document creation 
+**Evidence:** Sysmon Event ID 3; PowerShell on `10.60.10.22` connected to `45.147.230.131:8067` over TCP. The alert identifies this as an outbound connection. The same IP and port appear in the downloader infrastructure described in Alert 6353.
 
-- Severity: <span style="color: orange;">High</span>   
+![VirusTotal reputation snapshot for 45.147.230.131](./evidences/virus-total.png)
 
-- Type: Command and Control
+## My initial assessment
 
-- Date: Oct 24rd 2026 at 01:09
+I searched Splunk for the destination IP but did not find useful context, then checked VirusTotal and saw a malicious reputation. I classified the connection as a true positive and recommended investigating the traffic. My report had the wrong destination IP (`5.147.230.131`) and used a date/time that did not match this event.
 
-Description:
+## Review and corrections
 
-This detection fires when a host establishes repeated outbound connections to an external address shortly after a document-handling process chain has run on that host. Connections to the same destination are aggregated, so a single alert represents a pattern rather than one connection, and the analyst is expected to establish how many occurred and over what interval. Code that has only just started executing and immediately reaches infrastructure with no business relationship to the organisation is a common indicator of command-and-control activity, though some line-of-business and update tooling behaves similarly. The analyst must identify the process that opened the connection and characterise the destination infrastructure.
+The destination is `45.147.230.131`—not `5.147.230.131`. The VirusTotal screenshot shows 10 of 92 vendors flagging the IP at the time captured. That is supporting threat-intelligence context, not proof by itself. The event timestamp is 2026-10-24 01:07:28.474. This predates the 2026-10-26 PowerShell download event, despite the apparent relationship in the scenario. Do not silently treat the timestamps as one chronological sequence: confirm the room's timezone, event normalization, and whether the supplied records span different scenario dates.
 
-DestinationIp:
+The process, destination, port, and threat-intelligence context make this connection suspicious and worthy of escalation. A VirusTotal verdict is supporting context, not proof by itself. A Sysmon network-connect event establishes a connection attempt/session, not what data was exchanged or whether the connection succeeded.
 
-45.147.230.131
+## Case note
 
-DestinationPort:
+> **Disposition:** True positive in the broader incident context; escalate for investigation. The connection is suspicious, but the event alone does not establish the content or volume of traffic.
+>
+> **Entities / indicators:** `THM-MSMITH.tryhatmestudios.thm`, `10.60.10.22`, `TRYHATME\m.smith`, PowerShell, `45.147.230.131:8067/TCP`.
+>
+> **Next steps:** Correlate by process GUID and time with DNS, proxy, firewall, and packet/flow records. Confirm whether the destination resolves to `paylink-cdn.thm`, inspect byte counts and response data, and search for the IP/domain on other endpoints. Preserve the threat-intelligence result with its lookup date and source.
 
-8067
+## MITRE ATT&CK
 
-EventCode:
+| Technique | ID | Confidence |
+|---|---|---|
+| Web Protocols | [T1071.001](https://attack.mitre.org/techniques/T1071/001/) | Possible only if follow-up confirms this traffic was used for command and control. The network event by itself does not prove that purpose. |
 
-3
+## Reporting correction
 
-EventType:
-
-4
-
-Image:
-
-C:\Windows\SysWOW64\WindowsPowerShell\v1.0\powershell.exe
-
-Initiated:
-
-true
-
-LogName:
-
-Microsoft-Windows-Sysmon/Operational
-
-OpCode:
-
-Info
-
-ProcessGuid:
-
-{3af46175-3907-6a90-951d-000000001200}
-
-ProcessId:
-
-8572
-
-Protocol:
-
-tcp
-
-Sid:
-
-S-1-5-18
-
-SidType:
-
-0
-
-SourceIp:
-
-10.60.10.22
-
-SourceName:
-
-Microsoft-Windows-Sysmon
-
-SourcePort:
-
-54331
-
-TaskCategory:
-
-Network connection detected (rule: NetworkConnect)
-
-Type:
-
-Information
-
-User:
-
-[ "NOT_TRANSLATED", "TRYHATME\\m.smith" ]
-
-category:
-
-Network connection detected (rule: NetworkConnect)
-
-event_id:
-
-46159
-
-host:
-
-THM-MSMITH.tryhatmestudios.thm
-
-timestamp:
-
-10/24/2026 01:07:28.474
-
-datasource:
-
-WinEventLog:Microsoft-Windows-Sysmon/Operational
-
-
-Playbook : At [playbok](https://tryhackme.com/soc-sim/playbook/de3bae14-f480-4354-b4e8-94a3a083d578) Unusual Network Connection Detection - Windows Environment
-This playbook provides step-by-step guidelines for SOC Level 1 analysts to investigate unusual network connection activity in a Windows environment. This involve unexpected or suspicious connections, communication with unknown external IPs or lateral movement attempts. The playbook helps analysts review key log data, assess involved processes, and determine whether the activity is malicious.
-
-This is again done by smith  , here using powershell he tried to initiate a connection to the ip `45.147.230.131`. I don't have much things to look for here (splunk: index=* (src_ip="45.147.230.131" OR dest_ip="45.147.230.131") nothing) , so check the ip in virus total shows its manners so verdict is <span style="color: red;">True positive</span> .
-
-![virus](./evidences/virus-total.png)
-
-
-### My report 
-```
-Time of activity: Oct 26rd 2026 at 02:03:41.547
-
-List of Affected Entities: HM-MSMITH.tryhatmestudios.thm host
-
-Reason for Classifying as True Positive: The unknown user smith accessed an IP that was flagged dangerous by Virustotal
-
-Reason for Escalating the Alert:  This alert needs to be investigated in depth to catch communication between the host and the malicious IP
-
-Recommended Remediation Actions: Look further at network analysis to see what communications were made with the IP
-
-List of Attack Indicators: User: Smith
-powershell execution
-IP: 5.147.230.131
-```
+Replace the incorrect IP and time in the original report with the event values above. Phrase the finding as an outbound PowerShell connection to a threat-reported destination; avoid claiming successful data transfer without traffic evidence.

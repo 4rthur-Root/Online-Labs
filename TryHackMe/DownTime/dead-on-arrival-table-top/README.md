@@ -1,266 +1,208 @@
-# README
-Welcome to Tabletop exercises
+# Dead on Arrival — Tabletop exercise
 
-Your exercise will start soon, but first, here's a quick tour of how everything works.
+## Exercise overview
 
-Real-time simulation: Everyone sees the same injects and decides actions together. Your choices shape the narrative and outcomes in real time.
+This was a launch-day incident-response tabletop for NeuralNexus, a game studio preparing a 17:00 UTC release while responding to an intrusion attributed in the scenario to Pinstripe Moth. The scenario escalated from use of a compromised build-pipeline account to suspected lateral movement, backup tampering, public impersonation, and a staged release-package swap.
 
-Collaborative evaluation: Each decision helps assess your team's response. After voting, wait for your facilitator, results set the rhythm of the exercise.
+I completed all 15 decisions and scored **127/150**. The room's decision-analysis screens explain how it ranked the available actions. I have summarized that feedback below alongside my choices and takeaways. The feedback appears dynamically generated, so I treat it as useful exercise guidance, not authoritative incident-response doctrine.
 
-Smart notes: You can take notes anytime. After each decision, we'll suggest action-focused notes you can add automatically.
+## Phase 1 — Initial access and build integrity
 
-Navigation & tools: Use the timeline on the left to explore past injects, and access tools or references from the sidebar anytime. You can also filter to focus only on narratives if you prefer a clean view.
+### Q1 — Set incident severity and engage the right people
 
-Narrative update: Initial Access
+**My choice:** Declare a High incident and bring in Dana Brooks and Jada Collins to review the BUILD-01 session and pipeline integrity.
 
-It's launch day. NeuralNexus ships at 17:00 UTC, and the studio is staging final build artifacts while Marketing coordinates the release. Last night's threat hunt confirmed Pinstripe Moth is still inside: THM-SREYES is still beaconing to 45.147.230.131, and the svc-studioops credentials, which the deploy pipeline depends on, are in the attacker's hands. Nothing has been remediated, and leadership has confirmed the launch goes ahead.
+**Room feedback:** Ranked this as the most effective choice. The compromised service account had reached a launch-critical build host, but tampering was not yet confirmed; a proportionate High response with incident leadership and pipeline expertise was appropriate.
 
-At 09:42 UTC, Splunk shows svc-studioops logging into BUILD-01 from THM-SREYES. The account normally only authenticates from the CI/CD orchestrator during scheduled build windows using Kerberos. This logon used NTLM, fell outside any deployment job, and lasted under four minutes. Jada Collins confirms she has scheduled no manual build activity today. A small number of process and system events from that session haven't been reviewed yet.
+**Takeaway:** Escalate promptly when a known-compromised account touches a critical system. Match the response to confirmed impact while keeping decision-makers ready to act.
 
-Rotating svc-studioops now will break the release pipeline. Isolating THM-SREYES takes a developer offline on launch day. Seven hours and eighteen minutes to launch.
+![Question 1](./shots/Q-1.png)
+![Question 1 analysis](./shots/analysis-1.png)
 
-```
-Stage artefact
+### Q2 — Investigate the BUILD-01 session
 
-Splunk ES - Notable Event                      
-Severity: High
-Triggered: 2026-09-11 09:42:17 UTC
-Rule: Unusual Source Host for Privileged Service Account
+**My choice:** Pull and triage the three unreviewed Security log events from the 09:42–09:45 UTC session.
 
-Account:  svc-studioops  [WATCHLIST - compromised, added 2026-09-10]
-Logon:    4624, Type 3, NTLM (expected: Kerberos)
-Source:   THM-SREYES (10.60.10.41)  - expected: CI-01 only
-Target:   BUILD-01 (10.60.10.20)
-Jenkins:  no scheduled job
-Session:  09:42:17 - 09:45:58 (3m41s)
+**Room feedback:** Ranked this as the most effective choice because Sysmon was unavailable on BUILD-01 and the native Security events were the best immediate source for what happened during the suspicious session.
 
-BUILD-01 follow-up activity:
-  Sysmon: no data (agent not reporting)
-  Security log: 3 events in session window - not triaged
+**Takeaway:** A telemetry gap should change the evidence source, not stop the investigation. Collect the available native logs while separately investigating why Sysmon stopped reporting.
 
-Status: New - unassigned
-```
+![Question 2](./shots/Q-2.png)
+![Question 2 analysis](./shots/analysis-2.png)
 
-![Q1](./shots/Q-1.png)
+### Q3 — Contain the compromised service account
 
-# My-choice
+**My choice:** Work with Jada Collins to rotate `svc-studioops` in Jenkins and restrict it to CI-01, aiming to cut off the stolen credential without unnecessarily stopping the pipeline.
 
-P1: A known-compromised pipeline account is on the build server on launch day, so declare a High incident and bring in Dana Brooks and Jada Collins to review the BUILD-01 session and pipeline integrity.
+**Room feedback:** Ranked this as the most effective and targeted containment action. Isolating a host or blocking one C2 destination would not invalidate the compromised credential; disabling the account outright could also disrupt the release.
 
-## Team decision analysis
+**Takeaway:** Contain the credential at its source and preserve necessary operations where safely possible. Coordinate rotations with the system owner and verify where the credential is used.
 
-This was the most effective call available in this phase, and it reflects sound incident-command judgment. Given that svc-studioops is a known-compromised account and it just appeared on BUILD-01, the day of launch, this is no longer a routine anomaly — it merits a High severity classification with the right stakeholders engaged immediately. Looping in Dana Brooks for command decisions and Jada Collins for pipeline-specific context ensures you get accurate technical insight into build integrity without the overreaction of a full leadership-level Critical declaration before tampering is confirmed, which is why the all-hands option ranked lower despite good instincts. The downgraded options, logging it as Low severity, keeping it confined to SOC L2 review, or worse, marking it Informational, all underestimate the risk of a compromised credential touching your deployment pipeline on launch day, and would have cost you valuable time if sabotage is already underway. Your choice balances urgency with proportionality, keeping the right people in the room without prematurely triggering business-level alarm.
+![Question 3](./shots/Q-3.png)
+![Question 3 analysis](./shots/analysis-3.png)
 
-![an](./shots/analysis-1.png)
+### Q4 — Recover safely after rotation
 
-![q2](./shots/Q-2.png)
+**My choice:** Audit scheduled tasks and deploy scripts on BUILD-01 and CI-01 that run as `svc-studioops`, removing anything Jada does not recognize before updating the rest.
 
-my choice was B
+**Room feedback:** Ranked this as the most effective choice, ahead of verifying the staged release build's hash. A pipeline test was useful but only moderately effective; it would show that the pipeline worked, not that it was clean.
 
-Pull and triage the three unreviewed Security log events from the 09:42-09:45 UTC session window on BUILD-01 to determine exactly what the attacker executed or accessed.
+**Takeaway:** Credential rotation is not enough if an attacker may have planted persistence or altered a build. Audit execution points and verify release artifacts against a trusted signature or hash before shipment.
 
-## Team decision analysis
+![Question 4](./shots/Q-4.png)
+![Question 4 analysis](./shots/analysis-4.png)
 
-This was the strongest move available because with Sysmon data gone silent, the native Security event logs are the only direct window into what the attacker actually did during that session, and triaging them first gives you concrete ground truth before expanding scope elsewhere. Reviewing file and artifact timestamps was a reasonable follow-up but works better once you know what commands were run, and mapping svc-studioops activity across the environment is valuable for scoping but doesn't tell you what happened on BUILD-01 itself in those critical three minutes. Investigating the Sysmon outage is important forensic work, but it's secondary to understanding the attacker's actions, and pausing analysis entirely until telemetry is restored is the weakest choice since it sacrifices momentum on launch day while the clock is running against you. Your instinct to go straight to the available evidence of what was executed reflects a sharp evidence-first mindset under time pressure.
+### Q5 — Brief leadership on launch risk
 
-![an](./shots/analysis-2.png)
+**My choice:** Brief Dana Brooks and launch leadership that the attacker had reached the build host so they could assess release-integrity risk before 17:00 UTC.
 
-!Q3 here 
-chose D 
-Work with Jada Collins to rotate the svc-studioops password in Jenkins and restrict the account to CI-01, cutting off the stolen credentials without stopping the pipeline.
+**Room feedback:** Ranked this as the right call. Leadership needed accurate information to make a possible go/no-go decision; broader legal, DFIR, insurer, or law-enforcement involvement could follow as scope and impact became clearer.
 
-Team decision analysis
+**Takeaway:** Incident response includes timely, factual business communication. Give decision-makers the evidence, uncertainty, and options without overstating what is known.
 
-This was the most precise and business-aligned containment move on the table, directly neutralizing the compromised credential that enabled the sabotage while preserving the launch-critical pipeline by scoping the account to CI-01. Isolating THM-SREYES and blocking the C2 IP both address real exposure points but leave the stolen svc-studioops credential usable elsewhere, so they're reasonable but incomplete compared to actually rotating it. Killing the beacon process and Run key tackles only the original beachhead, not the pipeline account the attacker pivoted to, and disabling svc-studioops entirely would have severed the threat but at the cost of halting the build on launch day, an outcome you avoided by working with Jada Collins on a scoped rotation instead. This decision shows strong judgment in balancing security containment against business continuity at the most sensitive possible moment.
+![Question 5](./shots/Q-5.png)
+![Question 5 analysis](./shots/analysis-5.png)
 
-Q4 
-chose 
-Audit every scheduled task and deploy script on BUILD-01 and CI-01 that runs as svc-studioops, removing anything Jada doesn’t recognise before updating the rest with the new password.
+## Phase 2 — Lateral movement, backup exposure, and public impersonation
 
-Team decision analysis
+### Q6 — Reassess severity and incident scope
 
-Confirming the pipeline functions post-rotation is a sensible operational check, but it's moderately effective at best because it validates that credentials work without actually confirming the attacker didn't leave something behind during their window of access. The stronger moves were auditing every scheduled task and deploy script running as svc-studioops to hunt for unauthorized persistence, and verifying the staged build's hash against the QA-signed version, since both directly address whether sabotage already occurred, which is the real risk on launch day rather than whether the account merely still functions. Updating the password everywhere restores operations but, like your chosen action, doesn't hunt for tampering, which is why both rank behind the integrity-focused options. Logging the rotation without any testing, and worse, skipping the hash verification, would leave you dangerously exposed to shipping a sabotaged build, so your instinct to test was reasonable, just not pointed at the highest-priority risk of this phase.
+**My choice:** Declare a High incident across the pipeline and backups with Dana, Jada, and Luke, holding leadership and Legal until sabotage intent was confirmed.
 
-Q5 
-chose 
-B 
-Brief Dana Brooks and launch leadership that the attacker has reached the build host, so they understand the risk to release integrity before the 17:00 UTC launch.
+**Room feedback:** Considered the technical escalation sound, but ranked a Critical response with Comms and Legal higher because the official social account had already been hijacked and the public was being misled. The new evidence made the incident business-facing before sabotage was fully confirmed.
 
-This was the right call for this moment: with the attacker confirmed on the build host just hours before a public launch, leadership needs an accurate risk picture now so they can weigh a possible delay or contingency plan with full information, rather than being surprised at 17:00. Keeping Alex Morgan and Riley Tran on continuous monitoring is valuable but tactical, not a substitute for ensuring decision-makers understand the stakes, while engaging DFIR, legal, and the insurer is prudent longer-term given the repeat targeting but doesn't address the immediate launch-day decision. Looping in the national cyber crime unit at this stage is premature given the limited external impact so far, and asking Jada to review logs alone misses that this is fundamentally a leadership communication gap, not a technical one, which is why it ranked lowest. Your choice correctly recognized that informed executive judgment is the critical path item right now, ahead of further technical tasking.
+**Takeaway:** Do not wait for proof of every technical impact before escalating a confirmed, active public-facing incident. Bring in the owners of communications and legal decisions when their responsibilities are already implicated.
 
+![Question 6](./shots/Q-6.png)
+![Question 6 analysis](./shots/analysis-6.png)
 
-# Narrative update: Lateral Movement & Privilege Escalation
+### Q7 — Work around the BUILD-01 telemetry gap
 
-The session on BUILD-01 wasn't idle. At 10:07 UTC, svc-studioops opened a WinRM session from BUILD-01 to BAK-01, the backup server nobody has checked yet. That's 20 minutes after the original logon ended, before any containment took effect. Something on BUILD-01 is still acting as svc-studioops, and Sysmon there is still blind. Within a minute, a new local account, backup-svc, was created on BAK-01 and added to Backup Operators. PowerShell logging then shows the attacker enumerating scheduled tasks and the permissions on C:\Backups before disconnecting. Nobody requested either change.
+**My choice:** Pull BUILD-01's Windows event logs (including process creation, scheduled-task, and network events) to find what was still running as `svc-studioops`.
 
-At 10:24 UTC, Michelle Smith calls the SOC. The official NeuralNexus account has just posted that the launch is "delayed due to technical issues", with a link to an "early access build" hosted off-site. It has 400 reposts and counting, and Michelle can't log in to take it down.
+**Room feedback:** Ranked this as the most effective investigative step because it used native telemetry to compensate for the Sysmon blind spot on the launch-critical host.
 
-Six hours and thirty-six minutes to launch. Pinstripe Moth is no longer being quiet.
+**Takeaway:** Use independent telemetry sources when an endpoint agent is silent. Review event coverage and audit-policy settings before treating the absence of an event as evidence that an action did not occur.
 
+![Question 7](./shots/Q-7.png)
+![Question 7 analysis](./shots/analysis-7.png)
 
-Stage artefact
+### Q8 — Choose immediate containment priorities
 
-Splunk ES - Notable Event                      
-Severity: High
-Triggered: 2026-09-11 10:07:52 UTC
-Rule: Privileged Account - Group Modification
+**My choice:** Isolate BUILD-01 because an unknown process was running as `svc-studioops` while Sysmon was blind.
 
-Account:  svc-studioops  [WATCHLIST - compromised]
-Logon:    WinRM, BUILD-01 -> BAK-01 (10:07:52 - 10:11:36)
-Source process on BUILD-01: unknown - Sysmon not reporting
+**Room feedback:** Considered the isolation a reasonable response, but not the most effective action at that point. It ranked recovery of the hijacked NeuralNexus account and isolation of BAK-01 / disabling `backup-svc` higher because the public impersonation was live and the backups were at risk. Broadly disabling `svc-studioops` or WinRM had greater operational impact.
 
-BAK-01:
-10:08:41  4720  Local account created: backup-svc
-10:08:47  4732  backup-svc added to Backup Operators
-10:09:12  PS    Get-ScheduledTask
-10:09:30  PS    Get-Acl C:\Backups
+**Takeaway:** Containment should address the most urgent harm and protect critical assets, while considering business impact and preserving response capability. When several fronts are active, assign parallel owners instead of treating containment as a single-host choice.
 
-Related: SIEM-09421 (BUILD-01, 09:42)
+![Question 8](./shots/Q-8.png)
+![Question 8 analysis](./shots/analysis-8.png)
 
-Q6 chose 
-P1: Declare a High incident across the pipeline and backups with Dana, Jada and Luke, holding off on leadership and Legal until sabotage intent is confirmed.
+### Q9 — Establish whether backups are trustworthy
 
-Escalating to a High incident and pulling in Dana, Jada and Luke was a solid, effective response to the backups and pipeline exposure, but holding leadership and Legal back once the attacker has reached backups and hijacked the official launch account understates the business-facing nature of what just happened. The top option recognized that a hijacked social channel is already a public-facing event with reputational and possibly legal dimensions that can't wait for confirmed sabotage intent, which is why full Critical escalation with Comms and Legal included was the strongest move. Treating BAK-01 and the account hijack as separate, lower-severity issues, or folding them quietly into the existing case, underestimates how these two threads now intersect with the live launch, and marking alerts Informational at this stage would have been a serious miss given the account takeover is already externally visible. Your call captured the internal technical response well but was a step behind on recognizing that external stakeholders needed to be engaged immediately, not after further confirmation.
+**My choice:** Validate BAK-01 backup data against known-good checksums before relying on it for restoration or rebuilding.
 
-analysis6.png
+**Room feedback:** Ranked this as the most effective choice. Restoring systems or resuming backup operations before checking integrity could reintroduce compromised or tampered data.
 
-Q7 chose 
-Most effective
-Pull BUILD-01’s own Windows event logs (4688, 4698, 5156) to find what’s still running as svc-studioops, since Sysmon there is blind.
+**Takeaway:** Verify recovery sources before use, and keep a known-good copy segregated from systems an attacker can modify. Record the provenance of the checksum or reference copy.
 
-This was the most effective choice because it directly compensates for the Sysmon blind spot on BUILD-01 by going straight to native Windows event logs, 4688 for process creation, 4698 for scheduled task creation, and 5156 for network connections, giving you the clearest possible picture of what svc-studioops is actively doing on the host most critical to launch integrity right now. Checking pipeline logs for unauthorized jobs or config edits is a strong complementary step but is secondary to establishing what's actually executing on the compromised host itself, and mapping the full lateral movement timeline, while useful for scoping, is less urgent than real-time visibility into ongoing activity. Analysing BAK-01's permission queries matters for backup integrity but is a narrower concern than the build host at this moment, and reviewing the social account's login history, while necessary eventually, does nothing to address the active technical threat to the launch pipeline, which is why it ranked lowest here. Your decision correctly prioritized closing the most dangerous visibility gap at the most sensitive point in the infrastructure.
+![Question 9](./shots/Q-9.png)
+![Question 9 analysis](./shots/analysis-9.png)
 
-Q8
+### Q10 — Respond to the public impersonation
 
-Isolate BUILD-01, since it’s running an unknown process as svc-studioops and Sysmon can’t see it.
+**My choice:** Update leadership, Legal, and PR on the public impersonation and backup intrusion so they could manage launch messaging and the go/no-go decision.
 
-Team decision analysis
+**Room feedback:** Considered this effective, but ranked an emergency account-recovery and takedown request to the social platform as the immediate priority because the fraudulent post remained live. Leadership communication was still necessary; the platform action addressed the active public harm.
 
-Isolating BUILD-01 is a reasonable containment reflex given the unknown process and the blind Sysmon gap, but it's a moderately effective choice because it only addresses one half of the active crisis, leaving the hijacked social account live and the backups exposed. The strongest move was recovering the NeuralNexus account and revoking sessions, since that's the most visible, time-critical harm with a public audience right before launch, while isolating BAK-01 and disabling backup-svc protects your last line of defense without disrupting the pipeline itself, both outranking a BUILD-01-only isolation. Disabling svc-studioops entirely across both hosts is more disruptive than necessary at this stage, and killing WinRM environment-wide is a blunt, high-collateral move that would hamper your own response capability, which is why it ranked lowest. Your instinct to contain the host with the biggest blind spot was sound, but it came at the expense of the more urgent public-facing and backup-protection priorities this phase called for.
+**Takeaway:** Combine technical containment of a compromised public account with coordinated communications. Preserve evidence and use the platform's recovery channel; avoid premature public statements based on incomplete facts.
 
-Q9 chose 
-Validate BAK-01’s backup data against known-good checksums before relying on it for any restore or rebuild.
+![Question 10](./shots/Q-10.png)
+![Question 10 analysis](./shots/analysis-10.png)
 
-Team decision analysis
+## Phase 3 — Destruction, staged payload, and the launch decision
 
-This was the most effective decision in this phase, because before any restoration, credential rotation, or re-hardening work matters, you need certainty that the backup data itself hasn't been tampered with, especially with an attacker who reached BAK-01 and had visibility into backup permissions. Restoring telemetry on BUILD-01 and BAK-01 and rotating credentials are both important follow-on steps, but they don't answer the core question of whether the backups are trustworthy, which is why they rank below your choice. Rebuilding BAK-01 from a verified image is premature without first confirming what "verified" actually means in this context, and resetting Backup Operators membership while resuming jobs without validation would risk propagating a compromised or sabotaged baseline straight into production, making it the weakest option here. Your prioritization of data integrity before operational trust reflects exactly the discipline needed when backups themselves are a suspected target.
+### Q11 — Escalate confirmed sabotage
 
-Q10 chose 
-Update leadership, Legal and PR on the public impersonation and the attacker’s move onto the backups, so they can manage launch messaging and the go/no-go decision.
-Team decision analysis
+**My choice:** Declare a Critical incident and bring leadership, Legal, Jada, Luke, and Comms into the launch decision after learning backups were being destroyed and a replacement build was staged.
 
-Updating leadership, Legal and PR was an effective, necessary action given the go/no-go decision bearing down, but it was a step behind the top priority: the fraudulent post is live and actively misleading the public right now, so escalating directly to the social platform's security team for emergency recovery and takedown addresses the most time-sensitive, externally visible harm first. Alerting Luke and Jada about the untrustworthy backups was a reasonable parallel technical notification but ranks below both the platform escalation and the leadership briefing since it doesn't address the public-facing crisis or the decision-makers who need to act on it. Reporting to the cyber crime unit is appropriate but not as urgent as stopping the active impersonation, and declaring a company-wide crisis with external PR involvement at this stage is premature and would consume response bandwidth you need focused on containment. Your choice correctly engaged the people who own the go/no-go call, but the fraudulent post itself needed to be shut down with equal or greater urgency.
+**Room feedback:** Ranked this as the correct call. Destructive activity and a scheduled release-package replacement created an immediate threat to recovery and release integrity.
 
+**Takeaway:** Escalate severity as evidence changes. When the attacker can destroy recovery points and alter the release, technical containment and the business go/no-go decision need coordinated ownership.
 
-Narrative update: Goal Execution
+![Question 11](./shots/Q-11.png)
+![Question 11 analysis](./shots/analysis-11.png)
 
-The backup-svc account wasn't recon. It was setup. At 10:11 UTC, in the last seconds of its session on BAK-01, svc-studioops created a scheduled task called BackupMaintenance, set to run as SYSTEM from 10:52. Since then it has run purge-artifacts.ps1 every 15 minutes. Last night's gold master is gone, along with the nightly archive on FS-ARCHIVE and every shadow copy. Jada Collins confirms one verified restore point remains. The next run is at 11:37.
+### Q12 — Scope persistence and determine what was staged
 
-BUILD-01's Security log finally gives up its secret. One of the three events from the 09:42 session was a scheduled task creation: DeployPrep, set to run once as svc-studioops at 16:55 and replace the signed release package with a modified build.
+**My choice:** Review the rest of BUILD-01's original 09:42 session logs for additional planted activity.
 
-Pinstripe Moth's plan is now clear: destroy every clean restore point, then ship their own build under the studio's name. Michelle is still locked out of the official account, and the fake "early access" build is still circulating.
+**Room feedback:** Ranked a cross-environment sweep for all `svc-studioops` logons, WinRM sessions, and scheduled-task creation as the most effective choice. Analysing the `DeployPrep` replacement payload was also ranked above reviewing the earlier session; both directly addressed scope and the impending launch.
 
-11:25 UTC. Twelve minutes until the last backup is gone. Five hours and thirty-five minutes until launch.
+**Takeaway:** Revisit earlier evidence when useful, but prioritize the largest unresolved risks: scope of compromise and the exact behavior of the staged task. Build a host/account/timeline view to avoid treating related events as isolated alerts.
 
+![Question 12](./shots/Q-12.png)
+![Question 12 analysis](./shots/analysis-12.png)
 
-Stage artefact
+### Q13 — Stop the scheduled sabotage
 
-Splunk ES - Notable Event                      
-Severity: Critical
-Triggered: 2026-09-11 10:52:03 UTC
-Rule: Suspicious Scheduled Task Execution
+**My choice:** Disable `DeployPrep` on BUILD-01 so it could not replace the signed package at 16:55.
 
-BAK-01 - Task "\Microsoft\Windows\BackupMaintenance"
-Created:  10:11:20 by svc-studioops (4698)
-Run as:   SYSTEM, every 15 min
-Action:   powershell -ExecutionPolicy Bypass -File C:\Windows\Temp\purge-artifacts.ps1
+**Room feedback:** Ranked this as effective, but put stopping `BackupMaintenance` and `purge-artifacts.ps1` on BAK-01 first because the next purge was due sooner and could destroy the last restore point.
 
-10:52  Deleted  GoldMaster_2026-09-10.vhdx
-10:52  vssadmin delete shadows /all /quiet
-11:07  Deleted  \\FS-ARCHIVE\Nightly\NeuralNexus\2026-09-10\*
-11:22  Deleted  build_0911_0600.zip
+**Takeaway:** Compare execution deadlines and reversibility. Stop imminent destructive activity first, then disable the release-swap task; verify both changes and preserve task/script evidence.
 
-Restore points remaining: 1     Next run: 11:37
+![Question 13](./shots/Q-13.png)
+![Question 13 analysis](./shots/analysis-13.png)
 
-BUILD-01 - Security log (09:43:10, previously untriaged)
-4698  Task "DeployPrep" created by svc-studioops
-      Runs once 16:55 as svc-studioops - replaces release package
+### Q14 — Verify the release artifact and recovery path
 
+**My choice:** Verify the staged release package against the QA-signed hash and rebuild from a known-good source on a clean runner if it did not match.
 
-Q11 chose
+**Room feedback:** Ranked this as effective, but placed securing the last clean restore point first. It also cautioned against creating a new backup from BUILD-01 before re-establishing trust in that host.
 
-P0: Backups are being destroyed and a malicious build is staged to ship, so declare a Critical incident and bring leadership, Legal, Jada, Luke and Comms into the launch decision immediately.
+**Takeaway:** Verify both the recovery source and the release artifact. A clean rebuild needs a trusted source, isolated runner, reproducible process, and integrity checks; a hash is only useful if its reference is independently trusted.
 
-This was the correct call, and arguably the clearest escalation decision in the exercise so far: with backups actively being destroyed and a malicious build staged for shipment, the direct line to the launch itself, this is no longer a technical containment question but an existential threat to release integrity that demands every relevant decision-maker in the room immediately. Holding off on leadership and Legal, as the High-severity option did, would have delayed the one decision that matters most right now, whether to ship at all, and the moderate or Low-severity framings dangerously understate that the sabotage has reached the point of threatening the actual deliverable. Marking it Informational at this stage, given everything already confirmed about backup destruction and a tampered build, would represent a critical failure to recognize an unfolding worst-case scenario. Your decision to pull in leadership, Legal, Jada, Luke and Comms together reflects exactly the urgency and cross-functional coordination this moment demanded.
+![Question 14](./shots/Q-14.png)
+![Question 14 analysis](./shots/analysis-14.png)
 
+### Q15 — Make the go/no-go decision actionable
 
+**My choice:** Brief the launch steering committee on the staged release swap, backup loss, and containment status so it could make the 17:00 go/no-go decision.
 
-Q12 chose 
-Review the rest of BUILD-01’s 09:42 session logs for anything else planted on that host. hesitated with Sweep Splunk for every svc-studioops logon, WinRM session and scheduled task creation across all hosts to find any persistence beyond BAK-01 and BUILD-01.
+**Room feedback:** Ranked this as the most effective action. The committee needed an accurate status and clear risks to decide whether to ship. Formal incident-command steps and external reporting were important but did not replace the immediate launch decision.
 
-Team decision analysis
+**Takeaway:** Brief decision-makers with confirmed facts, unresolved questions, business impact, containment status, and explicit options. Do not equate “the exercise narrative says the launch proceeded” with proof that every technical control was independently validated.
 
-Revisiting BUILD-01's earlier session logs is a reasonable follow-up, but it's moderately effective because it looks backward at the original intrusion window rather than addressing the two most pressing unknowns right now: the full scope of svc-studioops persistence across the environment, and what exactly the malicious DeployPrep payload was set to ship at 16:55. Sweeping Splunk for every svc-studioops logon and scheduled task across all hosts was the strongest option because it answers the critical question of whether this sabotage extends beyond BAK-01 and BUILD-01 before you can call the environment contained, and analysing the staged payload directly tells you exactly what nearly shipped, both more urgent than re-reading an already-reviewed session window. Checking C2 traffic to 45.147.230.131 is useful corroboration but secondary to scope and payload analysis, and auditing AD/GPO for svc-studioops artifacts, while thorough, is the least time-critical path given no indication yet that persistence moved through Group Policy. Your choice kept useful forensic rigor but didn't prioritize the two threads with the most direct bearing on the ship/no-ship decision and full remediation scope.
+![Question 15](./shots/Q-15.png)
+![Question 15 analysis](./shots/analysis-15.png)
 
+## Key takeaways
 
-Q13 chose 
-Disable the DeployPrep task on BUILD-01 so it can’t replace the signed release package at 16:55. (prioritysing launch)
+- **Evidence before conclusion:** A missing log, a reputation score, or an alert title is not enough on its own. Correlate process lineage, identity, host, time, and independent telemetry.
+- **Keep uncertainty explicit:** Distinguish confirmed behavior from suspected intent and impact. For example, an archive being created is not proof it was exfiltrated.
+- **Contain credentials and persistence:** Rotate exposed credentials, audit their use, and look for tasks, services, accounts, and scripts that could preserve access.
+- **Protect recovery and release integrity:** Verify backups and release artifacts using trusted references before restoring or shipping.
+- **Coordinate response across functions:** SOC, incident command, engineering, leadership, Legal, and Comms have different responsibilities; engage each when the evidence makes their action relevant.
+- **Use the feedback critically:** The simulator's rankings are useful reflection prompts, not universal rules. Real incidents depend on evidence, authority, safety, operational constraints, and local response plans.
 
-Team decision analysis
+## MITRE ATT&CK mapping
 
-Disabling DeployPrep was an effective action to protect the signed release package, but it ranked just behind the top priority because the BackupMaintenance task and purge-artifacts.ps1 on BAK-01 are on an even tighter clock, set to run at 11:37, and destroying your last restore point would remove any fallback if the build itself turns out to be compromised. Stopping that purge first preserves your recovery option, which is why it edged out halting DeployPrep as the single most urgent move. Blocking the C2 IP and restricting WinRM on the pipeline hosts both reduce the attacker's ongoing capability but don't address either scheduled task directly ticking toward execution, and disabling svc-studioops entirely, while thorough, risks disrupting legitimate pipeline operations without surgically stopping the two specific malicious tasks already in motion. Your choice correctly targeted one of the two live threats, just not the one with the narrower fuse.
+These are mappings to behaviors described in the tabletop narrative, not findings independently validated from a full event dataset.
 
+| Scenario behavior | Technique | Evidence and caveat |
+|---|---|---|
+| Compromised service account used on BUILD-01 | [T1078.002 — Domain Accounts](https://attack.mitre.org/techniques/T1078/002/) | Scenario states the `svc-studioops` credentials were compromised and used from an unexpected host. |
+| WinRM session from BUILD-01 to BAK-01 | [T1021.006 — Windows Remote Management](https://attack.mitre.org/techniques/T1021/006/) | The narrative explicitly identifies a WinRM session. |
+| Local `backup-svc` account created | [T1136.001 — Local Account](https://attack.mitre.org/techniques/T1136/001/) | BAK-01 Security Event 4720 records the account creation. |
+| `backup-svc` added to Backup Operators | [T1098.007 — Additional Local or Domain Groups](https://attack.mitre.org/techniques/T1098/007/) | Event 4732 records group membership modification. |
+| `BackupMaintenance` and `DeployPrep` scheduled tasks | [T1053.005 — Scheduled Task](https://attack.mitre.org/techniques/T1053/005/) | The narrative describes attacker-created scheduled tasks. |
+| Backup files and restore points deleted | [T1485 — Data Destruction](https://attack.mitre.org/techniques/T1485/) | The scenario describes deletion of backup archives and the scheduled purge of artifacts. |
+| 7-Zip used to archive build output (related Repossessed alert) | [T1560.001 — Archive via Utility](https://attack.mitre.org/techniques/T1560/001/) | Archive creation is evidenced; exfiltration is not implied by this technique. |
+| Possible transfer of an archive over a C2 channel | [T1041 — Exfiltration Over C2 Channel](https://attack.mitre.org/techniques/T1041/) | Hypothesis only unless network evidence confirms data transfer. |
 
-14 chose 
-Verify the staged release package against the QA-signed hash, and rebuild it from a known-good source on a clean runner if it doesn’t match.
+No technique is assigned merely because Sysmon stopped reporting: the narrative identifies a visibility gap, but does not establish that an adversary deliberately impaired the sensor.
 
-Team decision analysis
+## Outcome
 
-Verifying the staged release package against the QA-signed hash was an effective and necessary step before shipping, but it ranked just behind securing your last clean restore point, since without a verified, segregated recovery point safely off BAK-01, you'd have no fallback if the rebuild itself turns out compromised or if further sabotage is discovered. Preserving that restore point first is the foundation everything else depends on, which is why it edged out package verification for top priority. Reissuing svc-studioops credentials into the pipeline is a reasonable operational step but doesn't address data or build integrity, and triggering a fresh gold master backup from BUILD-01 is risky since that host's own trustworthiness hasn't been fully re-established yet. Resuming nightly backup jobs on BAK-01 without first confirming the server is clean and the purge threat fully neutralized would be premature and is why that option ranked lowest. Your instinct to validate the build before shipping was sound, just one step behind locking down your recovery safety net first.
-
-
-
-Q15 chose 
-Brief the launch steering committee on the staged release swap, backup loss and current containment status so they can make the 17:00 go/no-go call.
-
-Team decision analysis
-
-This was the most effective action for this moment, because with the launch window closing in, the steering committee needs a complete, concrete picture of the staged release swap, the backup loss and where containment currently stands in order to make the one decision that actually matters: whether NeuralNexus ships at 17:00. Formalizing Dana Brooks as Incident Commander and declaring Severity 1 to executive leadership are both sensible structural moves, but they organize the response rather than directly equipping the people who must decide on the launch itself, which is why they trail behind a direct briefing. Reporting to the cyber crime unit is appropriate but not time-critical compared to the go/no-go decision bearing down within the hour, and broadcasting an emergency alert to all staff and external stakeholders before any validation or leadership briefing would be reckless, risking panic and reputational harm based on incomplete information. Your decision correctly recognized that the steering committee's informed judgment, built on everything you now know about the sabotage, was the single most consequential output this phase could produce.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-# FINAL
-
-Nice work completing the exercise!
-Sabotage
-Date:
-1 participants
-Narrative conclusion
-points: 127
-/150
-In the final hours before launch, your swift identification of the staged release swap and the backup purge attempt let you preserve a clean restore point and a verified build, and your decision to brief the steering committee directly gave leadership the facts they needed to make an informed 17:00 go/no-go call; the launch proceeded on schedule with a short public statement attributing the earlier delay to "routine pre-launch verification," while the full incident was handed off to your crisis management team to manage stakeholder communications, law enforcement liaison and the longer recovery from Pinstripe Moth's second intrusion. Well done holding the line between technical containment and business-critical decision-making under real time pressure, that balance is exactly what separates organizations that ship safely from those that don't. Keep this momentum by running tabletop exercises like this one regularly, so the instincts you sharpened today, fast escalation, evidence-first triage, and clear executive briefings, stay ready for whenever Pinstripe Moth or another adversary comes back.
-
-
-
-
-
-
-ALL ANALYSIS ARE LIVE AND MADE BY AI I THINK
+The exercise awarded **127/150**. Its narrative conclusion says the clean restore point and verified build were preserved, leadership made the 17:00 decision, and the launch proceeded with follow-up crisis management. This is the tabletop's stated outcome, not a substitute for documenting the evidence and validation steps that would be required in a real incident.
